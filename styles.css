@@ -1,0 +1,30 @@
+/* Spesifikke visuelle tilpassingar og mikrointeraksjonar */
+
+:focus-visible {
+    outline: 2px solid #f59e0b;
+    outline-offset: 3px;
+}
+
+/* Stil for trappetrinn-animasjon */
+.stair-step {
+    transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.stair-step:hover {
+    box-shadow: 0 10px 25px -5px rgba(217, 119, 6, 0.15);
+}
+
+/* Egendefinert rullefelt for emnelister */
+::-webkit-scrollbar {
+    width: 8px;
+}
+::-webkit-scrollbar-track {
+    background: #020617;
+}
+::-webkit-scrollbar-thumb {
+    background: #1e293b;
+    border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #d97706;
+}

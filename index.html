@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="nn" class="h-full bg-slate-950 text-slate-100">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INFBV — kompetansetrapp og fagportal | Høgskulen i Volda</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        volda: {
+                            50: '#fcf8edf0',
+                            400: '#fbbf24',
+                            500: '#d97706',
+                            800: '#78350f',
+                            900: '#451a03',
+                        },
+                        master: {
+                            400: '#818cf8',
+                            500: '#6366f1',
+                            900: '#1e1b4b',
+                        }
+                    },
+                    fontFamily: {
+                        serif: ['Georgia', 'Cambria', 'serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="h-full flex flex-col font-sans antialiased bg-slate-950 text-slate-100 selection:bg-amber-500 selection:text-slate-950">
+
+    <!-- Tilgjengelegsknapp (WCAG) -->
+    <a href="#main-content" class="sr-only focus:not-sr-only focus:absolute focus:top-4 focus:left-4 bg-amber-500 text-slate-950 font-bold px-4 py-2 rounded-md z-50">
+        Hopp til hovudinnhald
+    </a>
+
+    <!-- Top Navigation Header -->
+    <header class="bg-slate-900/90 backdrop-blur-md border-b border-slate-800 sticky top-0 z-40">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
+            <div class="flex items-center space-x-4">
+                <!-- Hamburger-knapp -->
+                <button id="menu-toggle" aria-label="Opna meny" class="p-2 rounded-lg text-slate-300 hover:text-amber-400 hover:bg-slate-800 transition-colors focus:outline-none focus:ring-2 focus:ring-amber-500">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path></svg>
+                </button>
+
+                <div class="flex items-center space-x-3 cursor-pointer" onclick="showHome()">
+                    <div class="w-10 h-10 rounded-lg bg-gradient-to-br from-amber-500 to-amber-700 flex items-center justify-center font-serif font-bold text-xl text-slate-950 shadow-md">
+                        V
+                    </div>
+                    <div>
+                        <span class="font-serif text-lg tracking-wide font-bold text-slate-100 block leading-tight">INFBV</span>
+                        <span class="text-xs text-amber-400 font-medium tracking-wider uppercase block">PR, kommunikasjon og media · Sidan 1972</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Mini-Trapp widget (Vises når ein er på ei underside) -->
+            <div id="mini-staircase-widget" class="hidden items-center space-x-1 bg-slate-800/80 px-3 py-1.5 rounded-full border border-slate-700 cursor-pointer hover:border-amber-500/50 transition-all" onclick="toggleMiniStaircase()">
+                <span class="text-xs text-slate-400 font-medium mr-2 hidden md:inline">Kompetansetrapp:</span>
+                <div class="flex items-end space-x-1 h-5">
+                    <div class="w-2 bg-amber-500 h-2 rounded-t-sm" title="Trinn 1"></div>
+                    <div class="w-2 bg-amber-500 h-3 rounded-t-sm" title="Trinn 2"></div>
+                    <div class="w-2 bg-amber-500 h-4 rounded-t-sm" title="Trinn 3"></div>
+                    <div class="w-2 bg-indigo-400 h-4.5 rounded-t-sm" title="Trinn 4"></div>
+                    <div class="w-2 bg-indigo-300 h-5 rounded-t-sm opacity-80" title="Trinn 5 (taus kunnskap)"></div>
+                </div>
+                <svg class="w-4 h-4 text-slate-400 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
+            </div>
+        </div>
+    </header>
+
+    <!-- Slide-out Hamburger Meny (Drawer) -->
+    <div id="nav-drawer" class="fixed inset-0 z-50 hidden">
+        <div class="fixed inset-0 bg-slate-950/80 backdrop-blur-sm" onclick="closeMenu()"></div>
+        <div class="fixed inset-y-0 left-0 w-80 bg-slate-900 border-r border-slate-800 p-6 flex flex-col justify-between shadow-2xl">
+            <div class="space-y-6">
+                <div class="flex justify-between items-center pb-4 border-b border-slate-800">
+                    <h2 class="font-serif font-bold text-lg text-amber-400">Navigasjon</h2>
+                    <button onclick="closeMenu()" class="text-slate-400 hover:text-white p-1">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path></svg>
+                    </button>
+                </div>
+                <nav class="space-y-2">
+                    <a href="#" onclick="showHome(); closeMenu();" class="block px-3 py-2 rounded-lg text-slate-200 hover:bg-slate-800 hover:text-amber-400 transition-colors font-medium">🏛️ Hovudside og trappemodell</a>
+                    <a href="#ferdigheiter" onclick="showHome(); closeMenu();" class="block px-3 py-2 rounded-lg text-slate-200 hover:bg-slate-800 hover:text-amber-400 transition-colors font-medium">🎯 14 praksisferdigheiter og KI</a>
+                    <a href="#emne-indeks" onclick="showHome(); closeMenu();" class="block px-3 py-2 rounded-lg text-slate-200 hover:bg-slate-800 hover:text-amber-400 transition-colors font-medium">📚 Emneoversikt (bachelor og master)</a>
+                </nav>
+            </div>
+            <div class="border-t border-slate-800 pt-4 text-xs text-slate-500">
+                <p>Høgskulen i Volda · Institutt for kommunikasjon</p>
+                <p class="mt-1 text-slate-600">Tradisjonsrik medieutdanning sidan 1972.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Mini-trapp Utvida Meny (Mobil/Skjerm Popover) -->
+    <div id="mini-staircase-popover" class="hidden fixed top-16 right-4 z-40 bg-slate-900 border border-slate-700 rounded-xl p-4 shadow-2xl w-80 backdrop-blur-md">
+        <h4 class="text-xs font-semibold text-amber-400 uppercase tracking-wider mb-2">Hurtignavigasjon i trappa</h4>
+        <div class="space-y-1.5 text-xs">
+            <button onclick="selectStep(1)" class="w-full text-left p-2 rounded bg-slate-800 hover:bg-amber-950/40 text-slate-200 flex justify-between"><span>Trinn 1: Nybyrjar</span> <span class="text-amber-400 font-mono">bachelor år 1</span></button>
+            <button onclick="selectStep(2)" class="w-full text-left p-2 rounded bg-slate-800 hover:bg-amber-950/40 text-slate-200 flex justify-between"><span>Trinn 2: Avansert nybyrjar</span> <span class="text-amber-400 font-mono">bachelor år 2</span></button>
+            <button onclick="selectStep(3)" class="w-full text-left p-2 rounded bg-slate-800 hover:bg-amber-950/40 text-slate-200 flex justify-between"><span>Trinn 3: Kompetent</span> <span class="text-amber-400 font-mono">Praksis (30 stp)</span></button>
+            <button onclick="selectStep(4)" class="w-full text-left p-2 rounded bg-slate-800 hover:bg-indigo-950/40 text-slate-200 flex justify-between"><span>Trinn 4: Dyktig</span> <span class="text-indigo-400 font-mono">master år 1</span></button>
+            <button onclick="selectStep(5)" class="w-full text-left p-2 rounded bg-slate-800 hover:bg-indigo-950/40 text-slate-200 flex justify-between"><span>Trinn 5: Ekspert</span> <span class="text-indigo-300 font-mono">taus kunnskap</span></button>
+        </div>
+    </div>
+
+    <!-- MAIN CONTENT CONTAINER -->
+    <main id="main-content" class="flex-1 max-w-7xl w-full mx-auto px-4 sm:px-6 lg:px-8 py-8">
+
+        <!-- HOVEDVISNING: LANDINGSIDA OG TRAPPEMODELLEN -->
+        <div id="home-view" class="space-y-12">
+            
+            <!-- Hero / Intro -->
+            <div class="text-center max-w-3xl mx-auto space-y-4">
+                <span class="inline-flex items-center px-3 py-1 rounded-full text-xs font-semibold bg-amber-500/10 text-amber-400 border border-amber-500/20">
+                    Dreyfus-modellen og Volda-trappa
+                </span>
+                <h1 class="text-3xl sm:text-5xl font-serif font-bold text-slate-100 tracking-tight">
+                    Kompetansetrappa for PR, kommunikasjon og media
+                </h1>
+                <p class="text-slate-300 text-base sm:text-lg leading-relaxed">
+                    Ei visuell og pedagogisk reise frå nybyrjar til ekspert. Klikk på trinna i trappa for å utforske læringssteg, emne og læringsressursar.
+                </p>
+            </div>
+
+            <!-- interaktiv visualisering av trappa (5 TRINN) -->
+            <section class="bg-slate-900/60 border border-slate-800 rounded-2xl p-6 sm:p-10 shadow-2xl relative overflow-hidden">
+                <div class="absolute -right-20 -bottom-20 w-80 h-80 bg-amber-500/5 rounded-full blur-3xl pointer-events-none"></div>
+
+                <div class="flex flex-col lg:flex-row items-end justify-between gap-4 h-[420px] pt-8 pb-4 px-2">
+                    
+                    <!-- Trinn 1 -->
+                    <div onclick="selectStep(1)" class="stair-step group w-full flex-1 bg-gradient-to-t from-slate-800 to-amber-950/30 border border-amber-500/30 rounded-t-xl p-4 flex flex-col justify-between cursor-pointer hover:border-amber-400 hover:scale-[1.02] transition-all h-[20%]">
+                        <div class="flex justify-between items-center">
+                            <span class="text-xs font-mono font-bold text-amber-400">TRINN 1</span>
+                            <span class="text-[10px] uppercase tracking-wider text-slate-400">Bachelor</span>
+                        </div>
+                        <div>
+                            <h3 class="font-serif font-bold text-slate-100 text-sm sm:text-base group-hover:text-amber-400 transition-colors">Nybyrjar</h3>
+                            <p class="text-[11px] text-slate-400 line-clamp-1">Teori, omgrep og grunnleggjande øvingar</p>
+                        </div>
+                    </div>
+
+                    <!-- Trinn 2 -->
+                    <div onclick="selectStep(2)" class="stair-step group w-full flex-1 bg-gradient-to-t from-slate-800 to-amber-900/40 border border-amber-500/40 rounded-t-xl p-4 flex flex-col justify-between cursor-pointer hover:border-amber-400 hover:scale-[1.02] transition-all h-[40%]">
+                        <div class="flex justify-between items-center">
+                            <span class="text-xs font-mono font-bold text-amber-400">TRINN 2</span>
+                            <span class="text-[10px] uppercase tracking-wider text-slate-400">Bachelor</span>
+                        </div>
+                        <div>
+                            <h3 class="font-serif font-bold text-slate-100 text-sm sm:text-base group-hover:text-amber-400 transition-colors">Avansert nybyrjar</h3>
+                            <p class="text-[11px] text-slate-400 line-clamp-1">Situasjonsbestemte døme, prosjekt og samfunn</p>
+                        </div>
+                    </div>
+
+                    <!-- Trinn 3 -->
+                    <div onclick="selectStep(3)" class="stair-step group w-full flex-1 bg-gradient-to-t from-slate-800 to-amber-700/40 border border-amber-500/60 rounded-t-xl p-4 flex flex-col justify-between cursor-pointer hover:border-amber-400 hover:scale-[1.02] transition-all h-[60%]">
+                        <div class="flex justify-between items-center">
+                            <span class="text-xs font-mono font-bold text-amber-400">TRINN 3</span>
+                            <span class="text-[10px] uppercase tracking-wider text-amber-400 font-semibold">Praksis (30 stp)</span>
+                        </div>
+                        <div>
+                            <h3 class="font-serif font-bold text-slate-100 text-sm sm:text-base group-hover:text-amber-400 transition-colors">Kompetent</h3>
+                            <p class="text-[11px] text-slate-300 line-clamp-2">Ekstern praksis og refleksjon i feltet</p>
+                        </div>
+                    </div>
+
+                    <!-- Trinn 4 (Master) -->
+                    <div onclick="selectStep(4)" class="stair-step group w-full flex-1 bg-gradient-to-t from-slate-800 to-indigo-950/60 border border-indigo-500/50 rounded-t-xl p-4 flex flex-col justify-between cursor-pointer hover:border-indigo-400 hover:scale-[1.02] transition-all h-[80%]">
+                        <div class="flex justify-between items-center">
+                            <span class="text-xs font-mono font-bold text-indigo-400">TRINN 4</span>
+                            <span class="text-[10px] uppercase tracking-wider text-indigo-300 font-semibold">Master</span>
+                        </div>
+                        <div>
+                            <h3 class="font-serif font-bold text-slate-100 text-sm sm:text-base group-hover:text-indigo-300 transition-colors">Dyktig</h3>
+                            <p class="text-[11px] text-slate-300 line-clamp-2">Analytisk evne, skjønn og forsking</p>
+                        </div>
+                    </div>
+
+                    <!-- Trinn 5 (master og taus kunnskap) -->
+                    <div onclick="selectStep(5)" class="stair-step group w-full flex-1 bg-gradient-to-t from-slate-800 to-amber-900/30 border border-dashed border-amber-400/70 rounded-t-xl p-4 flex flex-col justify-between cursor-pointer hover:border-amber-300 hover:scale-[1.02] transition-all h-[100%] relative">
+                        <div class="absolute top-2 right-2">
+                            <span class="animate-ping absolute inline-flex h-2 w-2 rounded-full bg-amber-400 opacity-75"></span>
+                            <span class="relative inline-flex rounded-full h-2 w-2 bg-amber-500"></span>
+                        </div>
+                        <div class="flex justify-between items-center">
+                            <span class="text-xs font-mono font-bold text-amber-300">TRINN 5</span>
+                            <span class="text-[10px] uppercase tracking-wider text-amber-200">Yrkesliv / Master</span>
+                        </div>
+                        <div>
+                            <h3 class="font-serif font-bold text-amber-200 text-sm sm:text-base group-hover:text-white transition-colors">Ekspert (taus kunnskap)</h3>
+                            <p class="text-[11px] text-amber-100/80 leading-tight">Internalisert erfaring, intuisjon og profesjonalitet i praksismiljøet</p>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+
+            <!-- TRINN-DETALJER PANELER -->
+            <section id="step-details-container" class="bg-slate-900 border border-slate-800 rounded-2xl p-6 sm:p-8 space-y-6">
+                <!-- Dynamisk innhald vert satt inn her via app.js -->
+            </section>
+
+            <!-- 14 FERDIGHEITER MATRIX (Fra artikkelen om praksisoppgåver + KI) -->
+            <section id="ferdigheiter" class="space-y-6 pt-6">
+                <div class="border-b border-slate-800 pb-4">
+                    <h2 class="text-2xl font-serif font-bold text-slate-100">14 kartlagde praksisferdigheiter</h2>
+                    <p class="text-slate-4
