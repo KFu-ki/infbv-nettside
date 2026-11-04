@@ -14,6 +14,17 @@
     box-shadow: 0 10px 25px -5px rgba(217, 119, 6, 0.15);
 }
 
+/* Vis «Arbeidsliv» på trinn 5 i staden for den opphavlege merkelappen */
+.stair-step:last-child > div.flex > span:last-child {
+    font-size: 0;
+}
+
+.stair-step:last-child > div.flex > span:last-child::after {
+    content: "Arbeidsliv";
+    font-size: 10px;
+    letter-spacing: 0.05em;
+}
+
 /* Egendefinert rullefelt for emnelister */
 ::-webkit-scrollbar {
     width: 8px;
