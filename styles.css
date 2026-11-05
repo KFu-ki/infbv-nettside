@@ -40,7 +40,7 @@
     letter-spacing: 0.05em;
 }
 
-/* På mobil blir trappa ei kompakt rad med alle fem vala synlege samstundes. */
+/* Mobil: same fem trykkflater, med ei tekstfri, stigande trappesilhuett. */
 @media (max-width: 1023px) {
     #home-view > section:first-of-type > div.flex {
         height: auto !important;
@@ -62,48 +62,70 @@
         justify-content: center;
         align-items: center;
         text-align: center;
+        overflow: hidden;
     }
 
-    #home-view > section:first-of-type .stair-step > div:first-child {
-        width: 100%;
-        justify-content: center;
-        align-items: center;
-        margin-bottom: 0.15rem;
+    /* Teksten blir visuelt skjult, men blir verande i dokumentet for hjelpemiddel. */
+    #home-view > section:first-of-type .stair-step > div:not(.absolute) {
+        position: absolute !important;
+        width: 1px !important;
+        height: 1px !important;
+        padding: 0 !important;
+        margin: -1px !important;
+        overflow: hidden !important;
+        clip: rect(0, 0, 0, 0) !important;
+        white-space: nowrap !important;
+        border: 0 !important;
     }
 
-    #home-view > section:first-of-type .stair-step > div:first-child span:first-child {
-        font-size: 0.56rem;
-        letter-spacing: 0.06em;
+    /* Fem like breie felt stig jamt opp frå venstre mot høgre. */
+    #home-view > section:first-of-type .stair-step::before {
+        content: "";
+        position: absolute;
+        z-index: 1;
+        left: 18%;
+        right: 18%;
+        bottom: 14%;
+        height: 20%;
+        border-radius: 0.35rem 0.35rem 0.15rem 0.15rem;
+        background: linear-gradient(180deg, rgba(251, 191, 36, 0.95), rgba(217, 119, 6, 0.62));
+        box-shadow: 0 0 16px rgba(251, 191, 36, 0.16);
+        pointer-events: none;
     }
 
-    #home-view > section:first-of-type .stair-step > div:first-child span:last-child {
-        display: none;
+    #home-view > section:first-of-type .stair-step:nth-child(2)::before { height: 32%; }
+    #home-view > section:first-of-type .stair-step:nth-child(3)::before { height: 44%; }
+    #home-view > section:first-of-type .stair-step:nth-child(4)::before {
+        height: 56%;
+        background: linear-gradient(180deg, rgba(165, 180, 252, 0.95), rgba(99, 102, 241, 0.65));
+        box-shadow: 0 0 16px rgba(165, 180, 252, 0.16);
+    }
+    #home-view > section:first-of-type .stair-step:nth-child(5)::before {
+        height: 68%;
+        background: linear-gradient(180deg, #fde68a, rgba(129, 140, 248, 0.78));
+        box-shadow: 0 0 20px rgba(253, 230, 138, 0.22);
     }
 
-    #home-view > section:first-of-type .stair-step > div:last-child {
-        width: 100%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        min-height: 1.8rem;
+    /* Ein liten samanhengande lyslinje bind nivåa saman til ei reise oppover. */
+    #home-view > section:first-of-type .stair-step::after {
+        content: "";
+        position: absolute;
+        z-index: 2;
+        width: 0.4rem;
+        height: 0.4rem;
+        top: 20%;
+        left: 50%;
+        transform: translateX(-50%);
+        border-radius: 50%;
+        background: #fef3c7;
+        box-shadow: 0 0 0 3px rgba(251, 191, 36, 0.14), 0 0 12px rgba(251, 191, 36, 0.65);
+        pointer-events: none;
     }
 
-    #home-view > section:first-of-type .stair-step > div:last-child p {
-        display: none;
-    }
-
-    #home-view > section:first-of-type .stair-step h3 {
-        font-size: 0.58rem;
-        line-height: 1.15;
-        letter-spacing: 0.01em;
-        text-align: center;
-        overflow-wrap: anywhere;
-    }
-
-    #home-view > section:first-of-type .stair-step .absolute {
-        top: 0.25rem;
-        right: 0.25rem;
-    }
+    #home-view > section:first-of-type .stair-step:nth-child(2)::after { top: 16%; }
+    #home-view > section:first-of-type .stair-step:nth-child(3)::after { top: 12%; }
+    #home-view > section:first-of-type .stair-step:nth-child(4)::after { top: 8%; background: #c7d2fe; }
+    #home-view > section:first-of-type .stair-step:nth-child(5)::after { top: 4%; background: #fef3c7; }
 
     #home-view {
         row-gap: 1rem;
