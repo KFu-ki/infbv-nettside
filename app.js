@@ -4,7 +4,7 @@ const STAGES = {
     1: {
         title: "Trinn 1: Nybyrjar",
         dreyfus: "Nybyrjar (Benner, 1984)",
-        desc: "Klasseromsundervisning med døme, enkle øvingar og introduksjon av teori. Lære faglege omgrep og introdusere modellar utan krav om førehandserfaring.",
+        desc: "Klasseromsundervisning med døme, enkle øvingar og introduksjon av teori. Lære faglege omgrep og introdusere modellar.",
         level: "Bachelor (År 1)",
         color: "amber",
         courses: [
@@ -24,7 +24,9 @@ const STAGES = {
         courses: [
             { code: "KOM201", name: "Crisis Communication", stp: 10, sem: "27 H" },
             { code: "KOM202", name: "Kommunikasjonsprosjekt", stp: 10, sem: "27 H" },
-            { code: "MEV132", name: "Medievitskap 2 — Media, kommunikasjon og makt", stp: 10, sem: "27 H" }
+            { code: "MEV132", name: "Medievitskap 2 — Media, kommunikasjon og makt", stp: 10, sem: "27 H" },
+            { code: "INF211", name: "PR og kommunikasjon 3: Samfunnskommunikasjon og CSR", stp: 15, sem: "28 V" },
+            { code: "MEV221", name: "Medievitskap 3 — Frå fag til forsking: Korleis analysere medium", stp: 15, sem: "28 V" }
         ]
     },
     3: {
@@ -34,8 +36,6 @@ const STAGES = {
         level: "Bachelor (År 3)",
         color: "amber",
         courses: [
-            { code: "INF211", name: "PR og kommunikasjon 3: Samfunnskommunikasjon og CSR", stp: 15, sem: "28 V" },
-            { code: "MEV221", name: "Medievitskap 3 — Frå fag til forsking: Korleis analysere medium", stp: 15, sem: "28 V" },
             { code: "INF213", name: "Arbeidslivsrelevans gjennom praksis / Utveksling", stp: 30, sem: "28 H" }
         ]
     },
@@ -164,7 +164,6 @@ function renderStepDetails(stepNum) {
         <p class="text-slate-300 text-sm leading-relaxed max-w-4xl">${stage.desc}</p>
 
         <div class="space-y-3">
-            <h3 class="text-xs font-semibold uppercase tracking-wider text-slate-400">Emne på dette trinnet (klikk for å opne læringsressursar)</h3>
             <div class="grid grid-cols-1 md:grid-cols-2 gap-3">
     `;
 
