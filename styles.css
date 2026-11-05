@@ -1,20 +1,35 @@
 /* Spesifikke visuelle tilpassingar og mikrointeraksjonar */
 
 :focus-visible {
-    outline: 2px solid #f59e0b;
+    outline: 3px solid #fbbf24;
     outline-offset: 3px;
 }
 
-/* Stil for trappetrinn-animasjon */
+/* Trinna held same storleik og plassering; valt trinn får ei roleg, tydeleg markering. */
 .stair-step {
-    transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+    position: relative;
+    opacity: 1 !important;
+    transform: none !important;
+    transition: border-color 0.2s ease, box-shadow 0.2s ease, background-color 0.2s ease;
 }
 
 .stair-step:hover {
-    box-shadow: 0 10px 25px -5px rgba(217, 119, 6, 0.15);
+    box-shadow: 0 8px 20px -8px rgba(217, 119, 6, 0.3);
 }
 
-/* Vis «Arbeidsliv» på trinn 5 i staden for den opphavlege merkelappen */
+.stair-step.ring-2 {
+    z-index: 1;
+    outline: 3px solid #fbbf24;
+    outline-offset: 3px;
+    box-shadow: 0 0 0 5px rgba(251, 191, 36, 0.12), 0 12px 24px -10px rgba(251, 191, 36, 0.35);
+}
+
+.stair-step.ring-2.ring-indigo-300 {
+    outline-color: #a5b4fc;
+    box-shadow: 0 0 0 5px rgba(165, 180, 252, 0.12), 0 12px 24px -10px rgba(165, 180, 252, 0.3);
+}
+
+/* Vis «Arbeidsliv» på trinn 5 i staden for den opphavlege merkelappen. */
 .stair-step:last-child > div.flex > span:last-child {
     font-size: 0;
 }
@@ -43,17 +58,29 @@
     }
 }
 
-/* Egendefinert rullefelt for emnelister */
+@media (prefers-reduced-motion: reduce) {
+    *, *::before, *::after {
+        scroll-behavior: auto !important;
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+    }
+}
+
+/* Egendefinert rullefelt for emnelister. */
 ::-webkit-scrollbar {
     width: 8px;
 }
+
 ::-webkit-scrollbar-track {
     background: #020617;
 }
+
 ::-webkit-scrollbar-thumb {
     background: #1e293b;
     border-radius: 4px;
 }
+
 ::-webkit-scrollbar-thumb:hover {
     background: #d97706;
 }
