@@ -40,36 +40,67 @@
     letter-spacing: 0.05em;
 }
 
-/* På mobil skal alle trappetrinna stable seg og vere synlege. */
+/* På mobil blir trappa ei kompakt rad med alle fem vala synlege samstundes. */
 @media (max-width: 1023px) {
     #home-view > section:first-of-type > div.flex {
         height: auto !important;
         min-height: 0;
-        flex-direction: column;
+        flex-direction: row;
         align-items: stretch;
-        gap: 1rem;
+        gap: 0.4rem;
+        padding: 0.5rem 0;
     }
 
     #home-view > section:first-of-type .stair-step {
-        width: 100%;
-        min-height: 120px;
+        width: auto;
+        min-width: 0;
+        min-height: 6rem;
         height: auto;
-        flex: none;
+        flex: 1 1 0;
+        padding: 0.55rem 0.3rem;
+        border-radius: 0.7rem;
+        justify-content: center;
+        gap: 0.5rem;
+        text-align: center;
     }
 
-    /* Fortel mobilbrukarar at meir informasjon ligg rett nedanfor trappa. */
+    #home-view > section:first-of-type .stair-step > div:first-child {
+        justify-content: center;
+    }
+
+    #home-view > section:first-of-type .stair-step > div:first-child span:first-child {
+        font-size: 0.58rem;
+        letter-spacing: 0.02em;
+    }
+
+    #home-view > section:first-of-type .stair-step > div:first-child span:last-child,
+    #home-view > section:first-of-type .stair-step > div:last-child p {
+        display: none;
+    }
+
+    #home-view > section:first-of-type .stair-step h3 {
+        font-size: 0.68rem;
+        line-height: 1.15;
+        overflow-wrap: anywhere;
+    }
+
+    #home-view > section:first-of-type .stair-step .absolute {
+        top: 0.25rem;
+        right: 0.25rem;
+    }
+
+    /* Detaljane kjem tett etter trinnvala, utan ekstra instruksjonstekst. */
+    #home-view {
+        row-gap: 1.25rem;
+    }
+
+    #home-view > section:first-of-type {
+        padding: 1rem 0.75rem;
+    }
+
     #home-view > section:first-of-type::after {
-        content: "Vel eit trinn – sjå informasjonen nedanfor ↓";
-        display: block;
-        margin: 1rem 0 0;
-        padding: 0.75rem 1rem;
-        border: 1px solid rgba(251, 191, 36, 0.35);
-        border-radius: 0.75rem;
-        background: rgba(120, 53, 15, 0.2);
-        color: #fde68a;
-        text-align: center;
-        font-size: 0.875rem;
-        font-weight: 600;
+        content: none;
+        display: none;
     }
 }
 
