@@ -25,6 +25,24 @@
     letter-spacing: 0.05em;
 }
 
+/* På mobil skal alle trappetrinna stable seg og vere synlege. */
+@media (max-width: 1023px) {
+    #home-view > section:first-of-type > div.flex {
+        height: auto !important;
+        min-height: 0;
+        flex-direction: column;
+        align-items: stretch;
+        gap: 1rem;
+    }
+
+    #home-view > section:first-of-type .stair-step {
+        width: 100%;
+        min-height: 120px;
+        height: auto;
+        flex: none;
+    }
+}
+
 /* Egendefinert rullefelt for emnelister */
 ::-webkit-scrollbar {
     width: 8px;
