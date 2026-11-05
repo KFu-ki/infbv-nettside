@@ -53,7 +53,7 @@ const STAGES = {
     5: {
         title: "Trinn 5: Ekspert og taus kunnskap",
         dreyfus: "Ekspert / Tacit Knowledge (Benner, 1984)",
-        desc: "Vekslar mellom analytisk tilnærming og intuisjon. Løysingar baserte på taus kunnskap (tacit knowledge) som blir profesjonalisert og internalisert gjennom erfaring i arbeidsmiljø, team og bransje over tid.",
+        desc: "Vekslar mellom analytisk tilnærming og intuisjon. Løysingar baserte på taus kunnskap (tacit knowledge) som blir profesjonalisert og internalisert gjennom erfaring i arbeidsmiljøet.",
         level: "Master (År 2) og profesjonelt yrkesliv",
         color: "indigo-amber",
         courses: [
@@ -78,6 +78,7 @@ document.addEventListener('DOMContentLoaded', () => {
     renderStepDetails(1);
     renderSkillsGrid();
     setupEventListeners();
+    updateStairVisualState(1);
 });
 
 function setupEventListeners() {
@@ -105,7 +106,41 @@ function toggleMiniStaircase() {
 function selectStep(stepNum) {
     activeStep = stepNum;
     renderStepDetails(stepNum);
+    updateStairVisualState(stepNum);
     document.getElementById('mini-staircase-popover').classList.add('hidden');
+}
+
+function updateStairVisualState(stepNum) {
+    const steps = document.querySelectorAll('.stair-step');
+
+    steps.forEach((step, index) => {
+        const currentStep = index + 1;
+        const isActive = currentStep === stepNum;
+
+        step.classList.toggle('ring-2', isActive);
+        step.classList.toggle('ring-amber-300', isActive && stepNum !== 4 && stepNum !== 5);
+        step.classList.toggle('ring-indigo-300', isActive && (stepNum === 4 || stepNum === 5));
+        step.classList.toggle('ring-offset-2', isActive);
+        step.classList.toggle('ring-offset-slate-950', isActive);
+        step.classList.toggle('scale-[1.02]', isActive);
+        step.classList.toggle('-translate-y-1', isActive);
+        step.classList.toggle('shadow-2xl', isActive);
+        step.classList.toggle('border-amber-400/80', isActive && stepNum !== 4 && stepNum !== 5);
+        step.classList.toggle('border-indigo-400/80', isActive && (stepNum === 4 || stepNum === 5));
+        step.classList.toggle('opacity-100', true);
+        step.classList.toggle('opacity-80', !isActive);
+
+        const label = step.querySelector('.current-step-badge');
+        if (label) {
+            label.classList.toggle('hidden', !isActive);
+        }
+
+        const title = step.querySelector('h3');
+        if (title) {
+            title.classList.toggle('text-amber-200', isActive && stepNum !== 4 && stepNum !== 5);
+            title.classList.toggle('text-indigo-200', isActive && (stepNum === 4 || stepNum === 5));
+        }
+    });
 }
 
 function renderStepDetails(stepNum) {
@@ -136,7 +171,7 @@ function renderStepDetails(stepNum) {
     stage.courses.forEach(c => {
         html += `
             <div onclick="openCourse('${c.code}', '${c.name.replace(/'/g, "\\'")}', ${c.stp}, '${c.sem}')" 
-                 class="p-4 rounded-xl bg-slate-800/60 border border-slate-700/60 hover:border-amber-500/60 cursor-pointer transition-all hover:bg-slate-800 group flex justify-between items-center">
+                 class="p-4 rounded-xl bg-slate-800/60 border border-slate-700/60 hover:border-amber-500/60 cursor-pointer transition-all hover:bg-slate-800 group flex justify-between items-center gap-3">
                 <div>
                     <div class="flex items-center space-x-2">
                         <span class="font-mono font-bold text-xs text-amber-400 group-hover:underline">${c.code}</span>
@@ -196,22 +231,20 @@ function openCourse(code, name, stp, sem) {
         </div>
 
         <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
-            <!-- Hovudinnhald og Ressursar -->
             <div class="lg:col-span-2 space-y-6">
                 <div>
                     <h3 class="text-sm font-semibold uppercase tracking-wider text-amber-400 mb-2">Om emnet og læringsutbytte</h3>
                     <p class="text-slate-300 text-sm leading-relaxed">
-                        Dette emnet byggjer opp under kompetansetrappa ved Høgskulen i Volda. Studentane arbeider med både teoretiske rammeverk og praktiske oppgåve-simuleringar for å førebu seg på praksis og yrkesliv.
+                        Dette emnet byggjer opp under kompetansetrappa ved Høgskulen i Volda. Studentane arbeider med både teoretiske rammeverk og praktiske oppgåve-simuleringar for å førebu seg til arbeidsliv og fagleg utvikling.
                     </p>
                 </div>
 
                 <div class="space-y-4">
                     <h3 class="text-sm font-semibold uppercase tracking-wider text-amber-400">Læringsressursar</h3>
 
-                    <!-- Video ressurseksempel -->
                     <div class="p-4 rounded-xl bg-slate-800/60 border border-slate-700/60 flex items-start space-x-4">
                         <div class="p-3 bg-amber-500/10 text-amber-400 rounded-lg">
-                            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132a1 1 0 000-1.664z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14.752 11.168l-3.1-2.84A1.5 1.5 0 0010 9.5v5a1.5 1.5 0 001.652 1.472l3.1-2.84a1.5 1.5 0 000-2.464z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 12a9 9 0 1118 0 9 9 0 01-18 0z"></path></svg>
                         </div>
                         <div>
                             <h4 class="text-sm font-semibold text-slate-200">Forelesingsvideo: Introduksjon til emnet</h4>
@@ -220,10 +253,9 @@ function openCourse(code, name, stp, sem) {
                         </div>
                     </div>
 
-                    <!-- PDF ressurseksempel -->
                     <div class="p-4 rounded-xl bg-slate-800/60 border border-slate-700/60 flex items-start space-x-4">
                         <div class="p-3 bg-emerald-500/10 text-emerald-400 rounded-lg">
-                            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path></svg>
+                            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 21h10a2 2 0 002-2V7.5L14.5 3H7a2 2 0 00-2 2v14a2 2 0 002 2z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 3v5h5"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6M9 16h6"></path></svg>
                         </div>
                         <div>
                             <h4 class="text-sm font-semibold text-slate-200">Pensum og artikkelsamling (PDF)</h4>
@@ -234,7 +266,6 @@ function openCourse(code, name, stp, sem) {
                 </div>
             </div>
 
-            <!-- Sidepanel info -->
             <div class="space-y-4 bg-slate-950 p-6 rounded-xl border border-slate-800 h-fit">
                 <h4 class="text-xs font-semibold text-slate-400 uppercase tracking-wider">Relevante praksisferdigheiter</h4>
                 <div class="flex flex-wrap gap-1.5">
