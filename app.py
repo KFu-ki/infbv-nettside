@@ -5,11 +5,12 @@ from fastapi import FastAPI, HTTPException
 from fastapi.responses import FileResponse, Response
 from fastapi.staticfiles import StaticFiles
 
-from xlsx_export import create_xlsx
+from xlsx_export import create_timetable_xlsx, create_xlsx
 
 ROOT = Path(__file__).resolve().parent
 DASHBOARD = ROOT / "budsjett"
 DATA_FILE = DASHBOARD / "data.json"
+TIMETABLE_FILE = ROOT / "timeplanside" / "timeplan-2027.json"
 
 app = FastAPI(title="INFBV fagportal")
 
@@ -40,6 +41,32 @@ def export_dashboard(payload: dict):
     )
 
 
+@app.get("/api/timeplan")
+def timetable_data():
+    try:
+        data = json.loads(TIMETABLE_FILE.read_text(encoding="utf-8"))
+    except (OSError, json.JSONDecodeError) as error:
+        raise HTTPException(status_code=500, detail="Kunne ikkje lese Timeplan 2027-data.") from error
+    return Response(
+        content=json.dumps(data, ensure_ascii=False),
+        media_type="application/json",
+        headers={"Cache-Control": "no-store"},
+    )
+
+
+@app.post("/api/timeplan/export.xlsx")
+def export_timetable(payload: dict):
+    try:
+        workbook = create_timetable_xlsx(payload)
+    except (KeyError, TypeError, ValueError) as error:
+        raise HTTPException(status_code=400, detail="Ugyldige data for timeplaneksport.") from error
+    return Response(
+        content=workbook,
+        media_type="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+        headers={"Content-Disposition": 'attachment; filename="Timeplan_2027.xlsx"'},
+    )
+
+
 @app.get("/")
 def home():
     return FileResponse(ROOT / "index.html")
@@ -61,3 +88,4 @@ def version():
 
 
 app.mount("/budsjett", StaticFiles(directory=DASHBOARD, html=True), name="budsjett")
+app.mount("/timeplan2027", StaticFiles(directory=ROOT / "timeplan2027", html=True), name="timeplan2027")

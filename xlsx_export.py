@@ -100,3 +100,100 @@ def create_xlsx(payload):
         for index, (_, rows, widths) in enumerate(sheets, start=1):
             archive.writestr(f"xl/worksheets/sheet{index}.xml", _sheet_xml(rows, widths))
     return output.getvalue()
+
+
+def create_timetable_xlsx(payload):
+    rows = payload.get("items")
+    if not isinstance(rows, list) or not all(isinstance(row, dict) for row in rows):
+        raise ValueError("Timeplanen må vere ei liste med oppføringar.")
+    headers = [
+        "Emne",
+        "Emnetittel frå kjelda",
+        "Uke",
+        "Ukedag",
+        "Startdato",
+        "Starttidspunkt",
+        "Sluttdato",
+        "Sluttidspunkt",
+        "Type",
+        "Skildring / Innhald",
+        "Rom",
+        "Andre objekt",
+        "Tilsett",
+        "Status",
+        "Extern kommentar",
+        "Intern kommentar",
+        "Lenke",
+    ]
+    columns = [
+        "course",
+        "courseName",
+        "week",
+        "weekday",
+        "startDate",
+        "startTime",
+        "endDate",
+        "endTime",
+        "activity",
+        "description",
+        "room",
+        "otherObjects",
+        "staff",
+        "status",
+        "externalComment",
+        "internalComment",
+        "link",
+    ]
+    workbook_rows = [headers]
+    for row in rows:
+        workbook_rows.append([row.get(column, "") for column in columns])
+    return _create_workbook([("Timeplan 2027", workbook_rows, [14, 38, 10, 14, 14, 16, 14, 16, 24, 48, 24, 24, 46, 18, 38, 38, 36])])
+
+
+def _create_workbook(sheets):
+    output = io.BytesIO()
+    with zipfile.ZipFile(output, "w", zipfile.ZIP_DEFLATED) as archive:
+        content_sheets = "".join(
+            f'<Override PartName="/xl/worksheets/sheet{index}.xml" ContentType="application/vnd.openxmlformats-officedocument.spreadsheetml.worksheet+xml"/>'
+            for index in range(1, len(sheets) + 1)
+        )
+        archive.writestr(
+            "[Content_Types].xml",
+            '<?xml version="1.0" encoding="UTF-8" standalone="yes"?>'
+            '<Types xmlns="http://schemas.openxmlformats.org/package/2006/content-types">'
+            '<Default Extension="rels" ContentType="application/vnd.openxmlformats-package.relationships+xml"/>'
+            '<Default Extension="xml" ContentType="application/xml"/>'
+            '<Override PartName="/xl/workbook.xml" ContentType="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet.main+xml"/>'
+            f"{content_sheets}</Types>",
+        )
+        archive.writestr(
+            "_rels/.rels",
+            '<?xml version="1.0" encoding="UTF-8" standalone="yes"?>'
+            '<Relationships xmlns="http://schemas.openxmlformats.org/package/2006/relationships">'
+            '<Relationship Id="rId1" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/officeDocument" Target="xl/workbook.xml"/>'
+            "</Relationships>",
+        )
+        workbook_sheets = "".join(
+            f'<sheet name="{_xml_text(name)}" sheetId="{index}" r:id="rId{index}"/>'
+            for index, (name, _, _) in enumerate(sheets, start=1)
+        )
+        archive.writestr(
+            "xl/workbook.xml",
+            '<?xml version="1.0" encoding="UTF-8" standalone="yes"?>'
+            '<workbook xmlns="http://schemas.openxmlformats.org/spreadsheetml/2006/main" '
+            'xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships">'
+            f"<sheets>{workbook_sheets}</sheets></workbook>",
+        )
+        sheet_relationships = "".join(
+            f'<Relationship Id="rId{index}" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/worksheet" Target="worksheets/sheet{index}.xml"/>'
+            for index in range(1, len(sheets) + 1)
+        )
+        archive.writestr(
+            "xl/_rels/workbook.xml.rels",
+            '<?xml version="1.0" encoding="UTF-8" standalone="yes"?>'
+            '<Relationships xmlns="http://schemas.openxmlformats.org/package/2006/relationships">'
+            f"{sheet_relationships}</Relationships>",
+        )
+        for index, (_, rows, widths) in enumerate(sheets, start=1):
+            archive.writestr(f"xl/worksheets/sheet{index}.xml", _sheet_xml(rows, widths))
+    return output.getvalue()

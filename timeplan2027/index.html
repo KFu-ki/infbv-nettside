@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="nn">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#0d1b2a" />
+    <meta name="description" content="Timeplan 2027 for Institutt for kommunikasjon ved Høgskulen i Volda." />
+    <title>Timeplan 2027 | Institutt for kommunikasjon</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="wordmark" href="/" aria-label="Til INFBV fagportal">
+        <span class="wordmark-icon">⌂</span>
+        <span><small>HØGSKULEN I VOLDA · INSTITUTT FOR KOMMUNIKASJON</small><strong>Rom-, time- og undervisningsplan</strong><em>Bachelorprogrammet i PR, kommunikasjon og media · 2027</em></span>
+      </a>
+      <nav class="header-links" aria-label="Fagportalen">
+        <a href="/">INFBV</a>
+        <a href="/budsjett/">Budsjett og ressursoversikt</a>
+      </nav>
+      <div class="header-actions">
+        <button class="header-button" id="bookmark-page" type="button">☆ <span>Bokmerk sida</span></button>
+        <button class="header-button" id="print-plan" type="button">▤ <span>Skriv ut visinga</span></button>
+        <button class="header-button primary-action" id="download-workbook" type="button">▣ <span>Last ned oppdatert Excel</span></button>
+        <a class="header-button" href="https://hivolda365-my.sharepoint.com/:f:/g/personal/kfu_hivolda_no/IgAZEum4THl7QKSd58C5HDSUAYtQnoQtVHb0AnP3m__Lv8A?e=Wr2uix" target="_blank" rel="noopener noreferrer">↗ <span>Opne SharePoint-mappa</span></a>
+      </div>
+    </header>
+
+    <main class="page-shell">
+      <div class="portal-trail"><a href="/">INFBV</a><span>/</span><strong>Timeplan 2027</strong></div>
+      <section class="page-intro">
+        <div>
+          <p class="eyebrow">UNDERVISNINGSPLAN · VÅR 2027</p>
+          <h1>Timeplan 2027</h1>
+          <p class="intro-text">Søk, filtrer og foreslå endringar i undervisningsplanen. Skildring og tilsett kan redigerast i denne visinga.</p>
+        </div>
+        <div class="summary-pills">
+          <span><strong id="event-count">–</strong> økter</span>
+          <span><strong id="course-count">–</strong> emne</span>
+          <span id="source-period">Hentar datagrunnlag …</span>
+        </div>
+      </section>
+
+      <div class="review-notice" role="note">
+        <span class="notice-icon">i</span>
+        <p><strong>Forslagsmodus.</strong> Endringar du gjer her, blir berre lagra i denne nettlesaren. Bruk feltet nedst for å sende dei til vurdering. Ingenting blir publisert før det er gjennomgått og godkjent.</p>
+        <span class="notice-status" id="save-status">Les frå publisert plan</span>
+      </div>
+
+      <section class="toolbar" aria-label="Søk og filtrer timeplan">
+        <label class="search-box"><span aria-hidden="true">⌕</span><input id="search-plan" type="search" placeholder="Søk emne, innhald, rom, tilsett …" autocomplete="off" /></label>
+        <div class="deadline"><span>◷</span><em>Endringsforslag blir vurderte før dei blir lagde inn i publisert plan.</em></div>
+        <div class="course-filters" id="course-filters" aria-label="Filtrer på emne"></div>
+      </section>
+
+      <div class="results-line"><span id="results-count">Lastar timeplan …</span><button class="text-button" id="reset-edits" type="button">Forkast mine endringar</button></div>
+      <div class="table-wrap">
+        <table class="plan-table">
+          <thead>
+            <tr>
+              <th scope="col">Emne</th>
+              <th scope="col">Tid og dato</th>
+              <th scope="col">Type</th>
+              <th scope="col">Skildring / Innhald</th>
+              <th scope="col">Stad / format</th>
+              <th scope="col">Tilsett</th>
+              <th scope="col">Status</th>
+              <th scope="col">Merknadar</th>
+            </tr>
+          </thead>
+          <tbody id="plan-rows"></tbody>
+        </table>
+      </div>
+      <div class="mobile-hint">Sveip sidelengs for å sjå alle kolonnene.</div>
+      <div id="load-error" class="load-error" role="alert" hidden></div>
+
+      <section class="proposal-panel" id="endringsforslag">
+        <div class="proposal-heading">
+          <span class="proposal-icon">✎</span>
+          <div><p class="eyebrow">GODKJENNING FØR PUBLISERING</p><h2>Foreslå ei endring</h2><p>Skildre kva du ønskjer å endre. Redigeringane i tabellen blir lagde ved som eit forslag. Innspel blir sende til GitHub for gjennomgang; dei endrar ikkje nettsida direkte.</p></div>
+        </div>
+        <form id="proposal-form">
+          <label for="proposal-message">Melding eller spørsmål</label>
+          <textarea id="proposal-message" rows="4" maxlength="4000" placeholder="Skriv kva som bør endrast, kvifor, eller spør om noko i planen …" required></textarea>
+          <div class="proposal-actions">
+            <span id="proposal-count">0 / 4 000</span>
+            <button class="submit-button" type="submit">Send til godkjenning ↗</button>
+          </div>
+          <p class="proposal-help">Du blir ført til GitHub for å sende inn førespurnaden. Der kan du følgje diskusjonen. Oppgje ikkje sensitiv informasjon.</p>
+        </form>
+      </section>
+
+      <footer class="page-footer">
+        <span>INFBV · Timeplan 2027</span>
+        <span>Datagrunnlag: <span id="source-file">–</span></span>
+      </footer>
+    </main>
+  </body>
+</html>
