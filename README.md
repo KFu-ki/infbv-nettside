@@ -15,7 +15,7 @@ Opne `http://127.0.0.1:8000`.
 
 ## Vercel
 
-Importer `KFu-ki/infbv-nettside` i Vercel, og la prosjektroten vere rota i repoet. Vercel finn FastAPI-appen frå `app.py` og `requirements.txt`. Appen serverer INFBV-forsida, budsjett- og timeplandashbordet, og data- og Excel-eksportendepunkta. Når repoet er kopla til, lagar Vercel automatisk deploy ved push og førehandsvisingar for pull requests.
+Importer `KFu-ki/infbv-nettside` i Vercel, og la prosjektroten vere rota i repoet. Dersom Vercel køyrer FastAPI-appen frå `app.py` og `requirements.txt`, er data- og Excel-eksportendepunkta tilgjengelege. Dei offentlege sidene hentar elles data direkte frå JSON-filene i repoet, slik at dei òg fungerer på statisk hosting. Når repoet er kopla til, lagar Vercel automatisk deploy ved push og førehandsvisingar for pull requests.
 
 ## Offentlege budsjettdata
 
@@ -35,6 +35,8 @@ Kontroller endringane i `budsjett/data.json` før du lagrar og sender dei til Gi
 ## Timeplan 2027
 
 Timeplanen er publisert som eit JSON-utdrag i `timeplanside/timeplan-2027.json`. Ho er offentleg lesbar. Skildring/Innhald, type og Tilsett kan redigerast som lokale utkast i nettlesaren; dei blir ikkje skrivne til live-data eller synlege for andre. «Foreslå ei endring» opnar eit førehandsutfylt GitHub-innspel. Repoet er offentleg, så innspela og kommentarane blir offentlege når dei blir sende inn; bidragsytaren må logge inn på GitHub. Ein administrator må vurdere og godkjenne endringa før ho blir lagd inn i datafila og deploya.
+
+Timeplanen hentar JSON-fila som statisk ressurs. Excel-knappen lastar ned XLSX når FastAPI-eksporten er aktiv; ved statisk hosting lagar nettlesaren i staden ei tidsstempla CSV-fil som kan opnast i Excel.
 
 Kjelda er TimeEdit-arket `MEV131 - INF142 - KOM102 - INF213 - MMP311.xlsx`. Importskriptet lagrar normaliserte data og lagar ei ny tidsstempla Excel-arbeidsbok:
 

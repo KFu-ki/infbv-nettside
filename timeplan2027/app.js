@@ -1,4 +1,4 @@
-const DATA_URL = "/api/timeplan";
+const DATA_URL = "/timeplanside/timeplan-2027.json";
 const STORAGE_KEY = "infbv-timeplan-2027-edits";
 const COURSE_FILTER_KEY = "all";
 const STATUS_OPTIONS = ["Forslag", "Avtalt", "Oppdatert", "Avlyst"];
@@ -222,17 +222,43 @@ async function downloadWorkbook() {
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ items: state.items.map(editedItem) }),
     });
-    if (!response.ok) throw new Error(`Excel-eksport feila (${response.status}): ${await response.text()}`);
-    const workbook = await response.blob();
     const dateStamp = new Intl.DateTimeFormat("sv-SE").format(new Date()).replaceAll("-", "");
     const timeStamp = new Intl.DateTimeFormat("en-GB", { hour: "2-digit", minute: "2-digit", second: "2-digit", hourCycle: "h23" }).format(new Date()).replaceAll(":", "");
+    if (!response.ok && ![404, 405, 501].includes(response.status)) {
+      throw new Error(`Eksport feila (${response.status}): ${await response.text()}`);
+    }
+    let workbook;
+    let extension;
+    if (response.ok) {
+      workbook = await response.blob();
+      extension = "xlsx";
+    } else {
+      const currentItems = state.items.map(editedItem);
+      const columns = [
+        ["Emne", "course"], ["Emnetittel frå kjelda", "courseName"], ["Veke", "week"],
+        ["Ukedag", "weekday"], ["Startdato", "startDate"], ["Starttid", "startTime"],
+        ["Sluttdato", "endDate"], ["Sluttid", "endTime"], ["Type", "activity"],
+        ["Skildring / Innhald", "description"], ["Rom", "room"], ["Andre objekt", "otherObjects"],
+        ["Tilsett", "staff"], ["Status", "status"], ["Extern kommentar", "externalComment"],
+        ["Intern kommentar", "internalComment"], ["Lenke", "link"],
+      ];
+      const escapeCsv = (value) => `"${String(value ?? "").replaceAll('"', '""')}"`;
+      const csv = [
+        columns.map(([label]) => escapeCsv(label)).join(";"),
+        ...currentItems.map((item) => columns.map(([, key]) => escapeCsv(item[key])).join(";")),
+      ].join("\r\n");
+      workbook = new Blob(["\uFEFF", csv], { type: "text/csv;charset=utf-8" });
+      extension = "csv";
+    }
     const downloadUrl = URL.createObjectURL(workbook);
     const link = document.createElement("a");
     link.href = downloadUrl;
-    link.download = `Timeplan_2027_${dateStamp}_${timeStamp}.xlsx`;
+    link.download = `Timeplan_2027_${dateStamp}_${timeStamp}.${extension}`;
     link.click();
     window.setTimeout(() => URL.revokeObjectURL(downloadUrl), 1000);
-    setStatus("Excel-fila er lasta ned. Flytt henne til den synka SharePoint-mappa for å lagre der.");
+    setStatus(extension === "xlsx"
+      ? "Excel-fila er lasta ned. Flytt henne til den synka SharePoint-mappa for å lagre der."
+      : "CSV-fila er lasta ned og kan opnast i Excel. Flytt henne til den synka SharePoint-mappa for å lagre der.");
   } catch (error) {
     setStatus(error.message, true);
   } finally {

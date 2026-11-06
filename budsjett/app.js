@@ -649,7 +649,7 @@ async function loadWorkbookData() {
   state.proposalEditMode = false;
   el("#proposal-edit-hint").hidden = true;
   try {
-    const response = await fetch("/api/data", { cache: "no-store" });
+    const response = await fetch("/budsjett/data.json", { cache: "no-store" });
     if (!response.ok) throw new Error(`Klarte ikkje hente data (${response.status}): ${await response.text()}`);
     const source = await response.json();
     const dataByCode = new Map(source.programs.map((program) => [program.code, program]));
