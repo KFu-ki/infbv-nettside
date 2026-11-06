@@ -1,0 +1,198 @@
+<!doctype html>
+<html lang="nn">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#f2f5f8" />
+    <meta name="description" content="Dashbord for budsjett og styring ved Avdeling for mediefag." />
+    <title>AMF | Budsjett og ressursoversikt</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <div class="app-shell">
+      <aside class="sidebar" aria-label="Hovudmeny">
+        <a class="brand" href="#oversikt">
+          <img class="brand-mark" src="assets/amf-brand.jpg" alt="" />
+          <span><strong>Avdeling for mediefag</strong><small>Budsjett og ressursoversikt</small></span>
+        </a>
+        <div class="nav-caption">STYRING</div>
+        <nav class="navigation">
+          <a class="nav-link active" href="#oversikt"><span>▦</span> Dashboard</a>
+          <a class="nav-link" href="#ressursar"><span>↔</span> Tilsette</a>
+          <a class="nav-link" href="#loyving"><span>▣</span> Budsjettnedeling</a>
+          <a class="nav-link" href="#analyse"><span>▤</span> Hovudanalyse</a>
+          <a class="nav-link" href="#boble"><span>◉</span> Programoversikt</a>
+          <a class="nav-link" href="#belastning"><span>◷</span> Belastningsanalyse</a>
+          <a class="nav-link" href="#fordeling"><span>⤴</span> Ny fordeling</a>
+        </nav>
+        <div class="sidebar-foot">
+          <div class="source-card">
+            <span class="source-icon">✓</span>
+            <div><strong>Datagrunnlag</strong><small id="source-name">Hentar publiserte data …</small></div>
+            <span class="live-dot" title="Kopla til lokal arbeidsbok"></span>
+          </div>
+          <div class="sidebar-profile"><span class="profile-avatar">AMF</span><span><strong>AMF</strong><small>Avdeling for mediefag</small></span></div>
+        </div>
+      </aside>
+
+      <main class="main-content" id="oversikt">
+        <header class="topbar">
+          <nav class="scenario-nav" aria-label="Vel modell">
+            <button class="scenario-link active" type="button" data-scenario="current" aria-pressed="true">Dagens modell</button>
+            <button class="scenario-link" type="button" data-scenario="a" aria-pressed="false">Alternativt budsjett A</button>
+            <button class="scenario-link" type="button" data-scenario="b" aria-pressed="false">Alternativt budsjett B</button>
+            <button class="scenario-link" type="button" data-scenario="c" aria-pressed="false">Alternativt budsjett C</button>
+          </nav>
+          <div class="topbar-actions">
+            <span class="live-label"><i></i><span id="source-status">Hentar publiserte data</span></span>
+            <button class="theme-button" id="theme-toggle" type="button" aria-label="Byt til mørk modus">◐ <span>Lys</span></button>
+            <span class="top-avatar">AMF</span>
+          </div>
+        </header>
+
+        <div class="page-content">
+          <section class="page-title">
+            <div><p class="eyebrow">AVDELING FOR MEDIEFAG</p><h1>Budsjett og ressursoversikt</h1><p class="subtitle">Oversikt over studenttal, ressursar og studiepoengproduksjon.</p></div>
+            <div class="report-actions">
+              <button class="button button-outline" id="print-report" type="button">⇩ <span>Last ned PDF</span></button>
+              <button class="button button-primary" id="excel-report" type="button">▦ <span>Last ned Excel</span></button>
+            </div>
+          </section>
+
+          <div class="notice" role="note"><span>i</span><div><strong>Database for statistikk om høyere utdanning (DBH) · 2026.</strong> <a href="https://dbh.hkdir.no/tall-og-statistikk/statistikk-meny/studenter/statistikk-side/3.3/param?visningId=125&amp;visKode=true&amp;admdebug=false&amp;columns=arstall&amp;hier=insttype%219%21instkode%219%21fakkode%219%21ufakkode%219%21progkode&amp;formel=232&amp;index=5&amp;sti=Statlige+høyskoler%219%21Høgskulen+i+Volda%219%21Avdeling+for+mediefag%219%21Avdeling+for+mediefag&amp;param=arstall%3D2026%218%212025%218%212024%218%212023%219%21semester%3D3%219%21dep_id%3D1%219%21insttype%3D02%219%21kategori%3Ds%219%21nivakode%3Db3%218%21b4%218%21hk%218%21yu%218%21ar%218%21ln%218%21m2%218%21me%218%21mx%218%21hn%218%21m5%218%21pr%219%21instkode%3D0236%219%21fakkode%3D425%219%21ufakkode%3D000&amp;binInst=1101" target="_blank" rel="noopener noreferrer">Oppdaterte tal frå DBH</a></div></div>
+          <div id="error-message" class="error-message" role="alert" hidden></div>
+
+          <section class="kpi-grid" aria-label="Nøkkeltal">
+            <article class="kpi-card"><div class="kpi-heading"><span>Studentar i fem program</span><i class="kpi-icon icon-blue">♙</i></div><strong class="kpi-value" id="kpi-students">–</strong><div class="kpi-foot"><span class="tag tag-blue">2026</span><span id="student-source">Hentar frå arbeidsboka</span></div></article>
+            <article class="kpi-card"><div class="kpi-heading"><span>Budsjett inkl. Felles AMF</span><i class="kpi-icon icon-indigo">▤</i></div><strong class="kpi-value" id="kpi-budget">–</strong><div class="kpi-foot"><span class="tag tag-indigo">2027</span><span id="budget-source">Fem program + Felles AMF</span></div></article>
+            <article class="kpi-card"><div class="kpi-heading"><span>Studiepoengsbasert løyving</span><i class="kpi-icon icon-green">⌁</i></div><strong class="kpi-value" id="kpi-credits">–</strong><div class="kpi-foot"><span class="tag tag-green">2027</span><span>For dei fem programma</span></div></article>
+            <article class="kpi-card"><div class="kpi-heading"><span>Tilsette totalt</span><i class="kpi-icon icon-amber">♧</i></div><strong class="kpi-value" id="kpi-staff">–</strong><div class="kpi-foot"><span class="tag tag-amber">Årsverk</span><span>1 årsverk = 100 % stilling</span></div></article>
+          </section>
+
+          <section class="panel alternative-panel" id="alternative-panel" hidden>
+            <div class="section-header"><div><span class="section-number">↗</span><div><h2 id="alternative-title">Alternativ ressursfordeling</h2><p id="alternative-description"></p></div></div><span class="staff-total-pill"><span id="alternative-total">–</span> årsverk totalt</span></div>
+            <div class="alternative-stats" id="alternative-stats"></div>
+            <div class="table-wrap alternative-table-wrap"><table class="data-table alternative-table"><thead id="alternative-head"></thead><tbody id="alternative-body"></tbody></table></div>
+            <p class="alternative-assumption" id="alternative-assumption"></p>
+            <p class="alternative-footnote">Budsjett 2026 er henta frå samanlikningskolonnen i leiingsutkastet; budsjett 2027 frå arbeidsnotatet. Produksjonsgrunnlaget frå arbeidsnotatet samanliknar avlagde studiepoeng i 2024 og 2025, brukte som grunnlag for høvesvis budsjett 2026 og 2027. Endring i årsverk endrar ikkje budsjettsummane.</p>
+          </section>
+
+          <section class="panel staffing-panel" id="ressursar">
+            <div class="section-header"><div><span class="section-number">↔</span><div><h2>Tilsette fordelt på ressursnivå</h2><p>Årsverk viser stillingsstorleik: 1 årsverk = 100 % stilling.</p></div></div><span class="staff-total-pill"><span id="staff-total">–</span> årsverk totalt</span></div>
+            <div class="staff-groups">
+              <article class="staff-group program-group"><div class="staff-group-top"><span class="staff-group-icon">01</span><span class="staff-group-label">Studieprogram</span></div><strong id="program-staff">–</strong><div class="staff-group-foot" id="program-staff-label">Tilknytte stillingar, fordelt på fem program</div><div id="program-staff-chips" class="staff-chips"></div></article>
+              <article class="staff-group flow-group"><div class="staff-group-top"><span class="staff-group-icon">02</span><span class="staff-group-label">Flyt / fellesemne</span></div><strong id="flow-staff">–</strong><div class="staff-group-foot" id="flow-staff-label">Instituttstillingar som bidreg på tvers</div><div class="staff-callout" id="flow-staff-callout">Arbeidsinnsatsen er ikkje fordelt eintydig på studieprogramma.</div></article>
+              <article class="staff-group shared-group"><div class="staff-group-top"><span class="staff-group-icon">03</span><span class="staff-group-label">Felles AMF</span></div><strong id="admin-staff">–</strong><div class="staff-group-foot">Fellesnivå, inkl. teknisk stab</div><div class="staff-callout" id="admin-staff-callout">Eiga budsjetteining; inga eiga studieprograminntekt.</div></article>
+              <article class="staff-group unassigned-group" id="unassigned-group" hidden><div class="staff-group-top"><span class="staff-group-icon">04</span><span class="staff-group-label">Anna · ikkje fordelt</span></div><strong id="unassigned-staff">0,5 årsverk</strong><div class="staff-group-foot">I tillegg til Felles AMF</div><div class="staff-callout">Førebels scenarioanslag; kjelda spesifiserer ikkje denne fordelinga.</div></article>
+            </div>
+          </section>
+
+          <section class="dashboard-grid">
+            <article class="panel overview-panel">
+              <div class="panel-title"><div><h2>Ressursbilete</h2><p>Fordeling på dei fem studieprogramma</p></div><span class="panel-overline">BUDSJETT 2027</span></div>
+              <div id="overview-chart" class="overview-chart" role="img" aria-label="Budsjett per studieprogram"></div>
+              <div class="chart-footnote">Beløp i kroner · verdiane kan endrast i hovudanalysen</div>
+            </article>
+            <article class="panel balance-panel">
+              <div class="panel-title"><div><h2>Belastningsbarometer</h2><p>Studiepoeng-komponent per årsverk</p></div><span class="mini-badge">SP / årsverk</span></div>
+              <div class="barometer" id="barometer"></div>
+              <div class="barometer-legend"><span><i class="dot dot-green"></i> Over programgjennomsnitt</span><span><i class="dot dot-yellow"></i> Om snitt</span><span><i class="dot dot-red"></i> Under snitt</span></div>
+            </article>
+          </section>
+
+          <section class="panel report-panel">
+            <div class="report-icon">✳</div>
+            <div><span class="panel-overline">AUTOMATISK ANALYSE</span><h2>Dette viser fordelinga</h2><p id="automatic-report">Reknar ut rapport …</p></div>
+            <a class="inline-link" href="#belastning">Sjå belastning <span>→</span></a>
+          </section>
+
+          <section class="panel reconciliation-panel">
+            <div class="reconciliation-icon">i</div>
+            <p id="reconciliation">Hentar studenttal frå DBH …</p>
+            <button class="text-button" id="reload-data" type="button">Hent data på nytt ↻</button>
+          </section>
+
+          <section class="panel section-panel" id="loyving">
+            <div class="section-header"><div><span class="section-number">00</span><div><h2>Budsjettnedeling · leiingsutkast 2027</h2><p>Løyvingsmodellen er eit separat budsjettlag frå programma sine produksjons- og bemanningstal.</p></div></div><div class="proposal-actions"><span class="proposal-source">Biletgrunnlag · 02.11.2026</span><button class="button button-outline button-small" id="proposal-edit" type="button">✎ Rediger løyvingstal</button></div></div>
+            <p class="proposal-edit-hint" id="proposal-edit-hint" hidden>Rediger grunnlag og løyvingskomponentar. Del- og sluttsummar blir rekna om når du forlèt eit felt. Fordelingsreglane frå biletet blir ikkje brukte som formel på nytt; endringane gjeld berre denne økta.</p>
+            <div class="budget-model-note"><strong>To ulike strukturar:</strong> PR/JOU er studieprogram i arbeidsnotatet; IFK/IFJ er budsjetteiningar i leiingsutkastet. Felles AMF har inga eiga studieprograminntekt, men får tildeling gjennom produksjonsbaserte og sentrale løyvingar. Tilsette i Flyt og Felles AMF er ikkje fordelte på budsjetteiningane i kjeldene.</div>
+            <div id="proposal-summary" class="proposal-summary"></div>
+            <div id="felles-funding" class="felles-funding"></div>
+            <div class="budget-basis-grid">
+              <article class="visual-card">
+                <div class="visual-heading"><h3>Fordelingsgrunnlag i utkastet</h3><span>Ulikt DBH-studenttal</span></div>
+                <div id="proposal-basis"></div>
+              </article>
+              <article class="visual-card">
+                <div class="visual-heading"><h3>Sluttløyving per budsjetteining</h3><span>kr</span></div>
+                <div id="proposal-chart" class="proposal-chart"></div>
+              </article>
+            </div>
+            <div class="visual-card proposal-table-card">
+              <div class="visual-heading"><h3>Komponentar i løyvingsmodellen</h3><span>Beløp i kroner</span></div>
+              <div class="table-wrap">
+                <table class="data-table proposal-table">
+                  <thead id="proposal-head"></thead>
+                  <tbody id="proposal-components"></tbody>
+                  <tfoot id="proposal-foot"></tfoot>
+                </table>
+              </div>
+            </div>
+            <div id="proposal-reconciliation" class="proposal-reconciliation"></div>
+          </section>
+
+          <section class="panel section-panel" id="analyse">
+            <div class="section-header"><div><span class="section-number">01</span><div><h2>Hovudanalyse</h2><p>Endre verdiar direkte. Avleidde nøkkeltal blir oppdaterte fortløpande.</p></div></div><span class="editable-label">✎ Redigerbare scenarioverdiar</span></div>
+            <div class="table-wrap">
+              <table class="data-table">
+                <thead><tr><th>PROGRAM</th><th>STUDENTAR <small>2026</small></th><th>TILSETTE <small>årsverk i modellen</small></th><th>STUDIEPOENG-KOMPONENT <small>2027 · kr</small></th><th>BUDSJETT <small>2027 · kr</small></th><th>STUDENTAR / ÅRSVERK</th><th>SP / ÅRSVERK</th><th>BUDSJETT / ÅRSVERK <small>kr</small></th><th>BUDSJETT / STUDENT <small>kr</small></th></tr></thead>
+                <tbody id="analysis-table"></tbody>
+                <tfoot id="analysis-total"></tfoot>
+              </table>
+            </div>
+            <div class="section-footer">Studenttal frå DBH 2026. Studiepoengskomponent, budsjett og stillingstal frå <strong id="note-workbook-label">arbeidsnotatet</strong>. Tala kan justerast i denne nettlesarøkta.</div>
+          </section>
+
+          <section class="panel section-panel" id="boble">
+            <div class="section-header"><div><span class="section-number">02</span><div><h2>Programoversikt</h2><p>Boblestorleik viser budsjett. Fargen viser studentar per tilsett.</p></div></div><button class="button button-outline button-small" id="png-export" type="button">↧ Eksporter diagram PNG</button></div>
+            <div class="bubble-legend"><span><i class="dot dot-green"></i> Høg studentbelastning</span><span><i class="dot dot-yellow"></i> Middels</span><span><i class="dot dot-blue"></i> Låg</span><span><i class="bubble-size"></i> Storleik = budsjett</span></div>
+            <div id="bubble-chart" class="bubble-chart" role="img" aria-label="Boblediagram: tilsette på x-aksen, studiepoeng-komponent på y-aksen, budsjett som storleik og studentar per tilsett som farge"></div>
+          </section>
+
+          <section class="panel section-panel" id="belastning">
+            <div class="section-header"><div><span class="section-number">03</span><div><h2>Belastningsanalyse</h2><p>Program samanlikna med snittet for programtilknytte stillingar.</p></div></div><span class="threshold-hint">Referanse: programtilknytte årsverk · terskel ±5 %</span></div>
+            <div class="workload-summary"><div><span>Snitt · produksjonskomponent per årsverk</span><strong id="average-workload">–</strong><small>fordelt på programårsverk i vald modell</small></div><div><span>Heile AMF · per årsverk</span><strong id="whole-amf-workload">–</strong><small>inkl. Flyt og Felles AMF</small></div><div><span>Høgast belastning</span><strong id="highest-workload">–</strong><small>produksjonskomponent per årsverk</small></div><div><span>Program over snittet</span><strong id="above-average">–</strong><small>meir enn 5 % over programgjennomsnittet</small></div></div>
+            <div class="analysis-visuals">
+              <article class="visual-card"><div class="visual-heading"><h3>Belastning per program</h3><span>kr per årsverk</span></div><div id="workload-chart" class="workload-chart"></div></article>
+              <article class="visual-card"><div class="visual-heading"><h3>Profil per program</h3><span>Normalisert skala</span></div><div id="radar-chart" class="radar-chart"></div></article>
+            </div>
+            <div class="visual-card heatmap-card"><div class="visual-heading"><h3>Heatmap · ressursindikatorar</h3><span>Farge relativt til programgjennomsnitt</span></div><div class="table-wrap"><table class="heatmap-table"><thead><tr><th>Program</th><th>Studentar / årsverk</th><th>Løyving / årsverk</th><th>Budsjett / student</th><th>Årsverk / program</th></tr></thead><tbody id="heatmap"></tbody></table></div></div>
+            <div class="table-wrap traffic-table-wrap"><table class="data-table traffic-table"><thead><tr><th>PROGRAM</th><th>KOMPONENT / ÅRSVERK</th><th>AMF-SNITT</th><th>AVVIK</th><th>VURDERING</th></tr></thead><tbody id="traffic-table"></tbody></table></div>
+            <p class="traffic-note"><span class="dot dot-green"></span> Grøn: over 5 % over programgjennomsnittet (høg belastning) <span class="dot dot-yellow"></span> Gul: innanfor ±5 % <span class="dot dot-red"></span> Raud: meir enn 5 % under snittet. Flyt/Felles AMF er ikkje med i denne programreferansen.</p>
+          </section>
+
+          <section class="panel section-panel" id="fordeling">
+            <div class="section-header"><div><span class="section-number">04</span><div><h2>Nytt framlegg til fordeling</h2><p>Simuler mogleg omfordeling av Flyt- og Felles AMF-ressursar til programma.</p></div></div><span class="live-update"><i></i> Oppdaterer direkte</span></div>
+            <div class="scenario-disclaimer">Dette er ei arbeidshypotese, ikkje dagens arbeidsfordeling: den prosentdelen du vel, blir fordelt proporsjonalt etter programtilknytte årsverk. Kjeldene har ikkje faktisk tidsbruk for Flyt eller Felles AMF per program.</div>
+            <div class="simulator-layout">
+              <div class="simulator-controls">
+                <div class="slider-control"><div class="slider-heading"><label for="flow-slider">Flyt tilbake til program</label><strong id="flow-value">0 %</strong></div><input id="flow-slider" type="range" min="0" max="40" step="10" value="0" /><div class="range-labels"><span>0 %</span><span>10 %</span><span>20 %</span><span>30 %</span><span>40 %</span></div><div class="shared-input-row"><label for="flow-total-input">Felles flyt (årsverk)</label><input id="flow-total-input" type="number" min="0" step="0.5" value="16.5" /></div><small><span id="flow-fte">0,0</span> av <span id="flow-total-label">16,5</span> årsverk blir fordelt</small></div>
+                <div class="slider-control"><div class="slider-heading"><label for="admin-slider">Administrasjon tilbake til program</label><strong id="admin-value">0 %</strong></div><input id="admin-slider" type="range" min="0" max="40" step="10" value="0" /><div class="range-labels"><span>0 %</span><span>10 %</span><span>20 %</span><span>30 %</span><span>40 %</span></div><div class="shared-input-row"><label for="admin-total-input">Felles administrasjon (årsverk)</label><input id="admin-total-input" type="number" min="0" step="0.5" value="5" /></div><small><span id="admin-fte">0,0</span> av <span id="admin-total-label">5,0</span> årsverk blir fordelt</small></div>
+                <div class="scenario-note">Fellesressursane blir fordelte proporsjonalt etter programmet si eksisterande bemanning.</div>
+              </div>
+              <div class="simulator-results">
+                <div class="simulator-result-head"><span>Program</span><span>Dagens tilsette</span><span>Framlegg i arbeidsnotat</span><span>Ideelt i scenario</span><span>Avvik</span></div>
+                <div id="scenario-results"></div>
+                <div class="simulator-result-foot"><span>Ideelt = studiepoeng ÷ AMF-snitt</span><strong id="scenario-total">–</strong></div>
+              </div>
+            </div>
+            <div class="panel-title sankey-title"><div><h3>Flyt av fellesressursar</h3><p>Fordeling frå fellespotten til studieprogramma</p></div></div>
+            <div id="sankey-chart" class="sankey-chart" role="img" aria-label="Sankey-diagram over simulert ressursfordeling"></div>
+          </section>
+          <footer class="page-footer"><span>AMF · Budsjett og ressursoversikt</span><span>Studentdata frå DBH · 2026</span></footer>
+        </div>
+      </main>
+    </div>
+  </body>
+</html>

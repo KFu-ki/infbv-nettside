@@ -1,0 +1,403 @@
+{
+  "programs": [
+    {
+      "code": "PR",
+      "name": "PR",
+      "students": 85.0,
+      "credits": 3585.0,
+      "budget": 6770.0,
+      "staff": 5.0,
+      "proposedIdealStaff": 4.9,
+      "proposedDeviation": -0.1,
+      "color": "#3d9b78"
+    },
+    {
+      "code": "JOU",
+      "name": "JOU",
+      "students": 170.0,
+      "credits": 5673.0,
+      "budget": 13741.0,
+      "staff": 10.0,
+      "proposedIdealStaff": 7.8,
+      "proposedDeviation": -2.2,
+      "color": "#477da8"
+    },
+    {
+      "code": "MPRO",
+      "name": "MPRO",
+      "students": 110.0,
+      "credits": 5032.0,
+      "budget": 8919.0,
+      "staff": 5.0,
+      "proposedIdealStaff": 6.9,
+      "proposedDeviation": 1.9,
+      "color": "#705fd0"
+    },
+    {
+      "code": "ANI",
+      "name": "ANI",
+      "students": 40.0,
+      "credits": 3678.0,
+      "budget": 5694.0,
+      "staff": 5.0,
+      "proposedIdealStaff": 5.0,
+      "proposedDeviation": 0.0,
+      "color": "#c69034"
+    },
+    {
+      "code": "MMP",
+      "name": "MMP",
+      "students": 45.0,
+      "credits": 1056.0,
+      "budget": 2472.0,
+      "staff": 1.5,
+      "proposedIdealStaff": 1.4,
+      "proposedDeviation": -0.1,
+      "color": "#bd6878"
+    }
+  ],
+  "staffing": {
+    "programStaff": 26.5,
+    "flow": 16.5,
+    "administration": 5.0,
+    "total": 48.0,
+    "administrationBudget": 8673.0,
+    "workNoteBudgetTotal": 46269.0,
+    "proposedAllocation": {
+      "PR": {
+        "idealStaff": 4.9,
+        "deviation": -0.1
+      },
+      "JOU": {
+        "idealStaff": 7.8,
+        "deviation": -2.2
+      },
+      "MPRO": {
+        "idealStaff": 6.9,
+        "deviation": 1.9
+      },
+      "ANI": {
+        "idealStaff": 5.0,
+        "deviation": 0.0
+      },
+      "MMP": {
+        "idealStaff": 1.4,
+        "deviation": -0.1
+      }
+    },
+    "source": "AMF_2027_arbeidsnotat_design_v2.xlsx",
+    "modified": "2026-11-06T08:05+01:00"
+  },
+  "proposal": {
+    "source": "Leiingsutkast 2027, fotografi datert 02.11.2026",
+    "unit": "tusen kr",
+    "units": [
+      "IFJ",
+      "IFK",
+      "ANI",
+      "MPRO",
+      "MMP",
+      "Felles",
+      "Stip"
+    ],
+    "studyBasis": {
+      "programs": [
+        "JOU",
+        "PR",
+        "ANI",
+        "MPRO",
+        "MMP"
+      ],
+      "credits2024": [
+        153.6,
+        94.0,
+        45.3,
+        112.3,
+        30.8
+      ],
+      "credits2025": [
+        165.0,
+        97.3,
+        46.6,
+        114.7,
+        24.0
+      ],
+      "studentBasis": [
+        145,
+        75,
+        30,
+        90,
+        45
+      ],
+      "totalCredits2024": 445.9,
+      "totalCredits2025": 447.6,
+      "totalStudents": 385
+    },
+    "resultComponents": [
+      {
+        "name": "Undervisning · avlagde studiepoeng",
+        "comment": "80 % / 20 %",
+        "values": [
+          5673,
+          3585,
+          3678,
+          5032,
+          1056,
+          4753,
+          0
+        ],
+        "total": 23778
+      },
+      {
+        "name": "Undervisning · fullførte gradar",
+        "comment": "80 % / 20 %",
+        "values": [
+          1860,
+          730,
+          511,
+          1386,
+          146,
+          1158,
+          0
+        ],
+        "total": 5791
+      },
+      {
+        "name": "Undervisning · doktorgradskandidatar",
+        "comment": "100 % avdeling",
+        "values": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "total": 0
+      },
+      {
+        "name": "Undervisning · utvekslingsstudentar",
+        "comment": "80 % / 20 %",
+        "values": [
+          690,
+          378,
+          131,
+          164,
+          0,
+          341,
+          0
+        ],
+        "total": 1704
+      },
+      {
+        "name": "Forsking · vitskapleg publisering",
+        "comment": "100 % avdeling",
+        "values": [
+          124,
+          63,
+          8,
+          13,
+          0,
+          21,
+          0
+        ],
+        "total": 229
+      },
+      {
+        "name": "Forsking · EU, NFR, RFF og BOA",
+        "comment": "100 % avdeling",
+        "values": [
+          13,
+          0,
+          7,
+          0,
+          0,
+          37,
+          0
+        ],
+        "total": 57
+      },
+      {
+        "name": "Forsking · FU-midlar",
+        "comment": "Forskningsinsentiv",
+        "values": [
+          600,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "total": 600
+      }
+    ],
+    "resultTotal": {
+      "values": [
+        8961,
+        4755,
+        4335,
+        6596,
+        1202,
+        6311,
+        0
+      ],
+      "total": 32159
+    },
+    "strategic": {
+      "name": "Strategisk forskingsfinansiering / stipendiatstillingar",
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        116,
+        736
+      ],
+      "total": 852
+    },
+    "basisComponents": [
+      {
+        "name": "Basis · grunnløyving studieplassar",
+        "values": [
+          3600,
+          1862,
+          1277,
+          2235,
+          1236,
+          1135,
+          0
+        ],
+        "total": 11345
+      },
+      {
+        "name": "Basis · faste løyvingar",
+        "values": [
+          999,
+          0,
+          0,
+          0,
+          0,
+          999,
+          0
+        ],
+        "total": 1998
+      }
+    ],
+    "basisTotal": {
+      "values": [
+        4599,
+        1862,
+        1277,
+        2235,
+        1236,
+        2134,
+        0
+      ],
+      "total": 13343
+    },
+    "distributionTotal": {
+      "values": [
+        13560,
+        6617,
+        5612,
+        8830,
+        2438,
+        8560,
+        736
+      ],
+      "total": 46354
+    },
+    "salary": {
+      "name": "Lønnsopplegg 2027",
+      "values": [
+        181,
+        153,
+        82,
+        86,
+        34,
+        113,
+        13
+      ],
+      "total": 663
+    },
+    "final": {
+      "values": [
+        13741,
+        6770,
+        5694,
+        8917,
+        2472,
+        8673,
+        749
+      ],
+      "total": 47017
+    },
+    "previous": {
+      "year": 2026,
+      "values": [
+        12642,
+        6384,
+        5282,
+        8489,
+        3174,
+        8463,
+        2576
+      ],
+      "total": 47010
+    },
+    "reportedTotals": {
+      "result": 32159,
+      "distribution": 46354,
+      "final": 47017
+    },
+    "lineItemTotal": 47016,
+    "workbookProgramBudget": 37596.0,
+    "workbookTotalWithStipend": 47018.0,
+    "workbookBudgetWithFelles": 46269.0,
+    "finalUnitDifference": 1,
+    "resultUnitDifference": 1,
+    "workbookVsProposalDifference": -1.0,
+    "programBudgetByCode": {
+      "PR": 6770.0,
+      "JOU": 13741.0,
+      "MPRO": 8919.0,
+      "ANI": 5694.0,
+      "MMP": 2472.0
+    }
+  },
+  "students": {
+    "year": 2026,
+    "programs": {
+      "PR": 85.0,
+      "JOU": 170.0,
+      "MPRO": 110.0,
+      "ANI": 40.0,
+      "MMP": 45.0
+    },
+    "studentsByYear": {
+      "2025": {
+        "PR": 100.0,
+        "JOU": 170.0,
+        "MPRO": 100.0,
+        "ANI": 45.0,
+        "MMP": 30.0
+      },
+      "2026": {
+        "PR": 85.0,
+        "JOU": 170.0,
+        "MPRO": 110.0,
+        "ANI": 40.0,
+        "MMP": 45.0
+      }
+    },
+    "source": "Registrerte studenter tidsserie utvida.xls-3.xlsx",
+    "modified": "2026-11-06T22:01+01:00",
+    "note": {
+      "source": "AMF_2027_arbeidsnotat_design_v2.xlsx",
+      "modified": "2026-11-06T08:05+01:00"
+    }
+  }
+}
