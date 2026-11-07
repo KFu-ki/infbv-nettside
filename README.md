@@ -34,7 +34,7 @@ Kontroller endringane i `budsjett/data.json` før du lagrar og sender dei til Gi
 
 ## Timeplan 2027
 
-Timeplanen er publisert som eit JSON-utdrag i `timeplanside/timeplan-2027.json`. Ho er offentleg lesbar. Skildring/Innhald, type og Tilsett kan redigerast som lokale utkast i nettlesaren; dei blir ikkje skrivne til live-data eller synlege for andre. «Foreslå ei endring» opnar eit førehandsutfylt GitHub-innspel. Repoet er offentleg, så innspela og kommentarane blir offentlege når dei blir sende inn; bidragsytaren må logge inn på GitHub. Ein administrator må vurdere og godkjenne endringa før ho blir lagd inn i datafila og deploya.
+Timeplanen er publisert som eit JSON-utdrag i `timeplanside/timeplan-2027.json`. Ho er offentleg lesbar. Skildring/Innhald og Tilsett kan redigerast som lokale utkast i nettlesaren; dei blir ikkje skrivne til live-data eller synlege for andre. «Foreslå ei endring» opnar eit førehandsutfylt GitHub-innspel. Repoet er offentleg, så innspela og kommentarane blir offentlege når dei blir sende inn; bidragsytaren må logge inn på GitHub. Ein administrator må vurdere og godkjenne endringa før ho blir lagd inn i datafila og deploya.
 
 Timeplanen hentar JSON-fila som statisk ressurs. Excel-knappen lastar ned XLSX når FastAPI-eksporten er aktiv; ved statisk hosting lagar nettlesaren i staden ei tidsstempla CSV-fil som kan opnast i Excel.
 

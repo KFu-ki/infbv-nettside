@@ -1,7 +1,6 @@
 const DATA_URL = "/timeplanside/timeplan-2027.json";
 const STORAGE_KEY = "infbv-timeplan-2027-edits";
 const COURSE_FILTER_KEY = "all";
-const STATUS_OPTIONS = ["Forslag", "Avtalt", "Oppdatert", "Avlyst"];
 const state = {
   source: null,
   items: [],
@@ -35,6 +34,10 @@ function displayDate(value) {
   return new Intl.DateTimeFormat("nn-NO", { weekday: "long", day: "numeric", month: "short", year: "numeric" }).format(date);
 }
 
+function displayCourseName(value) {
+  return String(value || "").replace(/^(?:(?:INF|KOM|MEV|MMP)\d{3}\s*)+(?:[-–—:]\s*)?/i, "");
+}
+
 function setStatus(message, isError = false) {
   const status = element("#save-status");
   status.textContent = message;
@@ -44,7 +47,8 @@ function setStatus(message, isError = false) {
 function saveEdits() {
   try {
     localStorage.setItem(STORAGE_KEY, JSON.stringify(state.edits));
-    const changed = Object.keys(state.edits).length;
+    const changed = Object.values(state.edits)
+      .filter((edit) => edit.description !== undefined || edit.staff !== undefined).length;
     setStatus(changed ? `${changed} rad${changed === 1 ? "" : "er"} endra lokalt` : "Les frå publisert plan");
   } catch (error) {
     setStatus(`Kunne ikkje lagre lokale endringar: ${error.message}`, true);
@@ -112,36 +116,22 @@ function renderRows() {
   const items = filteredItems();
   element("#results-count").textContent = `Viser ${items.length} av ${state.items.length} økter`;
   if (!items.length) {
-    element("#plan-rows").innerHTML = '<tr><td class="empty-row" colspan="8">Ingen økter passar til søket eller filteret.</td></tr>';
+    element("#plan-rows").innerHTML = '<tr><td class="empty-row" colspan="6">Ingen økter passar til søket eller filteret.</td></tr>';
     return;
   }
   element("#plan-rows").innerHTML = items.map((item) => {
-    const statusClass = item.status === "Avtalt" || item.status === "Oppdatert"
-      ? " status-agreed"
-      : item.status === "Avlyst" ? " status-cancelled" : "";
     return `<tr data-row="${escapeHtml(item.id)}">
-      <td><span class="course-code">${escapeHtml(item.course)}</span><span class="course-title">${escapeHtml(item.courseName)}</span></td>
+      <td><span class="course-code">${escapeHtml(item.course)}</span><span class="course-title">${escapeHtml(displayCourseName(item.courseName))}</span></td>
       <td><span class="date-line">${escapeHtml(displayDate(item.startDate))}</span><span class="time-line">${escapeHtml(item.startTime)}–${escapeHtml(item.endTime)}</span><span class="week-tag">${escapeHtml(item.week)}</span></td>
-      <td><input type="text" data-field="activity" value="${escapeHtml(item.activity)}" aria-label="Type, ${escapeHtml(item.course)} ${escapeHtml(item.startDate)}" placeholder="Type …" /></td>
       <td><input type="text" data-field="description" value="${escapeHtml(item.description)}" aria-label="Skildring / Innhald, ${escapeHtml(item.course)} ${escapeHtml(item.startDate)}" placeholder="Skildring / Innhald …" /></td>
       <td><span class="room-text">${escapeHtml(item.room || "–")}</span>${item.otherObjects ? `<span class="course-title">${escapeHtml(item.otherObjects)}</span>` : ""}</td>
       <td><input type="text" data-field="staff" value="${escapeHtml(item.staff)}" aria-label="Tilsett, ${escapeHtml(item.course)} ${escapeHtml(item.startDate)}" placeholder="Tilsett …" /></td>
-      <td><select class="status-select${statusClass}" data-field="status" aria-label="Status, ${escapeHtml(item.course)} ${escapeHtml(item.startDate)}">
-        ${STATUS_OPTIONS.map((status) => `<option${item.status === status ? " selected" : ""}>${status}</option>`).join("")}
-      </select></td>
       <td>${rowDetails(item)}</td>
     </tr>`;
   }).join("");
 
   element("#plan-rows").querySelectorAll("[data-field]").forEach((field) => {
-    const eventName = field.tagName === "SELECT" ? "change" : "input";
-    field.addEventListener(eventName, () => {
-      if (field.dataset.field !== "description" && field.dataset.field !== "staff"
-        && field.dataset.field !== "activity" && field.dataset.field !== "status") return;
-      if (field.dataset.field === "status") {
-        field.classList.toggle("status-agreed", field.value === "Avtalt" || field.value === "Oppdatert");
-        field.classList.toggle("status-cancelled", field.value === "Avlyst");
-      }
+    field.addEventListener("input", () => {
       applyEdit(field.closest("[data-row]").dataset.row, field.dataset.field, field.value);
     });
   });
@@ -150,7 +140,8 @@ function renderRows() {
 function changedFields() {
   return state.items.flatMap((original) => {
     const current = editedItem(original);
-    const changes = Object.entries(state.edits[original.id] || {});
+    const changes = Object.entries(state.edits[original.id] || {})
+      .filter(([field]) => field === "description" || field === "staff");
     return changes.map(([field, value]) => ({
       item: current,
       field,
