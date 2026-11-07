@@ -108,7 +108,7 @@ def build_items(rows):
         if row_number <= 6 or not field(values, SOURCE_COLUMNS["courseName"]):
             continue
         course_name = field(values, SOURCE_COLUMNS["courseName"])
-        course_codes = re.findall(r"\b(?:INF|KOM|MEV|MMP)\d{3}\b", course_name)
+        course_codes = re.findall(r"\b(?:INF|JOU|KOM|MEV|MMP)\d{3}\b", course_name)
         activity = field(values, SOURCE_COLUMNS["activity"])
         external_comment = field(values, SOURCE_COLUMNS["externalComment"])
         description = " · ".join(value for value in (external_comment, activity) if value)
@@ -167,6 +167,22 @@ def main():
         "period": "4. januar – 4. juni 2027",
         "items": items,
     }
+    data_path = args.output_dir / "timeplan-2027.json"
+    if data_path.exists():
+        with data_path.open(encoding="utf-8") as existing_file:
+            existing_data = json.load(existing_file)
+        if not isinstance(existing_data, dict) or not isinstance(existing_data.get("items"), list):
+            raise ValueError(f"Ugyldig eksisterande timeplandata: {data_path}")
+        source_items = {item["id"] for item in items}
+        supplemental_items = [
+            item for item in existing_data["items"]
+            if isinstance(item, dict)
+            and item.get("supplemental") is True
+            and item.get("id") not in source_items
+        ]
+        source_metadata["items"].extend(supplemental_items)
+        if supplemental_items and existing_data.get("supplementalSource"):
+            source_metadata["supplementalSource"] = existing_data["supplementalSource"]
 
     spec = importlib.util.spec_from_file_location("portal_xlsx_export", ROOT / "xlsx_export.py")
     if spec is None or spec.loader is None:
@@ -178,7 +194,7 @@ def main():
     timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
     workbook_name = f"Timeplan_2027_{timestamp}.xlsx"
     data_bytes = (json.dumps(source_metadata, ensure_ascii=False, indent=2) + "\n").encode("utf-8")
-    atomic_write(args.output_dir / "timeplan-2027.json", data_bytes)
+    atomic_write(data_path, data_bytes)
     atomic_write(args.output_dir / workbook_name, workbook_bytes)
     if args.sharepoint_folder:
         args.sharepoint_folder.mkdir(parents=True, exist_ok=True)

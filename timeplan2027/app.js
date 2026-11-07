@@ -35,7 +35,7 @@ function displayDate(value) {
 }
 
 function displayCourseName(value) {
-  return String(value || "").replace(/^(?:(?:INF|KOM|MEV|MMP)\d{3}\s*)+(?:[-–—:]\s*)?/i, "");
+  return String(value || "").replace(/^(?:(?:INF|JOU|KOM|MEV|MMP)\d{3}\s*)+(?:[-–—:]\s*)?/i, "");
 }
 
 function setStatus(message, isError = false) {

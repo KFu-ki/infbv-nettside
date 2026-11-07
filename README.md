@@ -48,6 +48,7 @@ python3 scripts/import_timeplan.py \
 ```
 
 `--sharepoint-folder` må peike på ei lokal mappe som OneDrive synkar. Skriptet kopierer kjeldearbeidsboka dit og legg den nye tidsstempla Excel-fila der. Dette er OneDrive-synk, ikkje direkte Microsoft Graph-opplasting frå Vercel. Etter at eit forslag er godkjent, må den oppdaterte JSON-fila og Excel-versjonen lagrast/synkast, kontrollerast, og endringane pushast til GitHub for å oppdatere den offentlege nettsida.
+Supplerande oppføringar som er merkte i JSON-fila, blir tekne med ved seinare import frå Excel, slik at manuelt innlagde økter ikkje forsvinn.
 
 Når eit forslag er gjennomgått og `timeplanside/timeplan-2027.json` er oppdatert, lag ei ny arbeidsbokversjon utan å lese inn kjeldearket på nytt:
 
