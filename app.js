@@ -89,12 +89,20 @@ const COURSE_CONTENT = {
 };
 
 const SKILLS = [
-    "1. Sosiale medium", "2. Nettside og nettsideutvikling", "3. Tekstproduksjon",
-    "4. Mediekontakt og -handtering", "5. Strategisk kommunikasjonsplanlegging",
-    "6. Rådgjeving i eigen organisasjon", "7. Intranett / internt nettverk",
-    "8. Foto- og videoproduksjon", "9. Medieovervaking", "10. Visuell profil og grafisk arbeid",
-    "11. Kampanjearbeid", "12. Prosjektarbeid", "13. Møteverksemd",
-    "14. Generativ og praktisk KI i kommunikasjonsfaget"
+    { name: "Sosiale medium", description: "Startar med enkel publisering og innhaldsforståing, og blir vidareutvikla gjennom kommunikasjonsprosjekt og praksis.", courses: ["INF131", "KOM202", "INF211", "INF213"] },
+    { name: "Nettside og nettsideutvikling", description: "Grunnleggjande nettinnhald kjem tidleg; webdokumentar og sjølvstendig produksjon gir rom for meir avansert arbeid.", courses: ["INF131", "KOM202", "INF213", "MMP310"] },
+    { name: "Tekstproduksjon", description: "Frå korte tekstar og journalistiske metodar til målretta, strategisk og sjølvstendig medietekst.", courses: ["INF131", "KOM102", "KOM202", "INF211", "MMP301", "MMP303"] },
+    { name: "Mediekontakt og -handtering", description: "Introduksjon til kontakt med medium blir bygd vidare gjennom journalistiske metodar og krisekommunikasjon.", courses: ["INF131", "KOM102", "KOM201", "INF211", "INF213"] },
+    { name: "Strategisk kommunikasjonsplanlegging", description: "Planlegging og målgruppeforståing blir utvikla i prosjekt og krisekommunikasjon, og får fordjuping i risikokommunikasjon og leiing.", courses: ["KOM102", "KOM201", "KOM202", "INF211", "MMP311", "IPA303"] },
+    { name: "Rådgjeving i eigen organisasjon", description: "Rådgjeving krev at studentane kan bruke fagleg skjønn i ein verkeleg organisasjon; hovudvekta er difor på bachelorpraksis og arbeidslivsretta emne.", courses: ["INF211", "INF213"] },
+    { name: "Intranett / internt nettverk", description: "Arbeid med intern kommunikasjon høyrer særleg heime i organisasjonsretta prosjekt og praksis.", courses: ["KOM202", "INF211", "INF213"] },
+    { name: "Foto- og videoproduksjon", description: "Praktisk produksjon blir introdusert gjennom øvingar og får fordjuping i valemna Media Producing og Web Documentary.", courses: ["INF131", "MMP308", "MMP310", "INF213"] },
+    { name: "Medieovervaking", description: "Studentane går frå å finne og vurdere kjelder til å følgje mediebilete og analysere risiko og problemstillingar.", courses: ["KOM102", "KOM201", "INF211", "MMP303", "MMP311"] },
+    { name: "Visuell profil og grafisk arbeid", description: "Visuell formgiving blir øvd i praktiske emne og vidareutvikla i medieproduksjon og designstrategiar.", courses: ["INF131", "KOM202", "MMP308", "MMP310", "MMP317"] },
+    { name: "Kampanjearbeid", description: "Kampanjearbeid byggjer på tekst, målgruppe og planlegging; hovudvekta er på prosjekt- og kommunikasjonsarbeid i bachelorløpet.", courses: ["INF131", "KOM201", "KOM202", "INF211", "INF213"] },
+    { name: "Prosjektarbeid", description: "Prosjektarbeid går frå korte øvingar og samarbeid til sjølvstendig profesjonell produksjon og masterprosjekt.", courses: ["INF131", "INF142", "KOM202", "INF213", "MMP308", "MMP309", "MMP310", "MMP313", "MMP314"] },
+    { name: "Møteverksemd", description: "Møte og samarbeid blir øvd i prosjekt og praksis, og får ei meir spesialisert kopling til valemnet Process Facilitating.", courses: ["INF142", "KOM201", "KOM202", "INF211", "INF213", "IPA302"] },
+    { name: "Generativ og praktisk KI i kommunikasjonsfaget", description: "KI-verktøy kan prøvast tidleg som støtte i praktisk arbeid, med aukande krav til kritisk kjeldebruk, etikk og sjølvstendige faglege val.", courses: ["INF131", "KOM102", "KOM202", "INF211", "INF213"] }
 ];
 
 let activeStep = 1;
@@ -193,8 +201,9 @@ function renderStepDetails(stepNum) {
     `;
 
     stage.courses.forEach(c => {
+        const courseSkills = SKILLS.filter(skill => skill.courses.includes(c.code));
         html += `
-            <div onclick="openCourse('${c.code}', '${c.name.replace(/'/g, "\\'")}', ${c.stp}, '${c.sem}')" 
+            <div data-open-course="${c.code}" role="button" tabindex="0"
                  class="p-4 rounded-xl bg-slate-800/60 border border-slate-700/60 hover:border-amber-500/60 cursor-pointer transition-all hover:bg-slate-800 group flex justify-between items-center gap-3">
                 <div>
                     <div class="flex items-center space-x-2">
@@ -203,6 +212,7 @@ function renderStepDetails(stepNum) {
                         ${c.kind ? `<span class="text-[10px] bg-slate-900 px-1.5 py-0.5 rounded text-slate-400">${c.kind}</span>` : ''}
                     </div>
                     <h4 class="font-medium text-sm text-slate-200 group-hover:text-white mt-1">${c.name}</h4>
+                    ${courseSkills.length ? `<div class="mt-2 flex flex-wrap gap-1">${courseSkills.map(skill => `<span class="rounded bg-slate-900/80 px-1.5 py-0.5 text-[10px] text-slate-400">${skill.name}</span>`).join("")}</div>` : ""}
                 </div>
                 <svg class="w-5 h-5 text-slate-500 group-hover:text-amber-400 group-hover:translate-x-1 transition-all" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
             </div>
@@ -215,28 +225,58 @@ function renderStepDetails(stepNum) {
     `;
 
     container.innerHTML = html;
+    container.querySelectorAll("[data-open-course]").forEach(card => {
+        const open = () => {
+            const course = stage.courses.find(item => item.code === card.dataset.openCourse);
+            if (course) openCourse(course.code, course.name, course.stp, course.sem);
+        };
+        card.addEventListener("click", open);
+        card.addEventListener("keydown", event => {
+            if (event.key === "Enter" || event.key === " ") {
+                event.preventDefault();
+                open();
+            }
+        });
+    });
 }
 
 function renderSkillsGrid() {
     const container = document.getElementById('skills-grid');
-    let html = '';
-    
-    SKILLS.forEach((skill, idx) => {
-        let isAI = idx === 13;
-        let borderClass = isAI ? 'border-amber-500/50 bg-amber-950/20' : 'border-slate-800 bg-slate-900/40';
-        
-        html += `
-            <div class="p-4 rounded-xl border ${borderClass} hover:border-slate-700 transition-colors">
-                <div class="flex items-center space-x-2">
-                    <span class="w-2 h-2 rounded-full ${isAI ? 'bg-amber-400 animate-pulse' : 'bg-slate-600'}"></span>
-                    <h4 class="text-sm font-medium ${isAI ? 'text-amber-300 font-bold' : 'text-slate-200'}">${skill}</h4>
-                </div>
-                <p class="text-xs text-slate-400 mt-2">Går att som læringsutbytte og praktiske ferdigheiter i ulike emne oppover trappa.</p>
-            </div>
-        `;
-    });
+    container.innerHTML = SKILLS.map((skill, index) => {
+        const groups = Object.entries(STAGES).map(([step, stage]) => ({
+            step,
+            courses: stage.courses.filter(course => skill.courses.includes(course.code))
+        })).filter(group => group.courses.length);
+        const isAI = index === 13;
+        const borderClass = isAI ? 'border-amber-500/50 bg-amber-950/20' : 'border-slate-800 bg-slate-900/40';
+        const stages = groups.map(group => `<span class="rounded bg-slate-800 px-1.5 py-0.5 text-[10px] text-slate-300">Trinn ${group.step}</span>`).join("");
+        const courses = groups.map(group => `
+            <div class="mt-2">
+                <p class="text-[10px] font-semibold uppercase tracking-wide text-slate-500">Trinn ${group.step}</p>
+                <div class="mt-1 flex flex-wrap gap-1">${group.courses.map(course => `<button type="button" data-skill-course="${course.code}" class="rounded border border-slate-700 bg-slate-950/70 px-1.5 py-1 text-[10px] text-amber-200 hover:border-amber-400">${course.code}</button>`).join("")}</div>
+            </div>`).join("");
 
-    container.innerHTML = html;
+        return `
+            <article class="rounded-xl border p-4 ${borderClass}">
+                <div class="flex items-start gap-2">
+                    <span class="mt-1.5 h-2 w-2 shrink-0 rounded-full ${isAI ? 'bg-amber-400' : 'bg-slate-500'}"></span>
+                    <div class="min-w-0">
+                        <h3 class="text-sm font-semibold ${isAI ? 'text-amber-300' : 'text-slate-200'}">${index + 1}. ${skill.name}</h3>
+                        <p class="mt-2 text-xs leading-relaxed text-slate-400">${skill.description}</p>
+                        <div class="mt-3 flex flex-wrap gap-1">${stages}</div>
+                        ${courses}
+                    </div>
+                </div>
+            </article>`;
+    }).join("");
+
+    container.querySelectorAll("[data-skill-course]").forEach(button => {
+        button.addEventListener("click", () => {
+            const course = Object.values(STAGES).flatMap(stage => stage.courses)
+                .find(item => item.code === button.dataset.skillCourse);
+            if (course) openCourse(course.code, course.name, course.stp, course.sem);
+        });
+    });
 }
 
 function openCourse(code, name, stp, sem) {
@@ -251,6 +291,7 @@ function openCourse(code, name, stp, sem) {
         sem ? `Semester: ${sem}` : ""
     ].filter(Boolean).join(" · ");
     const courseContent = COURSE_CONTENT[code];
+    const courseSkills = SKILLS.filter(skill => skill.courses.includes(code));
     content.innerHTML = `
         <div class="border-b border-slate-800 pb-6 space-y-2">
             <div class="flex items-center space-x-3">
@@ -260,8 +301,8 @@ function openCourse(code, name, stp, sem) {
             <h1 class="text-3xl font-serif font-bold text-slate-100">${name}</h1>
         </div>
 
-        <div class="${courseContent ? "grid grid-cols-1" : "grid grid-cols-1 lg:grid-cols-3"} gap-8">
-            <div class="${courseContent ? "" : "lg:col-span-2 "}space-y-6">
+        <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
+            <div class="lg:col-span-2 space-y-6">
                 <div>
                     <h3 class="text-sm font-semibold uppercase tracking-wider text-amber-400 mb-2">Om emnet og læringsutbytte</h3>
                     <p class="text-slate-300 text-sm leading-relaxed">${courseContent || "Emnet inngår i kompetansetrappa ved Høgskulen i Volda og byggjer vidare på fagleg kunnskap og praktiske ferdigheiter."}</p>
@@ -296,16 +337,12 @@ function openCourse(code, name, stp, sem) {
                 `}
             </div>
 
-            ${courseContent ? "" : `
             <div class="space-y-4 bg-slate-950 p-6 rounded-xl border border-slate-800 h-fit">
-                <h4 class="text-xs font-semibold text-slate-400 uppercase tracking-wider">Relevante praksisferdigheiter</h4>
-                <div class="flex flex-wrap gap-1.5">
-                    <span class="text-[11px] bg-slate-800 text-slate-300 px-2.5 py-1 rounded-md border border-slate-700">Tekstproduksjon</span>
-                    <span class="text-[11px] bg-slate-800 text-slate-300 px-2.5 py-1 rounded-md border border-slate-700">Sosiale medium</span>
-                    <span class="text-[11px] bg-amber-500/10 text-amber-300 px-2.5 py-1 rounded-md border border-amber-500/20">KI i kommunikasjon</span>
-                </div>
+                <h4 class="text-xs font-semibold text-slate-400 uppercase tracking-wider">Foreslåtte praksisferdigheiter</h4>
+                ${courseSkills.length
+                    ? `<div class="flex flex-wrap gap-1.5">${courseSkills.map(skill => `<span class="text-[11px] bg-slate-800 text-slate-300 px-2.5 py-1 rounded-md border border-slate-700">${skill.name}</span>`).join("")}</div>`
+                    : '<p class="text-xs leading-relaxed text-slate-400">Ingen praksisferdigheiter er kopla til dette emnet i framlegget enno.</p>'}
             </div>
-            `}
         </div>
     `;
 
