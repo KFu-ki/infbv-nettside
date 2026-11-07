@@ -24,9 +24,7 @@ const STAGES = {
         courses: [
             { code: "KOM201", name: "Crisis Communication", stp: 10, sem: "27 H" },
             { code: "KOM202", name: "Kommunikasjonsprosjekt", stp: 10, sem: "27 H" },
-            { code: "MEV132", name: "Medievitskap 2 — Media, kommunikasjon og makt", stp: 10, sem: "27 H" },
-            { code: "INF211", name: "PR og kommunikasjon 3: Samfunnskommunikasjon og CSR", stp: 15, sem: "28 V" },
-            { code: "MEV221", name: "Medievitskap 3 — Frå fag til forsking: Korleis analysere medium", stp: 15, sem: "28 V" }
+            { code: "MEV132", name: "Medievitskap 2 — Media, kommunikasjon og makt", stp: 10, sem: "27 H" }
         ]
     },
     3: {
@@ -36,6 +34,8 @@ const STAGES = {
         level: "Bachelor (År 3)",
         color: "amber",
         courses: [
+            { code: "INF211", name: "PR og kommunikasjon 3: Samfunnskommunikasjon og CSR", stp: 15, sem: "28 V" },
+            { code: "MEV221", name: "Medievitskap 3 — Frå fag til forsking: Korleis analysere medium", stp: 15, sem: "28 V" },
             { code: "INF213", name: "Arbeidslivsrelevans gjennom praksis / Utveksling", stp: 30, sem: "28 H" }
         ]
     },
