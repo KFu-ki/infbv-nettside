@@ -42,25 +42,50 @@ const STAGES = {
     4: {
         title: "Trinn 4: Dyktig",
         dreyfus: "Dyktig (Benner, 1984)",
-        desc: "Analytisk evne og skjønnsmessige vurderingar. Erfaringar ligg til grunn for prioriteringar og val. Studentane byggjer praktiske ferdigheiter til innlært teori.",
-        level: "Master (År 1)",
+        desc: "Første studieår i Master in Media Practices (120 studiepoeng over to år) kombinerer avansert kunnskap om mediefag med profesjonell mediepraksis. Studentane arbeider med forteljing, representasjon, retorikk og medieprofesjonar, og vel praktiske eller faglege valemne.",
+        level: "Master · år 1 av 2",
         color: "indigo",
         courses: [
-            { code: "MAS301", name: "Vitskapsteori og forskingsmetode i mediefag", stp: 15, sem: "Master H" },
-            { code: "MAS302", name: "Strategisk kommunikasjonsleiing og analyse", stp: 15, sem: "Master V" }
+            { code: "MMP301", name: "Storytelling, Representation and Rhetoric", stp: 0, sem: "" },
+            { code: "MMP302", name: "Media, Professions and Society", stp: 0, sem: "" },
+            { code: "MMP303", name: "Undersøkande journalistikk", kind: "Valemne", stp: 0, sem: "" },
+            { code: "MMP308", name: "Media Producing", kind: "Valemne", stp: 0, sem: "" },
+            { code: "MMP309", name: "Professional Media Practice", kind: "Valemne", stp: 0, sem: "" },
+            { code: "MMP310", name: "Web Documentary", kind: "Valemne", stp: 0, sem: "" },
+            { code: "MMP311", name: "Risk Communication and Issue Management", kind: "Valemne", stp: 0, sem: "" },
+            { code: "MMP317", name: "Design Strategies and Concepts", kind: "Valemne", stp: 0, sem: "" },
+            { code: "IPA302", name: "Process Facilitating", kind: "Valemne · anna masterprogram", stp: 0, sem: "" },
+            { code: "IPA303", name: "Public Sector Leadership and Communication", kind: "Valemne · anna masterprogram", stp: 0, sem: "" }
         ]
     },
     5: {
         title: "Trinn 5: Ekspert og taus kunnskap",
         dreyfus: "Ekspert / Tacit Knowledge (Benner, 1984)",
-        desc: "Vekslar mellom analytisk tilnærming og intuisjon. Løysingar baserte på taus kunnskap (tacit knowledge) som blir profesjonalisert og internalisert gjennom erfaring i arbeidsmiljøet.",
-        level: "Master (År 2) og profesjonelt yrkesliv",
+        desc: "Andre studieår legg vekt på forskingsdesign, metode og eit sjølvstendig akademisk arbeid om eit sjølvvalt medietema. Masteroppgåva blir rettleidd og skal følgje forskingsetiske normer. Programmet utviklar avansert mediekunnskap, profesjonell produksjon og evne til sjølvstendig analyse og innovasjon.",
+        level: "Master · år 2 av 2",
         color: "indigo-amber",
         courses: [
-            { code: "MAS390", name: "Masteroppgåve i PR og kommunikasjon", stp: 45, sem: "Master" },
-            { code: "EXPERT", name: "Yrkeserfaring, bransjeintuisjon og teameintegrering", stp: 0, sem: "Yrkesliv" }
+            { code: "MMP312", name: "Research Design and Methods", stp: 0, sem: "" },
+            { code: "MMP313", name: "Project Based Master Thesis", kind: "Eitt av to alternativ", stp: 0, sem: "" },
+            { code: "MMP314", name: "Written Master Thesis", kind: "Eitt av to alternativ", stp: 0, sem: "" }
         ]
     }
+};
+
+const COURSE_CONTENT = {
+    MMP301: "Obligatorisk emne i Master in Media Practices. Emneplanen løftar fram forteljing, representasjon og retorikk som sentrale delar av mediefagleg kompetanse.",
+    MMP302: "Obligatorisk emne om medieprofesjonar og samfunn. Masterplanen legg vekt på samfunnsrolla til media, profesjonelle tradisjonar og kva som skil ulike medieyrke.",
+    MMP303: "Valemne i undersøkande journalistikk.",
+    MMP308: "Valemne i medieproduksjon.",
+    MMP309: "Valemne i profesjonell mediepraksis.",
+    MMP310: "Valemne i webdokumentar.",
+    MMP311: "Valemne i risikokommunikasjon og problemhandtering.",
+    MMP317: "Valemne i designstrategiar og konseptutvikling.",
+    IPA302: "Valemne frå eit anna masterprogram: prosessleiing og fasilitering. Emneval kan vere avgrensa.",
+    IPA303: "Valemne frå eit anna masterprogram: leiing og kommunikasjon i offentleg sektor. Emneval kan vere avgrensa.",
+    MMP312: "Emne i forskingsdesign og metodar som førebur studenten på eit sjølvstendig akademisk prosjekt om eit sjølvvalt medietema.",
+    MMP313: "Prosjektbasert masteroppgåve. Eitt av to oppgåvealternativ; oppgåva blir rettleidd og skal følgje forskingsetiske normer.",
+    MMP314: "Skriftleg masteroppgåve. Eitt av to oppgåvealternativ; oppgåva blir rettleidd og skal følgje forskingsetiske normer."
 };
 
 const SKILLS = [
@@ -175,6 +200,7 @@ function renderStepDetails(stepNum) {
                     <div class="flex items-center space-x-2">
                         <span class="font-mono font-bold text-xs text-amber-400 group-hover:underline">${c.code}</span>
                         ${c.stp > 0 ? `<span class="text-[10px] bg-slate-900 px-1.5 py-0.5 rounded text-slate-400">${c.stp} stp</span>` : ''}
+                        ${c.kind ? `<span class="text-[10px] bg-slate-900 px-1.5 py-0.5 rounded text-slate-400">${c.kind}</span>` : ''}
                     </div>
                     <h4 class="font-medium text-sm text-slate-200 group-hover:text-white mt-1">${c.name}</h4>
                 </div>
@@ -220,24 +246,28 @@ function openCourse(code, name, stp, sem) {
     document.getElementById('mini-staircase-widget').classList.add('flex');
 
     const content = document.getElementById('course-detail-content');
+    const courseMeta = [
+        stp > 0 ? `${stp} studiepoeng` : "",
+        sem ? `Semester: ${sem}` : ""
+    ].filter(Boolean).join(" · ");
+    const courseContent = COURSE_CONTENT[code];
     content.innerHTML = `
         <div class="border-b border-slate-800 pb-6 space-y-2">
             <div class="flex items-center space-x-3">
                 <span class="font-mono text-sm font-bold text-amber-400 bg-amber-500/10 px-3 py-1 rounded-md border border-amber-500/20">${code}</span>
-                <span class="text-xs text-slate-400 font-mono">${stp} studiepoeng · Semester: ${sem}</span>
+                ${courseMeta ? `<span class="text-xs text-slate-400 font-mono">${courseMeta}</span>` : ""}
             </div>
             <h1 class="text-3xl font-serif font-bold text-slate-100">${name}</h1>
         </div>
 
-        <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
-            <div class="lg:col-span-2 space-y-6">
+        <div class="${courseContent ? "grid grid-cols-1" : "grid grid-cols-1 lg:grid-cols-3"} gap-8">
+            <div class="${courseContent ? "" : "lg:col-span-2 "}space-y-6">
                 <div>
                     <h3 class="text-sm font-semibold uppercase tracking-wider text-amber-400 mb-2">Om emnet og læringsutbytte</h3>
-                    <p class="text-slate-300 text-sm leading-relaxed">
-                        Dette emnet byggjer opp under kompetansetrappa ved Høgskulen i Volda. Studentane arbeider med både teoretiske rammeverk og praktiske oppgåve-simuleringar for å førebu seg til arbeidsliv og fagleg utvikling.
-                    </p>
+                    <p class="text-slate-300 text-sm leading-relaxed">${courseContent || "Emnet inngår i kompetansetrappa ved Høgskulen i Volda og byggjer vidare på fagleg kunnskap og praktiske ferdigheiter."}</p>
                 </div>
 
+                ${courseContent ? "" : `
                 <div class="space-y-4">
                     <h3 class="text-sm font-semibold uppercase tracking-wider text-amber-400">Læringsressursar</h3>
 
@@ -263,8 +293,10 @@ function openCourse(code, name, stp, sem) {
                         </div>
                     </div>
                 </div>
+                `}
             </div>
 
+            ${courseContent ? "" : `
             <div class="space-y-4 bg-slate-950 p-6 rounded-xl border border-slate-800 h-fit">
                 <h4 class="text-xs font-semibold text-slate-400 uppercase tracking-wider">Relevante praksisferdigheiter</h4>
                 <div class="flex flex-wrap gap-1.5">
@@ -273,6 +305,7 @@ function openCourse(code, name, stp, sem) {
                     <span class="text-[11px] bg-amber-500/10 text-amber-300 px-2.5 py-1 rounded-md border border-amber-500/20">KI i kommunikasjon</span>
                 </div>
             </div>
+            `}
         </div>
     `;
 
