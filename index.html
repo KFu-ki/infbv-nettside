@@ -1,9 +1,22 @@
 <!DOCTYPE html>
-<html lang="nn" class="h-full bg-slate-950 text-slate-100">
+<html lang="nn" class="h-full bg-slate-950 text-slate-100" data-theme="dark">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>INFBV — kompetansetrapp og fagportal | Høgskulen i Volda</title>
+    <meta name="theme-color" content="#020617">
+    <script>
+        (() => {
+            try {
+                const savedTheme = localStorage.getItem('infbv-theme');
+                if (savedTheme === 'light' || savedTheme === 'dark') {
+                    document.documentElement.dataset.theme = savedTheme;
+                }
+            } catch (error) {
+                // The page remains usable when browser storage is unavailable.
+            }
+        })();
+    </script>
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
         tailwind.config = {
@@ -53,6 +66,7 @@
                 </div>
             </div>
 
+            <div class="flex items-center gap-2">
             <div id="mini-staircase-widget" class="hidden items-center space-x-1 bg-slate-800/80 px-3 py-1.5 rounded-full border border-slate-700 cursor-pointer hover:border-amber-500/50 transition-colors" onclick="toggleMiniStaircasePopover()">
                 <span class="text-xs text-slate-400 font-medium mr-2 hidden md:inline">Kompetansetrapp:</span>
                 <div class="flex items-end space-x-1 h-5">
@@ -63,6 +77,11 @@
                     <div class="w-2 bg-indigo-300 h-5 rounded-t-sm opacity-80" title="Trinn 5 (taus kunnskap)"></div>
                 </div>
                 <svg class="w-4 h-4 text-slate-400 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
+            </div>
+            <button id="theme-toggle" type="button" aria-label="Byt til lyst design" aria-pressed="true" class="inline-flex items-center gap-2 rounded-lg border border-slate-700 bg-slate-800/80 px-3 py-2 text-sm font-medium text-slate-200 hover:border-amber-400/70 hover:text-amber-300 transition-colors focus:outline-none focus:ring-2 focus:ring-amber-500/60">
+                <svg id="theme-toggle-icon" class="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v2m0 14v2M5.64 5.64l1.42 1.42m9.88 9.88 1.42 1.42M3 12h2m14 0h2M5.64 18.36l1.42-1.42m9.88-9.88 1.42-1.42M16 12a4 4 0 1 1-8 0 4 4 0 0 1 8 0Z"></path></svg>
+                <span id="theme-toggle-label">Lys</span>
+            </button>
             </div>
         </div>
     </header>

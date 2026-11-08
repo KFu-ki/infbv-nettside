@@ -111,6 +111,7 @@ document.addEventListener('DOMContentLoaded', () => {
     renderStepDetails(1);
     renderSkillsGrid();
     setupEventListeners();
+    setupThemeToggle();
     updateStairVisualState(1);
 });
 
@@ -119,6 +120,38 @@ function setupEventListeners() {
     if (menuBtn) {
         menuBtn.addEventListener('click', toggleMenu);
     }
+}
+
+function setupThemeToggle() {
+    const button = document.getElementById('theme-toggle');
+    if (!button) return;
+
+    const label = document.getElementById('theme-toggle-label');
+    const icon = document.getElementById('theme-toggle-icon');
+    const themeColor = document.querySelector('meta[name="theme-color"]');
+
+    const applyTheme = theme => {
+        const isDark = theme === 'dark';
+        document.documentElement.dataset.theme = theme;
+        button.setAttribute('aria-pressed', String(isDark));
+        button.setAttribute('aria-label', `Byt til ${isDark ? 'lyst' : 'mørkt'} design`);
+        label.textContent = isDark ? 'Lys' : 'Mørk';
+        icon.innerHTML = isDark
+            ? '<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v2m0 14v2M5.64 5.64l1.42 1.42m9.88 9.88 1.42 1.42M3 12h2m14 0h2M5.64 18.36l1.42-1.42m9.88-9.88 1.42-1.42M16 12a4 4 0 1 1-8 0 4 4 0 0 1 8 0Z"></path>'
+            : '<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.9 13.2A8.5 8.5 0 0 1 10.8 3.1 8.5 8.5 0 1 0 20.9 13.2Z"></path>';
+        if (themeColor) themeColor.content = isDark ? '#020617' : '#f6f5f1';
+    };
+
+    applyTheme(document.documentElement.dataset.theme === 'light' ? 'light' : 'dark');
+    button.addEventListener('click', () => {
+        const nextTheme = document.documentElement.dataset.theme === 'dark' ? 'light' : 'dark';
+        applyTheme(nextTheme);
+        try {
+            localStorage.setItem('infbv-theme', nextTheme);
+        } catch (error) {
+            // Theme changes still work for this visit when browser storage is unavailable.
+        }
+    });
 }
 
 function toggleMenu() {

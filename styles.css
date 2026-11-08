@@ -167,3 +167,169 @@
 ::-webkit-scrollbar-thumb:hover {
     background: #d97706;
 }
+
+/* Lyst tema for INFBV-framsida; budsjettverktøyet har eige tema. */
+[data-theme="light"] {
+    color-scheme: light;
+    background-color: #f6f5f1;
+    color: #17263b;
+}
+
+[data-theme="light"] body,
+[data-theme="light"] .bg-slate-950 {
+    background-color: #f6f5f1 !important;
+    color: #17263b !important;
+}
+
+[data-theme="light"] .bg-slate-900\/90 {
+    background-color: rgba(255, 255, 255, 0.94) !important;
+}
+
+[data-theme="light"] .bg-slate-900,
+[data-theme="light"] .bg-slate-900\/60,
+[data-theme="light"] .bg-slate-900\/40 {
+    background-color: #fffefa !important;
+}
+
+[data-theme="light"] .bg-slate-800,
+[data-theme="light"] .bg-slate-800\/60,
+[data-theme="light"] .bg-slate-800\/80 {
+    background-color: #f0eee8 !important;
+}
+
+[data-theme="light"] .bg-slate-950\/70,
+[data-theme="light"] .bg-slate-950\/80 {
+    background-color: #eeece5 !important;
+}
+
+[data-theme="light"] .border-slate-800,
+[data-theme="light"] .border-slate-700,
+[data-theme="light"] .border-slate-700\/60 {
+    border-color: #dedbd2 !important;
+}
+
+[data-theme="light"] .text-slate-100,
+[data-theme="light"] .text-slate-200,
+[data-theme="light"] .text-white {
+    color: #17263b !important;
+}
+
+[data-theme="light"] .text-slate-300 {
+    color: #34445a !important;
+}
+
+[data-theme="light"] .text-slate-400 {
+    color: #536176 !important;
+}
+
+[data-theme="light"] .text-slate-500,
+[data-theme="light"] .text-slate-600 {
+    color: #657187 !important;
+}
+
+[data-theme="light"] .text-amber-400,
+[data-theme="light"] .text-amber-300,
+[data-theme="light"] .text-amber-200,
+[data-theme="light"] .text-amber-100,
+[data-theme="light"] .text-amber-100\/80 {
+    color: #875000 !important;
+}
+
+[data-theme="light"] .text-indigo-400,
+[data-theme="light"] .text-indigo-300,
+[data-theme="light"] .text-indigo-200,
+[data-theme="light"] .text-indigo-100 {
+    color: #494a9f !important;
+}
+
+[data-theme="light"] .selection\:text-slate-950::selection {
+    color: #17263b !important;
+}
+
+[data-theme="light"] .stair-step {
+    background-image: linear-gradient(to top, #ece9df, #fffefa) !important;
+    border-color: #d6c7a7;
+}
+
+[data-theme="light"] .stair-step:nth-child(2) {
+    background-image: linear-gradient(to top, #ece9df, #fbf1df) !important;
+}
+
+[data-theme="light"] .stair-step:nth-child(3) {
+    background-image: linear-gradient(to top, #ece9df, #f4dfbd) !important;
+}
+
+[data-theme="light"] .stair-step:nth-child(4) {
+    background-image: linear-gradient(to top, #ece9df, #e8e7fa) !important;
+    border-color: #c7c8ec;
+}
+
+[data-theme="light"] .stair-step:nth-child(5) {
+    background-image: linear-gradient(to top, #ece9df, #f6edcf) !important;
+}
+
+[data-theme="light"] .stair-step.ring-2 {
+    outline-offset: 3px;
+}
+
+[data-theme="light"] .stair-step:hover {
+    box-shadow: 0 10px 24px -10px rgba(99, 70, 25, 0.28);
+}
+
+#home-view > section:first-of-type > div.flex {
+    height: 320px !important;
+}
+
+[data-theme="light"] #step-details-container,
+[data-theme="light"] #skills-grid article {
+    box-shadow: 0 8px 24px -18px rgba(36, 43, 57, 0.24);
+}
+
+[data-theme="light"] .bg-slate-950::-webkit-scrollbar-track {
+    background: #f6f5f1;
+}
+
+[data-theme="light"] ::-webkit-scrollbar-track {
+    background: #eceae4;
+}
+
+@media (max-width: 480px) {
+    #theme-toggle {
+        min-height: 2.75rem;
+        padding-inline: 0.65rem;
+    }
+
+    #theme-toggle-label {
+        font-size: 0.75rem;
+    }
+}
+
+@media (max-width: 1023px) {
+    #home-view > section:first-of-type > div.flex {
+        height: auto !important;
+    }
+
+    #home-view > section:first-of-type .stair-step > div:first-child {
+        position: absolute !important;
+        inset: 0.35rem 0.1rem auto !important;
+        width: auto !important;
+        height: auto !important;
+        padding: 0 !important;
+        margin: 0 !important;
+        overflow: visible !important;
+        clip: auto !important;
+        white-space: normal !important;
+        border: 0 !important;
+        justify-content: center;
+    }
+
+    #home-view > section:first-of-type .stair-step > div:first-child span:first-child {
+        font-size: 8px;
+        line-height: 1.2;
+        letter-spacing: 0;
+    }
+
+    #home-view > section:first-of-type .stair-step > div:first-child span:nth-child(2) {
+        display: none;
+    }
+}
