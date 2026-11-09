@@ -4,5 +4,18 @@ __pycache__/
 *.py[cod]
 .env
 .env.*
+!.env.example
 .backups/
 .DS_Store
+_backup/
+
+# Keep raw and regenerable datasets out of Git by default.
+/data/raw/*
+!/data/raw/.gitkeep
+!/data/raw/README.md
+/data/processed/*
+!/data/processed/.gitkeep
+!/data/processed/README.md
+/data/exports/*
+!/data/exports/.gitkeep
+!/data/exports/README.md

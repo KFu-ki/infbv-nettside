@@ -1,0 +1,6 @@
+---
+description: Shared INFBV project rules and repository knowledge
+alwaysApply: true
+---
+
+Follow the root `AGENTS.md`. Read `README.md`, `docs/INDEX.md`, `docs/project/current-state.md`, and `docs/project/next-actions.md` before work. Use `python3 scripts/knowledge_lookup.py "<topic>"` for a concise local lookup, then read the source documents. Preserve existing changes and never publish without approval. After documentation or code changes, run `python3 scripts/build_manual.py`; do not edit generated manual files directly.

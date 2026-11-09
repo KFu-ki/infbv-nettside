@@ -1,0 +1,22 @@
+name: Documentation checks
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  documentation:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+      - name: Check required documents, links, and tracked secret files
+        run: python scripts/check_documentation.py
+      - name: Check generated manual is current
+        run: python scripts/build_manual.py --check

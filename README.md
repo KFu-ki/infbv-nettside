@@ -1,5 +1,24 @@
 # INFBV fagportal
 
+Sjå [dokumentasjonsindeksen](docs/INDEX.md) for prosjektstatus, arkitektur, datakjelder, drift og utviklarrettleiingar.
+
+For emnekodar, gjeldande nynorske visingsnamn og seinare omsetjingar, bruk mappa [INFBV-studiemodell](INFBV-studiemodell/studiemodell.md). I VS Code med GitHub Copilot kan du starte med arbeidsflytprompten `.github/prompts/infbv-work.prompt.md`.
+
+Kort lokalt kunnskapsoppslag for menneske og agentar:
+
+```bash
+python3 scripts/knowledge_lookup.py "timeplan import"
+```
+
+Bygg samla Markdown-manual, kodekart og PDF etter dokumentasjons-/kodeendringar:
+
+```bash
+python3 scripts/build_manual.py
+python3 scripts/build_manual.py --check
+```
+
+Skriptet oppdaterer avleidde filer i `docs/manual/`; CI kan tilby PDF-en som workflow-artifakt. Sjå [manualrettleiinga](docs/manual/README.md). Dette endrar ikkje KI-modell, leverandørkonto eller chatminne.
+
 Nettsida kan publiserast frå dette GitHub-repoet med Vercel. INFBV-forsida ligg på `/`, AMF-dashbordet på `/budsjett/`, og Timeplan 2027 på `/timeplan2027/`.
 
 ## Lokal utvikling

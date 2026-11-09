@@ -1,0 +1,32 @@
+name: Build development manual
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  manual:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+      - name: Build Markdown catalog, manual, and PDF
+        run: python scripts/build_manual.py
+      - name: Publish manual as a workflow artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: infbv-development-manual
+          path: |
+            docs/manual/code-map.md
+            docs/manual/development-manual.pdf
+            docs/manual/development-manual.md
+            docs/manual/knowledge-catalog.md
+          if-no-files-found: error
+          retention-days: 30

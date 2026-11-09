@@ -9,7 +9,7 @@ const STAGES = {
         color: "amber",
         courses: [
             { code: "INF131", name: "PR og kommunikasjon 1: Innføring med praktiske øvingar", stp: 15, sem: "26 H" },
-            { code: "SAL101", name: "Innføring i norsk samfunnsliv", stp: 15, sem: "26 H" },
+            { code: "SAJ101", name: "Innføring i norsk samfunnsliv", stp: 15, sem: "26 H" },
             { code: "INF142", name: "Arbeidsliv og kommunikasjon i praksis", stp: 10, sem: "27 V" },
             { code: "KOM102", name: "Journalistiske metodar i kommunikasjonsarbeid", stp: 10, sem: "27 V" },
             { code: "MEV131", name: "Medievitskap 1 — Medium, offentlegheit og ytringsfridom", stp: 10, sem: "27 V" }
@@ -36,7 +36,7 @@ const STAGES = {
         courses: [
             { code: "INF211", name: "PR og kommunikasjon 3: Samfunnskommunikasjon og CSR", stp: 15, sem: "28 V" },
             { code: "MEV221", name: "Medievitskap 3 — Frå fag til forsking: Korleis analysere medium", stp: 15, sem: "28 V" },
-            { code: "INF213", name: "Arbeidslivsrelevans gjennom praksis / Utveksling", stp: 30, sem: "28 H" }
+            { code: "INF213", name: "Arbeidslivsrelevans gjennom praksis / Internasjonalisering/utveksling", stp: 30, sem: "28 H" }
         ]
     },
     4: {
