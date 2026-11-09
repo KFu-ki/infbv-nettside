@@ -1,3 +1,9 @@
+## 2026-11-09 — Fleirspråklege emnenamn
+
+- Oppdaterte INFBV-framsida og registeret frå `Nye emnenamn.xlsx`; fjerna eldre programnamnprefiks frå kursnamna.
+- Kontrollerte emnekodane mot `app.js`. KOM102 hadde ein manglande s i kjeldearket, og INF213 hadde repetert «gjennom praksis»; desse openberre skrivefeila vart retta i registeret.
+- Deploy er ikkje utført.
+
 ## 2026-11-09 — Studiemodellregister og Copilot
 
 - Leste og visuelt kontrollerte revisjonstabellen på side 1. Oppdaterte berre emnekoden SAJ101 og det utvida INF213-namnet; MEV221 er halde på nynorsk.

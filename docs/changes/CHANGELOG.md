@@ -1,3 +1,8 @@
+## 2026-11-09 — Emnenamn på nynorsk, bokmål og engelsk
+
+- Oppdaterte dei 11 bachelor-emna i INFBV-framsida og studiemodellregisteret frå `Nye emnenamn.xlsx`. Fjerna eldre «PR og kommunikasjon 1/3/5»-prefiks.
+- Fylte bokmåls- og engelske namn i Excel-arbeidsboka; dokumenterte to openberre kjeldekorreksjonar.
+
 ## 2026-11-09 — Emnenamn og Copilot-arbeidsflyt
 
 - Oppdaterte INFBV-framsida med SAJ101-koden og fullført INF213-visingsnamn frå revisjonstabellen.

@@ -73,7 +73,7 @@ Automatisk oversyn over kjelde-/konfigurasjonsfiler. Korte SHA-256-prefiksar gje
 | `.github/workflows/manual.yml` | `.yml` | `2291b89bff8f` | Konfigurasjon |
 | `.github/workflows/static.yml` | `.yml` | `f2d965580744` | Konfigurasjon |
 | `.vscode/extensions.json` | `.json` | `e6089ad5102d` | Konfigurasjon |
-| `app.js` | `.js` | `6b86e4d62e01` | STAGES, COURSE_CONTENT, SKILLS, activeStep, setupEventListeners, menuBtn, staircaseWidget, drawer, popover, setupThemeToggle, button, label, icon, themeColor, applyTheme, isLight, nextTheme, toggleMenu, isOpening, closeMenu, toggleMiniStaircasePopover, closeMiniStaircasePopover, widget, selectStep, courseViewWasOpen, updateStairVisualState, steps, currentStep, isActive, title, renderStepDetails, stage, container, isMaster, badgeBg, html, courseSkills, open, course, renderSkillsGrid, groups, isAI, borderClass, stages, courses, openCourse, content, courseMeta, courseContent, courseHeading, showHome |
+| `app.js` | `.js` | `f6fe18c4b70c` | STAGES, COURSE_CONTENT, SKILLS, activeStep, setupEventListeners, menuBtn, staircaseWidget, drawer, popover, setupThemeToggle, button, label, icon, themeColor, applyTheme, isLight, nextTheme, toggleMenu, isOpening, closeMenu, toggleMiniStaircasePopover, closeMiniStaircasePopover, widget, selectStep, courseViewWasOpen, updateStairVisualState, steps, currentStep, isActive, title, renderStepDetails, stage, container, isMaster, badgeBg, html, courseSkills, open, course, renderSkillsGrid, groups, isAI, borderClass, stages, courses, openCourse, content, courseMeta, courseContent, courseHeading, showHome |
 | `app.py` | `.py` | `9c850f4d3473` | dashboard_data, export_dashboard, timetable_data, export_timetable, home, main_script, main_styles, version |
 | `budsjett/app.js` | `.js` | `d04c76ce9101` | programDefinitions, numberFormat, oneDecimal, fteFormat, state, el, fmt, fmtOne, fmtFte, fmtKr, fmtPercent, fmtStaffDelta, esc, programCalculations, alternativeStaff, flowBack, adminBack, sharedBack, baseStaff, assignedStaff, effectiveStaff, totalStudents, totalBudget, totalCredits, avgCredits, averageStudentsPerStaff, averageBudgetPerStudent, scenarioStaffAllocations, productionPool, weights, productionShare, studentShare, alternativeCapacity, total, nonProduction, shared, analysisTableCreated, renderAnalysisTable, field, inputValue, value, program, tableRow, currentValue, staffInput, cells, totalProgramStaff, renderKpis, first, programStaffTotal, capacity, renderAlternativePanel, alternative, selected, names, proposal, basis, unitIndex, productionIndex, currentProgramStaff, previousStudents, currentStudents, studentChange, index, production2026, production2027, productionChange, budget2026, budgetChange, referenceStaff, staffChange, unit, renderProposal, finalSum, noteBudget, stipend, final, units, sumCard, fellesSources, fellesComponentsTotal, dbhStudents, studentDifference, dashboardStudents, proposalCell, isCurrency, inputStep, maxAllocation, unitHeader, componentRows, row, tableBody, mismatch, mismatchText, componentDifference, reference, componentSumIssues, mpro, mproPhoto, referenceFinalSum, referenceDistributionSum, referenceSalarySum, recalculateProposal, sumRows, result, updateProposalValue, rawValue, groupData, renderOverview, maxBudget, categoryFor, renderBarometer, average, max, category, renderReport, sortedCredits, sortedBudget, above, below, workloadText, renderWorkload, highest, metrics, means, ratio, color, difference, diffText, traffic, renderRadar, maxima, cx, pointsAt, angle, grid, points, axes, edge, label, shapes, legend, renderTraffic, renderBubble, width, left, plotWidth, maxStaff, maxCredits, averageStudents, x, y, lineY, dots, radius, cy, labelY, ticks, svg, renderScenario, avg, fteTotal, idealTotal, renderSankey, sourceX, output, available, staffWeightTotal, maxThickness, paths, share, thickness, sourceY, targetY, d, nodes, renderDashboard, programs, loadWorkbookData, response, source, dataByCode, csvEscape, exportExcel, allocationWeightTotal, modelName, overview, details, staffing, budget, budgetInKroner, blob, link, url, exportCsvFallback, rows, csv, exportPng, image, svgBlob, objectUrl, canvas, context, pngUrl, dark |
 | `budsjett/index.html` | `.html` | `95690952975b` | AMF \| Budsjett og ressursoversikt |
@@ -770,6 +770,11 @@ Alternativ vekting bruker samla produksjon/studentar; ved null totalsum er nemna
 <a id="docs-changes-CHANGELOG.md"></a>
 ## Kjelde: `docs/changes/CHANGELOG.md`
 
+## 2026-11-09 — Emnenamn på nynorsk, bokmål og engelsk
+
+- Oppdaterte dei 11 bachelor-emna i INFBV-framsida og studiemodellregisteret frå `Nye emnenamn.xlsx`. Fjerna eldre «PR og kommunikasjon 1/3/5»-prefiks.
+- Fylte bokmåls- og engelske namn i Excel-arbeidsboka; dokumenterte to openberre kjeldekorreksjonar.
+
 ## 2026-11-09 — Emnenamn og Copilot-arbeidsflyt
 
 - Oppdaterte INFBV-framsida med SAJ101-koden og fullført INF213-visingsnamn frå revisjonstabellen.
@@ -864,6 +869,12 @@ Alternativ vekting bruker samla produksjon/studentar; ved null totalsum er nemna
 
 <a id="docs-changes-project-journal.md"></a>
 ## Kjelde: `docs/changes/project-journal.md`
+
+## 2026-11-09 — Fleirspråklege emnenamn
+
+- Oppdaterte INFBV-framsida og registeret frå `Nye emnenamn.xlsx`; fjerna eldre programnamnprefiks frå kursnamna.
+- Kontrollerte emnekodane mot `app.js`. KOM102 hadde ein manglande s i kjeldearket, og INF213 hadde repetert «gjennom praksis»; desse openberre skrivefeila vart retta i registeret.
+- Deploy er ikkje utført.
 
 ## 2026-11-09 — Studiemodellregister og Copilot
 
@@ -1535,7 +1546,7 @@ Ei chatkommando utløyser ikkje i seg sjølv commit, push eller publisering. Ikk
 
 - Offentleg fagportal med HTML/CSS/JavaScript-framside, budsjettoversikt og Timeplan 2027.
 - INFBV-framsida har ein tilgjengeleg lys/mørk-brytar med lokalt lagra val; mørkt tema er standard. Trinnval, navigasjonsmeny og hurtignavigasjon kan styrast med tastatur.
-- `INFBV-studiemodell/` samlar emneoversikt og språkvariantar. `app.js` er framleis køyrande kjelde; registeret støttar manuell kontroll og seinare omsetjing.
+- `INFBV-studiemodell/` samlar emneoversikt og språkvariantar. `app.js` er framleis køyrande kjelde; registeret støttar manuell kontroll og seinare omsetjing. Dei 11 bachelor-emna vart oppdaterte frå `Nye emnenamn.xlsx` 2026-11-09.
 - FastAPI-app i `app.py` tilbyr data- og Excel-endepunkt og serverer sidene.
 - JSON-utdrag finst i `budsjett/data.json` og `timeplanside/timeplan-2027.json`; README seier dei vert brukte av statiske sider.
 - Tre eksisterande dataskript handterer budsjettoppdatering, TimeEdit-import og timeplaneksport. Tre nye skript kontrollerer dokumentasjon, byggjer manual og gjer lokale kunnskapsoppslag.
@@ -1595,6 +1606,10 @@ Ved dokumentasjonsoppstart var `git status --short` tom, og `git ls-files` viste
 | `python3 scripts/check_documentation.py`, `git diff --check` og `python3 scripts/build_manual.py --check` etter denne endringa | Bestått etter bygging av den endelege manualen |
 | Representativ kontrastmåling av lyst tema | Bestått: lågaste målte tekstpar 6,08:1; målinga dekkjer ikkje alle tilstandar/komponentar og er ikkje full WCAG-revisjon |
 | Publisering av studiemodellregister og emneendringar, commit `a8c7e95` | READY på Vercel; live-side stadfesta SAJ101 og det oppdaterte INF213-namnet |
+| Oppdatering frå `Nye emnenamn.xlsx` | Kode/register er oppdatert lokalt; deploy ikkje utført i denne oppgåva |
+| `node --check app.js` med den bundla Node-versjonen | Bestått etter fleirspråkleg emnenamnoppdatering |
+| `python3 scripts/build_manual.py` og `--check` | Bestått etter oppdatering av kode og Markdown |
+| `python3 scripts/check_documentation.py` og `git diff --check` | Bestått |
 
 Kontrollane seier ikkje noko om ekstern deploy, produksjonsdrift eller gyldigheita av eksterne kjeldedata.
 
@@ -1675,61 +1690,57 @@ Følg [AGENTS.md](AGENTS.md), [dokumentasjonsindeksen](docs/INDEX.md), [prosjekt
 
 # INFBV-studiemodell
 
-Dette registeret samlar emnekodar og visingsnamn for kompetansetrappa på INFBV-framsida. Bruk det når du oppdaterer emneoversikta eller legg til språkvariantar. Excel-arbeidsboka `studiemodell.xlsx` har same emneliste og eigne kolonnar for bokmål og engelsk.
+Dette registeret samlar emnekodar, emnenamn på nynorsk, bokmål og engelsk, semester og studiepoeng for INFBV-framsida. Excel-arbeidsboka `studiemodell.xlsx` er den redigerbare fleirspråklege oversikta.
 
 ## Kjelde og språk
 
-- Revisjonstabellen: `Revisjon nov 2026.pdf`, side 1. Ho listar obligatoriske emne og studiepoeng per semester.
-- Masteremne som ikkje står i revisjonstabellen, er tekne frå den eksisterande INFBV-framsida.
-- Visingsnamna nedanfor følgjer nynorsk der det finst ein nynorsk variant. Engelske emnenamn blir ståande på engelsk når det er namnet som er brukt på nettsida.
-- PDF-en har «Medievitenskap» for MEV221. Nettsida brukar nynorskforma «Medievitskap», som skal behaldast.
-- Excel-kolonnane for bokmål og engelsk er tomme fram til eigar legg inn kontrollerte omsetjingar. Ikkje omset offisielle emnenamn automatisk.
+- Emnenamna og språkvariantane for dei 11 emna i bachelorløpet er henta frå `Nye emnenamn.xlsx` (mottatt 2026-11-09).
+- Masteremne som ikkje står i denne kjelda, er tekne frå den eksisterande INFBV-framsida. Språkfelt som kjelda ikkje oppgir, står tomme i arbeidsboka.
+- Nynorsk er visingsspråket på nettsida. Emnekodane står føre emnenamna; tidlegare programnamnprefiks som «PR og kommunikasjon 1/3/5» er fjerna.
+- To openberre skrivefeil i kjelda er retta i registeret: KOM102 «kommunikasjonarbeid» er normalisert til «kommunikasjonsarbeid», og INF213 sitt doble «gjennom praksis» er redusert til éi førekomst. Prefikset «PR og kommunikasjon 5» er òg fjerna frå bokmålsnamnet for INF213 i tråd med stilkravet.
 
-## Endringar mot nettsida
+## Oppdaterte bachelor-emne
 
-| Emnekode | Gjeldande vising | Kva vart endra |
+| Trinn | Emnekode | Nynorsk (nettsida) | Bokmål | English | Semester | Studiepoeng |
+|---|---|---|---|---|---|---:|
+| 1 | INF131 | Innføring med praktiske øvingar | Innføring med praktiske øvelser | Introduction with Practical Exercises | 26 H | 15 |
+| 1 | SAJ101 | Innføring i norsk samfunnsliv | Innføring i norsk samfunnsliv | An introduction to the Norwegian society | 26 H | 15 |
+| 1 | INF142 | Arbeidsliv og kommunikasjon i praksis | Arbeidsliv og kommunikasjon i praksis | Communication Management in Practice | 27 V | 10 |
+| 1 | KOM102 | Journalistiske metodar i kommunikasjonsarbeid | Journalistiske metoder i kommunikasjonsarbeid | Journalistic Methods in Communication Practice | 27 V | 10 |
+| 1 | MEV131 | Medievitskap 1 - Medium, offentlegheit og ytringsfridom | Medievitenskap 1 - Medium, offentlighet og ytringsfrihet | Media Studies 1 - Medium, Public Sphere and Freedom of Expression | 27 V | 10 |
+| 2 | KOM201 | Krisekommunikasjon | Krisekommunikasjon | Crisis Communication | 27 H | 10 |
+| 2 | KOM202 | Kommunikasjonsprosjekt | Kommunikasjonsprosjekt | Applied Communication Project | 27 H | 10 |
+| 2 | MEV132 | Medievitskap 2 - Media, kommunikasjon og makt | Medievitenskap 2 - Media, kommunikasjon og makt | Media Studies 2 - Media, Communication and Power | 27 H | 10 |
+| 3 | INF211 | Samfunnskommunikasjon | Samfunnskommunikasjon | Communication in Society and Corporate Responsibility | 28 V | 15 |
+| 3 | MEV221 | Medievitskap 3 - Frå fag til forsking: Korleis analysere medium | Medievitenskap 3 – Fra fag til forskning: Hvordan analysere medier | Media Studies 3 – Analyzing Media | 28 V | 15 |
+| 3 | INF213 | Arbeidslivsrelevans gjennom praksis | Arbeidslivsrelevans gjennom praksis | Practice Placement and Final Assessment | 28 H | 30 |
+
+## Masteremne frå eksisterande nettside
+
+Desse emna ligg framleis på nettsida. Dei var ikkje med i den nye namnekjelda og er difor ikkje omsette eller endra her.
+
+| Trinn | Emnekode | Noverande visingsnamn |
 |---|---|---|
-| SAJ101 | Innføring i norsk samfunnsliv | Koden var SAL101 på nettsida. Namnet er uendra. |
-| INF213 | Arbeidslivsrelevans gjennom praksis / Internasjonalisering/utveksling | Tok med «Internasjonalisering/utveksling» frå den andre tekstlina under INF213 i revisjonstabellen. |
-
-Alle andre namn frå revisjonstabellen er alt i samsvar med nettsida, med nynorsk skrivemåte og mindre skilnader i tankestrek/typografi. Ikkje normaliser eller skriv om dei utan ei ny kjelde.
-
-## Emneliste på nettsida
-
-| Trinn | Emnekode | Visingsnamn | Kjelde i revisjonen | Semester | Studiepoeng | Merknad |
-|---|---|---|---|---|---:|---|
-| 1 | INF131 | PR og kommunikasjon 1: Innføring med praktiske øvingar | PR og kommunikasjon 1: Innføring med praktiske øvingar | 26 H | 15 | Uendra |
-| 1 | SAJ101 | Innføring i norsk samfunnsliv | Innføring i norsk samfunnsliv | 26 H | 15 | Kode retta frå SAL101 |
-| 1 | INF142 | Arbeidsliv og kommunikasjon i praksis | Arbeidsliv og kommunikasjon i praksis | 27 V | 10 | Uendra |
-| 1 | KOM102 | Journalistiske metodar i kommunikasjonsarbeid | Journalistiske metodar i kommunikasjonsarbeid | 27 V | 10 | Uendra |
-| 1 | MEV131 | Medievitskap 1 — Medium, offentlegheit og ytringsfridom | Medievitskap 1 - Medium, offentlegheit og ytringsfridom | 27 V | 10 | Nynorsk; typografi justert |
-| 2 | KOM201 | Crisis Communication | Crisis Communication | 27 H | 10 | Uendra |
-| 2 | KOM202 | Kommunikasjonsprosjekt | Kommunikasjonsprosjekt | 27 H | 10 | Uendra |
-| 2 | MEV132 | Medievitskap 2 — Media, kommunikasjon og makt | Medievitskap 2 - Media, kommunikasjon og makt | 27 H | 10 | Nynorsk; typografi justert |
-| 3 | INF211 | PR og kommunikasjon 3: Samfunnskommunikasjon og CSR | PR og kommunikasjon 3: Samfunnskommunikasjon og CSR | 28 V | 15 | Uendra |
-| 3 | MEV221 | Medievitskap 3 — Frå fag til forsking: Korleis analysere medium | Medievitenskap 3 - Frå fag til forsking: Korleis analysere medium | 28 V | 15 | Nynorsk på nettsida; PDF-teksten er bokmål |
-| 3 | INF213 | Arbeidslivsrelevans gjennom praksis / Internasjonalisering/utveksling | Arbeidslivsrelevans gjennom praksis; Internasjonalisering/utveksling | 28 H | 30 | Samla dei to tekstlinene under INF213 |
-| 4 | MMP301 | Storytelling, Representation and Rhetoric | — | — | — | Masteremne; ikkje i PDF-tabellen |
-| 4 | MMP302 | Media, Professions and Society | — | — | — | Masteremne; ikkje i PDF-tabellen |
-| 4 | MMP303 | Undersøkande journalistikk | — | — | — | Valemne; ikkje i PDF-tabellen |
-| 4 | MMP308 | Media Producing | — | — | — | Valemne; ikkje i PDF-tabellen |
-| 4 | MMP309 | Professional Media Practice | — | — | — | Valemne; ikkje i PDF-tabellen |
-| 4 | MMP310 | Web Documentary | — | — | — | Valemne; ikkje i PDF-tabellen |
-| 4 | MMP311 | Risk Communication and Issue Management | — | — | — | Valemne; ikkje i PDF-tabellen |
-| 4 | MMP317 | Design Strategies and Concepts | — | — | — | Valemne; ikkje i PDF-tabellen |
-| 4 | IPA302 | Process Facilitating | — | — | — | Valemne frå anna masterprogram; ikkje i PDF-tabellen |
-| 4 | IPA303 | Public Sector Leadership and Communication | — | — | — | Valemne frå anna masterprogram; ikkje i PDF-tabellen |
-| 5 | MMP312 | Research Design and Methods | — | — | — | Masteremne; ikkje i PDF-tabellen |
-| 5 | MMP313 | Project Based Master Thesis | — | — | — | Eitt av to oppgåvealternativ; ikkje i PDF-tabellen |
-| 5 | MMP314 | Written Master Thesis | — | — | — | Eitt av to oppgåvealternativ; ikkje i PDF-tabellen |
+| 4 | MMP301 | Storytelling, Representation and Rhetoric |
+| 4 | MMP302 | Media, Professions and Society |
+| 4 | MMP303 | Undersøkande journalistikk |
+| 4 | MMP308 | Media Producing |
+| 4 | MMP309 | Professional Media Practice |
+| 4 | MMP310 | Web Documentary |
+| 4 | MMP311 | Risk Communication and Issue Management |
+| 4 | MMP317 | Design Strategies and Concepts |
+| 4 | IPA302 | Process Facilitating |
+| 4 | IPA303 | Public Sector Leadership and Communication |
+| 5 | MMP312 | Research Design and Methods |
+| 5 | MMP313 | Project Based Master Thesis |
+| 5 | MMP314 | Written Master Thesis |
 
 ## Vedlikehald
 
-1. Oppdater emnenamn og omsetjingar i `studiemodell.xlsx`, og spegl endringane i denne Markdown-tabellen.
-2. Kontroller at kvar emnekode framleis finst i `app.js` under rett trinn. Oppdater `STAGES` og eventuelle koplingar i `SKILLS` berre når emnekoden faktisk har endra seg.
-3. Endre berre namn/kodar som er dokumenterte som endra. Behald etablerte nynorske visingsnamn elles.
-4. Oppdater dei relevante felta i `app.js`, kontroller framvisinga, bygg manualen og følg prosjektets deployrutine.
-5. Fyll språkvariantar berre når eigar har godkjent omsetjinga. La ukjende variantar stå tomme.
+1. Bruk `studiemodell.xlsx` som arbeidsbok for nynorsk, bokmål og engelsk. Oppdater Markdown-tabellen samtidig når godkjende namn endrar seg.
+2. Nynorsk-kolonnen er kjelda for emnenamna i kompetansetrappa i `app.js`.
+3. Behald emnekodane og trinn-/semesterplasseringa med mindre ei godkjend studiemodellkjelde seier noko anna.
+4. Kontroller visinga i nettlesaren, køyr relevant kontroll og bygg manualen etter kode- eller Markdown-endringar.
 
 ---
 

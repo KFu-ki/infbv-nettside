@@ -229,7 +229,7 @@ T*
 T*
 (| .vscode/extensions.json | .json | e6089ad5102d | Konfigurasjon |) Tj
 T*
-(| app.js | .js | 6b86e4d62e01 | STAGES, COURSECONTENT, SKILLS, activeStep,) Tj
+(| app.js | .js | f6fe18c4b70c | STAGES, COURSECONTENT, SKILLS, activeStep,) Tj
 T*
 (setupEventListeners, menuBtn, staircaseWidget, drawer, popover, setupThemeToggle, button,) Tj
 T*
@@ -2390,7 +2390,7 @@ endobj
 << /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 42 0 R >>
 endobj
 44 0 obj
-<< /Length 2378 >>
+<< /Length 2347 >>
 stream
 BT
 /F1 9 Tf
@@ -2433,6 +2433,20 @@ T*
 (<a id="docs-changes-CHANGELOG.md"></a>) Tj
 T*
 (KJELDE: DOCS/CHANGES/CHANGELOG.MD) Tj
+T*
+() Tj
+T*
+(2026-11-09 \227 EMNENAMN P\305 NYNORSK, BOKM\305L OG ENGELSK) Tj
+T*
+() Tj
+T*
+(- Oppdaterte dei 11 bachelor-emna i INFBV-framsida og studiemodellregisteret fr\345 Nye) Tj
+T*
+(emnenamn.xlsx. Fjerna eldre \253PR og kommunikasjon 1/3/5\273-prefiks.) Tj
+T*
+(- Fylte bokm\345ls- og engelske namn i Excel-arbeidsboka; dokumenterte to openberre) Tj
+T*
+(kjeldekorreksjonar.) Tj
 T*
 () Tj
 T*
@@ -2486,6 +2500,21 @@ T*
 T*
 () Tj
 T*
+0 -22 Td
+(Side 21 / 52) Tj
+ET
+endstream
+endobj
+45 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 44 0 R >>
+endobj
+46 0 obj
+<< /Length 2198 >>
+stream
+BT
+/F1 9 Tf
+48 794 Td
+13 TL
 (- Bytte ut m\370rke emneetikettar i lyst tema med lyse flater og lesbar tekst; styrkte) Tj
 T*
 (fokusmarkering og aksentkontrast.) Tj
@@ -2500,21 +2529,6 @@ T*
 T*
 () Tj
 T*
-0 -22 Td
-(Side 21 / 52) Tj
-ET
-endstream
-endobj
-45 0 obj
-<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 44 0 R >>
-endobj
-46 0 obj
-<< /Length 2052 >>
-stream
-BT
-/F1 9 Tf
-48 794 Td
-13 TL
 (2026-11-08 \227 PROSJEKTOPPSTART OG DOKUMENTASJONSGRUNNLAG) Tj
 T*
 () Tj
@@ -2605,6 +2619,21 @@ T*
 T*
 (- Generert kodekart med kontrollsummar som gjer at kjeldekodeendringar krev ny manuell) Tj
 T*
+0 -22 Td
+(Side 22 / 52) Tj
+ET
+endstream
+endobj
+47 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 46 0 R >>
+endobj
+48 0 obj
+<< /Length 2257 >>
+stream
+BT
+/F1 9 Tf
+48 794 Td
+13 TL
 (bygging.) Tj
 T*
 (- Kjeldebasert diskusjonssamandrag med eksplisitt skilje mellom kjende avgjerder og) Tj
@@ -2619,21 +2648,6 @@ T*
 T*
 (- AGENTS.md og Copilot-instruksjonane viser no til lokalt oppslag og regenerering av manual.) Tj
 T*
-0 -22 Td
-(Side 22 / 52) Tj
-ET
-endstream
-endobj
-47 0 obj
-<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 46 0 R >>
-endobj
-48 0 obj
-<< /Length 2333 >>
-stream
-BT
-/F1 9 Tf
-48 794 Td
-13 TL
 (- Indeksen dekkjer nye dokument, adapterar, scripts og genererte manualar.) Tj
 T*
 (- Dokumentasjonskontroll validerer no indeksdekning, adapterreferansar og fersk generert) Tj
@@ -2694,6 +2708,22 @@ T*
 T*
 () Tj
 T*
+(2026-11-09 \227 FLEIRSPR\305KLEGE EMNENAMN) Tj
+T*
+() Tj
+T*
+(- Oppdaterte INFBV-framsida og registeret fr\345 Nye emnenamn.xlsx; fjerna eldre) Tj
+T*
+(programnamnprefiks fr\345 kursnamna.) Tj
+T*
+(- Kontrollerte emnekodane mot app.js. KOM102 hadde ein manglande s i kjeldearket, og INF213) Tj
+T*
+(hadde repetert \253gjennom praksis\273; desse openberre skrivefeila vart retta i registeret.) Tj
+T*
+(- Deploy er ikkje utf\370rt.) Tj
+T*
+() Tj
+T*
 (2026-11-09 \227 STUDIEMODELLREGISTER OG COPILOT) Tj
 T*
 () Tj
@@ -2708,6 +2738,21 @@ T*
 T*
 (- Pusha endringane til main som commit a8c7e95; Vercel-produksjonsdeploy vart READY og live) Tj
 T*
+0 -22 Td
+(Side 23 / 52) Tj
+ET
+endstream
+endobj
+49 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 48 0 R >>
+endobj
+50 0 obj
+<< /Length 3217 >>
+stream
+BT
+/F1 9 Tf
+48 794 Td
+13 TL
 (forsida stadfesta SAJ101 og det nye INF213-namnet.) Tj
 T*
 (- Heldt dei to uversjonerte GitHub Pages-workflowfilene utanfor commit/deploy; dei er ikkje) Tj
@@ -2738,21 +2783,6 @@ T*
 T*
 () Tj
 T*
-0 -22 Td
-(Side 23 / 52) Tj
-ET
-endstream
-endobj
-49 0 obj
-<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 48 0 R >>
-endobj
-50 0 obj
-<< /Length 3207 >>
-stream
-BT
-/F1 9 Tf
-48 794 Td
-13 TL
 (2026-11-09 \227 TILGJENGELEGHEITSGJENNOMGANG AV LYST TEMA) Tj
 T*
 () Tj
@@ -2827,6 +2857,21 @@ T*
 T*
 (skal validere kjeldeindeks og kunne levere manual som Actions-artifakt, utan commit eller) Tj
 T*
+0 -22 Td
+(Side 24 / 52) Tj
+ET
+endstream
+endobj
+51 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 50 0 R >>
+endobj
+52 0 obj
+<< /Length 2699 >>
+stream
+BT
+/F1 9 Tf
+48 794 Td
+13 TL
 (deploy.) Tj
 T*
 (- Samtalehistorikk i repoet er ikkje fullstendig; loggen er avgrensa til samandrag som kan) Tj
@@ -2857,21 +2902,6 @@ T*
 T*
 (JSON-KONTRAKTAR) Tj
 T*
-0 -22 Td
-(Side 24 / 52) Tj
-ET
-endstream
-endobj
-51 0 obj
-<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 50 0 R >>
-endobj
-52 0 obj
-<< /Length 2793 >>
-stream
-BT
-/F1 9 Tf
-48 794 Td
-13 TL
 () Tj
 T*
 (Dette dokumentet viser felt og ansvar basert p\345 filer i repoet. Det er ikkje eit JSON) Tj
@@ -2946,6 +2976,21 @@ T*
 T*
 (publisering |) Tj
 T*
+0 -22 Td
+(Side 25 / 52) Tj
+ET
+endstream
+endobj
+53 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 52 0 R >>
+endobj
+54 0 obj
+<< /Length 3513 >>
+stream
+BT
+/F1 9 Tf
+48 794 Td
+13 TL
 (| supplemental | true for oppf\370ringar som importen skal bevare |) Tj
 T*
 () Tj
@@ -2976,21 +3021,6 @@ T*
 T*
 (- Valider offentleg JSON for personopplysningar og lisens f\370r commit.) Tj
 T*
-0 -22 Td
-(Side 25 / 52) Tj
-ET
-endstream
-endobj
-53 0 obj
-<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 52 0 R >>
-endobj
-54 0 obj
-<< /Length 4113 >>
-stream
-BT
-/F1 9 Tf
-48 794 Td
-13 TL
 () Tj
 T*
 (Kjeldekodene som faktisk les/skriv kontraktane: app.js <../../budsjett/app.js>, timeplan-) Tj
@@ -3065,6 +3095,21 @@ T*
 T*
 (Generert av scripts/updatebudsjettdata.py; vert lese direkte av dashbordet | Manuell ved) Tj
 T*
+0 -22 Td
+(Side 26 / 52) Tj
+ET
+endstream
+endobj
+55 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 54 0 R >>
+endobj
+56 0 obj
+<< /Length 3920 >>
+stream
+BT
+/F1 9 Tf
+48 794 Td
+13 TL
 (oppdatering | Offentleg | Ukjend | Aggregerte studenttal og budsjett/fordeling; eigar m\345) Tj
 T*
 (stadfeste publisering | Ekstern lesar normaliserer data til dashboardformat | Avgrensa) Tj
@@ -3095,21 +3140,6 @@ T*
 T*
 (dataeigar ukjend | Proveniensnotat i timeplanside/timeplan-2027.json; originalbilete ikkje) Tj
 T*
-0 -22 Td
-(Side 26 / 52) Tj
-ET
-endstream
-endobj
-55 0 obj
-<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 54 0 R >>
-endobj
-56 0 obj
-<< /Length 2860 >>
-stream
-BT
-/F1 9 Tf
-48 794 Td
-13 TL
 (lagra her | JSON-rader, basert p\345 bilete | Manuelt transkriberte rader; importskriptet) Tj
 T*
 (bevarer supplemental: true | Ved vurderte endringar | Offentleg n\345r del av JSON | Ukjend |) Tj
@@ -3184,6 +3214,21 @@ T*
 T*
 (KONTEKST) Tj
 T*
+0 -22 Td
+(Side 27 / 52) Tj
+ET
+endstream
+endobj
+57 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 56 0 R >>
+endobj
+58 0 obj
+<< /Length 1822 >>
+stream
+BT
+/F1 9 Tf
+48 794 Td
+13 TL
 () Tj
 T*
 (Kva problem eller behov krev ei avgjerd? Skil dokumenterte fakta fr\345 f\370resetnader.) Tj
@@ -3214,21 +3259,6 @@ T*
 T*
 () Tj
 T*
-0 -22 Td
-(Side 27 / 52) Tj
-ET
-endstream
-endobj
-57 0 obj
-<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 56 0 R >>
-endobj
-58 0 obj
-<< /Length 1983 >>
-stream
-BT
-/F1 9 Tf
-48 794 Td
-13 TL
 (REVERSERING) Tj
 T*
 () Tj
@@ -3303,6 +3333,21 @@ T*
 T*
 (KONSEKVENSAR) Tj
 T*
+0 -22 Td
+(Side 28 / 52) Tj
+ET
+endstream
+endobj
+59 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 58 0 R >>
+endobj
+60 0 obj
+<< /Length 2153 >>
+stream
+BT
+/F1 9 Tf
+48 794 Td
+13 TL
 () Tj
 T*
 (JSON-utdraga er offentleg tilgjengelege i repoet/hosting og m\345 gjennomg\345ast f\370r oppdatering.) Tj
@@ -3333,21 +3378,6 @@ T*
 T*
 (- budsjett/app.js) Tj
 T*
-0 -22 Td
-(Side 28 / 52) Tj
-ET
-endstream
-endobj
-59 0 obj
-<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 58 0 R >>
-endobj
-60 0 obj
-<< /Length 2076 >>
-stream
-BT
-/F1 9 Tf
-48 794 Td
-13 TL
 (- budsjett/data.json) Tj
 T*
 (- timeplan2027/app.js) Tj
@@ -3422,6 +3452,21 @@ T*
 T*
 (kontrollere innhald og personopplysningar f\370r samansl\345ing/publisering. XLSX-/OneDrive-) Tj
 T*
+0 -22 Td
+(Side 29 / 52) Tj
+ET
+endstream
+endobj
+61 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 60 0 R >>
+endobj
+62 0 obj
+<< /Length 2553 >>
+stream
+BT
+/F1 9 Tf
+48 794 Td
+13 TL
 (eksport er ein separat manuell operasjon.) Tj
 T*
 () Tj
@@ -3452,21 +3497,6 @@ T*
 T*
 (- timeplanside/timeplan-2027.json) Tj
 T*
-0 -22 Td
-(Side 29 / 52) Tj
-ET
-endstream
-endobj
-61 0 obj
-<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 60 0 R >>
-endobj
-62 0 obj
-<< /Length 2795 >>
-stream
-BT
-/F1 9 Tf
-48 794 Td
-13 TL
 () Tj
 T*
 (---) Tj
@@ -3541,6 +3571,21 @@ T*
 T*
 (- Lys standardflate med sidebar, KPI-kort, tydeleg tabellhierarki og fargekode for fem) Tj
 T*
+0 -22 Td
+(Side 30 / 52) Tj
+ET
+endstream
+endobj
+63 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 62 0 R >>
+endobj
+64 0 obj
+<< /Length 2643 >>
+stream
+BT
+/F1 9 Tf
+48 794 Td
+13 TL
 (program.) Tj
 T*
 (- Scenario-knappar ligg i topplinja; rapporthandlingar for utskrift/PDF og Excel.) Tj
@@ -3571,21 +3616,6 @@ T*
 T*
 (TILGJENGE OG RESPONSIVITET) Tj
 T*
-0 -22 Td
-(Side 30 / 52) Tj
-ET
-endstream
-endobj
-63 0 obj
-<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 62 0 R >>
-endobj
-64 0 obj
-<< /Length 2812 >>
-stream
-BT
-/F1 9 Tf
-48 794 Td
-13 TL
 () Tj
 T*
 (- Bruk synleg tastaturfokus \(:focus-visible p\345 rotflata\) og semantiske button, label, table,) Tj
@@ -3660,6 +3690,21 @@ T*
 T*
 (obligatorisk.) Tj
 T*
+0 -22 Td
+(Side 31 / 52) Tj
+ET
+endstream
+endobj
+65 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 64 0 R >>
+endobj
+66 0 obj
+<< /Length 2638 >>
+stream
+BT
+/F1 9 Tf
+48 794 Td
+13 TL
 () Tj
 T*
 (BYTE MELLOM AGENTAR) Tj
@@ -3690,21 +3735,6 @@ T*
 T*
 (- Settings Sync kan synkronisere brukarinnstillingar, utvidingar, tastatursnarvegar og) Tj
 T*
-0 -22 Td
-(Side 31 / 52) Tj
-ET
-endstream
-endobj
-65 0 obj
-<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 64 0 R >>
-endobj
-66 0 obj
-<< /Length 2430 >>
-stream
-BT
-/F1 9 Tf
-48 794 Td
-13 TL
 (profilar n\345r du loggar inn og sl\345r det p\345. Det synkroniserer ikkje automatisk prosjektfiler) Tj
 T*
 (eller agentchat.) Tj
@@ -3779,6 +3809,21 @@ T*
 T*
 (  app.py xlsxexport.py requirements.txt) Tj
 T*
+0 -22 Td
+(Side 32 / 52) Tj
+ET
+endstream
+endobj
+67 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 66 0 R >>
+endobj
+68 0 obj
+<< /Length 2691 >>
+stream
+BT
+/F1 9 Tf
+48 794 Td
+13 TL
 (  budsjett/{index.html,app.js,styles.css,data.json,assets/}) Tj
 T*
 (  timeplan2027/{index.html,app.js,styles.css}) Tj
@@ -3809,21 +3854,6 @@ T*
 T*
 (detaljar.) Tj
 T*
-0 -22 Td
-(Side 32 / 52) Tj
-ET
-endstream
-endobj
-67 0 obj
-<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 66 0 R >>
-endobj
-68 0 obj
-<< /Length 2857 >>
-stream
-BT
-/F1 9 Tf
-48 794 Td
-13 TL
 (3. Hald visuell CSS i styles.css; test keyboard focus og smal viewport.) Tj
 T*
 (4. Eksternt Tailwind-CDN er noverande val, ikkje f\370resetnad. Om du fjernar/erstattar det,) Tj
@@ -3898,6 +3928,21 @@ T*
 T*
 (- Timeplan: f\370lg scripts/importtimeplan.py, valider arknamn/headers, metadata/proveniens og) Tj
 T*
+0 -22 Td
+(Side 33 / 52) Tj
+ET
+endstream
+endobj
+69 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 68 0 R >>
+endobj
+70 0 obj
+<< /Length 3199 >>
+stream
+BT
+/F1 9 Tf
+48 794 Td
+13 TL
 (bevaring av supplemental rows.) Tj
 T*
 (- Godkjend endring: oppdater JSON, gjennomg\345 diff, k\370yr scripts/exporttimeplan.py og) Tj
@@ -3928,21 +3973,6 @@ T*
 T*
 (3. Med backend-avhengnader installerte: test API/XLSX; utf\370r ein nettlesar-smoketest av kvar) Tj
 T*
-0 -22 Td
-(Side 33 / 52) Tj
-ET
-endstream
-endobj
-69 0 obj
-<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 68 0 R >>
-endobj
-70 0 obj
-<< /Length 3582 >>
-stream
-BT
-/F1 9 Tf
-48 794 Td
-13 TL
 (flate.) Tj
 T*
 (4. K\370yr python3 scripts/buildmanual.py for oppdatert katalog, Markdown-manual og PDF.) Tj
@@ -4017,6 +4047,21 @@ T*
 T*
 (spare gjenteken opplesing; ingen modell-/konto-/chatminne kan endrast av repo-skript |) Tj
 T*
+0 -22 Td
+(Side 34 / 52) Tj
+ET
+endstream
+endobj
+71 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 70 0 R >>
+endobj
+72 0 obj
+<< /Length 3035 >>
+stream
+BT
+/F1 9 Tf
+48 794 Td
+13 TL
 (scripts/knowledgelookup.py, scripts/buildmanual.py, docs/agents/efficient-context.md |) Tj
 T*
 (Faktisk token-/kostnadssparing avheng av agent og brukar; ikkje m\345lt |) Tj
@@ -4047,21 +4092,6 @@ T*
 T*
 () Tj
 T*
-0 -22 Td
-(Side 34 / 52) Tj
-ET
-endstream
-endobj
-71 0 obj
-<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 70 0 R >>
-endobj
-72 0 obj
-<< /Length 2998 >>
-stream
-BT
-/F1 9 Tf
-48 794 Td
-13 TL
 (SLIK F\330RER EIN NY POST) Tj
 T*
 () Tj
@@ -4136,6 +4166,21 @@ T*
 T*
 (ADR-ar og respektive kjeldeomr\345de |) Tj
 T*
+0 -22 Td
+(Side 35 / 52) Tj
+ET
+endstream
+endobj
+73 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 72 0 R >>
+endobj
+74 0 obj
+<< /Length 4301 >>
+stream
+BT
+/F1 9 Tf
+48 794 Td
+13 TL
 (| Introduksjon <introduction/overview.md> | Kort om prosjekt, m\345l og kva som er/ikkje er) Tj
 T*
 (stadfesta | Nye bidragsytarar eller agentar | Omfang eller hovudfunksjonar endrar seg |) Tj
@@ -4166,21 +4211,6 @@ T*
 T*
 (komponentar | Filene sj\370lve og validerte runtime-testar |) Tj
 T*
-0 -22 Td
-(Side 35 / 52) Tj
-ET
-endstream
-endobj
-73 0 obj
-<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 72 0 R >>
-endobj
-74 0 obj
-<< /Length 4269 >>
-stream
-BT
-/F1 9 Tf
-48 794 Td
-13 TL
 (| Backend og API <architecture/backend-api.md> | Ruter, payloads, hosting- og) Tj
 T*
 (reserveoppf\370rsel | Endringar i FastAPI, eksport eller runtime | API- eller backendoppf\370rsel) Tj
@@ -4255,6 +4285,21 @@ T*
 T*
 (timeplanforslag | Endring av publiserings-/godkjenningsflyt | Godkjenningsflyten vert) Tj
 T*
+0 -22 Td
+(Side 36 / 52) Tj
+ET
+endstream
+endobj
+75 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 74 0 R >>
+endobj
+76 0 obj
+<< /Length 4268 >>
+stream
+BT
+/F1 9 Tf
+48 794 Td
+13 TL
 (formelt endra via ny ADR | K\370yrande kode og ny godkjend ADR |) Tj
 T*
 (| Prosjektstatus <project/current-state.md> | Kontrollert no-situasjon og faktiske) Tj
@@ -4285,21 +4330,6 @@ T*
 T*
 (chateksport | Tidlegare prosjektval er relevante | Ny avgjerd eller uavklart punkt vert teke) Tj
 T*
-0 -22 Td
-(Side 36 / 52) Tj
-ET
-endstream
-endobj
-75 0 obj
-<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 74 0 R >>
-endobj
-76 0 obj
-<< /Length 4097 >>
-stream
-BT
-/F1 9 Tf
-48 794 Td
-13 TL
 (opp | Godkjende ADR-ar og verifiserte repo-/issue-kjelder |) Tj
 T*
 (| Agentkontekst og kostnad <agents/efficient-context.md> | Lokal oppslagsflyt, token\370konomi) Tj
@@ -4374,6 +4404,21 @@ T*
 T*
 (Skriptkoden |) Tj
 T*
+0 -22 Td
+(Side 37 / 52) Tj
+ET
+endstream
+endobj
+77 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 76 0 R >>
+endobj
+78 0 obj
+<< /Length 4131 >>
+stream
+BT
+/F1 9 Tf
+48 794 Td
+13 TL
 (| Datahandtering <../data/README.md> | Konvensjonar for r\345data, transformert data og eksport) Tj
 T*
 (| Ny datakjelde eller lagringsbehov | Datareglar endrar seg | Datakjeldeavtalar og godkjende) Tj
@@ -4404,21 +4449,6 @@ T*
 T*
 (| Timeplan-issue-mal <../.github/ISSUETEMPLATE/timeplan-forslag.md> | Skjema for offentlege) Tj
 T*
-0 -22 Td
-(Side 37 / 52) Tj
-ET
-endstream
-endobj
-77 0 obj
-<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 76 0 R >>
-endobj
-78 0 obj
-<< /Length 3995 >>
-stream
-BT
-/F1 9 Tf
-48 794 Td
-13 TL
 (timeplanforslag | Forslag vert sende inn eller malen vert endra | Forslagsflyt eller) Tj
 T*
 (p\345kravde felt endrar seg | K\370yrande data-/godkjenningsflyt og ADR-002 |) Tj
@@ -4493,6 +4523,21 @@ T*
 T*
 (| Dokumentasjons-CI <../.github/workflows/documentation-check.yml> | Sjekkar obligatoriske) Tj
 T*
+0 -22 Td
+(Side 38 / 52) Tj
+ET
+endstream
+endobj
+79 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 78 0 R >>
+endobj
+80 0 obj
+<< /Length 2803 >>
+stream
+BT
+/F1 9 Tf
+48 794 Td
+13 TL
 (dokument, lenkjer, .env, adapterar og fersk manual | Ved dokumentasjonsendring |) Tj
 T*
 (Kontrollomfang endrar seg | Kontrollskriptet og repo-policy |) Tj
@@ -4523,21 +4568,6 @@ T*
 T*
 (manual/knowledge-catalog.md, manual/development-manual.md og PDF er bygde fr\345 kjelde-) Tj
 T*
-0 -22 Td
-(Side 38 / 52) Tj
-ET
-endstream
-endobj
-79 0 obj
-<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 78 0 R >>
-endobj
-80 0 obj
-<< /Length 2775 >>
-stream
-BT
-/F1 9 Tf
-48 794 Td
-13 TL
 (Markdown. Ikkje rediger dei for hand. K\370yr python3 scripts/buildmanual.py etter) Tj
 T*
 (kjeldeendringar; CI kontrollerer at output er fersk. Manuellrapport/manual og agentreglar er) Tj
@@ -4612,6 +4642,21 @@ T*
 T*
 (KORLEIS KOME I GANG) Tj
 T*
+0 -22 Td
+(Side 39 / 52) Tj
+ET
+endstream
+endobj
+81 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 80 0 R >>
+endobj
+82 0 obj
+<< /Length 2630 >>
+stream
+BT
+/F1 9 Tf
+48 794 Td
+13 TL
 () Tj
 T*
 (1. Les README <../../README.md>, prosjektstatus <../project/current-state.md> og neste steg) Tj
@@ -4642,21 +4687,6 @@ T*
 T*
 (- Agentar kan dele repo-filer, men ikkje n\370dvendigvis chatloggar, minne, kontoar eller) Tj
 T*
-0 -22 Td
-(Side 39 / 52) Tj
-ET
-endstream
-endobj
-81 0 obj
-<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 80 0 R >>
-endobj
-82 0 obj
-<< /Length 2672 >>
-stream
-BT
-/F1 9 Tf
-48 794 Td
-13 TL
 (lokalt kjeldemateriale.) Tj
 T*
 (- Ingen av denne dokumentasjonen stadfestar lisens, publiseringsgrunnlag eller) Tj
@@ -4731,6 +4761,21 @@ T*
 T*
 (CI kontrollerer at manualen er fersk. Ein eigen GitHub Actions-jobb byggjer og tilbyr PDF-en) Tj
 T*
+0 -22 Td
+(Side 40 / 52) Tj
+ET
+endstream
+endobj
+83 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 82 0 R >>
+endobj
+84 0 obj
+<< /Length 2928 >>
+stream
+BT
+/F1 9 Tf
+48 794 Td
+13 TL
 (som ein nedlastbar workflow-artifact; han pushar/committar ikkje endringar. Manuell k\370yring) Tj
 T*
 (oppdaterer arbeidskopien; vurder diff og commit berre etter godkjenning.) Tj
@@ -4761,21 +4806,6 @@ T*
 T*
 () Tj
 T*
-0 -22 Td
-(Side 40 / 52) Tj
-ET
-endstream
-endobj
-83 0 obj
-<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 82 0 R >>
-endobj
-84 0 obj
-<< /Length 2805 >>
-stream
-BT
-/F1 9 Tf
-48 794 Td
-13 TL
 (BACKUP OG GJENOPPRETTING) Tj
 T*
 () Tj
@@ -4850,6 +4880,21 @@ T*
 T*
 () Tj
 T*
+0 -22 Td
+(Side 41 / 52) Tj
+ET
+endstream
+endobj
+85 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 84 0 R >>
+endobj
+86 0 obj
+<< /Length 2804 >>
+stream
+BT
+/F1 9 Tf
+48 794 Td
+13 TL
 (VERCEL OG PUBLISERING) Tj
 T*
 () Tj
@@ -4880,21 +4925,6 @@ T*
 T*
 () Tj
 T*
-0 -22 Td
-(Side 41 / 52) Tj
-ET
-endstream
-endobj
-85 0 obj
-<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 84 0 R >>
-endobj
-86 0 obj
-<< /Length 2840 >>
-stream
-BT
-/F1 9 Tf
-48 794 Td
-13 TL
 (Det er ikkje deklarert npm/pakkebehandlar, frontend-byggekommando eller bygg-output. Dei) Tj
 T*
 (statiske filene ligg i repoet. FastAPI-data-/Excel-endepunkt krev at Python-appen k\370yrer;) Tj
@@ -4969,6 +4999,21 @@ T*
 T*
 (KJELDE: DOCS/PROJECT/CURRENT-STATE.MD) Tj
 T*
+0 -22 Td
+(Side 42 / 52) Tj
+ET
+endstream
+endobj
+87 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 86 0 R >>
+endobj
+88 0 obj
+<< /Length 3317 >>
+stream
+BT
+/F1 9 Tf
+48 794 Td
+13 TL
 () Tj
 T*
 (NO-SITUASJON) Tj
@@ -4997,23 +5042,10 @@ T*
 T*
 (- INFBV-studiemodell/ samlar emneoversikt og spr\345kvariantar. app.js er framleis k\370yrande) Tj
 T*
-(kjelde; registeret st\370ttar manuell kontroll og seinare omsetjing.) Tj
+(kjelde; registeret st\370ttar manuell kontroll og seinare omsetjing. Dei 11 bachelor-emna vart) Tj
 T*
-0 -22 Td
-(Side 42 / 52) Tj
-ET
-endstream
-endobj
-87 0 obj
-<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 86 0 R >>
-endobj
-88 0 obj
-<< /Length 3425 >>
-stream
-BT
-/F1 9 Tf
-48 794 Td
-13 TL
+(oppdaterte fr\345 Nye emnenamn.xlsx 2026-11-09.) Tj
+T*
 (- FastAPI-app i app.py tilbyr data- og Excel-endepunkt og serverer sidene.) Tj
 T*
 (- JSON-utdrag finst i budsjett/data.json og timeplanside/timeplan-2027.json; README seier) Tj
@@ -5086,6 +5118,21 @@ T*
 T*
 (- Om budsjettutdraget og kjeldearbeidsb\370kene har godkjend publiserings-/lagringsgrunnlag.) Tj
 T*
+0 -22 Td
+(Side 43 / 52) Tj
+ET
+endstream
+endobj
+89 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 88 0 R >>
+endobj
+90 0 obj
+<< /Length 3835 >>
+stream
+BT
+/F1 9 Tf
+48 794 Td
+13 TL
 (- Forretningsreglane bak alle budsjettberekningar m\345 stadfestast av dataeigar f\370r endringar.) Tj
 T*
 (- Fullstendige historiske samtaletranskript eller generelt agent-/modellminne finst ikkje i) Tj
@@ -5118,21 +5165,6 @@ T*
 T*
 (| git status --short f\370r endringar | Best\345tt: rein arbeidskopi |) Tj
 T*
-0 -22 Td
-(Side 43 / 52) Tj
-ET
-endstream
-endobj
-89 0 obj
-<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 88 0 R >>
-endobj
-90 0 obj
-<< /Length 3696 >>
-stream
-BT
-/F1 9 Tf
-48 794 Td
-13 TL
 (| git archive HEAD til backup/2026-11-08210007/ | Best\345tt: 25 filer kopierte |) Tj
 T*
 (| python3 scripts/checkdocumentation.py | Best\345tt: obligatoriske dokument, kjeldelenkjer,) Tj
@@ -5205,6 +5237,21 @@ T*
 T*
 (og kodekart oppdaterte |) Tj
 T*
+0 -22 Td
+(Side 44 / 52) Tj
+ET
+endstream
+endobj
+91 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 90 0 R >>
+endobj
+92 0 obj
+<< /Length 3151 >>
+stream
+BT
+/F1 9 Tf
+48 794 Td
+13 TL
 (| python3 scripts/checkdocumentation.py, git diff --check og python3 scripts/buildmanual.py) Tj
 T*
 (--check etter denne endringa | Best\345tt etter bygging av den endelege manualen |) Tj
@@ -5216,6 +5263,20 @@ T*
 (| Publisering av studiemodellregister og emneendringar, commit a8c7e95 | READY p\345 Vercel;) Tj
 T*
 (live-side stadfesta SAJ101 og det oppdaterte INF213-namnet |) Tj
+T*
+(| Oppdatering fr\345 Nye emnenamn.xlsx | Kode/register er oppdatert lokalt; deploy ikkje utf\370rt) Tj
+T*
+(i denne oppg\345va |) Tj
+T*
+(| node --check app.js med den bundla Node-versjonen | Best\345tt etter fleirspr\345kleg) Tj
+T*
+(emnenamnoppdatering |) Tj
+T*
+(| python3 scripts/buildmanual.py og --check | Best\345tt etter oppdatering av kode og Markdown) Tj
+T*
+(|) Tj
+T*
+(| python3 scripts/checkdocumentation.py og git diff --check | Best\345tt |) Tj
 T*
 () Tj
 T*
@@ -5237,21 +5298,6 @@ T*
 T*
 (NESTE STEG) Tj
 T*
-0 -22 Td
-(Side 44 / 52) Tj
-ET
-endstream
-endobj
-91 0 obj
-<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 90 0 R >>
-endobj
-92 0 obj
-<< /Length 2985 >>
-stream
-BT
-/F1 9 Tf
-48 794 Td
-13 TL
 () Tj
 T*
 (Prioritering: No ? Neste ? Seinare. Blokkert krev avklaring f\370r gjennomf\370ring.) Tj
@@ -5310,6 +5356,21 @@ T*
 T*
 () Tj
 T*
+0 -22 Td
+(Side 45 / 52) Tj
+ET
+endstream
+endobj
+93 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 92 0 R >>
+endobj
+94 0 obj
+<< /Length 2709 >>
+stream
+BT
+/F1 9 Tf
+48 794 Td
+13 TL
 (- Vurder standard Python lint/type-kontroll. Filer: requirements.txt, eventuell) Tj
 T*
 (prosjektkonfigurasjon, CI. Ferdig n\345r eksisterande kode er baseline-kontrollert og) Tj
@@ -5356,21 +5417,6 @@ T*
 T*
 (nettsida; det endrar ikkje Git-filer.) Tj
 T*
-0 -22 Td
-(Side 45 / 52) Tj
-ET
-endstream
-endobj
-93 0 obj
-<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 92 0 R >>
-endobj
-94 0 obj
-<< /Length 2467 >>
-stream
-BT
-/F1 9 Tf
-48 794 Td
-13 TL
 () Tj
 T*
 (2. REDIGERE FILER I GITHUB-NETTLESAREN) Tj
@@ -5429,6 +5475,21 @@ T*
 T*
 (Produksjon vert oppdatert etter repoets faktiske branch- og hostingpolicy. Ein chatkommando) Tj
 T*
+0 -22 Td
+(Side 46 / 52) Tj
+ET
+endstream
+endobj
+95 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 94 0 R >>
+endobj
+96 0 obj
+<< /Length 2962 >>
+stream
+BT
+/F1 9 Tf
+48 794 Td
+13 TL
 (p\345 iPhone/iPad publiserer ingenting av seg sj\370lv. Automatisk publisering f\370reset ei faktisk) Tj
 T*
 (filendring i Git-repoet, commit og push til branch som Vercel overvaker \(eller anna) Tj
@@ -5475,26 +5536,11 @@ T*
 T*
 () Tj
 T*
-0 -22 Td
-(Side 46 / 52) Tj
-ET
-endstream
-endobj
-95 0 obj
-<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 94 0 R >>
-endobj
-96 0 obj
-<< /Length 3505 >>
-stream
-BT
-/F1 9 Tf
-48 794 Td
-13 TL
-(Dette registeret samlar emnekodar og visingsnamn for kompetansetrappa p\345 INFBV-framsida.) Tj
+(Dette registeret samlar emnekodar, emnenamn p\345 nynorsk, bokm\345l og engelsk, semester og) Tj
 T*
-(Bruk det n\345r du oppdaterer emneoversikta eller legg til spr\345kvariantar. Excel-arbeidsboka) Tj
+(studiepoeng for INFBV-framsida. Excel-arbeidsboka studiemodell.xlsx er den redigerbare) Tj
 T*
-(studiemodell.xlsx har same emneliste og eigne kolonnar for bokm\345l og engelsk.) Tj
+(fleirspr\345klege oversikta.) Tj
 T*
 () Tj
 T*
@@ -5502,97 +5548,51 @@ T*
 T*
 () Tj
 T*
-(- Revisjonstabellen: Revisjon nov 2026.pdf, side 1. Ho listar obligatoriske emne og) Tj
+(- Emnenamna og spr\345kvariantane for dei 11 emna i bachelorl\370pet er henta fr\345 Nye) Tj
 T*
-(studiepoeng per semester.) Tj
+(emnenamn.xlsx \(mottatt 2026-11-09\).) Tj
 T*
-(- Masteremne som ikkje st\345r i revisjonstabellen, er tekne fr\345 den eksisterande INFBV-) Tj
+(- Masteremne som ikkje st\345r i denne kjelda, er tekne fr\345 den eksisterande INFBV-framsida.) Tj
 T*
-(framsida.) Tj
+(Spr\345kfelt som kjelda ikkje oppgir, st\345r tomme i arbeidsboka.) Tj
 T*
-(- Visingsnamna nedanfor f\370lgjer nynorsk der det finst ein nynorsk variant. Engelske emnenamn) Tj
+(- Nynorsk er visingsspr\345ket p\345 nettsida. Emnekodane st\345r f\370re emnenamna; tidlegare) Tj
 T*
-(blir st\345ande p\345 engelsk n\345r det er namnet som er brukt p\345 nettsida.) Tj
+(programnamnprefiks som \253PR og kommunikasjon 1/3/5\273 er fjerna.) Tj
 T*
-(- PDF-en har \253Medievitenskap\273 for MEV221. Nettsida brukar nynorskforma \253Medievitskap\273, som) Tj
+(- To openberre skrivefeil i kjelda er retta i registeret: KOM102 \253kommunikasjonarbeid\273 er) Tj
 T*
-(skal behaldast.) Tj
+(normalisert til \253kommunikasjonsarbeid\273, og INF213 sitt doble \253gjennom praksis\273 er redusert) Tj
 T*
-(- Excel-kolonnane for bokm\345l og engelsk er tomme fram til eigar legg inn kontrollerte) Tj
+(til \351i f\370rekomst. Prefikset \253PR og kommunikasjon 5\273 er \362g fjerna fr\345 bokm\345lsnamnet for) Tj
 T*
-(omsetjingar. Ikkje omset offisielle emnenamn automatisk.) Tj
-T*
-() Tj
-T*
-(ENDRINGAR MOT NETTSIDA) Tj
+(INF213 i tr\345d med stilkravet.) Tj
 T*
 () Tj
 T*
-(| Emnekode | Gjeldande vising | Kva vart endra |) Tj
-T*
-(|---|---|---|) Tj
-T*
-(| SAJ101 | Innf\370ring i norsk samfunnsliv | Koden var SAL101 p\345 nettsida. Namnet er uendra. |) Tj
-T*
-(| INF213 | Arbeidslivsrelevans gjennom praksis / Internasjonalisering/utveksling | Tok med) Tj
-T*
-(\253Internasjonalisering/utveksling\273 fr\345 den andre tekstlina under INF213 i revisjonstabellen.) Tj
-T*
-(|) Tj
+(OPPDATERTE BACHELOR-EMNE) Tj
 T*
 () Tj
 T*
-(Alle andre namn fr\345 revisjonstabellen er alt i samsvar med nettsida, med nynorsk skrivem\345te) Tj
+(| Trinn | Emnekode | Nynorsk \(nettsida\) | Bokm\345l | English | Semester | Studiepoeng |) Tj
 T*
-(og mindre skilnader i tankestrek/typografi. Ikkje normaliser eller skriv om dei utan ei ny) Tj
+(|---|---|---|---|---|---|---:|) Tj
 T*
-(kjelde.) Tj
+(| 1 | INF131 | Innf\370ring med praktiske \370vingar | Innf\370ring med praktiske \370velser |) Tj
 T*
-() Tj
+(Introduction with Practical Exercises | 26 H | 15 |) Tj
 T*
-(EMNELISTE P\305 NETTSIDA) Tj
+(| 1 | SAJ101 | Innf\370ring i norsk samfunnsliv | Innf\370ring i norsk samfunnsliv | An) Tj
 T*
-() Tj
-T*
-(| Trinn | Emnekode | Visingsnamn | Kjelde i revisjonen | Semester | Studiepoeng | Merknad |) Tj
-T*
-(|---|---|---|---|---|---:|---|) Tj
-T*
-(| 1 | INF131 | PR og kommunikasjon 1: Innf\370ring med praktiske \370vingar | PR og kommunikasjon) Tj
-T*
-(1: Innf\370ring med praktiske \370vingar | 26 H | 15 | Uendra |) Tj
-T*
-(| 1 | SAJ101 | Innf\370ring i norsk samfunnsliv | Innf\370ring i norsk samfunnsliv | 26 H | 15 |) Tj
-T*
-(Kode retta fr\345 SAL101 |) Tj
+(introduction to the Norwegian society | 26 H | 15 |) Tj
 T*
 (| 1 | INF142 | Arbeidsliv og kommunikasjon i praksis | Arbeidsliv og kommunikasjon i praksis) Tj
 T*
-(| 27 V | 10 | Uendra |) Tj
+(| Communication Management in Practice | 27 V | 10 |) Tj
 T*
-(| 1 | KOM102 | Journalistiske metodar i kommunikasjonsarbeid | Journalistiske metodar i) Tj
+(| 1 | KOM102 | Journalistiske metodar i kommunikasjonsarbeid | Journalistiske metoder i) Tj
 T*
-(kommunikasjonsarbeid | 27 V | 10 | Uendra |) Tj
-T*
-(| 1 | MEV131 | Medievitskap 1 \227 Medium, offentlegheit og ytringsfridom | Medievitskap 1 -) Tj
-T*
-(Medium, offentlegheit og ytringsfridom | 27 V | 10 | Nynorsk; typografi justert |) Tj
-T*
-(| 2 | KOM201 | Crisis Communication | Crisis Communication | 27 H | 10 | Uendra |) Tj
-T*
-(| 2 | KOM202 | Kommunikasjonsprosjekt | Kommunikasjonsprosjekt | 27 H | 10 | Uendra |) Tj
-T*
-(| 2 | MEV132 | Medievitskap 2 \227 Media, kommunikasjon og makt | Medievitskap 2 - Media,) Tj
-T*
-(kommunikasjon og makt | 27 H | 10 | Nynorsk; typografi justert |) Tj
-T*
-(| 3 | INF211 | PR og kommunikasjon 3: Samfunnskommunikasjon og CSR | PR og kommunikasjon 3:) Tj
-T*
-(Samfunnskommunikasjon og CSR | 28 V | 15 | Uendra |) Tj
-T*
-(| 3 | MEV221 | Medievitskap 3 \227 Fr\345 fag til forsking: Korleis analysere medium |) Tj
-T*
-(Medievitenskap 3 - Fr\345 fag til forsking: Korleis analysere medium | 28 V | 15 | Nynorsk p\345) Tj
+(kommunikasjonsarbeid | Journalistic Methods in Communication Practice | 27 V | 10 |) Tj
 T*
 0 -22 Td
 (Side 47 / 52) Tj
@@ -5603,59 +5603,83 @@ endobj
 << /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 96 0 R >>
 endobj
 98 0 obj
-<< /Length 3159 >>
+<< /Length 2878 >>
 stream
 BT
 /F1 9 Tf
 48 794 Td
 13 TL
-(nettsida; PDF-teksten er bokm\345l |) Tj
+(| 1 | MEV131 | Medievitskap 1 - Medium, offentlegheit og ytringsfridom | Medievitenskap 1 -) Tj
 T*
-(| 3 | INF213 | Arbeidslivsrelevans gjennom praksis / Internasjonalisering/utveksling |) Tj
+(Medium, offentlighet og ytringsfrihet | Media Studies 1 - Medium, Public Sphere and Freedom) Tj
 T*
-(Arbeidslivsrelevans gjennom praksis; Internasjonalisering/utveksling | 28 H | 30 | Samla dei) Tj
+(of Expression | 27 V | 10 |) Tj
 T*
-(to tekstlinene under INF213 |) Tj
+(| 2 | KOM201 | Krisekommunikasjon | Krisekommunikasjon | Crisis Communication | 27 H | 10 |) Tj
 T*
-(| 4 | MMP301 | Storytelling, Representation and Rhetoric | \227 | \227 | \227 | Masteremne; ikkje i) Tj
+(| 2 | KOM202 | Kommunikasjonsprosjekt | Kommunikasjonsprosjekt | Applied Communication) Tj
 T*
-(PDF-tabellen |) Tj
+(Project | 27 H | 10 |) Tj
 T*
-(| 4 | MMP302 | Media, Professions and Society | \227 | \227 | \227 | Masteremne; ikkje i PDF-tabellen) Tj
+(| 2 | MEV132 | Medievitskap 2 - Media, kommunikasjon og makt | Medievitenskap 2 - Media,) Tj
 T*
-(|) Tj
+(kommunikasjon og makt | Media Studies 2 - Media, Communication and Power | 27 H | 10 |) Tj
 T*
-(| 4 | MMP303 | Unders\370kande journalistikk | \227 | \227 | \227 | Valemne; ikkje i PDF-tabellen |) Tj
+(| 3 | INF211 | Samfunnskommunikasjon | Samfunnskommunikasjon | Communication in Society and) Tj
 T*
-(| 4 | MMP308 | Media Producing | \227 | \227 | \227 | Valemne; ikkje i PDF-tabellen |) Tj
+(Corporate Responsibility | 28 V | 15 |) Tj
 T*
-(| 4 | MMP309 | Professional Media Practice | \227 | \227 | \227 | Valemne; ikkje i PDF-tabellen |) Tj
+(| 3 | MEV221 | Medievitskap 3 - Fr\345 fag til forsking: Korleis analysere medium |) Tj
 T*
-(| 4 | MMP310 | Web Documentary | \227 | \227 | \227 | Valemne; ikkje i PDF-tabellen |) Tj
+(Medievitenskap 3 \226 Fra fag til forskning: Hvordan analysere medier | Media Studies 3 \226) Tj
 T*
-(| 4 | MMP311 | Risk Communication and Issue Management | \227 | \227 | \227 | Valemne; ikkje i PDF-) Tj
+(Analyzing Media | 28 V | 15 |) Tj
 T*
-(tabellen |) Tj
+(| 3 | INF213 | Arbeidslivsrelevans gjennom praksis | Arbeidslivsrelevans gjennom praksis |) Tj
 T*
-(| 4 | MMP317 | Design Strategies and Concepts | \227 | \227 | \227 | Valemne; ikkje i PDF-tabellen |) Tj
+(Practice Placement and Final Assessment | 28 H | 30 |) Tj
 T*
-(| 4 | IPA302 | Process Facilitating | \227 | \227 | \227 | Valemne fr\345 anna masterprogram; ikkje i) Tj
+() Tj
 T*
-(PDF-tabellen |) Tj
+(MASTEREMNE FR\305 EKSISTERANDE NETTSIDE) Tj
 T*
-(| 4 | IPA303 | Public Sector Leadership and Communication | \227 | \227 | \227 | Valemne fr\345 anna) Tj
+() Tj
 T*
-(masterprogram; ikkje i PDF-tabellen |) Tj
+(Desse emna ligg framleis p\345 nettsida. Dei var ikkje med i den nye namnekjelda og er difor) Tj
 T*
-(| 5 | MMP312 | Research Design and Methods | \227 | \227 | \227 | Masteremne; ikkje i PDF-tabellen |) Tj
+(ikkje omsette eller endra her.) Tj
 T*
-(| 5 | MMP313 | Project Based Master Thesis | \227 | \227 | \227 | Eitt av to oppg\345vealternativ; ikkje) Tj
+() Tj
 T*
-(i PDF-tabellen |) Tj
+(| Trinn | Emnekode | Noverande visingsnamn |) Tj
 T*
-(| 5 | MMP314 | Written Master Thesis | \227 | \227 | \227 | Eitt av to oppg\345vealternativ; ikkje i) Tj
+(|---|---|---|) Tj
 T*
-(PDF-tabellen |) Tj
+(| 4 | MMP301 | Storytelling, Representation and Rhetoric |) Tj
+T*
+(| 4 | MMP302 | Media, Professions and Society |) Tj
+T*
+(| 4 | MMP303 | Unders\370kande journalistikk |) Tj
+T*
+(| 4 | MMP308 | Media Producing |) Tj
+T*
+(| 4 | MMP309 | Professional Media Practice |) Tj
+T*
+(| 4 | MMP310 | Web Documentary |) Tj
+T*
+(| 4 | MMP311 | Risk Communication and Issue Management |) Tj
+T*
+(| 4 | MMP317 | Design Strategies and Concepts |) Tj
+T*
+(| 4 | IPA302 | Process Facilitating |) Tj
+T*
+(| 4 | IPA303 | Public Sector Leadership and Communication |) Tj
+T*
+(| 5 | MMP312 | Research Design and Methods |) Tj
+T*
+(| 5 | MMP313 | Project Based Master Thesis |) Tj
+T*
+(| 5 | MMP314 | Written Master Thesis |) Tj
 T*
 () Tj
 T*
@@ -5663,25 +5687,19 @@ T*
 T*
 () Tj
 T*
-(1. Oppdater emnenamn og omsetjingar i studiemodell.xlsx, og spegl endringane i denne) Tj
+(1. Bruk studiemodell.xlsx som arbeidsbok for nynorsk, bokm\345l og engelsk. Oppdater Markdown-) Tj
 T*
-(Markdown-tabellen.) Tj
+(tabellen samtidig n\345r godkjende namn endrar seg.) Tj
 T*
-(2. Kontroller at kvar emnekode framleis finst i app.js under rett trinn. Oppdater STAGES og) Tj
+(2. Nynorsk-kolonnen er kjelda for emnenamna i kompetansetrappa i app.js.) Tj
 T*
-(eventuelle koplingar i SKILLS berre n\345r emnekoden faktisk har endra seg.) Tj
+(3. Behald emnekodane og trinn-/semesterplasseringa med mindre ei godkjend studiemodellkjelde) Tj
 T*
-(3. Endre berre namn/kodar som er dokumenterte som endra. Behald etablerte nynorske) Tj
+(seier noko anna.) Tj
 T*
-(visingsnamn elles.) Tj
+(4. Kontroller visinga i nettlesaren, k\370yr relevant kontroll og bygg manualen etter kode-) Tj
 T*
-(4. Oppdater dei relevante felta i app.js, kontroller framvisinga, bygg manualen og f\370lg) Tj
-T*
-(prosjektets deployrutine.) Tj
-T*
-(5. Fyll spr\345kvariantar berre n\345r eigar har godkjent omsetjinga. La ukjende variantar st\345) Tj
-T*
-(tomme.) Tj
+(eller Markdown-endringar.) Tj
 T*
 () Tj
 T*
@@ -5695,6 +5713,21 @@ T*
 T*
 () Tj
 T*
+0 -22 Td
+(Side 48 / 52) Tj
+ET
+endstream
+endobj
+99 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 98 0 R >>
+endobj
+100 0 obj
+<< /Length 2391 >>
+stream
+BT
+/F1 9 Tf
+48 794 Td
+13 TL
 (INFBV FAGPORTAL) Tj
 T*
 () Tj
@@ -5713,21 +5746,6 @@ T*
 T*
 () Tj
 T*
-0 -22 Td
-(Side 48 / 52) Tj
-ET
-endstream
-endobj
-99 0 obj
-<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 98 0 R >>
-endobj
-100 0 obj
-<< /Length 2394 >>
-stream
-BT
-/F1 9 Tf
-48 794 Td
-13 TL
 (Kort lokalt kunnskapsoppslag for menneske og agentar:) Tj
 T*
 () Tj
@@ -5814,6 +5832,21 @@ T*
 T*
 (Kjeldefilene i Excel og den lokale .backups-mappa ligg ikkje i repoet. Datautdraget og) Tj
 T*
+0 -22 Td
+(Side 49 / 52) Tj
+ET
+endstream
+endobj
+101 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 100 0 R >>
+endobj
+102 0 obj
+<< /Length 3046 >>
+stream
+BT
+/F1 9 Tf
+48 794 Td
+13 TL
 (dashbordet er offentlege.) Tj
 T*
 () Tj
@@ -5832,21 +5865,6 @@ T*
 T*
 (  --students-workbook "/path/to/Registrerte studenter tidsserie utvida.xls-3.xlsx" \\) Tj
 T*
-0 -22 Td
-(Side 49 / 52) Tj
-ET
-endstream
-endobj
-101 0 obj
-<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 100 0 R >>
-endobj
-102 0 obj
-<< /Length 3036 >>
-stream
-BT
-/F1 9 Tf
-48 794 Td
-13 TL
 (  --amf-workbook "/path/to/AMF2027arbeidsnotatdesignv2.xlsx") Tj
 T*
 (    [slutt kode]) Tj
@@ -5933,6 +5951,21 @@ T*
 T*
 (python3 scripts/exporttimeplan.py \\) Tj
 T*
+0 -22 Td
+(Side 50 / 52) Tj
+ET
+endstream
+endobj
+103 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 102 0 R >>
+endobj
+104 0 obj
+<< /Length 3748 >>
+stream
+BT
+/F1 9 Tf
+48 794 Td
+13 TL
 (  --data timeplanside/timeplan-2027.json \\) Tj
 T*
 (  --output-dir timeplanside \\) Tj
@@ -5951,21 +5984,6 @@ T*
 T*
 () Tj
 T*
-0 -22 Td
-(Side 50 / 52) Tj
-ET
-endstream
-endobj
-103 0 obj
-<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 102 0 R >>
-endobj
-104 0 obj
-<< /Length 3957 >>
-stream
-BT
-/F1 9 Tf
-48 794 Td
-13 TL
 (---) Tj
 T*
 () Tj
@@ -6052,6 +6070,21 @@ T*
 T*
 (| knowledgelookup.py | Rangert, kort, lokalt dokumentoppslag for menneske/agent | Python-) Tj
 T*
+0 -22 Td
+(Side 51 / 52) Tj
+ET
+endstream
+endobj
+105 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 104 0 R >>
+endobj
+106 0 obj
+<< /Length 1448 >>
+stream
+BT
+/F1 9 Tf
+48 794 Td
+13 TL
 (standardbibliotek; repo-Markdown | python3 scripts/knowledgelookup.py "timeplan import") Tj
 T*
 (--max-results 5; --refresh regenererer manual f\370rst | S\370kestreng og Markdown-kjelder | F\345) Tj
@@ -6070,21 +6103,6 @@ T*
 T*
 () Tj
 T*
-0 -22 Td
-(Side 51 / 52) Tj
-ET
-endstream
-endobj
-105 0 obj
-<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 104 0 R >>
-endobj
-106 0 obj
-<< /Length 789 >>
-stream
-BT
-/F1 9 Tf
-48 794 Td
-13 TL
 (Etter endring i Markdown \(.md, .mdc eller .windsurfrules\), kode eller skript, k\370yr python3) Tj
 T*
 (scripts/buildmanual.py; CI k\370yrer python3 scripts/buildmanual.py --check og byggjer PDF-) Tj
@@ -6158,71 +6176,71 @@ xref
 0000059220 00000 n 
 0000062323 00000 n 
 0000062451 00000 n 
-0000064882 00000 n 
-0000065010 00000 n 
-0000067115 00000 n 
-0000067243 00000 n 
-0000069629 00000 n 
-0000069757 00000 n 
-0000073017 00000 n 
-0000073145 00000 n 
-0000075991 00000 n 
-0000076119 00000 n 
-0000080285 00000 n 
-0000080413 00000 n 
-0000083326 00000 n 
-0000083454 00000 n 
-0000085490 00000 n 
-0000085618 00000 n 
-0000087747 00000 n 
-0000087875 00000 n 
-0000090723 00000 n 
-0000090851 00000 n 
-0000093716 00000 n 
-0000093844 00000 n 
-0000096327 00000 n 
+0000064851 00000 n 
+0000064979 00000 n 
+0000067230 00000 n 
+0000067358 00000 n 
+0000069668 00000 n 
+0000069796 00000 n 
+0000073066 00000 n 
+0000073194 00000 n 
+0000075946 00000 n 
+0000076074 00000 n 
+0000079640 00000 n 
+0000079768 00000 n 
+0000083741 00000 n 
+0000083869 00000 n 
+0000085744 00000 n 
+0000085872 00000 n 
+0000088078 00000 n 
+0000088206 00000 n 
+0000090812 00000 n 
+0000090940 00000 n 
+0000093636 00000 n 
+0000093764 00000 n 
 0000096455 00000 n 
-0000099365 00000 n 
-0000099493 00000 n 
-0000103128 00000 n 
-0000103256 00000 n 
-0000106307 00000 n 
-0000106435 00000 n 
-0000110757 00000 n 
-0000110885 00000 n 
-0000115035 00000 n 
-0000115163 00000 n 
-0000119211 00000 n 
-0000119339 00000 n 
-0000122167 00000 n 
-0000122295 00000 n 
-0000125020 00000 n 
-0000125148 00000 n 
-0000128006 00000 n 
-0000128134 00000 n 
-0000131027 00000 n 
-0000131155 00000 n 
-0000134633 00000 n 
-0000134761 00000 n 
-0000138510 00000 n 
-0000138638 00000 n 
-0000141676 00000 n 
-0000141804 00000 n 
-0000144324 00000 n 
-0000144452 00000 n 
-0000148010 00000 n 
-0000148138 00000 n 
-0000151350 00000 n 
-0000151478 00000 n 
-0000153926 00000 n 
-0000154056 00000 n 
-0000157146 00000 n 
-0000157276 00000 n 
-0000161287 00000 n 
-0000161417 00000 n 
-0000162259 00000 n 
+0000096583 00000 n 
+0000099327 00000 n 
+0000099455 00000 n 
+0000102707 00000 n 
+0000102835 00000 n 
+0000105923 00000 n 
+0000106051 00000 n 
+0000110405 00000 n 
+0000110533 00000 n 
+0000114854 00000 n 
+0000114982 00000 n 
+0000119166 00000 n 
+0000119294 00000 n 
+0000122150 00000 n 
+0000122278 00000 n 
+0000124961 00000 n 
+0000125089 00000 n 
+0000128070 00000 n 
+0000128198 00000 n 
+0000131055 00000 n 
+0000131183 00000 n 
+0000134553 00000 n 
+0000134681 00000 n 
+0000138569 00000 n 
+0000138697 00000 n 
+0000141901 00000 n 
+0000142029 00000 n 
+0000144791 00000 n 
+0000144919 00000 n 
+0000147934 00000 n 
+0000148062 00000 n 
+0000150993 00000 n 
+0000151121 00000 n 
+0000153566 00000 n 
+0000153696 00000 n 
+0000156796 00000 n 
+0000156926 00000 n 
+0000160728 00000 n 
+0000160858 00000 n 
+0000162360 00000 n 
 trailer
 << /Size 108 /Root 1 0 R >>
 startxref
-162389
+162490
 %%EOF

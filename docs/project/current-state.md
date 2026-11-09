@@ -8,7 +8,7 @@
 
 - Offentleg fagportal med HTML/CSS/JavaScript-framside, budsjettoversikt og Timeplan 2027.
 - INFBV-framsida har ein tilgjengeleg lys/mørk-brytar med lokalt lagra val; mørkt tema er standard. Trinnval, navigasjonsmeny og hurtignavigasjon kan styrast med tastatur.
-- `INFBV-studiemodell/` samlar emneoversikt og språkvariantar. `app.js` er framleis køyrande kjelde; registeret støttar manuell kontroll og seinare omsetjing.
+- `INFBV-studiemodell/` samlar emneoversikt og språkvariantar. `app.js` er framleis køyrande kjelde; registeret støttar manuell kontroll og seinare omsetjing. Dei 11 bachelor-emna vart oppdaterte frå `Nye emnenamn.xlsx` 2026-11-09.
 - FastAPI-app i `app.py` tilbyr data- og Excel-endepunkt og serverer sidene.
 - JSON-utdrag finst i `budsjett/data.json` og `timeplanside/timeplan-2027.json`; README seier dei vert brukte av statiske sider.
 - Tre eksisterande dataskript handterer budsjettoppdatering, TimeEdit-import og timeplaneksport. Tre nye skript kontrollerer dokumentasjon, byggjer manual og gjer lokale kunnskapsoppslag.
@@ -68,5 +68,9 @@ Ved dokumentasjonsoppstart var `git status --short` tom, og `git ls-files` viste
 | `python3 scripts/check_documentation.py`, `git diff --check` og `python3 scripts/build_manual.py --check` etter denne endringa | Bestått etter bygging av den endelege manualen |
 | Representativ kontrastmåling av lyst tema | Bestått: lågaste målte tekstpar 6,08:1; målinga dekkjer ikkje alle tilstandar/komponentar og er ikkje full WCAG-revisjon |
 | Publisering av studiemodellregister og emneendringar, commit `a8c7e95` | READY på Vercel; live-side stadfesta SAJ101 og det oppdaterte INF213-namnet |
+| Oppdatering frå `Nye emnenamn.xlsx` | Kode/register er oppdatert lokalt; deploy ikkje utført i denne oppgåva |
+| `node --check app.js` med den bundla Node-versjonen | Bestått etter fleirspråkleg emnenamnoppdatering |
+| `python3 scripts/build_manual.py` og `--check` | Bestått etter oppdatering av kode og Markdown |
+| `python3 scripts/check_documentation.py` og `git diff --check` | Bestått |
 
 Kontrollane seier ikkje noko om ekstern deploy, produksjonsdrift eller gyldigheita av eksterne kjeldedata.
