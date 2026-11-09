@@ -120,6 +120,34 @@ function setupEventListeners() {
     if (menuBtn) {
         menuBtn.addEventListener('click', toggleMenu);
     }
+
+    const staircaseWidget = document.getElementById('mini-staircase-widget');
+    if (staircaseWidget) {
+        staircaseWidget.addEventListener('keydown', event => {
+            if (event.key === 'Enter' || event.key === ' ') {
+                event.preventDefault();
+                toggleMiniStaircasePopover();
+            }
+        });
+    }
+
+    document.querySelectorAll('.stair-step').forEach((step, index) => {
+        step.addEventListener('keydown', event => {
+            if (event.key === 'Enter' || event.key === ' ') {
+                event.preventDefault();
+                selectStep(index + 1);
+            }
+        });
+    });
+
+    document.addEventListener('keydown', event => {
+        if (event.key === 'Escape') {
+            const drawer = document.getElementById('nav-drawer');
+            const popover = document.getElementById('mini-staircase-popover');
+            if (!drawer.classList.contains('hidden')) closeMenu();
+            if (!popover.classList.contains('hidden')) closeMiniStaircasePopover(true);
+        }
+    });
 }
 
 function setupThemeToggle() {
@@ -131,15 +159,14 @@ function setupThemeToggle() {
     const themeColor = document.querySelector('meta[name="theme-color"]');
 
     const applyTheme = theme => {
-        const isDark = theme === 'dark';
+        const isLight = theme === 'light';
         document.documentElement.dataset.theme = theme;
-        button.setAttribute('aria-pressed', String(isDark));
-        button.setAttribute('aria-label', `Byt til ${isDark ? 'lyst' : 'mørkt'} design`);
-        label.textContent = isDark ? 'Lys' : 'Mørk';
-        icon.innerHTML = isDark
+        button.setAttribute('aria-checked', String(isLight));
+        button.title = `Slå på ${isLight ? 'mørkt' : 'lyst'} tema`;
+        icon.innerHTML = isLight
             ? '<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v2m0 14v2M5.64 5.64l1.42 1.42m9.88 9.88 1.42 1.42M3 12h2m14 0h2M5.64 18.36l1.42-1.42m9.88-9.88 1.42-1.42M16 12a4 4 0 1 1-8 0 4 4 0 0 1 8 0Z"></path>'
             : '<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.9 13.2A8.5 8.5 0 0 1 10.8 3.1 8.5 8.5 0 1 0 20.9 13.2Z"></path>';
-        if (themeColor) themeColor.content = isDark ? '#020617' : '#f6f5f1';
+        if (themeColor) themeColor.content = isLight ? '#f6f5f1' : '#020617';
     };
 
     applyTheme(document.documentElement.dataset.theme === 'light' ? 'light' : 'dark');
@@ -156,24 +183,52 @@ function setupThemeToggle() {
 
 function toggleMenu() {
     const drawer = document.getElementById('nav-drawer');
-    drawer.classList.toggle('hidden');
+    const isOpening = drawer.classList.contains('hidden');
+    drawer.classList.toggle('hidden', !isOpening);
+    drawer.setAttribute('aria-hidden', String(!isOpening));
+    document.getElementById('menu-toggle').setAttribute('aria-expanded', String(isOpening));
+    if (isOpening) drawer.querySelector('button').focus();
 }
 
 function closeMenu() {
     const drawer = document.getElementById('nav-drawer');
     drawer.classList.add('hidden');
+    drawer.setAttribute('aria-hidden', 'true');
+    document.getElementById('menu-toggle').setAttribute('aria-expanded', 'false');
+    document.getElementById('menu-toggle').focus();
 }
 
-function toggleMiniStaircase() {
+function toggleMiniStaircasePopover() {
     const popover = document.getElementById('mini-staircase-popover');
-    popover.classList.toggle('hidden');
+    if (popover.classList.contains('hidden')) {
+        popover.classList.remove('hidden');
+        popover.setAttribute('aria-hidden', 'false');
+        document.getElementById('mini-staircase-widget').setAttribute('aria-expanded', 'true');
+        popover.querySelector('button').focus();
+    } else {
+        closeMiniStaircasePopover(true);
+    }
+}
+
+function closeMiniStaircasePopover(restoreFocus = false) {
+    const popover = document.getElementById('mini-staircase-popover');
+    popover.classList.add('hidden');
+    popover.setAttribute('aria-hidden', 'true');
+    const widget = document.getElementById('mini-staircase-widget');
+    widget.setAttribute('aria-expanded', 'false');
+    if (restoreFocus && !widget.classList.contains('hidden')) widget.focus();
 }
 
 function selectStep(stepNum) {
+    const courseViewWasOpen = !document.getElementById('course-view').classList.contains('hidden');
     activeStep = stepNum;
     renderStepDetails(stepNum);
     updateStairVisualState(stepNum);
-    document.getElementById('mini-staircase-popover').classList.add('hidden');
+    if (courseViewWasOpen) {
+        showHome();
+    } else {
+        closeMiniStaircasePopover(true);
+    }
 }
 
 function updateStairVisualState(stepNum) {
@@ -183,6 +238,7 @@ function updateStairVisualState(stepNum) {
         const currentStep = index + 1;
         const isActive = currentStep === stepNum;
 
+        step.setAttribute('aria-pressed', String(isActive));
         step.classList.toggle('ring-2', isActive);
         step.classList.toggle('ring-amber-300', isActive && stepNum !== 4 && stepNum !== 5);
         step.classList.toggle('ring-indigo-300', isActive && (stepNum === 4 || stepNum === 5));
@@ -317,6 +373,7 @@ function openCourse(code, name, stp, sem) {
     document.getElementById('course-view').classList.remove('hidden');
     document.getElementById('mini-staircase-widget').classList.remove('hidden');
     document.getElementById('mini-staircase-widget').classList.add('flex');
+    document.getElementById('mini-staircase-widget').setAttribute('aria-hidden', 'false');
 
     const content = document.getElementById('course-detail-content');
     const courseMeta = [
@@ -379,13 +436,24 @@ function openCourse(code, name, stp, sem) {
         </div>
     `;
 
+    const courseHeading = content.querySelector('h1');
+    if (courseHeading) {
+        courseHeading.tabIndex = -1;
+        courseHeading.focus();
+    }
     window.scrollTo({ top: 0, behavior: 'smooth' });
 }
 
 function showHome() {
+    const courseViewWasOpen = !document.getElementById('course-view').classList.contains('hidden');
     document.getElementById('course-view').classList.add('hidden');
     document.getElementById('home-view').classList.remove('hidden');
     document.getElementById('mini-staircase-widget').classList.add('hidden');
     document.getElementById('mini-staircase-widget').classList.remove('flex');
+    document.getElementById('mini-staircase-widget').setAttribute('aria-hidden', 'true');
+    closeMiniStaircasePopover(false);
+    if (courseViewWasOpen) {
+        document.querySelector('.stair-step[aria-pressed="true"]')?.focus();
+    }
     window.scrollTo({ top: 0, behavior: 'smooth' });
 }

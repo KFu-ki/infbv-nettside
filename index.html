@@ -53,21 +53,21 @@
     <header class="bg-slate-900/90 backdrop-blur-md border-b border-slate-800 sticky top-0 z-40">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
             <div class="flex items-center space-x-4">
-                <button id="menu-toggle" aria-label="Opna meny" class="p-2 rounded-lg text-slate-300 hover:text-amber-400 hover:bg-slate-800 transition-colors focus:outline-none focus:ring-2 focus:ring-amber-500/50">
+                <button id="menu-toggle" type="button" aria-label="Opna meny" aria-controls="nav-drawer" aria-expanded="false" class="min-h-11 min-w-11 rounded-lg text-slate-300 hover:text-amber-400 hover:bg-slate-800 transition-colors focus:outline-none focus:ring-2 focus:ring-amber-500/50">
                     <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path></svg>
                 </button>
 
-                <div class="flex items-center space-x-3 cursor-pointer" onclick="showHome()">
-                    <div class="w-10 h-10 rounded-lg bg-gradient-to-br from-amber-500 to-amber-700 flex items-center justify-center font-serif font-bold text-xl text-slate-950 shadow-md">V</div>
+                <a href="#main-content" onclick="showHome()" class="flex items-center space-x-3 no-underline">
+                    <div aria-hidden="true" class="w-10 h-10 rounded-lg bg-gradient-to-br from-amber-500 to-amber-700 flex items-center justify-center font-serif font-bold text-xl text-slate-950 shadow-md">V</div>
                     <div>
                         <span class="font-serif text-lg tracking-wide font-bold text-slate-100 block leading-tight">INFBV</span>
-                        <span class="text-xs text-amber-400 font-medium tracking-wider uppercase block">PR, kommunikasjon og media · Sidan 1972</span>
+                        <span id="brand-tagline" class="text-xs text-amber-400 font-medium tracking-wider uppercase block">PR, kommunikasjon og media · Sidan 1972</span>
                     </div>
-                </div>
+                </a>
             </div>
 
             <div class="flex items-center gap-2">
-            <div id="mini-staircase-widget" class="hidden items-center space-x-1 bg-slate-800/80 px-3 py-1.5 rounded-full border border-slate-700 cursor-pointer hover:border-amber-500/50 transition-colors" onclick="toggleMiniStaircasePopover()">
+            <div id="mini-staircase-widget" role="button" tabindex="0" aria-label="Opna hurtignavigasjon for kompetansetrappa" aria-controls="mini-staircase-popover" aria-expanded="false" aria-hidden="true" class="hidden items-center space-x-1 bg-slate-800/80 px-3 py-1.5 rounded-full border border-slate-700 cursor-pointer hover:border-amber-500/50 transition-colors" onclick="toggleMiniStaircasePopover()">
                 <span class="text-xs text-slate-400 font-medium mr-2 hidden md:inline">Kompetansetrapp:</span>
                 <div class="flex items-end space-x-1 h-5">
                     <div class="w-2 bg-amber-500 h-2 rounded-t-sm" title="Trinn 1"></div>
@@ -76,9 +76,9 @@
                     <div class="w-2 bg-indigo-400 h-4.5 rounded-t-sm" title="Trinn 4"></div>
                     <div class="w-2 bg-indigo-300 h-5 rounded-t-sm opacity-80" title="Trinn 5 (taus kunnskap)"></div>
                 </div>
-                <svg class="w-4 h-4 text-slate-400 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
+                <svg class="w-4 h-4 text-slate-400 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
             </div>
-            <button id="theme-toggle" type="button" aria-label="Byt til lyst design" aria-pressed="true" class="inline-flex items-center gap-2 rounded-lg border border-slate-700 bg-slate-800/80 px-3 py-2 text-sm font-medium text-slate-200 hover:border-amber-400/70 hover:text-amber-300 transition-colors focus:outline-none focus:ring-2 focus:ring-amber-500/60">
+            <button id="theme-toggle" type="button" role="switch" aria-label="Lyst tema" aria-checked="false" title="Slå på lyst tema" class="inline-flex min-h-11 items-center gap-2 rounded-lg border border-slate-700 bg-slate-800/80 px-3 py-2 text-sm font-medium text-slate-200 hover:border-amber-400/70 hover:text-amber-300 transition-colors focus:outline-none focus:ring-2 focus:ring-amber-500/60">
                 <svg id="theme-toggle-icon" class="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v2m0 14v2M5.64 5.64l1.42 1.42m9.88 9.88 1.42 1.42M3 12h2m14 0h2M5.64 18.36l1.42-1.42m9.88-9.88 1.42-1.42M16 12a4 4 0 1 1-8 0 4 4 0 0 1 8 0Z"></path></svg>
                 <span id="theme-toggle-label">Lys</span>
             </button>
@@ -86,22 +86,22 @@
         </div>
     </header>
 
-    <div id="nav-drawer" class="fixed inset-0 z-50 hidden">
-        <div class="fixed inset-0 bg-slate-950/80 backdrop-blur-sm" onclick="closeMenu()"></div>
+    <div id="nav-drawer" class="fixed inset-0 z-50 hidden" aria-hidden="true">
+        <div class="fixed inset-0 bg-slate-950/80 backdrop-blur-sm" onclick="closeMenu()" aria-hidden="true"></div>
         <div class="fixed inset-y-0 left-0 w-80 bg-slate-900 border-r border-slate-800 p-6 flex flex-col justify-between shadow-2xl">
             <div class="space-y-6">
                 <div class="flex justify-between items-center pb-4 border-b border-slate-800">
                     <h2 class="font-serif font-bold text-lg text-amber-400">Navigasjon</h2>
-                    <button onclick="closeMenu()" class="text-slate-400 hover:text-white p-1">
+                    <button type="button" onclick="closeMenu()" aria-label="Lukk navigasjonsmenyen" class="min-h-11 min-w-11 flex items-center justify-center rounded-lg text-slate-400 hover:text-white">
                         <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path></svg>
                     </button>
                 </div>
                 <nav class="space-y-2">
-                    <a href="#" onclick="showHome(); closeMenu();" class="block px-3 py-2 rounded-lg text-slate-200 hover:bg-slate-800 hover:text-amber-400 transition-colors font-medium">🏛️ Heim</a>
-                    <a href="#ferdigheiter" onclick="showHome(); closeMenu();" class="block px-3 py-2 rounded-lg text-slate-200 hover:bg-slate-800 hover:text-amber-400 transition-colors font-medium">🧠 Ferdigheiter</a>
-                    <a href="#emne-indeks" onclick="showHome(); closeMenu();" class="block px-3 py-2 rounded-lg text-slate-200 hover:bg-slate-800 hover:text-amber-400 transition-colors font-medium">📚 Emneindeks</a>
-                    <a href="/budsjett/" class="block px-3 py-2 rounded-lg text-slate-200 hover:bg-slate-800 hover:text-amber-400 transition-colors font-medium">📊 Budsjett og ressursoversikt</a>
-                    <a href="/timeplan2027/" class="block px-3 py-2 rounded-lg text-slate-200 hover:bg-slate-800 hover:text-amber-400 transition-colors font-medium">🗓️ Timeplan 2027</a>
+                    <a href="#" onclick="showHome(); closeMenu();" class="block min-h-11 px-3 py-3 rounded-lg text-slate-200 hover:bg-slate-800 hover:text-amber-400 transition-colors font-medium">🏛️ Heim</a>
+                    <a href="#ferdigheiter" onclick="showHome(); closeMenu();" class="block min-h-11 px-3 py-3 rounded-lg text-slate-200 hover:bg-slate-800 hover:text-amber-400 transition-colors font-medium">🧠 Ferdigheiter</a>
+                    <a href="#emne-indeks" onclick="showHome(); closeMenu();" class="block min-h-11 px-3 py-3 rounded-lg text-slate-200 hover:bg-slate-800 hover:text-amber-400 transition-colors font-medium">📚 Emneindeks</a>
+                    <a href="/budsjett/" class="block min-h-11 px-3 py-3 rounded-lg text-slate-200 hover:bg-slate-800 hover:text-amber-400 transition-colors font-medium">📊 Budsjett og ressursoversikt</a>
+                    <a href="/timeplan2027/" class="block min-h-11 px-3 py-3 rounded-lg text-slate-200 hover:bg-slate-800 hover:text-amber-400 transition-colors font-medium">🗓️ Timeplan 2027</a>
                 </nav>
             </div>
             <div class="border-t border-slate-800 pt-4 text-xs text-slate-500">
@@ -111,14 +111,14 @@
         </div>
     </div>
 
-    <div id="mini-staircase-popover" class="hidden fixed top-16 right-4 z-40 bg-slate-900 border border-slate-700 rounded-xl p-4 shadow-2xl w-80 backdrop-blur-md">
+    <div id="mini-staircase-popover" class="hidden fixed top-16 right-4 z-40 bg-slate-900 border border-slate-700 rounded-xl p-4 shadow-2xl w-80 backdrop-blur-md" aria-hidden="true">
         <h4 class="text-xs font-semibold text-amber-400 uppercase tracking-wider mb-2">Hurtignavigasjon i trappa</h4>
         <div class="space-y-1.5 text-xs">
-            <button onclick="selectStep(1)" class="w-full text-left p-2 rounded bg-slate-800 hover:bg-amber-950/40 text-slate-200 flex justify-between"><span>Trinn 1: Nybyrjar</span> <span class="text-slate-400">1</span></button>
-            <button onclick="selectStep(2)" class="w-full text-left p-2 rounded bg-slate-800 hover:bg-amber-950/40 text-slate-200 flex justify-between"><span>Trinn 2: Avansert nybyrjar</span> <span class="text-slate-400">2</span></button>
-            <button onclick="selectStep(3)" class="w-full text-left p-2 rounded bg-slate-800 hover:bg-amber-950/40 text-slate-200 flex justify-between"><span>Trinn 3: Kompetent</span> <span class="text-slate-400">3</span></button>
-            <button onclick="selectStep(4)" class="w-full text-left p-2 rounded bg-slate-800 hover:bg-indigo-950/40 text-slate-200 flex justify-between"><span>Trinn 4: Dyktig</span> <span class="text-slate-400">4</span></button>
-            <button onclick="selectStep(5)" class="w-full text-left p-2 rounded bg-slate-800 hover:bg-indigo-950/40 text-slate-200 flex justify-between"><span>Trinn 5: Ekspert</span> <span class="text-slate-400">5</span></button>
+            <button type="button" onclick="selectStep(1)" class="w-full min-h-11 text-left p-2 rounded bg-slate-800 hover:bg-amber-950/40 text-slate-200 flex justify-between"><span>Trinn 1: Nybyrjar</span> <span class="text-slate-400">1</span></button>
+            <button type="button" onclick="selectStep(2)" class="w-full min-h-11 text-left p-2 rounded bg-slate-800 hover:bg-amber-950/40 text-slate-200 flex justify-between"><span>Trinn 2: Avansert nybyrjar</span> <span class="text-slate-400">2</span></button>
+            <button type="button" onclick="selectStep(3)" class="w-full min-h-11 text-left p-2 rounded bg-slate-800 hover:bg-amber-950/40 text-slate-200 flex justify-between"><span>Trinn 3: Kompetent</span> <span class="text-slate-400">3</span></button>
+            <button type="button" onclick="selectStep(4)" class="w-full min-h-11 text-left p-2 rounded bg-slate-800 hover:bg-indigo-950/40 text-slate-200 flex justify-between"><span>Trinn 4: Dyktig</span> <span class="text-slate-400">4</span></button>
+            <button type="button" onclick="selectStep(5)" class="w-full min-h-11 text-left p-2 rounded bg-slate-800 hover:bg-indigo-950/40 text-slate-200 flex justify-between"><span>Trinn 5: Ekspert</span> <span class="text-slate-400">5</span></button>
         </div>
     </div>
 
@@ -127,35 +127,35 @@
             <section class="bg-slate-900/60 border border-slate-800 rounded-2xl p-6 sm:p-10 shadow-2xl relative overflow-hidden">
                 <div class="absolute -right-20 -bottom-20 w-80 h-80 bg-amber-500/5 rounded-full blur-3xl pointer-events-none"></div>
                 <div class="flex flex-col lg:flex-row items-end justify-between gap-4 h-[420px] pt-8 pb-4 px-2">
-                    <div onclick="selectStep(1)" class="stair-step group w-full flex-1 bg-gradient-to-t from-slate-800 to-amber-950/30 border border-amber-500/30 rounded-t-xl p-4 flex flex-col justify-between h-full cursor-pointer">
+                    <div role="button" tabindex="0" aria-label="Vel trinn 1: Nybyrjar" aria-pressed="false" onclick="selectStep(1)" class="stair-step group w-full flex-1 bg-gradient-to-t from-slate-800 to-amber-950/30 border border-amber-500/30 rounded-t-xl p-4 flex flex-col justify-between h-full cursor-pointer">
                         <div class="flex justify-between items-center"><span class="text-xs font-mono font-bold text-amber-400">TRINN 1</span><span class="text-[10px] uppercase tracking-wider text-slate-400">Bachelor</span></div>
                         <div>
                             <h3 class="font-serif font-bold text-slate-100 text-sm sm:text-base group-hover:text-amber-400 transition-colors">Nybyrjar</h3>
                             <p class="text-[11px] text-slate-400 line-clamp-1">Teori, omgrep og grunnleggjande øvingar</p>
                         </div>
                     </div>
-                    <div onclick="selectStep(2)" class="stair-step group w-full flex-1 bg-gradient-to-t from-slate-800 to-amber-900/40 border border-amber-500/40 rounded-t-xl p-4 flex flex-col justify-between h-full cursor-pointer">
+                    <div role="button" tabindex="0" aria-label="Vel trinn 2: Avansert nybyrjar" aria-pressed="false" onclick="selectStep(2)" class="stair-step group w-full flex-1 bg-gradient-to-t from-slate-800 to-amber-900/40 border border-amber-500/40 rounded-t-xl p-4 flex flex-col justify-between h-full cursor-pointer">
                         <div class="flex justify-between items-center"><span class="text-xs font-mono font-bold text-amber-400">TRINN 2</span><span class="text-[10px] uppercase tracking-wider text-slate-400">Nybegynnar</span></div>
                         <div>
                             <h3 class="font-serif font-bold text-slate-100 text-sm sm:text-base group-hover:text-amber-400 transition-colors">Avansert nybyrjar</h3>
                             <p class="text-[11px] text-slate-400 line-clamp-1">Situasjonsbestemte døme, prosjekt og samfunn</p>
                         </div>
                     </div>
-                    <div onclick="selectStep(3)" class="stair-step group w-full flex-1 bg-gradient-to-t from-slate-800 to-amber-700/40 border border-amber-500/60 rounded-t-xl p-4 flex flex-col justify-between h-full cursor-pointer">
+                    <div role="button" tabindex="0" aria-label="Vel trinn 3: Kompetent" aria-pressed="false" onclick="selectStep(3)" class="stair-step group w-full flex-1 bg-gradient-to-t from-slate-800 to-amber-700/40 border border-amber-500/60 rounded-t-xl p-4 flex flex-col justify-between h-full cursor-pointer">
                         <div class="flex justify-between items-center"><span class="text-xs font-mono font-bold text-amber-400">TRINN 3</span><span class="text-[10px] uppercase tracking-wider text-slate-400">Kompetent</span></div>
                         <div>
                             <h3 class="font-serif font-bold text-slate-100 text-sm sm:text-base group-hover:text-amber-400 transition-colors">Kompetent</h3>
                             <p class="text-[11px] text-slate-300 line-clamp-2">Ekstern praksis og refleksjon i feltet</p>
                         </div>
                     </div>
-                    <div onclick="selectStep(4)" class="stair-step group w-full flex-1 bg-gradient-to-t from-slate-800 to-indigo-950/60 border border-indigo-500/50 rounded-t-xl p-4 flex flex-col justify-between h-full cursor-pointer">
+                    <div role="button" tabindex="0" aria-label="Vel trinn 4: Dyktig" aria-pressed="false" onclick="selectStep(4)" class="stair-step group w-full flex-1 bg-gradient-to-t from-slate-800 to-indigo-950/60 border border-indigo-500/50 rounded-t-xl p-4 flex flex-col justify-between h-full cursor-pointer">
                         <div class="flex justify-between items-center"><span class="text-xs font-mono font-bold text-indigo-400">TRINN 4</span><span class="text-[10px] uppercase tracking-wider text-slate-400">Pro</span></div>
                         <div>
                             <h3 class="font-serif font-bold text-slate-100 text-sm sm:text-base group-hover:text-indigo-300 transition-colors">Dyktig</h3>
                             <p class="text-[11px] text-slate-300 line-clamp-2">Analytisk evne, skjønn og forsking</p>
                         </div>
                     </div>
-                    <div onclick="selectStep(5)" class="stair-step group w-full flex-1 bg-gradient-to-t from-slate-800 to-amber-900/30 border border-dashed border-amber-400/70 rounded-t-xl p-4 flex flex-col justify-between h-full cursor-pointer">
+                    <div role="button" tabindex="0" aria-label="Vel trinn 5: Ekspert og taus kunnskap" aria-pressed="false" onclick="selectStep(5)" class="stair-step group w-full flex-1 bg-gradient-to-t from-slate-800 to-amber-900/30 border border-dashed border-amber-400/70 rounded-t-xl p-4 flex flex-col justify-between h-full cursor-pointer">
                         <div class="absolute top-2 right-2"><span class="animate-ping absolute inline-flex h-2 w-2 rounded-full bg-amber-400 opacity-75"></span><span class="relative inline-flex rounded-full h-2 w-2 bg-amber-300"></span></div>
                         <div class="flex justify-between items-center"><span class="text-xs font-mono font-bold text-amber-300">TRINN 5</span><span class="text-[10px] uppercase tracking-wider text-slate-400">Ekspert</span></div>
                         <div>
