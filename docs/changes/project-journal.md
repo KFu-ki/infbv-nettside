@@ -2,7 +2,8 @@
 
 - Leste og visuelt kontrollerte revisjonstabellen på side 1. Oppdaterte berre emnekoden SAJ101 og det utvida INF213-namnet; MEV221 er halde på nynorsk.
 - Oppretta `INFBV-studiemodell/` med arbeidsbok, Markdown-register og gjenbrukbar GitHub Copilot IDE-prompt.
-- Kontrollerte repoet sin GitHub/Vercel-deployflyt før publisering.
+- Pusha endringane til `main` som commit `a8c7e95`; Vercel-produksjonsdeploy vart READY og live forsida stadfesta SAJ101 og det nye INF213-namnet.
+- Heldt dei to uversjonerte GitHub Pages-workflowfilene utanfor commit/deploy; dei er ikkje stadfesta som produksjonsveg.
 
 # Prosjektjournal
 

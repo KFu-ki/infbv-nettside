@@ -869,7 +869,8 @@ Alternativ vekting bruker samla produksjon/studentar; ved null totalsum er nemna
 
 - Leste og visuelt kontrollerte revisjonstabellen på side 1. Oppdaterte berre emnekoden SAJ101 og det utvida INF213-namnet; MEV221 er halde på nynorsk.
 - Oppretta `INFBV-studiemodell/` med arbeidsbok, Markdown-register og gjenbrukbar GitHub Copilot IDE-prompt.
-- Kontrollerte repoet sin GitHub/Vercel-deployflyt før publisering.
+- Pusha endringane til `main` som commit `a8c7e95`; Vercel-produksjonsdeploy vart READY og live forsida stadfesta SAJ101 og det nye INF213-namnet.
+- Heldt dei to uversjonerte GitHub Pages-workflowfilene utanfor commit/deploy; dei er ikkje stadfesta som produksjonsveg.
 
 # Prosjektjournal
 
@@ -1591,9 +1592,9 @@ Ved dokumentasjonsoppstart var `git status --short` tom, og `git ls-files` viste
 | Produksjonsdeploy av lyst/mørkt tema og tilgjengeendring, commit `65ec0fb` | READY på Vercel; alias `infbv-nettside.vercel.app` stadfesta |
 | Lokal nettlesarkontroll av tilgjenge | Bestått: temaet overlevde omlasting; trinn vart valde med mellomrom; meny opna/lukka med tastatur og Escape |
 | `python3 scripts/build_manual.py` og `--check` etter studiemodellregisteret | Bestått; manual og kodekart oppdaterte |
-| `python3 scripts/check_documentation.py` og `git diff --check` etter denne endringa | Køyrast før overlevering |
+| `python3 scripts/check_documentation.py`, `git diff --check` og `python3 scripts/build_manual.py --check` etter denne endringa | Bestått etter bygging av den endelege manualen |
 | Representativ kontrastmåling av lyst tema | Bestått: lågaste målte tekstpar 6,08:1; målinga dekkjer ikkje alle tilstandar/komponentar og er ikkje full WCAG-revisjon |
-| Produksjonsdeploy etter commit `65ec0fb` | READY på Vercel; `infbv-nettside.vercel.app` peika på produksjonsdeployen |
+| Publisering av studiemodellregister og emneendringar, commit `a8c7e95` | READY på Vercel; live-side stadfesta SAJ101 og det oppdaterte INF213-namnet |
 
 Kontrollane seier ikkje noko om ekstern deploy, produksjonsdrift eller gyldigheita av eksterne kjeldedata.
 
