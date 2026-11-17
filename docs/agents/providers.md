@@ -4,6 +4,7 @@ Dette repoet har ei felles regelkjelde og korte adapterar for vanlege editoragen
 
 | Verktøy/agent | Repo-inngang | Kva adapteren gjer |
 |---|---|---|
+| Microsoft Copilot Chat (Basic) | [Brukarrettleiing](../user-guides/copilot-chat-basic.md), [startprompt for repo/deploy](../user-guides/copilot-chat-start-prompt.md), [kontekstfil](copilot-chat-basic-context.md) og [Agent Builder-prompt](copilot-chat-specialist-agent-prompt.md) | Vanleg Chat les vedlagde filer og offentleg nettinnhald; repo-/GitHub-/Vercel-verktøy krev eigne tilkoplingar og rettar |
 | GitHub Copilot | `.github/copilot-instructions.md` | Peikar til `AGENTS.md` og dokumentasjonsrekkjefølgja |
 | Claude Code | `CLAUDE.md` | Peikar til felles instruksjonar |
 | Gemini CLI | `GEMINI.md` | Peikar til felles instruksjonar |
@@ -23,6 +24,7 @@ Adapterane er korte med vilje. Dei etablerer ikkje ekstra kunnskapskopiar. Om ei
 - Felles filsystem betyr ikkje at agentar deler chatloggar eller langtidsminne.
 - Provider-agentar kan sende prompt/valde kontekst til leverandørtenesta i samsvar med kontoinnstillingar. Ikkje inkluder løyndomar, sensitiv persondata eller private arbeidsbøker.
 - Repo-konfigurasjon kan ikkje endre eller oppdatere leverandørmodellen, fakturering eller privat chatminne.
+- Microsoft Copilot Chat (Basic) må få repo-filer som vedlegg eller bruke offentlege kjelder agenten kan opne. Oppdaterte grenser, filopplasting og agenttilgang er skildra i [brukarrettleiinga](../user-guides/copilot-chat-basic.md); kontroller Microsoft-kjeldene før ein lovar ei bestemt funksjon.
 
 ## Oppsett
 

@@ -33,3 +33,21 @@ Ingen miljøvariablar er lesne av applikasjonskoden ved siste kontroll. [`.env.e
 5. Når push er godkjend, kontroller at riktig commit er READY og aliaset peikar på henne.
 
 Ei chatkommando utløyser ikkje i seg sjølv commit, push eller publisering. Ikkje start deploy automatisk frå agent eller lokal arbeidskopi.
+## Verifisert lokal tilgang
+Tilgangen vart kontrollert 9. november 2026 frå den inste og autoritative arbeidskopien:
+
+/Users/kristian/Library/CloudStorage/OneDrive-HøgskuleniVolda/FOU/infbv-nettside/infbv-nettside/infbv-nettside
+
+Dei to ytre mappene med same namn er nøsta prosjektkopiar. Dei skal ikkje brukast til commit, push eller deploy.
+
+GitHub-tilgangen vart kontrollert med git remote -v, git ls-remote origin HEAD og git push --dry-run origin main. origin peika på https://github.com/KFu-ki/infbv-nettside.git. Lesekontrollen returnerte gjeldande HEAD, og push-tørrkøyringa gav Everything up-to-date. Kontrollen sende ingen endringar.
+
+Vercel CLI 65.12.1 vart installert, og innlogginga vart fullført. Tilgangen omfattar teamet INFBV. Det autoritative produksjonsprosjektet er infbv-nettside, med prosjekt-ID prj_6HQPbnc5kmnH1UFdhPiORekXztFD. Prosjektet deployar frå main, har repo-rota som rotmappe og publiserer hovudportalen på https://infbv-nettside.vercel.app.
+
+Prosjekta infbv og infbv27 er òg kopla til same GitHub-repo og får parallelle deployar. Dei er ikkje hovudportalen og skal ikkje koplast om, brukast som produksjonstarget eller slettast utan ei eiga avgjerd.
+
+Den lokale arbeidskopien manglar .vercel/project.json. Dette hindrar ikkje automatisk deploy frå GitHub. Ikkje køyr vercel link, vercel eller vercel --prod som del av ein tilgangskontroll. Normal produksjonsflyt er kontrollert commit og push til eksisterande main, etterfølgt av kontroll av deployen i Vercel-prosjektet infbv-nettside.
+
+Vercel-programtillegget for Claude Code eller Codex er valfritt. Feil ved installasjon av programtillegget påverkar ikkje GitHub-integrasjonen, Vercel CLI eller vanleg produksjonsdeploy.
+
+Ved nye tilgangsproblem kan oppsettet kontrollerast med git status --short --branch, git remote -v, git ls-remote origin HEAD, git push --dry-run origin main, vercel whoami, vercel project ls og vercel project inspect infbv-nettside. Desse kontrollane skal ikkje starte ein deploy.

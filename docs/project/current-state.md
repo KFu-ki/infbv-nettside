@@ -17,6 +17,7 @@
 - To lokale GitHub Pages-workflowfiler er uversjonerte og ikkje inkluderte i denne deployen; eigarskap/vidare bruk er uavklart.
 - Dokumentasjonen har no detaljert komponentkart, backend/API, frontend, datakontraktar og flytar, budsjettformlar frå kode, designsamandrag og stegvis manuell gjenoppbygging.
 - KI-adapterar finst for Copilot, Claude, Gemini, Cursor, Windsurf, Cline, Roo Code, Continue og Amazon Q. Dei peikar til `AGENTS.md`.
+- Rettleiing, kompakt kontekstfil, Agent Builder-prompt og startprompt med tilgangssjekk og avgrensa GitHub/Vercel-fullmakt finst for Microsoft Copilot Chat (Basic); prompten gir ikkje i seg sjølv verktøytilgang.
 - `scripts/knowledge_lookup.py` gjer avgrensa lokale oppslag. `scripts/build_manual.py` genererer katalog, samla Markdown og PDF utan tredjeparts Python-pakkar.
 
 ## Fungerer ikkje eller manglar

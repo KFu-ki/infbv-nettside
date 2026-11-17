@@ -1,0 +1,61 @@
+name: Gjenopprett tidlegare versjon
+
+on:
+  workflow_dispatch:
+    inputs:
+      target_sha:
+        description: "Full commit-SHA som skal gjerast til ny versjon"
+        required: true
+        type: string
+      confirmation:
+        description: "Skriv GJENOPPRETT"
+        required: true
+        type: string
+
+permissions:
+  contents: write
+
+concurrency:
+  group: production-restore
+  cancel-in-progress: false
+
+jobs:
+  restore:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Kontroller stadfesting
+        env:
+          CONFIRMATION: ${{ inputs.confirmation }}
+        run: test "$CONFIRMATION" = "GJENOPPRETT"
+
+      - name: Hent repo med full historikk
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Kontroller og gjenopprett valt commitinnhald
+        env:
+          TARGET_SHA: ${{ inputs.target_sha }}
+        run: |
+          set -euo pipefail
+          git cat-file -e "${TARGET_SHA}^{commit}"
+          git merge-base --is-ancestor "$TARGET_SHA" HEAD
+          git archive --format=tar.gz -o "$RUNNER_TEMP/pre-restore-${GITHUB_SHA}.tar.gz" HEAD
+          git diff --binary "$TARGET_SHA" HEAD | git apply -R --index
+          if git diff --cached --quiet; then
+            echo "Valt versjon er identisk med gjeldande versjon."
+            exit 1
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "Gjenopprett innhald frå ${TARGET_SHA}"
+          git push origin HEAD:main
+
+      - name: Last opp sikringskopi frå før gjenoppretting
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: pre-restore-${{ github.sha }}
+          path: ${{ runner.temp }}/pre-restore-${{ github.sha }}.tar.gz
+          if-no-files-found: warn
+          retention-days: 30

@@ -92,3 +92,11 @@
 
 - Skildra faktiske kodeflater, API, statiske dataflytar, observerte designmønster og kodedefinerte budsjettformlar.
 - Noterte at historiske fulltranskript, Vercel-innstillingar og eksterne dataløyve ikkje ligg verifiserte i repoet.
+## 2026-11-09 — Rettleiing for Microsoft Copilot Chat (Basic)
+
+- La til brukarrettleiing for filopplasting og avgrensingar i vanleg Copilot Chat, ei kort prosjektkontekstfil og ein prompt for INFBV-spesialistagent i Agent Builder.
+- Dokumenterte at grunnkontoen ikkje har automatisk tilgang til lokal repo eller Microsoft Graph-arbeidsdata; varig agentkunnskap frå tenant-filer kan krevje lisens eller målt bruk.
+## 2026-11-09 — Copilot-startprompt med publiseringsfullmakt
+
+- La til ein startprompt som ber Copilot teste repo-/GitHub-/Vercel-tilgang, lese prosjektkjeldene og utføre oppgåverelatert commit/push/deploy utan ny godkjenning per steg.
+- Avgrensa fullmakta til eksisterande repo, `main` og Vercel-prosjektet `infbv-nettside`; tilgangen må vere teknisk aktiv, og personvern-/konfliktstopp gjeld framleis.

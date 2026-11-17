@@ -4,6 +4,10 @@ Sjå [dokumentasjonsindeksen](docs/INDEX.md) for prosjektstatus, arkitektur, dat
 
 For emnekodar, gjeldande nynorske visingsnamn og seinare omsetjingar, bruk mappa [INFBV-studiemodell](INFBV-studiemodell/studiemodell.md). I VS Code med GitHub Copilot kan du starte med arbeidsflytprompten `.github/prompts/infbv-work.prompt.md`.
 
+Brukar du vanleg Microsoft Copilot Chat (Basic), sjå [rettleiinga for Copilot Chat](docs/user-guides/copilot-chat-basic.md). Ho forklarer kva repo-filer du må leggje ved og har ein [prompt for å lage ein INFBV-spesialistagent](docs/agents/copilot-chat-specialist-agent-prompt.md).
+
+For ein ny Copilot-chat som skal sjekke GitHub/Vercel-tilgang, lese repoet og publisere oppgåverelaterte nettsideendringar utan gjentekne godkjenningar, bruk [startprompten for repoarbeid og deploy](docs/user-guides/copilot-chat-start-prompt.md).
+
 Kort lokalt kunnskapsoppslag for menneske og agentar:
 
 ```bash

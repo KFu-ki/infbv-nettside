@@ -45,3 +45,13 @@
 - Samtalehistorikk i repoet er ikkje fullstendig; loggen er avgrensa til samandrag som kan knytast til brukarønske eller dokumentert repo-praksis.
 - Dokumentasjons-/indekssjekk, generator `--check`, lokalt oppslag, Python-syntaks, JSON-filer, CLI-hjelp, YAML/JSON-konfigurasjon og `git diff --check` bestod. PDF-generatoren produserte ei gyldig PDF 1.4-fil med 45 sider.
 - Målklientane for agentadapterane er ikkje installerte/verifiserte; app-test, lint, bygg, ekstern hosting og visuell PDF-gjennomgang vart ikkje køyrde.
+## 2026-11-09 — Copilot Chat Basic-rettleiing
+
+- Kontrollerte Microsoft sine gjeldande Copilot Chat-, filopplastings-, Agent Builder- og datavernsdokument.
+- La til rettleiing for grunnleggande HVO Copilot Chat, opplastbar prosjektkontekst og ein Agent Builder-prompt som ikkje føreset lokal repo-tilgang eller tenant-datakjelder.
+- Bygg- og dokumentasjonskontrollar står i denne overleveringa etter gjennomføring.
+## 2026-11-09 — Copilot-startprompt for repoarbeid og deploy
+
+- Skreiv ein kopierbar startprompt for HVO Copilot Chat som først testar reell GitHub-, terminal- og Vercel-tilgang.
+- Prompten gir uttrykkjeleg og avgrensa løyve til oppgåverelatert commit/push/deploy til eksisterande `main` og Vercel-produksjon, utan gjenteken godkjenning for kvart standardsteg.
+- Prompten hindrar bruk av manglande verktøy som om dei fanst, og krev at brukaren berre blir kontakta ved reelle tilgangsproblem, konflikter eller eigar-/personvernavgjerder.

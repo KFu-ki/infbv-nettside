@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="nn">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="dark">
+  <title>Versjonar og gjenoppretting | INFBV</title>
+  <meta name="description" content="Oversikt over publiserte versjonar av INFBV-fagportalen og trygg veg til gjenoppretting.">
+  <link rel="stylesheet" href="../styles.css">
+  <style>
+    :root{--bg:#07101f;--panel:#101a2d;--line:#26344d;--text:#e8edf6;--muted:#a8b3c7;--amber:#fbbf24;--indigo:#818cf8;--ok:#34d399}
+    body{margin:0;background:radial-gradient(circle at top right,#172554 0,transparent 34rem),var(--bg);color:var(--text);font-family:ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+    .wrap{width:min(70rem,calc(100% - 2rem));margin:auto}.top{padding:1rem 0;border-bottom:1px solid var(--line);background:rgba(7,16,31,.88);backdrop-filter:blur(12px);position:sticky;top:0;z-index:2}.top .wrap{display:flex;align-items:center;justify-content:space-between;gap:1rem}.brand{font-weight:800;letter-spacing:.07em}.back,.button{display:inline-flex;align-items:center;justify-content:center;border:1px solid var(--line);border-radius:.75rem;padding:.7rem 1rem;color:var(--text);text-decoration:none;background:#111c31}.back:hover,.button:hover{border-color:var(--amber)}main{padding:3rem 0 5rem}.eyebrow{color:var(--amber);font:700 .78rem ui-monospace,SFMono-Regular,Menlo,monospace;letter-spacing:.13em}.hero h1{font-family:Georgia,serif;font-size:clamp(2rem,6vw,4rem);margin:.5rem 0 1rem}.lead{max-width:48rem;color:var(--muted);font-size:1.08rem;line-height:1.65}.notice{margin:2rem 0;padding:1rem 1.2rem;border:1px solid #854d0e;border-radius:1rem;background:rgba(120,53,15,.18)}.grid{display:grid;grid-template-columns:1fr;gap:1rem;margin-top:2rem}.card{background:rgba(16,26,45,.9);border:1px solid var(--line);border-radius:1rem;padding:1.1rem}.card-head{display:flex;justify-content:space-between;gap:1rem;align-items:start}.sha{font:700 .78rem ui-monospace,SFMono-Regular,Menlo,monospace;color:var(--indigo)}.date{color:var(--muted);font-size:.85rem}.title{font-weight:750;margin:.45rem 0}.author{color:var(--muted);font-size:.9rem}.actions{display:flex;flex-wrap:wrap;gap:.7rem;margin-top:1rem}.button.primary{border-color:#a16207;background:#713f12}.button.safe{border-color:#3730a3;background:#312e81}.status{margin-top:1rem;color:var(--muted)}.status.ok{color:var(--ok)}.admin{margin-top:2rem;border-top:1px solid var(--line);padding-top:2rem}.small{font-size:.9rem;color:var(--muted);line-height:1.55}@media(min-width:48rem){.grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+  </style>
+</head>
+<body>
+<header class="top"><div class="wrap"><div class="brand">INFBV</div><a class="back" href="../">Til hovudportalen</a></div></header>
+<main class="wrap">
+  <section class="hero" aria-labelledby="page-title">
+    <div class="eyebrow">DRIFT OG GJENOPPRETTING</div>
+    <h1 id="page-title">Versjonar</h1>
+    <p class="lead">Sida viser dei nyaste versjonane på <code>main</code>. Ei gjenoppretting skjer ikkje direkte her. Knappen opnar den sikra arbeidsflyten i GitHub, der du må logge inn, velje versjon og skrive <code>GJENOPPRETT</code>.</p>
+  </section>
+  <div class="notice"><strong>Tryggleik:</strong> Hovudportalen vert ikkje endra berre ved å opne denne sida. GitHub krev skrivetilgang og eksplisitt stadfesting før ei eldre utgåve kan gjerast til ny produksjonsversjon.</div>
+  <section aria-labelledby="versions-title">
+    <h2 id="versions-title">Nyaste GitHub-versjonar</h2>
+    <div id="status" class="status" role="status">Hentar versjonar frå GitHub …</div>
+    <div id="versions" class="grid" aria-live="polite"></div>
+  </section>
+  <section class="admin" aria-labelledby="restore-title">
+    <h2 id="restore-title">Gjenopprett ei utgåve</h2>
+    <p class="small">Vel først ein versjon ovanfor og kopier commit-ID-en. Opne deretter den sikra arbeidsflyten. GitHub krev innlogging med ein konto som har skrivetilgang til repoet.</p>
+    <a class="button primary" href="https://github.com/KFu-ki/infbv-nettside/actions/workflows/restore-version.yml">Opne sikker gjenoppretting i GitHub</a>
+  </section>
+</main>
+<script>
+const API='https://api.github.com/repos/KFu-ki/infbv-nettside/commits?sha=main&per_page=20';
+const list=document.getElementById('versions'); const statusEl=document.getElementById('status');
+const esc=s=>String(s??'').replace(/[&<>'"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;',"'":'&#39;','"':'&quot;'}[c]));
+fetch(API,{headers:{Accept:'application/vnd.github+json'}}).then(r=>{if(!r.ok)throw new Error('GitHub svarte '+r.status);return r.json()}).then(items=>{
+ statusEl.textContent=`Viser ${items.length} versjonar frå main.`; statusEl.className='status ok';
+ list.innerHTML=items.map((item,i)=>{const sha=item.sha; const short=sha.slice(0,7); const c=item.commit||{}; const when=new Date(c.author?.date||0).toLocaleString('nn-NO',{dateStyle:'medium',timeStyle:'short'}); const live=i===0?'<span class="sha">NYASTE</span>':''; return `<article class="card"><div class="card-head"><span class="sha">${esc(short)}</span>${live}</div><div class="title">${esc((c.message||'Utan melding').split('\n')[0])}</div><div class="author">${esc(c.author?.name||'Ukjend')} · <span class="date">${esc(when)}</span></div><div class="actions"><button class="button safe" data-sha="${esc(sha)}">Kopier commit-ID</button><a class="button" href="${esc(item.html_url)}">Sjå i GitHub</a></div></article>`}).join('');
+ list.addEventListener('click',e=>{const b=e.target.closest('[data-sha]');if(!b)return;navigator.clipboard.writeText(b.dataset.sha).then(()=>{const old=b.textContent;b.textContent='Commit-ID kopiert';setTimeout(()=>b.textContent=old,1800)})});
+}).catch(err=>{statusEl.textContent='Kunne ikkje hente versjonar: '+err.message+'. Opne GitHub-lenkja nedanfor.';});
+</script>
+</body>
+</html>
