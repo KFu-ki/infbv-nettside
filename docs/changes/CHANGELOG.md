@@ -100,3 +100,8 @@
 
 - La til ein startprompt som ber Copilot teste repo-/GitHub-/Vercel-tilgang, lese prosjektkjeldene og utføre oppgåverelatert commit/push/deploy utan ny godkjenning per steg.
 - Avgrensa fullmakta til eksisterande repo, `main` og Vercel-prosjektet `infbv-nettside`; tilgangen må vere teknisk aktiv, og personvern-/konfliktstopp gjeld framleis.
+
+## 2026-11-17
+
+- La til ein første språkveljar på INFBV-framsida med nynorsk og engelsk.
+- Engelsk vising prioriterer trinn 4 og 5 i kompetansetrappa og MMP311. Språkvalet kan opnast direkte med `?lang=en` og vert lagra lokalt i nettlesaren.

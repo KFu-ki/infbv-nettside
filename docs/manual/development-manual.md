@@ -85,7 +85,8 @@ Automatisk oversyn over kjelde-/konfigurasjonsfiler. Korte SHA-256-prefiksar gje
 | `budsjett/app.js` | `.js` | `d04c76ce9101` | programDefinitions, numberFormat, oneDecimal, fteFormat, state, el, fmt, fmtOne, fmtFte, fmtKr, fmtPercent, fmtStaffDelta, esc, programCalculations, alternativeStaff, flowBack, adminBack, sharedBack, baseStaff, assignedStaff, effectiveStaff, totalStudents, totalBudget, totalCredits, avgCredits, averageStudentsPerStaff, averageBudgetPerStudent, scenarioStaffAllocations, productionPool, weights, productionShare, studentShare, alternativeCapacity, total, nonProduction, shared, analysisTableCreated, renderAnalysisTable, field, inputValue, value, program, tableRow, currentValue, staffInput, cells, totalProgramStaff, renderKpis, first, programStaffTotal, capacity, renderAlternativePanel, alternative, selected, names, proposal, basis, unitIndex, productionIndex, currentProgramStaff, previousStudents, currentStudents, studentChange, index, production2026, production2027, productionChange, budget2026, budgetChange, referenceStaff, staffChange, unit, renderProposal, finalSum, noteBudget, stipend, final, units, sumCard, fellesSources, fellesComponentsTotal, dbhStudents, studentDifference, dashboardStudents, proposalCell, isCurrency, inputStep, maxAllocation, unitHeader, componentRows, row, tableBody, mismatch, mismatchText, componentDifference, reference, componentSumIssues, mpro, mproPhoto, referenceFinalSum, referenceDistributionSum, referenceSalarySum, recalculateProposal, sumRows, result, updateProposalValue, rawValue, groupData, renderOverview, maxBudget, categoryFor, renderBarometer, average, max, category, renderReport, sortedCredits, sortedBudget, above, below, workloadText, renderWorkload, highest, metrics, means, ratio, color, difference, diffText, traffic, renderRadar, maxima, cx, pointsAt, angle, grid, points, axes, edge, label, shapes, legend, renderTraffic, renderBubble, width, left, plotWidth, maxStaff, maxCredits, averageStudents, x, y, lineY, dots, radius, cy, labelY, ticks, svg, renderScenario, avg, fteTotal, idealTotal, renderSankey, sourceX, output, available, staffWeightTotal, maxThickness, paths, share, thickness, sourceY, targetY, d, nodes, renderDashboard, programs, loadWorkbookData, response, source, dataByCode, csvEscape, exportExcel, allocationWeightTotal, modelName, overview, details, staffing, budget, budgetInKroner, blob, link, url, exportCsvFallback, rows, csv, exportPng, image, svgBlob, objectUrl, canvas, context, pngUrl, dark |
 | `budsjett/index.html` | `.html` | `95690952975b` | AMF \| Budsjett og ressursoversikt |
 | `budsjett/styles.css` | `.css` | `78639b5b1345` | @media (min-width: 1500px), @media (max-width: 1120px), @media (max-width: 820px), @media (max-width: 560px), @media print |
-| `index.html` | `.html` | `a1a91fab39a5` | INFBV — kompetansetrapp og fagportal \| Høgskulen i Volda |
+| `index.html` | `.html` | `8d7a0b18fa68` | INFBV — kompetansetrapp og fagportal \| Høgskulen i Volda |
+| `language.js` | `.js` | `fced9bbf36a1` | STORAGE_KEY, params, requested, currentLanguage, originals, english, setText, element, updateStaticInterface, isEnglish, toggle, level4, level5, applyLanguage, url |
 | `requirements.txt` | `.txt` | `ed58f33ba012` | fastapi>=0.115,<1, uvicorn>=0.30,<1 |
 | `scripts/build_manual.py` | `.py` | `9fcacf8b903f` | source_markdown_files, source_code_files, document_title, document_summary, source_symbols, code_map_markdown, catalog_markdown, manual_markdown, markdown_lines, pdf_literal, create_pdf, write_or_check, main |
 | `scripts/check_documentation.py` | `.py` | `60f98fd902e2` | markdown_files, internal_link_errors, tracked_secret_errors, documentation_index_errors, main |
@@ -967,6 +968,11 @@ Alternativ vekting bruker samla produksjon/studentar; ved null totalsum er nemna
 - La til ein startprompt som ber Copilot teste repo-/GitHub-/Vercel-tilgang, lese prosjektkjeldene og utføre oppgåverelatert commit/push/deploy utan ny godkjenning per steg.
 - Avgrensa fullmakta til eksisterande repo, `main` og Vercel-prosjektet `infbv-nettside`; tilgangen må vere teknisk aktiv, og personvern-/konfliktstopp gjeld framleis.
 
+## 2026-11-17
+
+- La til ein første språkveljar på INFBV-framsida med nynorsk og engelsk.
+- Engelsk vising prioriterer trinn 4 og 5 i kompetansetrappa og MMP311. Språkvalet kan opnast direkte med `?lang=en` og vert lagra lokalt i nettlesaren.
+
 ---
 
 <a id="docs-changes-project-journal.md"></a>
@@ -1029,6 +1035,12 @@ Alternativ vekting bruker samla produksjon/studentar; ved null totalsum er nemna
 - Skreiv ein kopierbar startprompt for HVO Copilot Chat som først testar reell GitHub-, terminal- og Vercel-tilgang.
 - Prompten gir uttrykkjeleg og avgrensa løyve til oppgåverelatert commit/push/deploy til eksisterande `main` og Vercel-produksjon, utan gjenteken godkjenning for kvart standardsteg.
 - Prompten hindrar bruk av manglande verktøy som om dei fanst, og krev at brukaren berre blir kontakta ved reelle tilgangsproblem, konflikter eller eigar-/personvernavgjerder.
+
+## 2026-11-17 – Første engelske vising
+
+- La til ein avgrensa språkveljar for nynorsk og engelsk på framsida.
+- Den engelske førsteversjonen omset grensesnittet for trinn 4 og 5 og gjev MMP311 ein kort engelsk introduksjon. Emnenamn er elles bevarte frå gjeldande studiemodell, slik at udokumenterte omsetjingar ikkje vert innførte.
+- Direkte engelsk inngang er `/?lang=en`; valet vert lagra i `localStorage` som `infbv-language`.
 
 ---
 
@@ -1833,7 +1845,8 @@ Første test skal bruke ein ufarlig testcommit som straks kan gjenopprettast. Ko
 ## Kva som finst og fungerer
 
 - Offentleg fagportal med HTML/CSS/JavaScript-framside, budsjettoversikt og Timeplan 2027.
-- INFBV-framsida har ein tilgjengeleg lys/mørk-brytar med lokalt lagra val; mørkt tema er standard. Trinnval, navigasjonsmeny og hurtignavigasjon kan styrast med tastatur.
+- INFBV-framsida har ein tilgjengeleg lys/mørk-brytar med lokalt lagra val; mørkt tema er standard.
+- Framsida har ein første språkveljar for nynorsk og engelsk. Engelsk vising prioriterer trinn 4 og 5 og MMP311; `?lang=en` opnar denne visinga direkte. Trinnval, navigasjonsmeny og hurtignavigasjon kan styrast med tastatur.
 - `INFBV-studiemodell/` samlar emneoversikt og språkvariantar. `app.js` er framleis køyrande kjelde; registeret støttar manuell kontroll og seinare omsetjing. Dei 11 bachelor-emna vart oppdaterte frå `Nye emnenamn.xlsx` 2026-11-09.
 - FastAPI-app i `app.py` tilbyr data- og Excel-endepunkt og serverer sidene.
 - JSON-utdrag finst i `budsjett/data.json` og `timeplanside/timeplan-2027.json`; README seier dei vert brukte av statiske sider.

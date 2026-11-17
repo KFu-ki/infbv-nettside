@@ -78,6 +78,7 @@
                 </div>
                 <svg class="w-4 h-4 text-slate-400 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
             </div>
+            <button id="language-toggle" type="button" onclick="toggleLanguage()" aria-label="Switch to English" title="Switch to English" lang="en" class="inline-flex min-h-11 min-w-11 items-center justify-center rounded-lg border border-slate-700 bg-slate-800/80 px-3 py-2 text-sm font-bold text-slate-200 hover:border-indigo-400/70 hover:text-indigo-300 transition-colors focus:outline-none focus:ring-2 focus:ring-indigo-500/60">EN</button>
             <button id="theme-toggle" type="button" role="switch" aria-label="Lyst tema" aria-checked="false" title="Slå på lyst tema" class="inline-flex min-h-11 items-center gap-2 rounded-lg border border-slate-700 bg-slate-800/80 px-3 py-2 text-sm font-medium text-slate-200 hover:border-amber-400/70 hover:text-amber-300 transition-colors focus:outline-none focus:ring-2 focus:ring-amber-500/60">
                 <svg id="theme-toggle-icon" class="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v2m0 14v2M5.64 5.64l1.42 1.42m9.88 9.88 1.42 1.42M3 12h2m14 0h2M5.64 18.36l1.42-1.42m9.88-9.88 1.42-1.42M16 12a4 4 0 1 1-8 0 4 4 0 0 1 8 0Z"></path></svg>
                 <span id="theme-toggle-label">Lys</span>
@@ -198,6 +199,7 @@
     </main>
 
     <script src="app.js"></script>
+    <script src="language.js"></script>
     <script>
         (() => {
             if (window.location.protocol === 'file:') return;

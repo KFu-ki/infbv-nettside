@@ -7,7 +7,8 @@
 ## Kva som finst og fungerer
 
 - Offentleg fagportal med HTML/CSS/JavaScript-framside, budsjettoversikt og Timeplan 2027.
-- INFBV-framsida har ein tilgjengeleg lys/mørk-brytar med lokalt lagra val; mørkt tema er standard. Trinnval, navigasjonsmeny og hurtignavigasjon kan styrast med tastatur.
+- INFBV-framsida har ein tilgjengeleg lys/mørk-brytar med lokalt lagra val; mørkt tema er standard.
+- Framsida har ein første språkveljar for nynorsk og engelsk. Engelsk vising prioriterer trinn 4 og 5 og MMP311; `?lang=en` opnar denne visinga direkte. Trinnval, navigasjonsmeny og hurtignavigasjon kan styrast med tastatur.
 - `INFBV-studiemodell/` samlar emneoversikt og språkvariantar. `app.js` er framleis køyrande kjelde; registeret støttar manuell kontroll og seinare omsetjing. Dei 11 bachelor-emna vart oppdaterte frå `Nye emnenamn.xlsx` 2026-11-09.
 - FastAPI-app i `app.py` tilbyr data- og Excel-endepunkt og serverer sidene.
 - JSON-utdrag finst i `budsjett/data.json` og `timeplanside/timeplan-2027.json`; README seier dei vert brukte av statiske sider.

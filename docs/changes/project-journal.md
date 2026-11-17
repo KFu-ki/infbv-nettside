@@ -55,3 +55,9 @@
 - Skreiv ein kopierbar startprompt for HVO Copilot Chat som først testar reell GitHub-, terminal- og Vercel-tilgang.
 - Prompten gir uttrykkjeleg og avgrensa løyve til oppgåverelatert commit/push/deploy til eksisterande `main` og Vercel-produksjon, utan gjenteken godkjenning for kvart standardsteg.
 - Prompten hindrar bruk av manglande verktøy som om dei fanst, og krev at brukaren berre blir kontakta ved reelle tilgangsproblem, konflikter eller eigar-/personvernavgjerder.
+
+## 2026-11-17 – Første engelske vising
+
+- La til ein avgrensa språkveljar for nynorsk og engelsk på framsida.
+- Den engelske førsteversjonen omset grensesnittet for trinn 4 og 5 og gjev MMP311 ein kort engelsk introduksjon. Emnenamn er elles bevarte frå gjeldande studiemodell, slik at udokumenterte omsetjingar ikkje vert innførte.
+- Direkte engelsk inngang er `/?lang=en`; valet vert lagra i `localStorage` som `infbv-language`.
