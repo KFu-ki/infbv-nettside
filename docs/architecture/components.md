@@ -21,6 +21,7 @@ Dette er eit lesekart, ikkje eit separat rammeverk. Koden er autoritativ dersom 
 | `budsjett/` | `index.html`, `styles.css`, `app.js`, offentleg `data.json` og merkevarebilete. Budsjettens datalasting, modellberekningar, scenario, diagram og eksport ligg i `app.js`. |
 | `timeplan2027/` | Statisk vising, filtrering, nettlesarkladdar, GitHub-forslag og XLSX/CSV-eksport. |
 | `timeplanside/` | JSON som timeplanen les, og eksisterande/genererte XLSX-filer. Det er ikkje same mappe som frontend. |
+| `mmp311/` | Engelskspråkleg MMP311-hub med statisk HTML/CSS og originale modellillustrasjonar. |
 
 ## Skript og hovudfunksjonar
 

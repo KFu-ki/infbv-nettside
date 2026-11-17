@@ -38,3 +38,8 @@ Timeplanen brukar `escapeHtml()` før feltdata vert sette inn i HTML. Budsjett h
 - Kontroller desktop og smal viewport, keyboard-fokus, tomme/ugyldige data og konsollfeil.
 - Verifiser scenario-/filter-/kladdoppførsel og eksportfallback når API er utilgjengeleg.
 - Det finst ikkje no ein browser-test- eller byggrunner; manuell kontroll må rapporterast som manuell.
+
+## MMP311 Learning Hub
+- `mmp311/index.html` er ei sjølvstendig engelskspråkleg læringsflate for MMP311 med kursinngang, læringssti, PRK, SOFT, FIVER og APA 7-referansar.
+- `mmp311/styles.css` har responsivt oppsett, synleg tastaturfokus, redusert rørsle og lokale systemfontar.
+- `mmp311/assets/` inneheld originale forklaringsillustrasjonar. Sida les ikkje timeplandata eller personopplysningar.

@@ -80,13 +80,15 @@ Automatisk oversyn over kjelde-/konfigurasjonsfiler. Korte SHA-256-prefiksar gje
 | `.github/workflows/restore-version.yml` | `.yml` | `0bbead5c337c` | Konfigurasjon |
 | `.github/workflows/static.yml` | `.yml` | `f2d965580744` | Konfigurasjon |
 | `.vscode/extensions.json` | `.json` | `e6089ad5102d` | Konfigurasjon |
-| `app.js` | `.js` | `f6fe18c4b70c` | STAGES, COURSE_CONTENT, SKILLS, activeStep, setupEventListeners, menuBtn, staircaseWidget, drawer, popover, setupThemeToggle, button, label, icon, themeColor, applyTheme, isLight, nextTheme, toggleMenu, isOpening, closeMenu, toggleMiniStaircasePopover, closeMiniStaircasePopover, widget, selectStep, courseViewWasOpen, updateStairVisualState, steps, currentStep, isActive, title, renderStepDetails, stage, container, isMaster, badgeBg, html, courseSkills, open, course, renderSkillsGrid, groups, isAI, borderClass, stages, courses, openCourse, content, courseMeta, courseContent, courseHeading, showHome |
-| `app.py` | `.py` | `9c850f4d3473` | dashboard_data, export_dashboard, timetable_data, export_timetable, home, main_script, main_styles, version |
+| `app.js` | `.js` | `e0624d1d95d8` | STAGES, COURSE_CONTENT, SKILLS, activeStep, setupEventListeners, menuBtn, staircaseWidget, drawer, popover, setupThemeToggle, button, label, icon, themeColor, applyTheme, isLight, nextTheme, toggleMenu, isOpening, closeMenu, toggleMiniStaircasePopover, closeMiniStaircasePopover, widget, selectStep, courseViewWasOpen, updateStairVisualState, steps, currentStep, isActive, title, renderStepDetails, stage, container, isMaster, badgeBg, html, courseSkills, open, course, renderSkillsGrid, groups, isAI, borderClass, stages, courses, openCourse, content, courseMeta, courseContent, courseHeading, showHome |
+| `app.py` | `.py` | `88f2a217295f` | dashboard_data, export_dashboard, timetable_data, export_timetable, home, main_script, main_styles, version |
 | `budsjett/app.js` | `.js` | `d04c76ce9101` | programDefinitions, numberFormat, oneDecimal, fteFormat, state, el, fmt, fmtOne, fmtFte, fmtKr, fmtPercent, fmtStaffDelta, esc, programCalculations, alternativeStaff, flowBack, adminBack, sharedBack, baseStaff, assignedStaff, effectiveStaff, totalStudents, totalBudget, totalCredits, avgCredits, averageStudentsPerStaff, averageBudgetPerStudent, scenarioStaffAllocations, productionPool, weights, productionShare, studentShare, alternativeCapacity, total, nonProduction, shared, analysisTableCreated, renderAnalysisTable, field, inputValue, value, program, tableRow, currentValue, staffInput, cells, totalProgramStaff, renderKpis, first, programStaffTotal, capacity, renderAlternativePanel, alternative, selected, names, proposal, basis, unitIndex, productionIndex, currentProgramStaff, previousStudents, currentStudents, studentChange, index, production2026, production2027, productionChange, budget2026, budgetChange, referenceStaff, staffChange, unit, renderProposal, finalSum, noteBudget, stipend, final, units, sumCard, fellesSources, fellesComponentsTotal, dbhStudents, studentDifference, dashboardStudents, proposalCell, isCurrency, inputStep, maxAllocation, unitHeader, componentRows, row, tableBody, mismatch, mismatchText, componentDifference, reference, componentSumIssues, mpro, mproPhoto, referenceFinalSum, referenceDistributionSum, referenceSalarySum, recalculateProposal, sumRows, result, updateProposalValue, rawValue, groupData, renderOverview, maxBudget, categoryFor, renderBarometer, average, max, category, renderReport, sortedCredits, sortedBudget, above, below, workloadText, renderWorkload, highest, metrics, means, ratio, color, difference, diffText, traffic, renderRadar, maxima, cx, pointsAt, angle, grid, points, axes, edge, label, shapes, legend, renderTraffic, renderBubble, width, left, plotWidth, maxStaff, maxCredits, averageStudents, x, y, lineY, dots, radius, cy, labelY, ticks, svg, renderScenario, avg, fteTotal, idealTotal, renderSankey, sourceX, output, available, staffWeightTotal, maxThickness, paths, share, thickness, sourceY, targetY, d, nodes, renderDashboard, programs, loadWorkbookData, response, source, dataByCode, csvEscape, exportExcel, allocationWeightTotal, modelName, overview, details, staffing, budget, budgetInKroner, blob, link, url, exportCsvFallback, rows, csv, exportPng, image, svgBlob, objectUrl, canvas, context, pngUrl, dark |
 | `budsjett/index.html` | `.html` | `95690952975b` | AMF \| Budsjett og ressursoversikt |
 | `budsjett/styles.css` | `.css` | `78639b5b1345` | @media (min-width: 1500px), @media (max-width: 1120px), @media (max-width: 820px), @media (max-width: 560px), @media print |
 | `index.html` | `.html` | `8d7a0b18fa68` | INFBV — kompetansetrapp og fagportal \| Høgskulen i Volda |
 | `language.js` | `.js` | `85ace0f3a098` | STORAGE_KEY, params, requested, currentLanguage, originals, english, setText, element, staircaseCopy, updateMainStaircase, copy, headerSpans, title, description, updateStaticInterface, isEnglish, toggle, level4, level5, applyLanguage, url |
+| `mmp311/index.html` | `.html` | `6a24c1c98b49` | MMP311 Risk Communication and Issue Management \| INFBV |
+| `mmp311/styles.css` | `.css` | `20fc493394a5` | @media (max-width:850px), @media (prefers-reduced-motion:reduce) |
 | `requirements.txt` | `.txt` | `ed58f33ba012` | fastapi>=0.115,<1, uvicorn>=0.30,<1 |
 | `scripts/build_manual.py` | `.py` | `9fcacf8b903f` | source_markdown_files, source_code_files, document_title, document_summary, source_symbols, code_map_markdown, catalog_markdown, manual_markdown, markdown_lines, pdf_literal, create_pdf, write_or_check, main |
 | `scripts/check_documentation.py` | `.py` | `60f98fd902e2` | markdown_files, internal_link_errors, tracked_secret_errors, documentation_index_errors, main |
@@ -608,6 +610,7 @@ Dette er eit lesekart, ikkje eit separat rammeverk. Koden er autoritativ dersom 
 | `budsjett/` | `index.html`, `styles.css`, `app.js`, offentleg `data.json` og merkevarebilete. Budsjettens datalasting, modellberekningar, scenario, diagram og eksport ligg i `app.js`. |
 | `timeplan2027/` | Statisk vising, filtrering, nettlesarkladdar, GitHub-forslag og XLSX/CSV-eksport. |
 | `timeplanside/` | JSON som timeplanen les, og eksisterande/genererte XLSX-filer. Det er ikkje same mappe som frontend. |
+| `mmp311/` | Engelskspråkleg MMP311-hub med statisk HTML/CSS og originale modellillustrasjonar. |
 
 ## Skript og hovudfunksjonar
 
@@ -758,6 +761,11 @@ Timeplanen brukar `escapeHtml()` før feltdata vert sette inn i HTML. Budsjett h
 - Kontroller desktop og smal viewport, keyboard-fokus, tomme/ugyldige data og konsollfeil.
 - Verifiser scenario-/filter-/kladdoppførsel og eksportfallback når API er utilgjengeleg.
 - Det finst ikkje no ein browser-test- eller byggrunner; manuell kontroll må rapporterast som manuell.
+
+## MMP311 Learning Hub
+- `mmp311/index.html` er ei sjølvstendig engelskspråkleg læringsflate for MMP311 med kursinngang, læringssti, PRK, SOFT, FIVER og APA 7-referansar.
+- `mmp311/styles.css` har responsivt oppsett, synleg tastaturfokus, redusert rørsle og lokale systemfontar.
+- `mmp311/assets/` inneheld originale forklaringsillustrasjonar. Sida les ikkje timeplandata eller personopplysningar.
 
 ---
 
@@ -975,6 +983,11 @@ Alternativ vekting bruker samla produksjon/studentar; ved null totalsum er nemna
 
 - Retta engelsk vising slik at sjølve kompetansetrappa, alle fem nivånamna, nivåetikettane, forklaringane og tilgjengeetikettane vert omsette.
 
+## 2026-11-17 — MMP311 Learning Hub
+- La til ei engelskspråkleg læringsflate på `/mmp311/` med kursoversyn, læringssti, PRK, SOFT, FIVER og kontrollerte kjelder.
+- Kopla MMP311-emnevisinga på INFBV-framsida til læringsflata.
+- La til originale, tilgjengeleg skildra modellillustrasjonar utan persondata.
+
 ---
 
 <a id="docs-changes-project-journal.md"></a>
@@ -1045,6 +1058,11 @@ Alternativ vekting bruker samla produksjon/studentar; ved null totalsum er nemna
 - Direkte engelsk inngang er `/?lang=en`; valet vert lagra i `localStorage` som `infbv-language`.
 
 - Retta første språkversjon etter live-kontroll: hovudtrappa var framleis på nynorsk. `language.js` omset no synleg trappetekst og `aria-label` for alle fem nivå og set teksten tilbake ved byte til nynorsk.
+
+## 2026-11-17 — Første MMP311-læringsressurs
+- Bygde ei sjølvstendig engelsk læringsflate frå den offisielle emneskildringa og det forfattargodkjende bokmanuset.
+- Brukte Chase (1984), Diers-Lawson (2020), Brataas, Fuglseth og Bakken (2026), Hernes (2019) og Vær Varsom-plakaten som kontrollerte kjelder.
+- Ressursen introduserer PRK, SOFT og FIVER, men omtalar ikkje pedagogisk bruk av FIVER som empirisk validering.
 
 ---
 
@@ -1849,6 +1867,7 @@ Første test skal bruke ein ufarlig testcommit som straks kan gjenopprettast. Ko
 ## Kva som finst og fungerer
 
 - Offentleg fagportal med HTML/CSS/JavaScript-framside, budsjettoversikt og Timeplan 2027.
+- MMP311 Learning Hub ligg på `/mmp311/` med engelskspråkleg innføring, læringssti og modellane PRK, SOFT og FIVER.
 - INFBV-framsida har ein tilgjengeleg lys/mørk-brytar med lokalt lagra val; mørkt tema er standard.
 - Framsida har ein første språkveljar for nynorsk og engelsk. Engelsk vising prioriterer trinn 4 og 5 og MMP311; `?lang=en` opnar denne visinga direkte. Trinnval, navigasjonsmeny og hurtignavigasjon kan styrast med tastatur.
 - `INFBV-studiemodell/` samlar emneoversikt og språkvariantar. `app.js` er framleis køyrande kjelde; registeret støttar manuell kontroll og seinare omsetjing. Dei 11 bachelor-emna vart oppdaterte frå `Nye emnenamn.xlsx` 2026-11-09.
@@ -2184,7 +2203,7 @@ python3 scripts/build_manual.py --check
 
 Skriptet oppdaterer avleidde filer i `docs/manual/`; CI kan tilby PDF-en som workflow-artifakt. Sjå [manualrettleiinga](docs/manual/README.md). Dette endrar ikkje KI-modell, leverandørkonto eller chatminne.
 
-Nettsida kan publiserast frå dette GitHub-repoet med Vercel. INFBV-forsida ligg på `/`, AMF-dashbordet på `/budsjett/`, og Timeplan 2027 på `/timeplan2027/`.
+Nettsida kan publiserast frå dette GitHub-repoet med Vercel. INFBV-forsida ligg på `/`, AMF-dashbordet på `/budsjett/`, og Timeplan 2027 på `/timeplan2027/`, og MMP311 Learning Hub på `/mmp311/`.
 
 ## Lokal utvikling
 

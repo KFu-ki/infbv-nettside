@@ -63,3 +63,8 @@
 - Direkte engelsk inngang er `/?lang=en`; valet vert lagra i `localStorage` som `infbv-language`.
 
 - Retta første språkversjon etter live-kontroll: hovudtrappa var framleis på nynorsk. `language.js` omset no synleg trappetekst og `aria-label` for alle fem nivå og set teksten tilbake ved byte til nynorsk.
+
+## 2026-11-17 — Første MMP311-læringsressurs
+- Bygde ei sjølvstendig engelsk læringsflate frå den offisielle emneskildringa og det forfattargodkjende bokmanuset.
+- Brukte Chase (1984), Diers-Lawson (2020), Brataas, Fuglseth og Bakken (2026), Hernes (2019) og Vær Varsom-plakaten som kontrollerte kjelder.
+- Ressursen introduserer PRK, SOFT og FIVER, men omtalar ikkje pedagogisk bruk av FIVER som empirisk validering.

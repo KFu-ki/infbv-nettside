@@ -23,7 +23,7 @@ python3 scripts/build_manual.py --check
 
 Skriptet oppdaterer avleidde filer i `docs/manual/`; CI kan tilby PDF-en som workflow-artifakt. Sjå [manualrettleiinga](docs/manual/README.md). Dette endrar ikkje KI-modell, leverandørkonto eller chatminne.
 
-Nettsida kan publiserast frå dette GitHub-repoet med Vercel. INFBV-forsida ligg på `/`, AMF-dashbordet på `/budsjett/`, og Timeplan 2027 på `/timeplan2027/`.
+Nettsida kan publiserast frå dette GitHub-repoet med Vercel. INFBV-forsida ligg på `/`, AMF-dashbordet på `/budsjett/`, og Timeplan 2027 på `/timeplan2027/`, og MMP311 Learning Hub på `/mmp311/`.
 
 ## Lokal utvikling
 

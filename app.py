@@ -89,3 +89,4 @@ def version():
 
 app.mount("/budsjett", StaticFiles(directory=DASHBOARD, html=True), name="budsjett")
 app.mount("/timeplan2027", StaticFiles(directory=ROOT / "timeplan2027", html=True), name="timeplan2027")
+app.mount("/mmp311", StaticFiles(directory=ROOT / "mmp311", html=True), name="mmp311")

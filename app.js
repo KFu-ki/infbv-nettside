@@ -396,6 +396,7 @@ function openCourse(code, name, stp, sem) {
                 <div>
                     <h3 class="text-sm font-semibold uppercase tracking-wider text-amber-400 mb-2">Om emnet og læringsutbytte</h3>
                     <p class="text-slate-300 text-sm leading-relaxed">${courseContent || "Emnet inngår i kompetansetrappa ved Høgskulen i Volda og byggjer vidare på fagleg kunnskap og praktiske ferdigheiter."}</p>
+                    ${code === "MMP311" ? `<a href="/mmp311/" class="mt-4 inline-flex min-h-11 items-center rounded-lg bg-indigo-500 px-4 py-2 text-sm font-bold text-white hover:bg-indigo-400 focus:outline-none focus:ring-2 focus:ring-indigo-300">Open the MMP311 learning hub →</a>` : ""}
                 </div>
 
                 ${courseContent ? "" : `

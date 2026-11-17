@@ -107,3 +107,8 @@
 - Engelsk vising prioriterer trinn 4 og 5 i kompetansetrappa og MMP311. Språkvalet kan opnast direkte med `?lang=en` og vert lagra lokalt i nettlesaren.
 
 - Retta engelsk vising slik at sjølve kompetansetrappa, alle fem nivånamna, nivåetikettane, forklaringane og tilgjengeetikettane vert omsette.
+
+## 2026-11-17 — MMP311 Learning Hub
+- La til ei engelskspråkleg læringsflate på `/mmp311/` med kursoversyn, læringssti, PRK, SOFT, FIVER og kontrollerte kjelder.
+- Kopla MMP311-emnevisinga på INFBV-framsida til læringsflata.
+- La til originale, tilgjengeleg skildra modellillustrasjonar utan persondata.
