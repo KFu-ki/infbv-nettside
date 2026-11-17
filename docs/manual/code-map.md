@@ -17,7 +17,7 @@ Automatisk oversyn over kjelde-/konfigurasjonsfiler. Korte SHA-256-prefiksar gje
 | `budsjett/index.html` | `.html` | `95690952975b` | AMF \| Budsjett og ressursoversikt |
 | `budsjett/styles.css` | `.css` | `78639b5b1345` | @media (min-width: 1500px), @media (max-width: 1120px), @media (max-width: 820px), @media (max-width: 560px), @media print |
 | `index.html` | `.html` | `8d7a0b18fa68` | INFBV — kompetansetrapp og fagportal \| Høgskulen i Volda |
-| `language.js` | `.js` | `fced9bbf36a1` | STORAGE_KEY, params, requested, currentLanguage, originals, english, setText, element, updateStaticInterface, isEnglish, toggle, level4, level5, applyLanguage, url |
+| `language.js` | `.js` | `85ace0f3a098` | STORAGE_KEY, params, requested, currentLanguage, originals, english, setText, element, staircaseCopy, updateMainStaircase, copy, headerSpans, title, description, updateStaticInterface, isEnglish, toggle, level4, level5, applyLanguage, url |
 | `requirements.txt` | `.txt` | `ed58f33ba012` | fastapi>=0.115,<1, uvicorn>=0.30,<1 |
 | `scripts/build_manual.py` | `.py` | `9fcacf8b903f` | source_markdown_files, source_code_files, document_title, document_summary, source_symbols, code_map_markdown, catalog_markdown, manual_markdown, markdown_lines, pdf_literal, create_pdf, write_or_check, main |
 | `scripts/check_documentation.py` | `.py` | `60f98fd902e2` | markdown_files, internal_link_errors, tracked_secret_errors, documentation_index_errors, main |

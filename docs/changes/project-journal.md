@@ -61,3 +61,5 @@
 - La til ein avgrensa språkveljar for nynorsk og engelsk på framsida.
 - Den engelske førsteversjonen omset grensesnittet for trinn 4 og 5 og gjev MMP311 ein kort engelsk introduksjon. Emnenamn er elles bevarte frå gjeldande studiemodell, slik at udokumenterte omsetjingar ikkje vert innførte.
 - Direkte engelsk inngang er `/?lang=en`; valet vert lagra i `localStorage` som `infbv-language`.
+
+- Retta første språkversjon etter live-kontroll: hovudtrappa var framleis på nynorsk. `language.js` omset no synleg trappetekst og `aria-label` for alle fem nivå og set teksten tilbake ved byte til nynorsk.

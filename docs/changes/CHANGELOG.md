@@ -105,3 +105,5 @@
 
 - La til ein første språkveljar på INFBV-framsida med nynorsk og engelsk.
 - Engelsk vising prioriterer trinn 4 og 5 i kompetansetrappa og MMP311. Språkvalet kan opnast direkte med `?lang=en` og vert lagra lokalt i nettlesaren.
+
+- Retta engelsk vising slik at sjølve kompetansetrappa, alle fem nivånamna, nivåetikettane, forklaringane og tilgjengeetikettane vert omsette.
