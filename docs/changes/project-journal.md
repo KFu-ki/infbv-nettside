@@ -68,3 +68,6 @@
 - Bygde ei sjølvstendig engelsk læringsflate frå den offisielle emneskildringa og det forfattargodkjende bokmanuset.
 - Brukte Chase (1984), Diers-Lawson (2020), Brataas, Fuglseth og Bakken (2026), Hernes (2019) og Vær Varsom-plakaten som kontrollerte kjelder.
 - Ressursen introduserer PRK, SOFT og FIVER, men omtalar ikkje pedagogisk bruk av FIVER som empirisk validering.
+
+## 2026-11-17 — PRK, SOFT og FIVER som eigne læringssteg
+- Delte modellstoffet i tre samanhengande undersider med felles navigasjon, arbeidsspørsmål og naturlege overgangar mellom perspektiva.

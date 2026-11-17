@@ -77,3 +77,4 @@ Ved dokumentasjonsoppstart var `git status --short` tom, og `git ls-files` viste
 | `python3 scripts/check_documentation.py` og `git diff --check` | Bestått |
 
 Kontrollane seier ikkje noko om ekstern deploy, produksjonsdrift eller gyldigheita av eksterne kjeldedata.
+- PRK, SOFT og FIVER har eigne MMP311-undersider med menylenkjer og krysslenkjer frå kvar modellomtale.

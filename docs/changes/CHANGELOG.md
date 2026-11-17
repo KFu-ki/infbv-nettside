@@ -112,3 +112,6 @@
 - La til ei engelskspråkleg læringsflate på `/mmp311/` med kursoversyn, læringssti, PRK, SOFT, FIVER og kontrollerte kjelder.
 - Kopla MMP311-emnevisinga på INFBV-framsida til læringsflata.
 - La til originale, tilgjengeleg skildra modellillustrasjonar utan persondata.
+
+## 2026-11-17 — Modellundersider for MMP311
+- La til eigne sider for PRK, SOFT og FIVER og kopla dei frå hubmenyen og dei enkelte modellkorta.

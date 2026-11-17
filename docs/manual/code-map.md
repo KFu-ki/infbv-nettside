@@ -18,8 +18,11 @@ Automatisk oversyn over kjelde-/konfigurasjonsfiler. Korte SHA-256-prefiksar gje
 | `budsjett/styles.css` | `.css` | `78639b5b1345` | @media (min-width: 1500px), @media (max-width: 1120px), @media (max-width: 820px), @media (max-width: 560px), @media print |
 | `index.html` | `.html` | `8d7a0b18fa68` | INFBV — kompetansetrapp og fagportal \| Høgskulen i Volda |
 | `language.js` | `.js` | `85ace0f3a098` | STORAGE_KEY, params, requested, currentLanguage, originals, english, setText, element, staircaseCopy, updateMainStaircase, copy, headerSpans, title, description, updateStaticInterface, isEnglish, toggle, level4, level5, applyLanguage, url |
-| `mmp311/index.html` | `.html` | `6a24c1c98b49` | MMP311 Risk Communication and Issue Management \| INFBV |
-| `mmp311/styles.css` | `.css` | `20fc493394a5` | @media (max-width:850px), @media (prefers-reduced-motion:reduce) |
+| `mmp311/fiver/index.html` | `.html` | `9cf003709c27` | FIVER Process Model \| MMP311 |
+| `mmp311/index.html` | `.html` | `303c7b7e20db` | MMP311 Risk Communication and Issue Management \| INFBV |
+| `mmp311/prk/index.html` | `.html` | `4306b81ed43c` | PRK: Problem, Risk and Crisis \| MMP311 |
+| `mmp311/soft/index.html` | `.html` | `3d4bcb4a3c65` | SOFT Analytical Lens \| MMP311 |
+| `mmp311/styles.css` | `.css` | `62c69643e818` | @media (max-width:850px), @media (prefers-reduced-motion:reduce) |
 | `requirements.txt` | `.txt` | `ed58f33ba012` | fastapi>=0.115,<1, uvicorn>=0.30,<1 |
 | `scripts/build_manual.py` | `.py` | `9fcacf8b903f` | source_markdown_files, source_code_files, document_title, document_summary, source_symbols, code_map_markdown, catalog_markdown, manual_markdown, markdown_lines, pdf_literal, create_pdf, write_or_check, main |
 | `scripts/check_documentation.py` | `.py` | `60f98fd902e2` | markdown_files, internal_link_errors, tracked_secret_errors, documentation_index_errors, main |

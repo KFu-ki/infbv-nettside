@@ -43,3 +43,5 @@ Timeplanen brukar `escapeHtml()` før feltdata vert sette inn i HTML. Budsjett h
 - `mmp311/index.html` er ei sjølvstendig engelskspråkleg læringsflate for MMP311 med kursinngang, læringssti, PRK, SOFT, FIVER og APA 7-referansar.
 - `mmp311/styles.css` har responsivt oppsett, synleg tastaturfokus, redusert rørsle og lokale systemfontar.
 - `mmp311/assets/` inneheld originale forklaringsillustrasjonar. Sida les ikkje timeplandata eller personopplysningar.
+
+- Modellane har eigne undersider: `/mmp311/prk/`, `/mmp311/soft/` og `/mmp311/fiver/`, med felles modellnavigasjon og kontekstuelle krysslenkjer.
