@@ -1,1 +1,23 @@
-(()=>{const r=document.documentElement,s=localStorage.getItem('mmp-size');if(s)r.style.setProperty('--size',s+'px');document.querySelectorAll('[data-size]').forEach(b=>b.onclick=()=>{r.style.setProperty('--size',b.dataset.size+'px');localStorage.setItem('mmp-size',b.dataset.size)});document.querySelectorAll('a,button').forEach(e=>{if(!e.title)e.title=e.getAttribute('aria-label')||e.textContent.trim().replace(/\s+/g,' ')});const d=document.createElement('dialog');d.className='cite-dialog';d.innerHTML='<div><h2>Cite this</h2><p class="cite-clue"><strong>Tip:</strong> Cite original research for scholarly claims. Cite this resource for its explanation, model, table or activity. AI output is not an academic source. <a href="https://www.sokogskriv.no/en/kunstig-intelligens">Search &amp; Write guidance on AI and source use</a>.</p><label for="citation">Suggested reference</label><textarea id="citation" readonly></textarea><p><button class="cite" id="copy">Copy reference</button> <button class="cite" id="close">Close</button></p></div>';document.body.append(d);const o=d.querySelector('textarea');d.querySelector('#close').onclick=()=>d.close();d.querySelector('#copy').onclick=async()=>{await navigator.clipboard.writeText(o.value);d.querySelector('#copy').textContent='Copied'};const pageTitle=document.querySelector('h1')?.textContent.trim()||document.title;const year=2027;const add=(node,label,type)=>{if(!node||node.querySelector(':scope > .citebox'))return;const box=document.createElement('div');box.className='citebox';const b=document.createElement('button');b.className='cite';b.textContent='Cite '+type;b.dataset.cite=`Fuglseth, K. (${year}). ${label} [${type}]. In ${pageTitle}. MMP311, Volda University College. ${location.href}`;box.append(b);node.append(box)};document.querySelectorAll('figure').forEach(x=>{const c=x.querySelector('figcaption');if(c)add(x,c.textContent.trim(),'figure')});const original=document.querySelector('#original-text');if(original)add(original,'Crisis communication chapter: adapted translation','original text');document.querySelectorAll('[data-cite]').forEach(b=>b.onclick=()=>{o.value=b.dataset.cite;d.querySelector('#copy').textContent='Copy reference';d.showModal()})})();
+(() => {
+  const root = document.documentElement;
+  const savedSize = localStorage.getItem("mmp-size");
+
+  if (savedSize) {
+    root.style.setProperty("--size", `${savedSize}px`);
+  }
+
+  document.querySelectorAll("[data-size]").forEach(button => {
+    button.addEventListener("click", () => {
+      root.style.setProperty("--size", `${button.dataset.size}px`);
+      localStorage.setItem("mmp-size", button.dataset.size);
+    });
+  });
+
+  document.querySelectorAll("a, button").forEach(element => {
+    if (element.title) return;
+    const label =
+      element.getAttribute("aria-label") ||
+      element.textContent.trim().replace(/\s+/g, " ");
+    if (label) element.title = label;
+  });
+})();

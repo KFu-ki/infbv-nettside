@@ -13,34 +13,28 @@ Automatisk oversyn over kjelde-/konfigurasjonsfiler. Korte SHA-256-prefiksar gje
 | `.vscode/extensions.json` | `.json` | `e6089ad5102d` | Konfigurasjon |
 | `app.js` | `.js` | `e0624d1d95d8` | STAGES, COURSE_CONTENT, SKILLS, activeStep, setupEventListeners, menuBtn, staircaseWidget, drawer, popover, setupThemeToggle, button, label, icon, themeColor, applyTheme, isLight, nextTheme, toggleMenu, isOpening, closeMenu, toggleMiniStaircasePopover, closeMiniStaircasePopover, widget, selectStep, courseViewWasOpen, updateStairVisualState, steps, currentStep, isActive, title, renderStepDetails, stage, container, isMaster, badgeBg, html, courseSkills, open, course, renderSkillsGrid, groups, isAI, borderClass, stages, courses, openCourse, content, courseMeta, courseContent, courseHeading, showHome |
 | `app.py` | `.py` | `88f2a217295f` | dashboard_data, export_dashboard, timetable_data, export_timetable, home, main_script, main_styles, version |
-| `apply_mmp311_corrections.py` | `.py` | `4fc3c10bd367` | — |
 | `budsjett/app.js` | `.js` | `d04c76ce9101` | programDefinitions, numberFormat, oneDecimal, fteFormat, state, el, fmt, fmtOne, fmtFte, fmtKr, fmtPercent, fmtStaffDelta, esc, programCalculations, alternativeStaff, flowBack, adminBack, sharedBack, baseStaff, assignedStaff, effectiveStaff, totalStudents, totalBudget, totalCredits, avgCredits, averageStudentsPerStaff, averageBudgetPerStudent, scenarioStaffAllocations, productionPool, weights, productionShare, studentShare, alternativeCapacity, total, nonProduction, shared, analysisTableCreated, renderAnalysisTable, field, inputValue, value, program, tableRow, currentValue, staffInput, cells, totalProgramStaff, renderKpis, first, programStaffTotal, capacity, renderAlternativePanel, alternative, selected, names, proposal, basis, unitIndex, productionIndex, currentProgramStaff, previousStudents, currentStudents, studentChange, index, production2026, production2027, productionChange, budget2026, budgetChange, referenceStaff, staffChange, unit, renderProposal, finalSum, noteBudget, stipend, final, units, sumCard, fellesSources, fellesComponentsTotal, dbhStudents, studentDifference, dashboardStudents, proposalCell, isCurrency, inputStep, maxAllocation, unitHeader, componentRows, row, tableBody, mismatch, mismatchText, componentDifference, reference, componentSumIssues, mpro, mproPhoto, referenceFinalSum, referenceDistributionSum, referenceSalarySum, recalculateProposal, sumRows, result, updateProposalValue, rawValue, groupData, renderOverview, maxBudget, categoryFor, renderBarometer, average, max, category, renderReport, sortedCredits, sortedBudget, above, below, workloadText, renderWorkload, highest, metrics, means, ratio, color, difference, diffText, traffic, renderRadar, maxima, cx, pointsAt, angle, grid, points, axes, edge, label, shapes, legend, renderTraffic, renderBubble, width, left, plotWidth, maxStaff, maxCredits, averageStudents, x, y, lineY, dots, radius, cy, labelY, ticks, svg, renderScenario, avg, fteTotal, idealTotal, renderSankey, sourceX, output, available, staffWeightTotal, maxThickness, paths, share, thickness, sourceY, targetY, d, nodes, renderDashboard, programs, loadWorkbookData, response, source, dataByCode, csvEscape, exportExcel, allocationWeightTotal, modelName, overview, details, staffing, budget, budgetInKroner, blob, link, url, exportCsvFallback, rows, csv, exportPng, image, svgBlob, objectUrl, canvas, context, pngUrl, dark |
 | `budsjett/index.html` | `.html` | `95690952975b` | AMF \| Budsjett og ressursoversikt |
 | `budsjett/styles.css` | `.css` | `78639b5b1345` | @media (min-width: 1500px), @media (max-width: 1120px), @media (max-width: 820px), @media (max-width: 560px), @media print |
-| `finalise_mmp311_learning_design.py` | `.py` | `6d4d0f078abc` | section, bullets, numbered |
-| `implement_verified_mmp311_fixes.py` | `.py` | `ef139369ccf3` | replace_body |
 | `index.html` | `.html` | `8d7a0b18fa68` | INFBV — kompetansetrapp og fagportal \| Høgskulen i Volda |
-| `integrate_ai_guidance_mmp311.py` | `.py` | `d4ddd7afac4e` | — |
 | `language.js` | `.js` | `85ace0f3a098` | STORAGE_KEY, params, requested, currentLanguage, originals, english, setText, element, staircaseCopy, updateMainStaircase, copy, headerSpans, title, description, updateStaticInterface, isEnglish, toggle, level4, level5, applyLanguage, url |
-| `mmp311/fiver/index.html` | `.html` | `b085e27a8cae` | FIVER Process Model \| MMP311 |
-| `mmp311/index.html` | `.html` | `878ce334f161` | MMP311 Risk Communication and Issue Management \| INFBV |
-| `mmp311/learning-path/01-risk-society/index.html` | `.html` | `d018440bd419` | Risk, uncertainty and the social production of relevance \| MMP311 |
-| `mmp311/learning-path/02-risk-communication/index.html` | `.html` | `d1e4ce802aba` | Risk communication as knowledge and trust work \| MMP311 |
-| `mmp311/learning-path/03-issues/index.html` | `.html` | `f5802a27fe78` | Issue detection and problem prevention \| MMP311 |
-| `mmp311/learning-path/04-prk-soft/index.html` | `.html` | `850f1c40375f` | PRK and SOFT: movement, attention and interpretation \| MMP311 |
-| `mmp311/learning-path/05-fiver/index.html` | `.html` | `9daa8e20d399` | FIVER: from understanding to response \| MMP311 |
-| `mmp311/learning-path/06-crisis-communication/index.html` | `.html` | `6d3e48098d04` | Crisis communication as part of crisis management \| MMP311 |
-| `mmp311/learning-path/07-academic-writing/index.html` | `.html` | `cbb78888c1a0` | Academic writing \| MMP311 |
-| `mmp311/learning-path/index.html` | `.html` | `a885aff6fbf2` | Learning path \| MMP311 |
-| `mmp311/learning.css` | `.css` | `e7a6b19e3fd4` | @media (max-width:800px), @media (prefers-reduced-motion:reduce), @media (max-width: 800px), @media (max-width: 42rem), @media (prefers-reduced-motion: no-preference) |
-| `mmp311/learning.js` | `.js` | `82b2180a7064` | — |
-| `mmp311/prk/index.html` | `.html` | `8759ed6116b0` | PRK: Problem, Risk and Crisis \| MMP311 |
-| `mmp311/resource-tools.js` | `.js` | `9b642f03c35f` | triggers, dialogs, opener, closeDialog, name, dialog, closeButton |
-| `mmp311/site.js` | `.js` | `8482f145a18b` | html, header, tools, size, savedSize, label, dialog, output, copyButton, pageTitle, year, pageReference, addCitation, wrapper, button, caption, type, heading, fullText |
-| `mmp311/soft/index.html` | `.html` | `8d0e31bef35e` | SOFT Analytical Lens \| MMP311 |
-| `mmp311/styles.css` | `.css` | `b73829551f1d` | @media (max-width:850px), @media (prefers-reduced-motion:reduce), @media (max-width: 850px), @media (max-width: 42rem), @media (prefers-reduced-motion: no-preference) |
-| `publish_mmp311_learning_path.py` | `.py` | `68a9c31aa219` | reading_html, chrome |
-| `refine_mmp311_citations_ui.py` | `.py` | `1e79bce2421f` | — |
+| `mmp311/fiver/index.html` | `.html` | `7f8da4189bbe` | FIVER Process Model \| MMP311 |
+| `mmp311/index.html` | `.html` | `0b550e9ab083` | MMP311 Risk Communication and Issue Management \| INFBV |
+| `mmp311/learning-path/01-risk-society/index.html` | `.html` | `46531701c43c` | Risk, uncertainty and the social production of relevance \| MMP311 |
+| `mmp311/learning-path/02-risk-communication/index.html` | `.html` | `52161ad45cc9` | Risk communication as knowledge and trust work \| MMP311 |
+| `mmp311/learning-path/03-issues/index.html` | `.html` | `db637ddfaf1f` | Issue detection and problem prevention \| MMP311 |
+| `mmp311/learning-path/04-prk-soft/index.html` | `.html` | `575f74dc015a` | PRK and SOFT: movement, attention and interpretation \| MMP311 |
+| `mmp311/learning-path/05-fiver/index.html` | `.html` | `e2b86b06a4d1` | FIVER: from understanding to response \| MMP311 |
+| `mmp311/learning-path/06-crisis-communication/index.html` | `.html` | `7120fc357623` | Crisis communication as part of crisis management \| MMP311 |
+| `mmp311/learning-path/07-academic-writing/index.html` | `.html` | `41a0e268c3e7` | Academic writing \| MMP311 |
+| `mmp311/learning-path/index.html` | `.html` | `5d62b6c847be` | Learning path \| MMP311 |
+| `mmp311/learning.css` | `.css` | `4cbbdacf480f` | @media (max-width:800px), @media (prefers-reduced-motion:reduce), @media (max-width: 800px), @media (max-width: 42rem), @media (prefers-reduced-motion: no-preference) |
+| `mmp311/learning.js` | `.js` | `c4bb3ea82f6b` | root, savedSize, label |
+| `mmp311/prk/index.html` | `.html` | `32d10d85a5f3` | PRK: Problem, Risk and Crisis \| MMP311 |
+| `mmp311/resource-tools.js` | `.js` | `04cbd24cf67a` | triggers, dialogs, opener, pageTitle, canonicalUrl, year, reference, citationOutput, copyButton, closeDialog, name, dialog |
+| `mmp311/site.js` | `.js` | `2df7eda9588c` | html, header, tools, size, savedSize, label |
+| `mmp311/soft/index.html` | `.html` | `e8bd4287d785` | SOFT Analytical Lens \| MMP311 |
+| `mmp311/styles.css` | `.css` | `61c4a388803d` | @media (max-width:850px), @media (prefers-reduced-motion:reduce), @media (max-width: 850px), @media (max-width: 42rem), @media (prefers-reduced-motion: no-preference) |
 | `requirements.txt` | `.txt` | `ed58f33ba012` | fastapi>=0.115,<1, uvicorn>=0.30,<1 |
 | `scripts/build_manual.py` | `.py` | `9fcacf8b903f` | source_markdown_files, source_code_files, document_title, document_summary, source_symbols, code_map_markdown, catalog_markdown, manual_markdown, markdown_lines, pdf_literal, create_pdf, write_or_check, main |
 | `scripts/check_documentation.py` | `.py` | `60f98fd902e2` | markdown_files, internal_link_errors, tracked_secret_errors, documentation_index_errors, main |

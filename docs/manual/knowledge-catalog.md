@@ -59,8 +59,8 @@ Automatisk oversyn over Markdown-kjeldene. Innhaldet vert regenerert av `scripts
 | `GEMINI.md` | Gemini | Følg [AGENTS.md](AGENTS.md), [dokumentasjonsindeksen](docs/INDEX.md), [prosjektstatus](docs/project/current-state.md) og relevante dokument under `docs/`. `AGENTS.md` og prosjektfilene er autoritative; ikkje kopier kunnskapsbasen hit. |
 | `INFBV-studiemodell/studiemodell.md` | INFBV-studiemodell | Dette registeret samlar emnekodar, emnenamn på nynorsk, bokmål og engelsk, semester og studiepoeng for INFBV-framsida. Excel-arbeidsboka `studiemodell.xlsx` er den redigerbare fleirspråklege oversikta. |
 | `kunnskap/prosjektregister/fou-oversikt.md` | FoU-portefølje | Sist oppdatert: 2026-11-18 |
-| `kunnskap/README.md` | Kunnskap | Teori, omgrep, metodar, kjelder og forskingsgrunnlag som vert nytta på tvers av prosjekt. |
-| `modellar/README.md` | Modellar | PRK, SOFT, FIVER og Deliberasjon. |
+| `kunnskap/README.md` | README | Markdown-kjelde i prosjektet. |
+| `modellar/README.md` | README | Markdown-kjelde i prosjektet. |
 | `README.md` | INFBV fagportal | Sjå [dokumentasjonsindeksen](docs/INDEX.md) for prosjektstatus, arkitektur, datakjelder, drift og utviklarrettleiingar. |
 | `scripts/README.md` | Skript | Køyr frå prosjektrota med Python 3. Bruk berre kjelder du har løyve til å lese. Importskripta kan skrive over datautdrag; vurder diff og ta backup før du køyrer dei. |
 | `tekst/deliberasjon/index.md` | deliberasjon | Status: Arbeidsmanus |
@@ -89,4 +89,4 @@ Automatisk oversyn over Markdown-kjeldene. Innhaldet vert regenerert av `scripts
 | `tekst/totalforsvarsaret-2026/README.md` | README | Markdown-kjelde i prosjektet. |
 | `tekst/weird-crisis-exercises/index.md` | weird-crisis-exercises | Status: Arbeidsmanus |
 | `tekst/weird-crisis-exercises/README.md` | README | Markdown-kjelde i prosjektet. |
-| `undervisning/README.md` | Undervisning | Ressursar, pensum og opplegg knytte til emne ved Høgskulen i Volda. |
+| `undervisning/README.md` | README | Markdown-kjelde i prosjektet. |

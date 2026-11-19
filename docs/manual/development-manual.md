@@ -61,8 +61,8 @@ Dokumentkjelder: 85.
 - [Gemini](#GEMINI.md) — `GEMINI.md`
 - [INFBV-studiemodell](#INFBV-studiemodell-studiemodell.md) — `INFBV-studiemodell/studiemodell.md`
 - [FoU-portefølje](#kunnskap-prosjektregister-fou-oversikt.md) — `kunnskap/prosjektregister/fou-oversikt.md`
-- [Kunnskap](#kunnskap-README.md) — `kunnskap/README.md`
-- [Modellar](#modellar-README.md) — `modellar/README.md`
+- [README](#kunnskap-README.md) — `kunnskap/README.md`
+- [README](#modellar-README.md) — `modellar/README.md`
 - [INFBV fagportal](#README.md) — `README.md`
 - [Skript](#scripts-README.md) — `scripts/README.md`
 - [deliberasjon](#tekst-deliberasjon-index.md) — `tekst/deliberasjon/index.md`
@@ -91,7 +91,7 @@ Dokumentkjelder: 85.
 - [README](#tekst-totalforsvarsaret-2026-README.md) — `tekst/totalforsvarsaret-2026/README.md`
 - [weird-crisis-exercises](#tekst-weird-crisis-exercises-index.md) — `tekst/weird-crisis-exercises/index.md`
 - [README](#tekst-weird-crisis-exercises-README.md) — `tekst/weird-crisis-exercises/README.md`
-- [Undervisning](#undervisning-README.md) — `undervisning/README.md`
+- [README](#undervisning-README.md) — `undervisning/README.md`
 
 ---
 
@@ -113,34 +113,28 @@ Automatisk oversyn over kjelde-/konfigurasjonsfiler. Korte SHA-256-prefiksar gje
 | `.vscode/extensions.json` | `.json` | `e6089ad5102d` | Konfigurasjon |
 | `app.js` | `.js` | `e0624d1d95d8` | STAGES, COURSE_CONTENT, SKILLS, activeStep, setupEventListeners, menuBtn, staircaseWidget, drawer, popover, setupThemeToggle, button, label, icon, themeColor, applyTheme, isLight, nextTheme, toggleMenu, isOpening, closeMenu, toggleMiniStaircasePopover, closeMiniStaircasePopover, widget, selectStep, courseViewWasOpen, updateStairVisualState, steps, currentStep, isActive, title, renderStepDetails, stage, container, isMaster, badgeBg, html, courseSkills, open, course, renderSkillsGrid, groups, isAI, borderClass, stages, courses, openCourse, content, courseMeta, courseContent, courseHeading, showHome |
 | `app.py` | `.py` | `88f2a217295f` | dashboard_data, export_dashboard, timetable_data, export_timetable, home, main_script, main_styles, version |
-| `apply_mmp311_corrections.py` | `.py` | `4fc3c10bd367` | — |
 | `budsjett/app.js` | `.js` | `d04c76ce9101` | programDefinitions, numberFormat, oneDecimal, fteFormat, state, el, fmt, fmtOne, fmtFte, fmtKr, fmtPercent, fmtStaffDelta, esc, programCalculations, alternativeStaff, flowBack, adminBack, sharedBack, baseStaff, assignedStaff, effectiveStaff, totalStudents, totalBudget, totalCredits, avgCredits, averageStudentsPerStaff, averageBudgetPerStudent, scenarioStaffAllocations, productionPool, weights, productionShare, studentShare, alternativeCapacity, total, nonProduction, shared, analysisTableCreated, renderAnalysisTable, field, inputValue, value, program, tableRow, currentValue, staffInput, cells, totalProgramStaff, renderKpis, first, programStaffTotal, capacity, renderAlternativePanel, alternative, selected, names, proposal, basis, unitIndex, productionIndex, currentProgramStaff, previousStudents, currentStudents, studentChange, index, production2026, production2027, productionChange, budget2026, budgetChange, referenceStaff, staffChange, unit, renderProposal, finalSum, noteBudget, stipend, final, units, sumCard, fellesSources, fellesComponentsTotal, dbhStudents, studentDifference, dashboardStudents, proposalCell, isCurrency, inputStep, maxAllocation, unitHeader, componentRows, row, tableBody, mismatch, mismatchText, componentDifference, reference, componentSumIssues, mpro, mproPhoto, referenceFinalSum, referenceDistributionSum, referenceSalarySum, recalculateProposal, sumRows, result, updateProposalValue, rawValue, groupData, renderOverview, maxBudget, categoryFor, renderBarometer, average, max, category, renderReport, sortedCredits, sortedBudget, above, below, workloadText, renderWorkload, highest, metrics, means, ratio, color, difference, diffText, traffic, renderRadar, maxima, cx, pointsAt, angle, grid, points, axes, edge, label, shapes, legend, renderTraffic, renderBubble, width, left, plotWidth, maxStaff, maxCredits, averageStudents, x, y, lineY, dots, radius, cy, labelY, ticks, svg, renderScenario, avg, fteTotal, idealTotal, renderSankey, sourceX, output, available, staffWeightTotal, maxThickness, paths, share, thickness, sourceY, targetY, d, nodes, renderDashboard, programs, loadWorkbookData, response, source, dataByCode, csvEscape, exportExcel, allocationWeightTotal, modelName, overview, details, staffing, budget, budgetInKroner, blob, link, url, exportCsvFallback, rows, csv, exportPng, image, svgBlob, objectUrl, canvas, context, pngUrl, dark |
 | `budsjett/index.html` | `.html` | `95690952975b` | AMF \| Budsjett og ressursoversikt |
 | `budsjett/styles.css` | `.css` | `78639b5b1345` | @media (min-width: 1500px), @media (max-width: 1120px), @media (max-width: 820px), @media (max-width: 560px), @media print |
-| `finalise_mmp311_learning_design.py` | `.py` | `6d4d0f078abc` | section, bullets, numbered |
-| `implement_verified_mmp311_fixes.py` | `.py` | `ef139369ccf3` | replace_body |
 | `index.html` | `.html` | `8d7a0b18fa68` | INFBV — kompetansetrapp og fagportal \| Høgskulen i Volda |
-| `integrate_ai_guidance_mmp311.py` | `.py` | `d4ddd7afac4e` | — |
 | `language.js` | `.js` | `85ace0f3a098` | STORAGE_KEY, params, requested, currentLanguage, originals, english, setText, element, staircaseCopy, updateMainStaircase, copy, headerSpans, title, description, updateStaticInterface, isEnglish, toggle, level4, level5, applyLanguage, url |
-| `mmp311/fiver/index.html` | `.html` | `b085e27a8cae` | FIVER Process Model \| MMP311 |
-| `mmp311/index.html` | `.html` | `878ce334f161` | MMP311 Risk Communication and Issue Management \| INFBV |
-| `mmp311/learning-path/01-risk-society/index.html` | `.html` | `d018440bd419` | Risk, uncertainty and the social production of relevance \| MMP311 |
-| `mmp311/learning-path/02-risk-communication/index.html` | `.html` | `d1e4ce802aba` | Risk communication as knowledge and trust work \| MMP311 |
-| `mmp311/learning-path/03-issues/index.html` | `.html` | `f5802a27fe78` | Issue detection and problem prevention \| MMP311 |
-| `mmp311/learning-path/04-prk-soft/index.html` | `.html` | `850f1c40375f` | PRK and SOFT: movement, attention and interpretation \| MMP311 |
-| `mmp311/learning-path/05-fiver/index.html` | `.html` | `9daa8e20d399` | FIVER: from understanding to response \| MMP311 |
-| `mmp311/learning-path/06-crisis-communication/index.html` | `.html` | `6d3e48098d04` | Crisis communication as part of crisis management \| MMP311 |
-| `mmp311/learning-path/07-academic-writing/index.html` | `.html` | `cbb78888c1a0` | Academic writing \| MMP311 |
-| `mmp311/learning-path/index.html` | `.html` | `a885aff6fbf2` | Learning path \| MMP311 |
-| `mmp311/learning.css` | `.css` | `e7a6b19e3fd4` | @media (max-width:800px), @media (prefers-reduced-motion:reduce), @media (max-width: 800px), @media (max-width: 42rem), @media (prefers-reduced-motion: no-preference) |
-| `mmp311/learning.js` | `.js` | `82b2180a7064` | — |
-| `mmp311/prk/index.html` | `.html` | `8759ed6116b0` | PRK: Problem, Risk and Crisis \| MMP311 |
-| `mmp311/resource-tools.js` | `.js` | `9b642f03c35f` | triggers, dialogs, opener, closeDialog, name, dialog, closeButton |
-| `mmp311/site.js` | `.js` | `8482f145a18b` | html, header, tools, size, savedSize, label, dialog, output, copyButton, pageTitle, year, pageReference, addCitation, wrapper, button, caption, type, heading, fullText |
-| `mmp311/soft/index.html` | `.html` | `8d0e31bef35e` | SOFT Analytical Lens \| MMP311 |
-| `mmp311/styles.css` | `.css` | `b73829551f1d` | @media (max-width:850px), @media (prefers-reduced-motion:reduce), @media (max-width: 850px), @media (max-width: 42rem), @media (prefers-reduced-motion: no-preference) |
-| `publish_mmp311_learning_path.py` | `.py` | `68a9c31aa219` | reading_html, chrome |
-| `refine_mmp311_citations_ui.py` | `.py` | `1e79bce2421f` | — |
+| `mmp311/fiver/index.html` | `.html` | `7f8da4189bbe` | FIVER Process Model \| MMP311 |
+| `mmp311/index.html` | `.html` | `0b550e9ab083` | MMP311 Risk Communication and Issue Management \| INFBV |
+| `mmp311/learning-path/01-risk-society/index.html` | `.html` | `46531701c43c` | Risk, uncertainty and the social production of relevance \| MMP311 |
+| `mmp311/learning-path/02-risk-communication/index.html` | `.html` | `52161ad45cc9` | Risk communication as knowledge and trust work \| MMP311 |
+| `mmp311/learning-path/03-issues/index.html` | `.html` | `db637ddfaf1f` | Issue detection and problem prevention \| MMP311 |
+| `mmp311/learning-path/04-prk-soft/index.html` | `.html` | `575f74dc015a` | PRK and SOFT: movement, attention and interpretation \| MMP311 |
+| `mmp311/learning-path/05-fiver/index.html` | `.html` | `e2b86b06a4d1` | FIVER: from understanding to response \| MMP311 |
+| `mmp311/learning-path/06-crisis-communication/index.html` | `.html` | `7120fc357623` | Crisis communication as part of crisis management \| MMP311 |
+| `mmp311/learning-path/07-academic-writing/index.html` | `.html` | `41a0e268c3e7` | Academic writing \| MMP311 |
+| `mmp311/learning-path/index.html` | `.html` | `5d62b6c847be` | Learning path \| MMP311 |
+| `mmp311/learning.css` | `.css` | `4cbbdacf480f` | @media (max-width:800px), @media (prefers-reduced-motion:reduce), @media (max-width: 800px), @media (max-width: 42rem), @media (prefers-reduced-motion: no-preference) |
+| `mmp311/learning.js` | `.js` | `c4bb3ea82f6b` | root, savedSize, label |
+| `mmp311/prk/index.html` | `.html` | `32d10d85a5f3` | PRK: Problem, Risk and Crisis \| MMP311 |
+| `mmp311/resource-tools.js` | `.js` | `04cbd24cf67a` | triggers, dialogs, opener, pageTitle, canonicalUrl, year, reference, citationOutput, copyButton, closeDialog, name, dialog |
+| `mmp311/site.js` | `.js` | `2df7eda9588c` | html, header, tools, size, savedSize, label |
+| `mmp311/soft/index.html` | `.html` | `e8bd4287d785` | SOFT Analytical Lens \| MMP311 |
+| `mmp311/styles.css` | `.css` | `61c4a388803d` | @media (max-width:850px), @media (prefers-reduced-motion:reduce), @media (max-width: 850px), @media (max-width: 42rem), @media (prefers-reduced-motion: no-preference) |
 | `requirements.txt` | `.txt` | `ed58f33ba012` | fastapi>=0.115,<1, uvicorn>=0.30,<1 |
 | `scripts/build_manual.py` | `.py` | `9fcacf8b903f` | source_markdown_files, source_code_files, document_title, document_summary, source_symbols, code_map_markdown, catalog_markdown, manual_markdown, markdown_lines, pdf_literal, create_pdf, write_or_check, main |
 | `scripts/check_documentation.py` | `.py` | `60f98fd902e2` | markdown_files, internal_link_errors, tracked_secret_errors, documentation_index_errors, main |
@@ -434,7 +428,7 @@ Bruk denne korte fila som startkontekst i vanleg Microsoft Copilot Chat. Ho peik
 
 ## Prosjekt og kjelder
 
-- Repo: `KFu-ki/infbv-nettside`; produksjonsadresse: `https://infbv.vercel.app`.
+- Repo: `KFu-ki/infbv-nettside`; produksjonsadresse: `https://infbv-nettside.vercel.app`.
 - Bruk vedlagde repo-filer, ikkje gamle chatminne, som kjelde til prosjektfakta.
 - `AGENTS.md` har felles arbeidsreglar. `docs/INDEX.md` viser kjelder og prioritet ved konflikt. `docs/project/current-state.md` og `docs/project/next-actions.md` viser kontrollert status og prioriterte oppgåver.
 - Emnenamn og språkvariantar: `INFBV-studiemodell/studiemodell.md` og `.xlsx`. Køyredata for framsida: `app.js`; struktur/stil: `index.html` og `styles.css`.
@@ -1558,7 +1552,6 @@ Usemje mellom kode og dokumentasjon skal noterast og rettast; ikkje framstill kj
 | [ADR-002](decisions/ADR-002-timetable-review.md) | Dokumenterer manuell vurdering av timeplanforslag | Endring av publiserings-/godkjenningsflyt | Godkjenningsflyten vert formelt endra via ny ADR | Køyrande kode og ny godkjend ADR |
 | [Prosjektstatus](project/current-state.md) | Kontrollert no-situasjon og faktiske valideringar | Før arbeid og ved overlevering | Etter relevante kode-, drift- eller kontrollendringar | Kode/testar, ADR-ar og arkitektur |
 | [Neste steg](project/next-actions.md) | Prioritert, avgrensa arbeidsliste | Når neste oppgåve skal veljast | Prioritet eller ferdigkriterium endrar seg | Godkjende ADR-ar og gjeldande kode |
-| [Arbeidsflyt](project/ARBEIDSFLYT.md) | Dagleg arbeid i repo, Obsidian, terminal og lokal vising | Ved oppstart av ei arbeidsøkt | Arbeidsmåte, prioriteringar eller lokal vising endrar seg | `AGENTS.md`, prosjektstatus og faktiske kommandoar |
 | [Endringslogg](changes/CHANGELOG.md) | Samandrag av endringar etter kategori | Ved gjennomgang av nylege endringar | Ved kvar vesentleg prosjektendring | Git-diff og køyrande kode |
 | [Prosjektjournal](changes/project-journal.md) | Daterte hendingar, kontrollar og overleveringar | Historikk må sporast | Ved oppstart, kontroll eller vesentleg hending | Git og kontrollresultat |
 | [Diskusjonslogg](history/discussion-log.md) | Korte, kjeldebaserte avklaringar; ikkje chateksport | Tidlegare prosjektval er relevante | Ny avgjerd eller uavklart punkt vert teke opp | Godkjende ADR-ar og verifiserte repo-/issue-kjelder |
@@ -1824,7 +1817,7 @@ Gjenopprett berre dei uttrykkeleg endra filene frå ein verifisert backup etter 
 ## Det som er verifisert i repoet
 
 - Git remote `origin` er `https://github.com/KFu-ki/infbv-nettside.git`; lokal branch var `main` ved kontroll.
-- Vercel-prosjektet `infbv` er kopla til GitHub-repoet. Push til `main` utløyser produksjonsdeploy; produksjonsalias er `infbv.vercel.app`.
+- Vercel-prosjektet `infbv-nettside` er kopla til GitHub-repoet. Push til `main` utløyser produksjonsdeploy; produksjonsalias er `infbv-nettside.vercel.app`.
 - Ingen `vercel.json` eller `package.json` finst. Python-avhengnader er i `requirements.txt`; lokalt startpunkt er `uvicorn app:app --reload`.
 - Arbeidskopien inneheld to uversjonerte GitHub Pages-workflowfiler som ikkje er med i denne publiseringa. Dei skal ikkje reknast som kontrollert produksjonsveg.
 
@@ -1843,7 +1836,7 @@ Ingen miljøvariablar er lesne av applikasjonskoden ved siste kontroll. [`.env.e
 | GitHub-branch | Eksisterande Actions-filer lyttar på `main` |
 | Vercel-prosjekt | `infbv-nettside`, kopla til `KFu-ki/infbv-nettside` |
 | Preview | Ikkje kontrollert |
-| Production | Branch `main`; push gav READY produksjonsdeploy med alias `infbv.vercel.app` |
+| Production | Branch `main`; push gav READY produksjonsdeploy med alias `infbv-nettside.vercel.app` |
 
 ## Trygg arbeidsflyt
 
@@ -1863,7 +1856,7 @@ Dei to ytre mappene med same namn er nøsta prosjektkopiar. Dei skal ikkje bruka
 
 GitHub-tilgangen vart kontrollert med git remote -v, git ls-remote origin HEAD og git push --dry-run origin main. origin peika på https://github.com/KFu-ki/infbv-nettside.git. Lesekontrollen returnerte gjeldande HEAD, og push-tørrkøyringa gav Everything up-to-date. Kontrollen sende ingen endringar.
 
-Vercel CLI 65.12.1 vart installert, og innlogginga vart fullført. Tilgangen omfattar teamet INFBV. Det autoritative produksjonsprosjektet er infbv, med prosjekt-ID prj_g7eIdFUoFSejKoivm5QG9FYR1m8p. Prosjektet deployar frå main, har repo-rota som rotmappe og publiserer hovudportalen på https://infbv.vercel.app.
+Vercel CLI 65.12.1 vart installert, og innlogginga vart fullført. Tilgangen omfattar teamet INFBV. Det autoritative produksjonsprosjektet er infbv-nettside, med prosjekt-ID prj_6HQPbnc5kmnH1UFdhPiORekXztFD. Prosjektet deployar frå main, har repo-rota som rotmappe og publiserer hovudportalen på https://infbv-nettside.vercel.app.
 
 Prosjekta infbv og infbv27 er òg kopla til same GitHub-repo og får parallelle deployar. Dei er ikkje hovudportalen og skal ikkje koplast om, brukast som produksjonstarget eller slettast utan ei eiga avgjerd.
 
@@ -1919,7 +1912,7 @@ Første test skal bruke ein ufarlig testcommit som straks kan gjenopprettast. Ko
 - valt commit vert validert;
 - sikringsartifakten vert oppretta;
 - ny gjenopprettingscommit vert pusha til `main`;
-- Vercel-prosjektet `infbv` vert `READY`;
+- Vercel-prosjektet `infbv-nettside` vert `READY`;
 - hovudportalen peikar på rett innhald.
 
 ---
@@ -1994,7 +1987,7 @@ http://localhost:8000
 - JSON-utdrag finst i `budsjett/data.json` og `timeplanside/timeplan-2027.json`; README seier dei vert brukte av statiske sider.
 - Tre eksisterande dataskript handterer budsjettoppdatering, TimeEdit-import og timeplaneksport. Tre nye skript kontrollerer dokumentasjon, byggjer manual og gjer lokale kunnskapsoppslag.
 - Python-avhengnader er FastAPI og Uvicorn. Frontend har ingen deklarert pakkebehandlar eller byggsteg.
-- `origin` peikar på `https://github.com/KFu-ki/infbv-nettside.git`. Vercel-prosjektet `infbv` deployar frå `main` til `infbv.vercel.app`.
+- `origin` peikar på `https://github.com/KFu-ki/infbv-nettside.git`. Vercel-prosjektet `infbv-nettside` deployar frå `main` til `infbv-nettside.vercel.app`.
 - To lokale GitHub Pages-workflowfiler er uversjonerte og ikkje inkluderte i denne deployen; eigarskap/vidare bruk er uavklart.
 - Dokumentasjonen har no detaljert komponentkart, backend/API, frontend, datakontraktar og flytar, budsjettformlar frå kode, designsamandrag og stegvis manuell gjenoppbygging.
 - KI-adapterar finst for Copilot, Claude, Gemini, Cursor, Windsurf, Cline, Roo Code, Continue og Amazon Q. Dei peikar til `AGENTS.md`.
@@ -2044,7 +2037,7 @@ Ved dokumentasjonsoppstart var `git status --short` tom, og `git ls-files` viste
 | Lokal statisk nettlesarkontroll | Bestått: forsida lasta, temabrytaren rapporterte rett av/på-tilstand og lagra valet |
 | `python3 scripts/check_documentation.py`, `git diff --check` og `python3 scripts/build_manual.py --check` | Bestått etter dokumentasjonsendringane |
 | Revisjon av emnenamn frå `Revisjon nov 2026.pdf`, side 1 | Stadfesta: berre SAJ101-koden var utdatert (var SAL101); INF213 hadde ufullstendig visingsnamn; MEV221-namnet er halde på nynorsk |
-| Produksjonsdeploy av lyst/mørkt tema og tilgjengeendring, commit `65ec0fb` | READY på Vercel; alias `infbv.vercel.app` stadfesta |
+| Produksjonsdeploy av lyst/mørkt tema og tilgjengeendring, commit `65ec0fb` | READY på Vercel; alias `infbv-nettside.vercel.app` stadfesta |
 | Lokal nettlesarkontroll av tilgjenge | Bestått: temaet overlevde omlasting; trinn vart valde med mellomrom; meny opna/lukka med tastatur og Escape |
 | `python3 scripts/build_manual.py` og `--check` etter studiemodellregisteret | Bestått; manual og kodekart oppdaterte |
 | `python3 scripts/check_documentation.py`, `git diff --check` og `python3 scripts/build_manual.py --check` etter denne endringa | Bestått etter bygging av den endelege manualen |
@@ -2172,11 +2165,11 @@ KJELDER OG ARBEID
 - Ikkje publiser nye personopplysningar. Publiseringsstatus for tilsettnamn i timeplandata er uavklart; stopp og spør meg dersom oppgåva rører dette.
 
 FØRHANDSAUTORISERT PUBLISERING
-Eg gir med denne prompten uttrykkjeleg løyve til å endre oppgåverelaterte filer, committe dei, pushe til den eksisterande produksjonsbranchen `main` i `KFu-ki/infbv-nettside`, og fullføre produksjonsdeploy til det eksisterande Vercel-prosjektet `infbv` når oppgåva mi ber om å oppdatere, ferdigstille, publisere eller deploye nettsida. Du treng ikkje be om ei ny godkjenning for kvar vanleg commit, push eller deploy innanfor dette repoet og prosjektet.
+Eg gir med denne prompten uttrykkjeleg løyve til å endre oppgåverelaterte filer, committe dei, pushe til den eksisterande produksjonsbranchen `main` i `KFu-ki/infbv-nettside`, og fullføre produksjonsdeploy til det eksisterande Vercel-prosjektet `infbv-nettside` når oppgåva mi ber om å oppdatere, ferdigstille, publisere eller deploye nettsida. Du treng ikkje be om ei ny godkjenning for kvar vanleg commit, push eller deploy innanfor dette repoet og prosjektet.
 
 Før push: vis/les gjennom oppgåvediffen, stadfest at berre oppgåverelaterte filer er med, køyr relevante kontrollar og stadfest at `main` ikkje har nye eksterne endringar som skaper konflikt. Bruk eksisterande remote, branch, Vercel-team og prosjekt. Ikkje opprett branch, prosjekt, domene eller endre hosting-/tilgangsinnstillingar som del av denne fullmakta.
 
-Push til `main` er publiseringa; ikkje køyr ein ekstra CLI-deploy som lagar ei anna eller parallell produksjonsdeploy dersom Git-integrasjonen allereie deployar. Vent på Vercel-statusen. Kontroller at deployen for rett commit er `READY`, at ho har aliaset `infbv.vercel.app`, og at live-sida svarar og viser endringa. Rapporter commit, filer, kontrollar, deploystatus og live-lenkje.
+Push til `main` er publiseringa; ikkje køyr ein ekstra CLI-deploy som lagar ei anna eller parallell produksjonsdeploy dersom Git-integrasjonen allereie deployar. Vent på Vercel-statusen. Kontroller at deployen for rett commit er `READY`, at ho har aliaset `infbv-nettside.vercel.app`, og at live-sida svarar og viser endringa. Rapporter commit, filer, kontrollar, deploystatus og live-lenkje.
 
 Ikkje commit/push/deploy når eg berre ber om råd, analyse eller eit utkast utan å be om at endringa skal gjennomførast. Spør meg berre når faktisk tilgang manglar, mål/branch er uklar, det ligg føre ein reell konflikt, eller personvern/tryggleik krev eigaravgjerd. Ikkje spør på nytt om publisering innanfor fullmakta over.
 
@@ -2408,18 +2401,14 @@ Krisekommunikasjon med bakkekontakt
 <a id="kunnskap-README.md"></a>
 ## Kjelde: `kunnskap/README.md`
 
-# Kunnskap
-
-Teori, omgrep, metodar, kjelder og forskingsgrunnlag som vert nytta på tvers av prosjekt.
+# README
 
 ---
 
 <a id="modellar-README.md"></a>
 ## Kjelde: `modellar/README.md`
 
-# Modellar
-
-PRK, SOFT, FIVER og Deliberasjon.
+# README
 
 ---
 
@@ -2877,6 +2866,4 @@ Sist oppdatert: 2026-11-18
 <a id="undervisning-README.md"></a>
 ## Kjelde: `undervisning/README.md`
 
-# Undervisning
-
-Ressursar, pensum og opplegg knytte til emne ved Høgskulen i Volda.
+# README

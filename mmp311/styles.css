@@ -711,3 +711,29 @@ a[target="_blank"]::after {
   }
 }
 /* MMP311 unified resource tools: end */
+
+.resource-citation-output {
+  box-sizing: border-box;
+  width: 100%;
+  min-height: 8rem;
+  margin: .35rem 0 .75rem;
+  padding: .7rem;
+  resize: vertical;
+  border: 1px solid var(--border);
+  border-radius: .35rem;
+  background: var(--panel);
+  color: var(--ink);
+  font: inherit;
+  line-height: 1.5;
+}
+
+.resource-copy-citation {
+  min-height: 44px;
+  padding: .55rem .85rem;
+  border: 1px solid var(--border);
+  border-radius: .35rem;
+  background: var(--ink);
+  color: var(--bg);
+  font: inherit;
+  cursor: pointer;
+}
