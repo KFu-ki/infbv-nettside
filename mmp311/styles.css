@@ -737,3 +737,36 @@ a[target="_blank"]::after {
   font: inherit;
   cursor: pointer;
 }
+
+/* Hub full-text overview and consolidated provenance. */
+.full-text-overview {
+  box-sizing: border-box;
+  width: min(100% - 2rem, 1100px);
+  margin: 2.5rem auto 1.5rem;
+  padding: 1rem 0;
+}
+
+.full-text-overview h2 {
+  margin: .35rem 0 .7rem;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1.4;
+}
+
+.full-text-overview p {
+  max-width: 72ch;
+}
+
+.resource-provenance {
+  width: min(100% - 2rem, 1100px);
+  margin: 2rem auto;
+  font-size: .88rem;
+  line-height: 1.55;
+}
+
+.resource-provenance sup {
+  font-size: .7em;
+  line-height: 0;
+  vertical-align: super;
+}
