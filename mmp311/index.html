@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en" data-theme="dark">
+<html lang="en" data-theme="light">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -49,7 +49,39 @@
       <article><p class="model-code">SOFT</p><h3>Issues are socially interpreted</h3><p>SOFT widens attention beyond technical probability and consequence. It examines social conditions, opinion, framing, transparency and organisational conditions.</p><ul><li>Which voices are heard?</li><li>How is the issue framed?</li><li>What can the organisation explain or change?</li></ul><a class="card-link" href="/mmp311/soft/">Explore SOFT →</a></article>
       <article><p class="model-code">FIVER</p><h3>From understanding to response</h3><p>FIVER organises issue and risk work as a recurring process of understanding, identifying, evaluating, revising and responding. It is a teaching and analytical framework, not a claim of empirical validation.</p><ol><li>Frame and understand</li><li>Identify</li><li>Evaluate</li><li>Revise</li><li>Respond</li></ol><a class="card-link" href="/mmp311/fiver/">Explore FIVER →</a></article>
     </div>
-    <figure class="visual split"><img src="assets/soft-lens.png" alt="Four overlapping analytical lenses surrounding an organisation"><figcaption>The SOFT lens connects social conditions, public opinion, framing, transparency and organisational conditions.</figcaption></figure>
+    
+<figure class="visual" aria-labelledby="soft-caption-home">
+  <div class="classic-model soft-grid" role="img"
+    aria-label="Five analytical fields in the SOFT approach">
+    <div class="classic-box">
+      <strong>Social conditions</strong>
+      <span>Exposure, access and vulnerability</span>
+    </div>
+    <div class="classic-box">
+      <strong>Opinions</strong>
+      <span>Expectations, values and disagreement</span>
+    </div>
+    <div class="classic-box">
+      <strong>Framing</strong>
+      <span>Causes, responsibility and solutions</span>
+    </div>
+    <div class="classic-box">
+      <strong>Transparency</strong>
+      <span>Information, uncertainty and limits</span>
+    </div>
+    <div class="classic-box soft-centre">
+      <strong>Organisational conditions</strong>
+      <span>Authority, culture, resources and capacity to change</span>
+    </div>
+  </div>
+
+  <figcaption id="soft-caption-home">
+    <strong>Figure 2.</strong> The SOFT analytical lens. The five fields
+    supplement technical risk assessment; they do not replace it.
+    The accompanying text defines each field.
+  </figcaption>
+</figure>
+
   </section>
 
   <section id="learning" class="section">
@@ -165,29 +197,4 @@
   </section>
 </main>
 <footer><p>Responsible academic: Kristian Fuglseth · Volda University College</p><p>Learning resource based on the author-approved book manuscript and the official course description. Last revised 19 November 2026.</p></footer>
-<script>
-const root = document.documentElement;
-const toggle = document.getElementById("theme-toggle");
-const savedTheme = localStorage.getItem("mmp311-theme");
-
-if (savedTheme === "light" || savedTheme === "dark") {
-  root.dataset.theme = savedTheme;
-}
-
-function updateThemeButton() {
-  if (!toggle) return;
-  toggle.textContent =
-    root.dataset.theme === "light" ? "Dark theme" : "Light theme";
-}
-
-updateThemeButton();
-
-if (toggle) {
-  toggle.addEventListener("click", () => {
-    root.dataset.theme =
-      root.dataset.theme === "light" ? "dark" : "light";
-    localStorage.setItem("mmp311-theme", root.dataset.theme);
-    updateThemeButton();
-  });
-}
-</script></body></html>
+<script src="site.js" defer></script></body></html>
