@@ -19,16 +19,18 @@ Automatisk oversyn over kjelde-/konfigurasjonsfiler. Korte SHA-256-prefiksar gje
 | `index.html` | `.html` | `8d7a0b18fa68` | INFBV — kompetansetrapp og fagportal \| Høgskulen i Volda |
 | `language.js` | `.js` | `85ace0f3a098` | STORAGE_KEY, params, requested, currentLanguage, originals, english, setText, element, staircaseCopy, updateMainStaircase, copy, headerSpans, title, description, updateStaticInterface, isEnglish, toggle, level4, level5, applyLanguage, url |
 | `mmp311/fiver/index.html` | `.html` | `7f8da4189bbe` | FIVER Process Model \| MMP311 |
-| `mmp311/index.html` | `.html` | `53b9a3254775` | MMP311 Risk Communication and Issue Management \| INFBV |
-| `mmp311/learning-path/01-risk-society/index.html` | `.html` | `46531701c43c` | Risk, uncertainty and the social production of relevance \| MMP311 |
-| `mmp311/learning-path/02-risk-communication/index.html` | `.html` | `52161ad45cc9` | Risk communication as knowledge and trust work \| MMP311 |
-| `mmp311/learning-path/03-issues/index.html` | `.html` | `db637ddfaf1f` | Issue detection and problem prevention \| MMP311 |
-| `mmp311/learning-path/04-prk-soft/index.html` | `.html` | `575f74dc015a` | PRK and SOFT: movement, attention and interpretation \| MMP311 |
-| `mmp311/learning-path/05-fiver/index.html` | `.html` | `e2b86b06a4d1` | FIVER: from understanding to response \| MMP311 |
-| `mmp311/learning-path/06-crisis-communication/index.html` | `.html` | `7120fc357623` | Crisis communication as part of crisis management \| MMP311 |
-| `mmp311/learning-path/07-academic-writing/index.html` | `.html` | `41a0e268c3e7` | Academic writing \| MMP311 |
-| `mmp311/learning-path/index.html` | `.html` | `5d62b6c847be` | Learning path \| MMP311 |
-| `mmp311/learning.css` | `.css` | `4cbbdacf480f` | @media (max-width:800px), @media (prefers-reduced-motion:reduce), @media (max-width: 800px), @media (max-width: 42rem), @media (prefers-reduced-motion: no-preference) |
+| `mmp311/full-text/index.html` | `.html` | `74d0db6dc927` | Full-text explanations \| MMP311 |
+| `mmp311/full-text/media-distortion-framing-mediatization/index.html` | `.html` | `6fe9239a45be` | Media distortion, news framing and mediatization \| MMP311 |
+| `mmp311/index.html` | `.html` | `ffde4ed899dc` | MMP311 Risk Communication and Issue Management \| INFBV |
+| `mmp311/learning-path/01-risk-society/index.html` | `.html` | `3385a378554c` | Risk, uncertainty and the social production of relevance \| MMP311 |
+| `mmp311/learning-path/02-risk-communication/index.html` | `.html` | `1948faea79a5` | Risk communication as knowledge and trust work \| MMP311 |
+| `mmp311/learning-path/03-issues/index.html` | `.html` | `d54cfff84e85` | Issue detection and problem prevention \| MMP311 |
+| `mmp311/learning-path/04-prk-soft/index.html` | `.html` | `94f03748a64b` | PRK and SOFT: movement, attention and interpretation \| MMP311 |
+| `mmp311/learning-path/05-fiver/index.html` | `.html` | `f2867daae2b5` | FIVER: from understanding to response \| MMP311 |
+| `mmp311/learning-path/06-crisis-communication/index.html` | `.html` | `36a2a627ad27` | Crisis communication as part of crisis management \| MMP311 |
+| `mmp311/learning-path/07-academic-writing/index.html` | `.html` | `168e733333c6` | Academic writing \| MMP311 |
+| `mmp311/learning-path/index.html` | `.html` | `da0679fb65f7` | Learning path \| MMP311 |
+| `mmp311/learning.css` | `.css` | `e93508642a8d` | @media (max-width:800px), @media (prefers-reduced-motion:reduce), @media (max-width: 800px), @media (max-width: 42rem), @media (prefers-reduced-motion: no-preference), @media (max-width:42rem) |
 | `mmp311/learning.js` | `.js` | `c4bb3ea82f6b` | root, savedSize, label |
 | `mmp311/prk/index.html` | `.html` | `32d10d85a5f3` | PRK: Problem, Risk and Crisis \| MMP311 |
 | `mmp311/resource-tools.js` | `.js` | `04cbd24cf67a` | triggers, dialogs, opener, pageTitle, canonicalUrl, year, reference, citationOutput, copyButton, closeDialog, name, dialog |
