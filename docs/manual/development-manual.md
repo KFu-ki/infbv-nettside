@@ -122,22 +122,23 @@ Automatisk oversyn over kjelde-/konfigurasjonsfiler. Korte SHA-256-prefiksar gje
 | `index.html` | `.html` | `8d7a0b18fa68` | INFBV — kompetansetrapp og fagportal \| Høgskulen i Volda |
 | `integrate_ai_guidance_mmp311.py` | `.py` | `d4ddd7afac4e` | — |
 | `language.js` | `.js` | `85ace0f3a098` | STORAGE_KEY, params, requested, currentLanguage, originals, english, setText, element, staircaseCopy, updateMainStaircase, copy, headerSpans, title, description, updateStaticInterface, isEnglish, toggle, level4, level5, applyLanguage, url |
-| `mmp311/fiver/index.html` | `.html` | `4d0aae256d8b` | FIVER Process Model \| MMP311 |
-| `mmp311/index.html` | `.html` | `612c44efea8f` | MMP311 Risk Communication and Issue Management \| INFBV |
-| `mmp311/learning-path/01-risk-society/index.html` | `.html` | `67289b118ffb` | Risk, uncertainty and the social production of relevance \| MMP311 |
-| `mmp311/learning-path/02-risk-communication/index.html` | `.html` | `17d4e5cd202d` | Risk communication as knowledge and trust work \| MMP311 |
-| `mmp311/learning-path/03-issues/index.html` | `.html` | `0d914752fc5d` | Issue detection and problem prevention \| MMP311 |
-| `mmp311/learning-path/04-prk-soft/index.html` | `.html` | `47acfb09e564` | PRK and SOFT: movement, attention and interpretation \| MMP311 |
-| `mmp311/learning-path/05-fiver/index.html` | `.html` | `856f50c51d05` | FIVER: from understanding to response \| MMP311 |
-| `mmp311/learning-path/06-crisis-communication/index.html` | `.html` | `718167512922` | Crisis communication as part of crisis management \| MMP311 |
-| `mmp311/learning-path/07-academic-writing/index.html` | `.html` | `3c7acab1d8f1` | Academic writing \| MMP311 |
-| `mmp311/learning-path/index.html` | `.html` | `6bd09f8b36ce` | Learning path \| MMP311 |
-| `mmp311/learning.css` | `.css` | `d3197e132f17` | @media (max-width:800px), @media (prefers-reduced-motion:reduce) |
+| `mmp311/fiver/index.html` | `.html` | `b085e27a8cae` | FIVER Process Model \| MMP311 |
+| `mmp311/index.html` | `.html` | `878ce334f161` | MMP311 Risk Communication and Issue Management \| INFBV |
+| `mmp311/learning-path/01-risk-society/index.html` | `.html` | `d018440bd419` | Risk, uncertainty and the social production of relevance \| MMP311 |
+| `mmp311/learning-path/02-risk-communication/index.html` | `.html` | `d1e4ce802aba` | Risk communication as knowledge and trust work \| MMP311 |
+| `mmp311/learning-path/03-issues/index.html` | `.html` | `f5802a27fe78` | Issue detection and problem prevention \| MMP311 |
+| `mmp311/learning-path/04-prk-soft/index.html` | `.html` | `850f1c40375f` | PRK and SOFT: movement, attention and interpretation \| MMP311 |
+| `mmp311/learning-path/05-fiver/index.html` | `.html` | `9daa8e20d399` | FIVER: from understanding to response \| MMP311 |
+| `mmp311/learning-path/06-crisis-communication/index.html` | `.html` | `6d3e48098d04` | Crisis communication as part of crisis management \| MMP311 |
+| `mmp311/learning-path/07-academic-writing/index.html` | `.html` | `cbb78888c1a0` | Academic writing \| MMP311 |
+| `mmp311/learning-path/index.html` | `.html` | `a885aff6fbf2` | Learning path \| MMP311 |
+| `mmp311/learning.css` | `.css` | `e7a6b19e3fd4` | @media (max-width:800px), @media (prefers-reduced-motion:reduce), @media (max-width: 800px), @media (max-width: 42rem), @media (prefers-reduced-motion: no-preference) |
 | `mmp311/learning.js` | `.js` | `82b2180a7064` | — |
-| `mmp311/prk/index.html` | `.html` | `c71fc769bb2f` | PRK: Problem, Risk and Crisis \| MMP311 |
+| `mmp311/prk/index.html` | `.html` | `8759ed6116b0` | PRK: Problem, Risk and Crisis \| MMP311 |
+| `mmp311/resource-tools.js` | `.js` | `9b642f03c35f` | triggers, dialogs, opener, closeDialog, name, dialog, closeButton |
 | `mmp311/site.js` | `.js` | `8482f145a18b` | html, header, tools, size, savedSize, label, dialog, output, copyButton, pageTitle, year, pageReference, addCitation, wrapper, button, caption, type, heading, fullText |
-| `mmp311/soft/index.html` | `.html` | `af4e97dffe3c` | SOFT Analytical Lens \| MMP311 |
-| `mmp311/styles.css` | `.css` | `9bb7292f38ee` | @media (max-width:850px), @media (prefers-reduced-motion:reduce), @media (max-width: 850px) |
+| `mmp311/soft/index.html` | `.html` | `8d0e31bef35e` | SOFT Analytical Lens \| MMP311 |
+| `mmp311/styles.css` | `.css` | `b73829551f1d` | @media (max-width:850px), @media (prefers-reduced-motion:reduce), @media (max-width: 850px), @media (max-width: 42rem), @media (prefers-reduced-motion: no-preference) |
 | `publish_mmp311_learning_path.py` | `.py` | `68a9c31aa219` | reading_html, chrome |
 | `refine_mmp311_citations_ui.py` | `.py` | `1e79bce2421f` | — |
 | `requirements.txt` | `.txt` | `ed58f33ba012` | fastapi>=0.115,<1, uvicorn>=0.30,<1 |
