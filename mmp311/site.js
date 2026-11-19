@@ -44,7 +44,7 @@
   dialog.innerHTML = `
     <div>
       <h2>Cite this</h2>
-      <p>Select and copy the suggested reference.</p>
+      <p>Select and copy the suggested reference.</p><p class="cite-clue"><strong>Citation clue:</strong> Cite original research for scholarly claims. Cite this resource for its model or teaching explanation. AI-generated text is not an academic source. <a href="https://www.sokogskriv.no/en/kunstig-intelligens">Søk &amp; Skriv on AI</a>.</p>
       <label for="cite-output">Suggested reference</label>
       <textarea id="cite-output" class="cite-output" readonly></textarea>
       <div class="cite-actions">
