@@ -18,24 +18,28 @@ Automatisk oversyn over kjelde-/konfigurasjonsfiler. Korte SHA-256-prefiksar gje
 | `budsjett/styles.css` | `.css` | `78639b5b1345` | @media (min-width: 1500px), @media (max-width: 1120px), @media (max-width: 820px), @media (max-width: 560px), @media print |
 | `index.html` | `.html` | `8d7a0b18fa68` | INFBV — kompetansetrapp og fagportal \| Høgskulen i Volda |
 | `language.js` | `.js` | `85ace0f3a098` | STORAGE_KEY, params, requested, currentLanguage, originals, english, setText, element, staircaseCopy, updateMainStaircase, copy, headerSpans, title, description, updateStaticInterface, isEnglish, toggle, level4, level5, applyLanguage, url |
-| `mmp311/fiver/index.html` | `.html` | `1382451f59f0` | FIVER Process Model \| MMP311 |
-| `mmp311/full-text/index.html` | `.html` | `74d0db6dc927` | Full-text explanations \| MMP311 |
-| `mmp311/full-text/media-distortion-framing-mediatization/index.html` | `.html` | `1d31a211c3f5` | Media distortion, news framing and mediatization \| MMP311 |
-| `mmp311/index.html` | `.html` | `f792fad0db89` | MMP311 Risk Communication and Issue Management \| INFBV |
-| `mmp311/learning-path/01-risk-society/index.html` | `.html` | `c33ec038b7c8` | Risk, uncertainty and the social production of relevance \| MMP311 |
-| `mmp311/learning-path/02-risk-communication/index.html` | `.html` | `efb80f3f4292` | Risk communication as knowledge and trust work \| MMP311 |
-| `mmp311/learning-path/03-issues/index.html` | `.html` | `1b9b091266b3` | Issue detection and problem prevention \| MMP311 |
-| `mmp311/learning-path/04-prk-soft/index.html` | `.html` | `b3fb4fb4356b` | PRK and SOFT: movement, attention and interpretation \| MMP311 |
-| `mmp311/learning-path/05-fiver/index.html` | `.html` | `91139b8f4339` | FIVER: from understanding to response \| MMP311 |
-| `mmp311/learning-path/06-crisis-communication/index.html` | `.html` | `cbe2b5fe4002` | Crisis communication as part of crisis management \| MMP311 |
-| `mmp311/learning-path/07-academic-writing/index.html` | `.html` | `288fdb12cc3a` | Academic writing \| MMP311 |
-| `mmp311/learning-path/index.html` | `.html` | `044f0a583f98` | Learning path \| MMP311 |
-| `mmp311/learning.css` | `.css` | `e93508642a8d` | @media (max-width:800px), @media (prefers-reduced-motion:reduce), @media (max-width: 800px), @media (max-width: 42rem), @media (prefers-reduced-motion: no-preference), @media (max-width:42rem) |
+| `mmp311/cases/index.html` | `.html` | `407ec9d2f455` | Cases and examples \| MMP311 |
+| `mmp311/fiver/index.html` | `.html` | `f0341bd52724` | FIVER Process Model \| MMP311 |
+| `mmp311/full-text/index.html` | `.html` | `b1f7c79ce48b` | Full-text explanations \| MMP311 |
+| `mmp311/full-text/media-distortion-framing-mediatization/index.html` | `.html` | `8c7d2c69b7d0` | Media distortion, news framing and mediatization \| MMP311 |
+| `mmp311/glossary/index.html` | `.html` | `804450f8fc37` | Glossary \| MMP311 |
+| `mmp311/index.html` | `.html` | `518488620941` | MMP311 Risk Communication and Issue Management \| INFBV |
+| `mmp311/learning-path/01-risk-society/index.html` | `.html` | `fd8d8cf11933` | Risk, uncertainty and the social production of relevance \| MMP311 |
+| `mmp311/learning-path/02-risk-communication/index.html` | `.html` | `363297cc8a0a` | Risk communication as knowledge and trust work \| MMP311 |
+| `mmp311/learning-path/03-issues/index.html` | `.html` | `82d55f878b65` | Issue detection and problem prevention \| MMP311 |
+| `mmp311/learning-path/04-prk-soft/index.html` | `.html` | `6b11baea7a32` | PRK and SOFT: movement, attention and interpretation \| MMP311 |
+| `mmp311/learning-path/05-fiver/index.html` | `.html` | `8647f6333053` | FIVER: from understanding to response \| MMP311 |
+| `mmp311/learning-path/06-crisis-communication/index.html` | `.html` | `19e1774127b8` | Crisis communication as part of crisis management \| MMP311 |
+| `mmp311/learning-path/07-academic-writing/index.html` | `.html` | `78b341cf7e7d` | Academic writing \| MMP311 |
+| `mmp311/learning-path/index.html` | `.html` | `5ea1dd628156` | Learning path \| MMP311 |
+| `mmp311/learning.css` | `.css` | `7274d2e93ef0` | @media (max-width:800px), @media (prefers-reduced-motion:reduce), @media (max-width: 800px), @media (max-width: 42rem), @media (prefers-reduced-motion: no-preference), @media (max-width:42rem) |
 | `mmp311/learning.js` | `.js` | `c4bb3ea82f6b` | root, savedSize, label |
-| `mmp311/prk/index.html` | `.html` | `107b8366f23f` | PRK: Problem, Risk and Crisis \| MMP311 |
+| `mmp311/prk/index.html` | `.html` | `fd1890e41611` | PRK: Problem, Risk and Crisis \| MMP311 |
 | `mmp311/resource-tools.js` | `.js` | `04cbd24cf67a` | triggers, dialogs, opener, pageTitle, canonicalUrl, year, reference, citationOutput, copyButton, closeDialog, name, dialog |
+| `mmp311/search/index.html` | `.html` | `842fd0081f48` | Guided search \| MMP311 |
+| `mmp311/search/search.js` | `.js` | `3fd437ba08c3` | — |
 | `mmp311/site.js` | `.js` | `2df7eda9588c` | html, header, tools, size, savedSize, label |
-| `mmp311/soft/index.html` | `.html` | `bd2bffee6330` | SOFT Analytical Lens \| MMP311 |
+| `mmp311/soft/index.html` | `.html` | `b459f0420663` | SOFT Analytical Lens \| MMP311 |
 | `mmp311/styles.css` | `.css` | `ccaaabb2f434` | @media (max-width:850px), @media (prefers-reduced-motion:reduce), @media (max-width: 850px), @media (max-width: 42rem), @media (prefers-reduced-motion: no-preference) |
 | `requirements.txt` | `.txt` | `ed58f33ba012` | fastapi>=0.115,<1, uvicorn>=0.30,<1 |
 | `scripts/build_manual.py` | `.py` | `9fcacf8b903f` | source_markdown_files, source_code_files, document_title, document_summary, source_symbols, code_map_markdown, catalog_markdown, manual_markdown, markdown_lines, pdf_literal, create_pdf, write_or_check, main |
@@ -44,6 +48,7 @@ Automatisk oversyn over kjelde-/konfigurasjonsfiler. Korte SHA-256-prefiksar gje
 | `scripts/import_timeplan.py` | `.py` | `18bad415b248` | column_number, read_rows, field, build_items, atomic_write, main |
 | `scripts/knowledge_lookup.py` | `.py` | `e17cceecb7d3` | searchable_files, score_document, matching_lines, main |
 | `scripts/update_budsjett_data.py` | `.py` | `0aa4a1b0bac6` | main |
+| `scripts/update_mmp311_page_metadata.py` | `.py` | `249c100daf19` | ordinal |
 | `styles.css` | `.css` | `08b492888989` | @media (max-width: 1023px), @media (prefers-reduced-motion: reduce), @media (max-width: 480px), @media (max-width: 420px), @media (forced-colors: active) |
 | `tekst/deliberasjon/index.html` | `.html` | `804207876c6d` | deliberasjon |
 | `tekst/index.html` | `.html` | `6b1dc494fb4f` | Tekst \| INFBV |
