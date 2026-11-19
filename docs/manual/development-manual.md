@@ -119,7 +119,7 @@ Automatisk oversyn over kjelde-/konfigurasjonsfiler. Korte SHA-256-prefiksar gje
 | `index.html` | `.html` | `8d7a0b18fa68` | INFBV — kompetansetrapp og fagportal \| Høgskulen i Volda |
 | `language.js` | `.js` | `85ace0f3a098` | STORAGE_KEY, params, requested, currentLanguage, originals, english, setText, element, staircaseCopy, updateMainStaircase, copy, headerSpans, title, description, updateStaticInterface, isEnglish, toggle, level4, level5, applyLanguage, url |
 | `mmp311/fiver/index.html` | `.html` | `7f8da4189bbe` | FIVER Process Model \| MMP311 |
-| `mmp311/index.html` | `.html` | `0b550e9ab083` | MMP311 Risk Communication and Issue Management \| INFBV |
+| `mmp311/index.html` | `.html` | `53b9a3254775` | MMP311 Risk Communication and Issue Management \| INFBV |
 | `mmp311/learning-path/01-risk-society/index.html` | `.html` | `46531701c43c` | Risk, uncertainty and the social production of relevance \| MMP311 |
 | `mmp311/learning-path/02-risk-communication/index.html` | `.html` | `52161ad45cc9` | Risk communication as knowledge and trust work \| MMP311 |
 | `mmp311/learning-path/03-issues/index.html` | `.html` | `db637ddfaf1f` | Issue detection and problem prevention \| MMP311 |
