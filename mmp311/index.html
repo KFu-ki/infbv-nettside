@@ -13,7 +13,7 @@
 <header class="site-header">
   <a class="brand" href="/?lang=en"><span aria-hidden="true">V</span><b>INFBV</b></a>
   <nav aria-label="Course navigation">
-    <a href="#overview">Overview</a><a href="#models">Models</a><a href="/mmp311/prk/">PRK</a><a href="/mmp311/soft/">SOFT</a><a href="/mmp311/fiver/">FIVER</a><a href="#reading">Reading</a>
+    <a href="#overview">Overview</a><a href="#models">Models</a><a href="/mmp311/prk/">PRK</a><a href="/mmp311/soft/">SOFT</a><a href="/mmp311/fiver/">FIVER</a><a href="#news-criteria">News criteria</a><a href="#reading">Reading</a>
   </nav>
 </header>
 <main id="main">
@@ -65,7 +65,95 @@
 
   <section class="section outcomes"><div><p class="eyebrow">After the course</p><h2>Learning outcomes</h2></div><div class="cards two"><article><h3>Knowledge</h3><p>Students develop knowledge of risk, issue and crisis communication, post-crisis containment and recovery, preparedness and community responses.</p></article><article><h3>Application</h3><p>Students assess practical work and analyse academic problems in light of the field's history, traditions, professional practice and place in society.</p></article></div></section>
 
-  <section id="reading" class="section references">
+  
+<section id="news-criteria" class="section">
+  <p class="eyebrow">Journalistic attention</p>
+  <h2>News criteria</h2>
+
+  <p class="lead">
+    News criteria help explain why some issues receive attention while
+    others remain less visible. They are editorial assessment tools,
+    not neutral measures of social importance.
+  </p>
+
+  <div class="criteria-grid">
+    <article>
+      <h3>1. Significance</h3>
+      <p>
+        The story is relevant and important to a substantial audience.
+        Events affecting many people normally receive greater priority.
+      </p>
+    </article>
+
+    <article>
+      <h3>2. Identification</h3>
+      <p>
+        The story gives audiences people, groups or situations with
+        which they can identify. Concrete experience can make an
+        abstract risk visible.
+      </p>
+    </article>
+
+    <article>
+      <h3>3. Sensation</h3>
+      <p>
+        Unexpected, surprising or unusual developments attract
+        attention. Sensation may increase visibility but does not
+        necessarily indicate social importance.
+      </p>
+    </article>
+
+    <article>
+      <h3>4. Timeliness</h3>
+      <p>
+        The event is current or connected to an active public agenda.
+        Editorial attention determines what is treated as relevant at
+        a particular moment.
+      </p>
+    </article>
+
+    <article>
+      <h3>5. Conflict</h3>
+      <p>
+        Disagreement, struggle and competing interests increase news
+        value. Conflict can reveal accountability, but can also narrow
+        attention to opposing positions.
+      </p>
+    </article>
+
+    <article>
+      <h3>6. Elite or celebrity</h3>
+      <p>
+        Events involving powerful, prominent or widely recognised
+        actors tend to receive more coverage.
+      </p>
+    </article>
+
+    <article>
+      <h3>7. Proximity</h3>
+      <p>
+        Geographical, cultural or experiential closeness makes an
+        event more relevant to a particular audience.
+      </p>
+    </article>
+
+    <article>
+      <h3>8. Exclusivity</h3>
+      <p>
+        Information reported first or available only to one newsroom
+        gains value in a competitive media environment.
+      </p>
+    </article>
+  </div>
+
+  <p class="source-note">
+    Teaching resource developed by Kristian Fuglseth. The criteria are
+    used to examine how journalistic selection interacts with issue,
+    risk and crisis communication.
+  </p>
+</section>
+
+<section id="reading" class="section references">
     <p class="eyebrow">Core reading and sources</p><h2>References</h2>
     <ul>
       <li>Brataas, K., Fuglseth, K., &amp; Bakken, B. T. (2026). <i>Etterpåklok på forhånd: Beredskapsplanlegging i teori og praksis</i>. Fagbokforlaget.</li>
@@ -76,5 +164,30 @@
     </ul>
   </section>
 </main>
-<footer><p>Responsible academic: Kristian Fuglseth · Volda University College</p><p>Learning resource based on the author-approved book manuscript and the official course description. Last revised 17 November 2026.</p></footer>
-</body></html>
+<footer><p>Responsible academic: Kristian Fuglseth · Volda University College</p><p>Learning resource based on the author-approved book manuscript and the official course description. Last revised 19 November 2026.</p></footer>
+<script>
+const root = document.documentElement;
+const toggle = document.getElementById("theme-toggle");
+const savedTheme = localStorage.getItem("mmp311-theme");
+
+if (savedTheme === "light" || savedTheme === "dark") {
+  root.dataset.theme = savedTheme;
+}
+
+function updateThemeButton() {
+  if (!toggle) return;
+  toggle.textContent =
+    root.dataset.theme === "light" ? "Dark theme" : "Light theme";
+}
+
+updateThemeButton();
+
+if (toggle) {
+  toggle.addEventListener("click", () => {
+    root.dataset.theme =
+      root.dataset.theme === "light" ? "dark" : "light";
+    localStorage.setItem("mmp311-theme", root.dataset.theme);
+    updateThemeButton();
+  });
+}
+</script></body></html>
