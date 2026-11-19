@@ -19,3 +19,7 @@ _backup/
 /data/exports/*
 !/data/exports/.gitkeep
 !/data/exports/README.md
+
+.obsidian/
+Pasted image*.png
+

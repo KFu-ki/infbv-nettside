@@ -50,6 +50,7 @@ Automatisk oversyn over Markdown-kjeldene. Innhaldet vert regenerert av `scripts
 | `docs/operations/backup-and-recovery.md` | Backup og gjenoppretting | Før dokumentasjonsendringane vart dei 25 versjonskontrollerte filene kopierte frå `HEAD` med `git archive` til `_backup/2026-11-08_210007/`. Backupen er ei lokal, Git-ignorert kopi av tracked-filer, ikkje kryptert og ikkje utanfor denne maskina/synka OneDrive-rot. Ignorerte cache-filer og eksterne arbeidsbøker er ikkje med. Denne rapporten dokumenterer kva som vart gjort; ho garanterer ikkje backupintegritet. |
 | `docs/operations/vercel.md` | Vercel og publisering | - Git remote `origin` er `https://github.com/KFu-ki/infbv-nettside.git`; lokal branch var `main` ved kontroll. |
 | `docs/operations/version-restore.md` | Versjonar og trygg gjenoppretting | Den offentlege sida `/versjonar/` viser dei 20 nyaste commitane på `main` i `KFu-ki/infbv-nettside`. Sida gjev oversikt, men har ikkje løyndomar, GitHub-token eller direkte skrivetilgang. |
+| `docs/project/ARBEIDSFLYT.md` | Arbeidsflyt for INFBV | /Users/kristian/.copilot/repos/infbv-nettside |
 | `docs/project/current-state.md` | No-situasjon | **Sist kontrollert:** 2026-11-09 |
 | `docs/project/next-actions.md` | Neste steg | Prioritering: `No` → `Neste` → `Seinare`. `Blokkert` krev avklaring før gjennomføring. |
 | `docs/user-guides/copilot-chat-basic.md` | Arbeide med INFBV i vanleg Microsoft Copilot Chat | Denne rettleiinga er for Copilot Chat (Basic) med Høgskulen i Volda-konto. Ho føreset ikkje GitHub Copilot, VS Code-agent, Copilot Code, Copilot Studio eller lokal disktilgang. |
@@ -57,5 +58,35 @@ Automatisk oversyn over Markdown-kjeldene. Innhaldet vert regenerert av `scripts
 | `docs/user-guides/mobile-use.md` | Bruk frå mobil og nettbrett | Opne nettadressa som eigaren har delt, i nettlesaren på mobil/nettbrett. Dette brukar nettsida; det endrar ikkje Git-filer. |
 | `GEMINI.md` | Gemini | Følg [AGENTS.md](AGENTS.md), [dokumentasjonsindeksen](docs/INDEX.md), [prosjektstatus](docs/project/current-state.md) og relevante dokument under `docs/`. `AGENTS.md` og prosjektfilene er autoritative; ikkje kopier kunnskapsbasen hit. |
 | `INFBV-studiemodell/studiemodell.md` | INFBV-studiemodell | Dette registeret samlar emnekodar, emnenamn på nynorsk, bokmål og engelsk, semester og studiepoeng for INFBV-framsida. Excel-arbeidsboka `studiemodell.xlsx` er den redigerbare fleirspråklege oversikta. |
+| `kunnskap/prosjektregister/fou-oversikt.md` | FoU-portefølje | Sist oppdatert: 2026-11-18 |
+| `kunnskap/README.md` | Kunnskap | Teori, omgrep, metodar, kjelder og forskingsgrunnlag som vert nytta på tvers av prosjekt. |
+| `modellar/README.md` | Modellar | PRK, SOFT, FIVER og Deliberasjon. |
 | `README.md` | INFBV fagportal | Sjå [dokumentasjonsindeksen](docs/INDEX.md) for prosjektstatus, arkitektur, datakjelder, drift og utviklarrettleiingar. |
 | `scripts/README.md` | Skript | Køyr frå prosjektrota med Python 3. Bruk berre kjelder du har løyve til å lese. Importskripta kan skrive over datautdrag; vurder diff og ta backup før du køyrer dei. |
+| `tekst/deliberasjon/index.md` | deliberasjon | Status: Arbeidsmanus |
+| `tekst/deliberasjon/README.md` | README | Markdown-kjelde i prosjektet. |
+| `tekst/klima-og-berekraft/abstract.md` | Climate in the Classroom | > **Working abstract: pre-publication draft** |
+| `tekst/klima-og-berekraft/index.md` | Klima og berekraft | Status: Arbeidsmanus |
+| `tekst/klima-og-berekraft/litteratur.md` | Litteratur | Kapabilitetstilnærming. |
+| `tekst/klima-og-berekraft/prosjektlogg.md` | Prosjektlogg | Prosjektrom oppretta i INFBV-systemet. |
+| `tekst/klima-og-berekraft/README.md` | README | Markdown-kjelde i prosjektet. |
+| `tekst/krisekommunikasjon-med-bakkekontakt/index.md` | krisekommunikasjon-med-bakkekontakt | Status: Arbeidsmanus |
+| `tekst/krisekommunikasjon-med-bakkekontakt/kapittel-01.md` | kapittel-01 | Markdown-kjelde i prosjektet. |
+| `tekst/krisekommunikasjon-med-bakkekontakt/kapittel-02.md` | kapittel-02 | Markdown-kjelde i prosjektet. |
+| `tekst/krisekommunikasjon-med-bakkekontakt/kapittel-03.md` | kapittel-03 | Markdown-kjelde i prosjektet. |
+| `tekst/krisekommunikasjon-med-bakkekontakt/kapittel-04.md` | kapittel-04 | Markdown-kjelde i prosjektet. |
+| `tekst/krisekommunikasjon-med-bakkekontakt/kapittel-05.md` | kapittel-05 | Markdown-kjelde i prosjektet. |
+| `tekst/krisekommunikasjon-med-bakkekontakt/kapittel-06.md` | kapittel-06 | Markdown-kjelde i prosjektet. |
+| `tekst/krisekommunikasjon-med-bakkekontakt/kapittel-07.md` | kapittel-07 | Markdown-kjelde i prosjektet. |
+| `tekst/krisekommunikasjon-med-bakkekontakt/kapittel-08.md` | kapittel-08 | Markdown-kjelde i prosjektet. |
+| `tekst/krisekommunikasjon-med-bakkekontakt/kapittel-09.md` | kapittel-09 | Markdown-kjelde i prosjektet. |
+| `tekst/krisekommunikasjon-med-bakkekontakt/kapittel-10.md` | kapittel-10 | Markdown-kjelde i prosjektet. |
+| `tekst/krisekommunikasjon-med-bakkekontakt/README.md` | README | Markdown-kjelde i prosjektet. |
+| `tekst/README.md` | Tekst | Arbeidsmanus, pågåande forsking og publiserte tekstar. |
+| `tekst/samtalepodkastar/index.md` | samtalepodkastar | Status: Arbeidsmanus |
+| `tekst/samtalepodkastar/README.md` | README | Markdown-kjelde i prosjektet. |
+| `tekst/totalforsvarsaret-2026/index.md` | totalforsvarsaret-2026 | Status: Arbeidsmanus |
+| `tekst/totalforsvarsaret-2026/README.md` | README | Markdown-kjelde i prosjektet. |
+| `tekst/weird-crisis-exercises/index.md` | weird-crisis-exercises | Status: Arbeidsmanus |
+| `tekst/weird-crisis-exercises/README.md` | README | Markdown-kjelde i prosjektet. |
+| `undervisning/README.md` | Undervisning | Ressursar, pensum og opplegg knytte til emne ved Høgskulen i Volda. |

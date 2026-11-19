@@ -13,16 +13,33 @@ Automatisk oversyn over kjelde-/konfigurasjonsfiler. Korte SHA-256-prefiksar gje
 | `.vscode/extensions.json` | `.json` | `e6089ad5102d` | Konfigurasjon |
 | `app.js` | `.js` | `e0624d1d95d8` | STAGES, COURSE_CONTENT, SKILLS, activeStep, setupEventListeners, menuBtn, staircaseWidget, drawer, popover, setupThemeToggle, button, label, icon, themeColor, applyTheme, isLight, nextTheme, toggleMenu, isOpening, closeMenu, toggleMiniStaircasePopover, closeMiniStaircasePopover, widget, selectStep, courseViewWasOpen, updateStairVisualState, steps, currentStep, isActive, title, renderStepDetails, stage, container, isMaster, badgeBg, html, courseSkills, open, course, renderSkillsGrid, groups, isAI, borderClass, stages, courses, openCourse, content, courseMeta, courseContent, courseHeading, showHome |
 | `app.py` | `.py` | `88f2a217295f` | dashboard_data, export_dashboard, timetable_data, export_timetable, home, main_script, main_styles, version |
+| `apply_mmp311_corrections.py` | `.py` | `4fc3c10bd367` | — |
 | `budsjett/app.js` | `.js` | `d04c76ce9101` | programDefinitions, numberFormat, oneDecimal, fteFormat, state, el, fmt, fmtOne, fmtFte, fmtKr, fmtPercent, fmtStaffDelta, esc, programCalculations, alternativeStaff, flowBack, adminBack, sharedBack, baseStaff, assignedStaff, effectiveStaff, totalStudents, totalBudget, totalCredits, avgCredits, averageStudentsPerStaff, averageBudgetPerStudent, scenarioStaffAllocations, productionPool, weights, productionShare, studentShare, alternativeCapacity, total, nonProduction, shared, analysisTableCreated, renderAnalysisTable, field, inputValue, value, program, tableRow, currentValue, staffInput, cells, totalProgramStaff, renderKpis, first, programStaffTotal, capacity, renderAlternativePanel, alternative, selected, names, proposal, basis, unitIndex, productionIndex, currentProgramStaff, previousStudents, currentStudents, studentChange, index, production2026, production2027, productionChange, budget2026, budgetChange, referenceStaff, staffChange, unit, renderProposal, finalSum, noteBudget, stipend, final, units, sumCard, fellesSources, fellesComponentsTotal, dbhStudents, studentDifference, dashboardStudents, proposalCell, isCurrency, inputStep, maxAllocation, unitHeader, componentRows, row, tableBody, mismatch, mismatchText, componentDifference, reference, componentSumIssues, mpro, mproPhoto, referenceFinalSum, referenceDistributionSum, referenceSalarySum, recalculateProposal, sumRows, result, updateProposalValue, rawValue, groupData, renderOverview, maxBudget, categoryFor, renderBarometer, average, max, category, renderReport, sortedCredits, sortedBudget, above, below, workloadText, renderWorkload, highest, metrics, means, ratio, color, difference, diffText, traffic, renderRadar, maxima, cx, pointsAt, angle, grid, points, axes, edge, label, shapes, legend, renderTraffic, renderBubble, width, left, plotWidth, maxStaff, maxCredits, averageStudents, x, y, lineY, dots, radius, cy, labelY, ticks, svg, renderScenario, avg, fteTotal, idealTotal, renderSankey, sourceX, output, available, staffWeightTotal, maxThickness, paths, share, thickness, sourceY, targetY, d, nodes, renderDashboard, programs, loadWorkbookData, response, source, dataByCode, csvEscape, exportExcel, allocationWeightTotal, modelName, overview, details, staffing, budget, budgetInKroner, blob, link, url, exportCsvFallback, rows, csv, exportPng, image, svgBlob, objectUrl, canvas, context, pngUrl, dark |
 | `budsjett/index.html` | `.html` | `95690952975b` | AMF \| Budsjett og ressursoversikt |
 | `budsjett/styles.css` | `.css` | `78639b5b1345` | @media (min-width: 1500px), @media (max-width: 1120px), @media (max-width: 820px), @media (max-width: 560px), @media print |
+| `finalise_mmp311_learning_design.py` | `.py` | `6d4d0f078abc` | section, bullets, numbered |
+| `implement_verified_mmp311_fixes.py` | `.py` | `ef139369ccf3` | replace_body |
 | `index.html` | `.html` | `8d7a0b18fa68` | INFBV — kompetansetrapp og fagportal \| Høgskulen i Volda |
+| `integrate_ai_guidance_mmp311.py` | `.py` | `d4ddd7afac4e` | — |
 | `language.js` | `.js` | `85ace0f3a098` | STORAGE_KEY, params, requested, currentLanguage, originals, english, setText, element, staircaseCopy, updateMainStaircase, copy, headerSpans, title, description, updateStaticInterface, isEnglish, toggle, level4, level5, applyLanguage, url |
-| `mmp311/fiver/index.html` | `.html` | `9cf003709c27` | FIVER Process Model \| MMP311 |
-| `mmp311/index.html` | `.html` | `303c7b7e20db` | MMP311 Risk Communication and Issue Management \| INFBV |
-| `mmp311/prk/index.html` | `.html` | `4306b81ed43c` | PRK: Problem, Risk and Crisis \| MMP311 |
-| `mmp311/soft/index.html` | `.html` | `3d4bcb4a3c65` | SOFT Analytical Lens \| MMP311 |
-| `mmp311/styles.css` | `.css` | `62c69643e818` | @media (max-width:850px), @media (prefers-reduced-motion:reduce) |
+| `mmp311/fiver/index.html` | `.html` | `4d0aae256d8b` | FIVER Process Model \| MMP311 |
+| `mmp311/index.html` | `.html` | `612c44efea8f` | MMP311 Risk Communication and Issue Management \| INFBV |
+| `mmp311/learning-path/01-risk-society/index.html` | `.html` | `67289b118ffb` | Risk, uncertainty and the social production of relevance \| MMP311 |
+| `mmp311/learning-path/02-risk-communication/index.html` | `.html` | `17d4e5cd202d` | Risk communication as knowledge and trust work \| MMP311 |
+| `mmp311/learning-path/03-issues/index.html` | `.html` | `0d914752fc5d` | Issue detection and problem prevention \| MMP311 |
+| `mmp311/learning-path/04-prk-soft/index.html` | `.html` | `47acfb09e564` | PRK and SOFT: movement, attention and interpretation \| MMP311 |
+| `mmp311/learning-path/05-fiver/index.html` | `.html` | `856f50c51d05` | FIVER: from understanding to response \| MMP311 |
+| `mmp311/learning-path/06-crisis-communication/index.html` | `.html` | `718167512922` | Crisis communication as part of crisis management \| MMP311 |
+| `mmp311/learning-path/07-academic-writing/index.html` | `.html` | `3c7acab1d8f1` | Academic writing \| MMP311 |
+| `mmp311/learning-path/index.html` | `.html` | `6bd09f8b36ce` | Learning path \| MMP311 |
+| `mmp311/learning.css` | `.css` | `d3197e132f17` | @media (max-width:800px), @media (prefers-reduced-motion:reduce) |
+| `mmp311/learning.js` | `.js` | `82b2180a7064` | — |
+| `mmp311/prk/index.html` | `.html` | `c71fc769bb2f` | PRK: Problem, Risk and Crisis \| MMP311 |
+| `mmp311/site.js` | `.js` | `8482f145a18b` | html, header, tools, size, savedSize, label, dialog, output, copyButton, pageTitle, year, pageReference, addCitation, wrapper, button, caption, type, heading, fullText |
+| `mmp311/soft/index.html` | `.html` | `af4e97dffe3c` | SOFT Analytical Lens \| MMP311 |
+| `mmp311/styles.css` | `.css` | `9bb7292f38ee` | @media (max-width:850px), @media (prefers-reduced-motion:reduce), @media (max-width: 850px) |
+| `publish_mmp311_learning_path.py` | `.py` | `68a9c31aa219` | reading_html, chrome |
+| `refine_mmp311_citations_ui.py` | `.py` | `1e79bce2421f` | — |
 | `requirements.txt` | `.txt` | `ed58f33ba012` | fastapi>=0.115,<1, uvicorn>=0.30,<1 |
 | `scripts/build_manual.py` | `.py` | `9fcacf8b903f` | source_markdown_files, source_code_files, document_title, document_summary, source_symbols, code_map_markdown, catalog_markdown, manual_markdown, markdown_lines, pdf_literal, create_pdf, write_or_check, main |
 | `scripts/check_documentation.py` | `.py` | `60f98fd902e2` | markdown_files, internal_link_errors, tracked_secret_errors, documentation_index_errors, main |
@@ -31,6 +48,14 @@ Automatisk oversyn over kjelde-/konfigurasjonsfiler. Korte SHA-256-prefiksar gje
 | `scripts/knowledge_lookup.py` | `.py` | `e17cceecb7d3` | searchable_files, score_document, matching_lines, main |
 | `scripts/update_budsjett_data.py` | `.py` | `0aa4a1b0bac6` | main |
 | `styles.css` | `.css` | `08b492888989` | @media (max-width: 1023px), @media (prefers-reduced-motion: reduce), @media (max-width: 480px), @media (max-width: 420px), @media (forced-colors: active) |
+| `tekst/deliberasjon/index.html` | `.html` | `804207876c6d` | deliberasjon |
+| `tekst/index.html` | `.html` | `6b1dc494fb4f` | Tekst \| INFBV |
+| `tekst/klima-og-berekraft/abstract/index.html` | `.html` | `52964bc9a8e8` | Beyond Sustainability \| Working abstract |
+| `tekst/klima-og-berekraft/index.html` | `.html` | `cab0f5d6144c` | Klima og berekraft \| INFBV |
+| `tekst/krisekommunikasjon-med-bakkekontakt/index.html` | `.html` | `595238dd38a8` | krisekommunikasjon-med-bakkekontakt |
+| `tekst/samtalepodkastar/index.html` | `.html` | `39e57b9c10a0` | samtalepodkastar |
+| `tekst/totalforsvarsaret-2026/index.html` | `.html` | `042ee585f8c3` | totalforsvarsaret-2026 |
+| `tekst/weird-crisis-exercises/index.html` | `.html` | `910a595d8959` | weird-crisis-exercises |
 | `timeplan2027/app.js` | `.js` | `6b22b2ea90c7` | DATA_URL, STORAGE_KEY, COURSE_FILTER_KEY, state, element, escapeHtml, editedItem, dateValue, displayDate, date, displayCourseName, setStatus, status, saveEdits, changed, applyEdit, original, matchesSearch, text, filteredItems, query, renderFilters, courses, filters, rowDetails, details, renderRows, items, changedFields, current, changes, buildProposalBody, lines, submitProposal, message, title, body, issueUrl, popup, downloadWorkbook, button, response, dateStamp, timeStamp, currentItems, columns, escapeCsv, csv, downloadUrl, link, loadPlan, savedEdits |
 | `timeplan2027/index.html` | `.html` | `e56db14571f3` | Timeplan 2027 \| Institutt for kommunikasjon |
 | `timeplan2027/styles.css` | `.css` | `ac74c7118abd` | @media (max-width: 1120px), @media (max-width: 700px), @media print |
