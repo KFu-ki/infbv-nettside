@@ -1,0 +1,182 @@
+<!doctype html>
+<html lang="nn">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Klima og berekraft | INFBV</title>
+<style>
+:root {
+  color-scheme: light dark;
+  --bg: #f5f3ec;
+  --panel: #fffdf7;
+  --text: #18231d;
+  --muted: #526158;
+  --accent: #245c45;
+  --border: #c9d2ca;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #111713;
+    --panel: #18211b;
+    --text: #f3f4ee;
+    --muted: #bdc8c0;
+    --accent: #8ed0ad;
+    --border: #46544a;
+  }
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  font: 1rem/1.65 system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  background: var(--bg);
+  color: var(--text);
+}
+main {
+  width: min(46rem, calc(100% - 2rem));
+  margin: 0 auto;
+  padding: 3rem 0 5rem;
+}
+a { color: var(--accent); }
+.back { display: inline-block; margin-bottom: 2rem; }
+.eyebrow {
+  color: var(--muted);
+  font-size: .9rem;
+  font-weight: 700;
+  letter-spacing: .05em;
+  text-transform: uppercase;
+}
+h1 {
+  margin: .3rem 0 1rem;
+  font-size: clamp(2.2rem, 7vw, 3.7rem);
+  line-height: 1.06;
+}
+.lead { font-size: 1.15rem; }
+.card {
+  margin-top: 2.5rem;
+  padding: 1.5rem;
+  border: 1px solid var(--border);
+  border-radius: 1rem;
+  background: var(--panel);
+}
+.status {
+  display: inline-block;
+  padding: .25rem .65rem;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  color: var(--muted);
+  font-size: .9rem;
+}
+button, .button {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: .75rem 1rem;
+  border: 1px solid var(--accent);
+  border-radius: .55rem;
+  background: var(--accent);
+  color: var(--bg);
+  font: inherit;
+  font-weight: 700;
+  text-decoration: none;
+  cursor: pointer;
+}
+.secondary {
+  background: transparent;
+  color: var(--accent);
+}
+dialog {
+  width: min(34rem, calc(100% - 2rem));
+  padding: 0;
+  border: 1px solid var(--border);
+  border-radius: 1rem;
+  background: var(--panel);
+  color: var(--text);
+}
+dialog::backdrop { background: rgb(0 0 0 / .65); }
+.dialog-body { padding: 1.5rem; }
+.dialog-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .75rem;
+}
+</style>
+</head>
+<body>
+<main>
+  <a class="back" href="../">← Tilbake til tekstprosjekta</a>
+
+  <p class="eyebrow">Forsking og fagutvikling</p>
+  <h1>Klima og berekraft</h1>
+
+  <p class="lead">
+    Prosjektet samlar arbeid om klima, berekraft, journalistikk,
+    mediepedagogikk, klimarettferd og demokratisk deltaking.
+  </p>
+
+  <section class="card" aria-labelledby="abstract-title">
+    <span class="status">Arbeidsutkast</span>
+
+    <h2 id="abstract-title">Beyond Sustainability</h2>
+
+    <p>
+      <em>Environmental Justice as a Pedagogical Foundation for
+      Media and Journalism Education</em>
+    </p>
+
+    <p>
+      Eit arbeidsabstract til antologien
+      <em>Climate in the Classroom: Reimagining Communication,
+      Media and Journalism Pedagogy</em>.
+    </p>
+
+    <button type="button" id="open-draft">
+      Read the working abstract
+    </button>
+  </section>
+</main>
+
+<dialog
+  id="draft-dialog"
+  aria-labelledby="draft-heading"
+  aria-describedby="draft-description"
+>
+  <div class="dialog-body">
+    <p class="eyebrow">Draft notice</p>
+
+    <h2 id="draft-heading">Pre-publication abstract draft</h2>
+
+    <p id="draft-description">
+      This working abstract is shared for scholarly discussion before
+      submission. It has not been peer reviewed, accepted or formally
+      published and may be revised substantially. Please do not cite or
+      circulate this version without contacting the author.
+    </p>
+
+    <div class="dialog-actions">
+      <a class="button" href="abstract/">
+        Continue to the abstract
+      </a>
+
+      <button class="secondary" type="button" id="close-draft">
+        Return to the project page
+      </button>
+    </div>
+  </div>
+</dialog>
+
+<script>
+const dialog = document.getElementById("draft-dialog");
+
+document.getElementById("open-draft").addEventListener("click", () => {
+  dialog.showModal();
+});
+
+document.getElementById("close-draft").addEventListener("click", () => {
+  dialog.close();
+});
+
+dialog.addEventListener("click", event => {
+  if (event.target === dialog) dialog.close();
+});
+</script>
+</body>
+</html>
