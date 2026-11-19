@@ -421,3 +421,53 @@ a {
 }
 
 .ai-guidance{margin:2.4rem 0;padding:1.2rem 1.35rem;border:1px solid var(--line,var(--border));border-left:4px solid var(--link,var(--indigo));background:var(--paper,var(--panel));}.ai-guidance h2{margin-top:0}.ai-guidance h3{margin-top:1.4rem}.ai-source,.cite-clue{font-family:system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;font-size:.9rem}.ai-compact{border-left:4px solid var(--indigo);padding-left:1.25rem}.cite-clue{padding:.65rem .75rem;background:#f1eee5;color:#303830}.cite-clue a{font-weight:700}
+
+/* Citation UI refinement 2026-11-19 */
+.site-header .brand b { margin-left: .15rem; }
+.site-header nav { margin-left: .75rem; }
+.citation-tools { margin-top: 1.15rem; }
+.citation-tools + .citation-tools { display: none; }
+.cite-button {
+  min-height: 2.6rem;
+  padding: .45rem .75rem;
+  border-color: #707970;
+  background: transparent;
+  font-size: .86rem;
+  font-weight: 650;
+}
+.cite-button:hover { background: #ece8dc; }
+.cite-dialog {
+  width: min(38rem, calc(100% - 2rem));
+  border: 1px solid #737b74;
+  border-radius: .35rem;
+  box-shadow: 0 1.2rem 3rem rgb(0 0 0 / .22);
+}
+.cite-dialog > div { padding: clamp(1.1rem, 3vw, 1.8rem); }
+.cite-dialog h2 { margin: 0 0 .65rem; font-size: clamp(1.8rem, 4vw, 2.5rem); }
+.dialog-intro { margin: 0 0 1rem; color: #414941; }
+.cite-clue {
+  margin: 1rem 0;
+  padding: .75rem .85rem;
+  border-left: 3px solid #6e7780;
+  background: #f1eee5;
+  color: #303830;
+}
+.cite-clue a {
+  display: inline;
+  padding: 0;
+  border: 0;
+  border-radius: 0;
+  color: #263f73;
+  font-weight: 700;
+  text-decoration: underline;
+  text-decoration-thickness: .08em;
+  text-underline-offset: .16em;
+}
+.cite-output { border-color: #737b74; border-radius: .2rem; }
+a:focus-visible, button:focus-visible, .cite-clue a:focus-visible {
+  outline: 2px solid #765000;
+  outline-offset: 3px;
+  border-radius: .18rem;
+  box-shadow: none;
+}
+.cite-clue a:focus:not(:focus-visible) { outline: 0; }
