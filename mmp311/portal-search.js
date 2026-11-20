@@ -63,7 +63,7 @@
           <div class="portal-search__header">
             <div>
               <p class="portal-search__eyebrow">INFBV Knowledge Atlas</p>
-              <h2 id="portal-search-title">Search MMP311</h2>
+              <h2 id="portal-search-title">Search INFBV</h2>
             </div>
             <button
               class="portal-search__close"
@@ -74,7 +74,7 @@
 
           <form class="portal-search__form" role="search">
             <label for="portal-search-input">
-              Search concepts, models, skills and learning resources
+              Search subjects, texts, concepts, models and skills
             </label>
             <div class="portal-search__row">
               <input
@@ -84,7 +84,7 @@
                 inputmode="search"
                 enterkeyhint="search"
                 autocomplete="off"
-                placeholder="For example: uncertainty, FIVER or academic writing"
+                placeholder="For example: uncertainty, FIVER, journalism or academic writing"
               >
               <button type="submit">Search</button>
             </div>
@@ -148,7 +148,7 @@
       .map(item => ({ ...item, score: scoreItem(item, terms) }))
       .filter(item => item.score > 0)
       .sort((a, b) => b.score - a.score)
-      .slice(0, 8);
+      .slice(0, 12);
 
     elements.results.replaceChildren(
       ...hits.map(hit => {
@@ -161,10 +161,25 @@
         link.textContent = hit.title;
         heading.append(link);
 
-        const source = hit.headings || hit.text || "";
+        const source =
+          hit.description || hit.headings || hit.text || "";
         summary.textContent =
           source.length > 240 ? `${source.slice(0, 237)}…` : source;
 
+        const meta = document.createElement("p");
+        meta.className = "portal-search__meta";
+        const language = hit.language === "nn"
+          ? "Nynorsk"
+          : hit.language === "en"
+            ? "English"
+            : hit.language || "";
+        const type = String(hit.type || "page")
+          .replaceAll("-", " ");
+        meta.textContent = [type, language]
+          .filter(Boolean)
+          .join(" · ");
+
+        item.prepend(meta);
         item.append(heading, summary);
         return item;
       })

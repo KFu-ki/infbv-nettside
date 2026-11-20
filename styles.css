@@ -645,3 +645,12 @@ html[data-theme="light"] .portal-search__fallback a {
     width: 100%;
   }
 }
+
+/* Portal search result metadata */
+.portal-search__meta {
+  margin: 0 0 .18rem !important;
+  color: var(--accent, #b45309) !important;
+  font: 800 .68rem/1.35 system-ui, sans-serif !important;
+  letter-spacing: .06em;
+  text-transform: uppercase;
+}

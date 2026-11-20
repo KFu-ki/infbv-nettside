@@ -33,10 +33,10 @@ Automatisk oversyn over kjelde-/konfigurasjonsfiler. Korte SHA-256-prefiksar gje
 | `mmp311/learning-path/06-crisis-communication/index.html` | `.html` | `be55ed977350` | Crisis communication as part of crisis management \| MMP311 |
 | `mmp311/learning-path/07-academic-writing/index.html` | `.html` | `05304eec48b6` | Academic writing \| MMP311 |
 | `mmp311/learning-path/index.html` | `.html` | `113fa0ca3e41` | Learning path \| MMP311 |
-| `mmp311/learning.css` | `.css` | `e7d7b0afb2f5` | @media (max-width:800px), @media (prefers-reduced-motion:reduce), @media (max-width: 800px), @media (max-width: 42rem), @media (prefers-reduced-motion: no-preference), @media (max-width:42rem), @media (prefers-reduced-motion: reduce), @media (max-width: 50rem), @media (max-width: 32rem), @media (max-width: 48rem), @media (max-width: 46rem) |
+| `mmp311/learning.css` | `.css` | `c6dc45f8e877` | @media (max-width:800px), @media (prefers-reduced-motion:reduce), @media (max-width: 800px), @media (max-width: 42rem), @media (prefers-reduced-motion: no-preference), @media (max-width:42rem), @media (prefers-reduced-motion: reduce), @media (max-width: 50rem), @media (max-width: 32rem), @media (max-width: 48rem), @media (max-width: 46rem) |
 | `mmp311/learning.js` | `.js` | `c4bb3ea82f6b` | root, savedSize, label |
 | `mmp311/portal-navigation.js` | `.js` | `8d253855ab1e` | media, shell, inner, portalNav, courseNav, button, panel, body, close, moveNavigation, focusable, openMenu, closeMenu, items, first, last, handleWidth |
-| `mmp311/portal-search.js` | `.js` | `43d31ea6f43d` | INDEX_URL, SEARCH_URL, normalise, loadIndex, scoreItem, title, headings, text, score, createSearch, container, replaceSearchLinks, links, button, renderResults, terms, hits, item, heading, link, summary, source, elements, previousFocus, openSearch, closeSearch, data, target, writing |
+| `mmp311/portal-search.js` | `.js` | `29a729440dee` | INDEX_URL, SEARCH_URL, normalise, loadIndex, scoreItem, title, headings, text, score, createSearch, container, replaceSearchLinks, links, button, renderResults, terms, hits, item, heading, link, summary, source, meta, language, type, elements, previousFocus, openSearch, closeSearch, data, target, writing |
 | `mmp311/prk/index.html` | `.html` | `07b06b36a2a3` | PRK: Problem, Risk and Crisis \| MMP311 |
 | `mmp311/resource-tools.js` | `.js` | `04cbd24cf67a` | triggers, dialogs, opener, pageTitle, canonicalUrl, year, reference, citationOutput, copyButton, closeDialog, name, dialog |
 | `mmp311/search/index.html` | `.html` | `7c50cb5b2b4b` | Guided search \| MMP311 |
@@ -44,16 +44,17 @@ Automatisk oversyn over kjelde-/konfigurasjonsfiler. Korte SHA-256-prefiksar gje
 | `mmp311/site.js` | `.js` | `2df7eda9588c` | html, header, tools, size, savedSize, label |
 | `mmp311/skills/index.html` | `.html` | `76153c8f0ddf` | Skills \| MMP311 |
 | `mmp311/soft/index.html` | `.html` | `04513948684f` | SOFT Analytical Lens \| MMP311 |
-| `mmp311/styles.css` | `.css` | `fc4527589583` | @media (max-width:850px), @media (prefers-reduced-motion:reduce), @media (max-width: 850px), @media (max-width: 42rem), @media (prefers-reduced-motion: no-preference), @media (prefers-reduced-motion: reduce), @media (max-width: 50rem), @media (max-width: 32rem), @media (max-width: 56rem), @media (max-width: 38rem) |
+| `mmp311/styles.css` | `.css` | `ba1cb0ecb7d5` | @media (max-width:850px), @media (prefers-reduced-motion:reduce), @media (max-width: 850px), @media (max-width: 42rem), @media (prefers-reduced-motion: no-preference), @media (prefers-reduced-motion: reduce), @media (max-width: 50rem), @media (max-width: 32rem), @media (max-width: 56rem), @media (max-width: 38rem) |
 | `requirements.txt` | `.txt` | `ed58f33ba012` | fastapi>=0.115,<1, uvicorn>=0.30,<1 |
 | `scripts/build_manual.py` | `.py` | `9fcacf8b903f` | source_markdown_files, source_code_files, document_title, document_summary, source_symbols, code_map_markdown, catalog_markdown, manual_markdown, markdown_lines, pdf_literal, create_pdf, write_or_check, main |
+| `scripts/build_portal_search_index.py` | `.py` | `356771990028` | PageParser, __init__, handle_starttag, handle_endtag, handle_data, compact, public_html_files, page_url, page_type, derive_tags, build_index, serialise, main |
 | `scripts/check_documentation.py` | `.py` | `60f98fd902e2` | markdown_files, internal_link_errors, tracked_secret_errors, documentation_index_errors, main |
 | `scripts/export_timeplan.py` | `.py` | `b379215bdffe` | atomic_write, main |
 | `scripts/import_timeplan.py` | `.py` | `18bad415b248` | column_number, read_rows, field, build_items, atomic_write, main |
 | `scripts/knowledge_lookup.py` | `.py` | `e17cceecb7d3` | searchable_files, score_document, matching_lines, main |
 | `scripts/update_budsjett_data.py` | `.py` | `0aa4a1b0bac6` | main |
 | `scripts/update_mmp311_page_metadata.py` | `.py` | `249c100daf19` | ordinal |
-| `styles.css` | `.css` | `a83519ff49c3` | @media (max-width: 1023px), @media (prefers-reduced-motion: reduce), @media (max-width: 480px), @media (max-width: 420px), @media (forced-colors: active), @media (max-width: 42rem) |
+| `styles.css` | `.css` | `61092bef7b39` | @media (max-width: 1023px), @media (prefers-reduced-motion: reduce), @media (max-width: 480px), @media (max-width: 420px), @media (forced-colors: active), @media (max-width: 42rem) |
 | `tekst/deliberasjon/index.html` | `.html` | `804207876c6d` | deliberasjon |
 | `tekst/index.html` | `.html` | `6b1dc494fb4f` | Tekst \| INFBV |
 | `tekst/klima-og-berekraft/abstract/index.html` | `.html` | `52964bc9a8e8` | Beyond Sustainability \| Working abstract |
