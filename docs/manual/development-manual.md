@@ -118,29 +118,30 @@ Automatisk oversyn over kjelde-/konfigurasjonsfiler. Korte SHA-256-prefiksar gje
 | `budsjett/styles.css` | `.css` | `78639b5b1345` | @media (min-width: 1500px), @media (max-width: 1120px), @media (max-width: 820px), @media (max-width: 560px), @media print |
 | `index.html` | `.html` | `8d7a0b18fa68` | INFBV — kompetansetrapp og fagportal \| Høgskulen i Volda |
 | `language.js` | `.js` | `85ace0f3a098` | STORAGE_KEY, params, requested, currentLanguage, originals, english, setText, element, staircaseCopy, updateMainStaircase, copy, headerSpans, title, description, updateStaticInterface, isEnglish, toggle, level4, level5, applyLanguage, url |
-| `mmp311/cases/index.html` | `.html` | `407ec9d2f455` | Cases and examples \| MMP311 |
-| `mmp311/fiver/index.html` | `.html` | `f0341bd52724` | FIVER Process Model \| MMP311 |
-| `mmp311/full-text/index.html` | `.html` | `b1f7c79ce48b` | Full-text explanations \| MMP311 |
-| `mmp311/full-text/media-distortion-framing-mediatization/index.html` | `.html` | `8c7d2c69b7d0` | Media distortion, news framing and mediatization \| MMP311 |
-| `mmp311/glossary/index.html` | `.html` | `804450f8fc37` | Glossary \| MMP311 |
-| `mmp311/index.html` | `.html` | `518488620941` | MMP311 Risk Communication and Issue Management \| INFBV |
-| `mmp311/learning-path/01-risk-society/index.html` | `.html` | `fd8d8cf11933` | Risk, uncertainty and the social production of relevance \| MMP311 |
-| `mmp311/learning-path/02-risk-communication/index.html` | `.html` | `363297cc8a0a` | Risk communication as knowledge and trust work \| MMP311 |
-| `mmp311/learning-path/03-issues/index.html` | `.html` | `82d55f878b65` | Issue detection and problem prevention \| MMP311 |
-| `mmp311/learning-path/04-prk-soft/index.html` | `.html` | `6b11baea7a32` | PRK and SOFT: movement, attention and interpretation \| MMP311 |
-| `mmp311/learning-path/05-fiver/index.html` | `.html` | `8647f6333053` | FIVER: from understanding to response \| MMP311 |
-| `mmp311/learning-path/06-crisis-communication/index.html` | `.html` | `19e1774127b8` | Crisis communication as part of crisis management \| MMP311 |
-| `mmp311/learning-path/07-academic-writing/index.html` | `.html` | `6d3202a3312e` | Academic writing \| MMP311 |
-| `mmp311/learning-path/index.html` | `.html` | `5ea1dd628156` | Learning path \| MMP311 |
-| `mmp311/learning.css` | `.css` | `57760d03e6e4` | @media (max-width:800px), @media (prefers-reduced-motion:reduce), @media (max-width: 800px), @media (max-width: 42rem), @media (prefers-reduced-motion: no-preference), @media (max-width:42rem), @media (prefers-reduced-motion: reduce) |
+| `mmp311/cases/index.html` | `.html` | `7e007dd5a246` | Cases and examples \| MMP311 |
+| `mmp311/fiver/index.html` | `.html` | `01ed5915dd00` | FIVER Process Model \| MMP311 |
+| `mmp311/full-text/index.html` | `.html` | `63457f0ad17f` | Full-text explanations \| MMP311 |
+| `mmp311/full-text/media-distortion-framing-mediatization/index.html` | `.html` | `1103a6fd4d01` | Media distortion, news framing and mediatization \| MMP311 |
+| `mmp311/glossary/index.html` | `.html` | `06cd908dca90` | Glossary \| MMP311 |
+| `mmp311/index.html` | `.html` | `261da6fd4850` | MMP311 Risk Communication and Issue Management \| INFBV |
+| `mmp311/learning-path/01-risk-society/index.html` | `.html` | `0187cd832b1a` | Risk, uncertainty and the social production of relevance \| MMP311 |
+| `mmp311/learning-path/02-risk-communication/index.html` | `.html` | `8ff097a40a58` | Risk communication as knowledge and trust work \| MMP311 |
+| `mmp311/learning-path/03-issues/index.html` | `.html` | `1b2eab05386a` | Issue detection and problem prevention \| MMP311 |
+| `mmp311/learning-path/04-prk-soft/index.html` | `.html` | `7b9468f6f3be` | PRK and SOFT: movement, attention and interpretation \| MMP311 |
+| `mmp311/learning-path/05-fiver/index.html` | `.html` | `55ab055a0540` | FIVER: from understanding to response \| MMP311 |
+| `mmp311/learning-path/06-crisis-communication/index.html` | `.html` | `9c61baaa8a46` | Crisis communication as part of crisis management \| MMP311 |
+| `mmp311/learning-path/07-academic-writing/index.html` | `.html` | `0d86a02ebd3b` | Academic writing \| MMP311 |
+| `mmp311/learning-path/index.html` | `.html` | `ba02df224d22` | Learning path \| MMP311 |
+| `mmp311/learning.css` | `.css` | `eb789fe23b18` | @media (max-width:800px), @media (prefers-reduced-motion:reduce), @media (max-width: 800px), @media (max-width: 42rem), @media (prefers-reduced-motion: no-preference), @media (max-width:42rem), @media (prefers-reduced-motion: reduce) |
 | `mmp311/learning.js` | `.js` | `c4bb3ea82f6b` | root, savedSize, label |
-| `mmp311/prk/index.html` | `.html` | `fd1890e41611` | PRK: Problem, Risk and Crisis \| MMP311 |
+| `mmp311/portal-search.js` | `.js` | `ee4780df588d` | INDEX_URL, SEARCH_URL, normalise, loadIndex, scoreItem, title, headings, text, score, createSearch, container, replaceSearchLinks, links, button, renderResults, terms, hits, item, heading, link, summary, source, elements, previousFocus, openSearch, closeSearch, data, target, writing |
+| `mmp311/prk/index.html` | `.html` | `8b15a125b1ad` | PRK: Problem, Risk and Crisis \| MMP311 |
 | `mmp311/resource-tools.js` | `.js` | `04cbd24cf67a` | triggers, dialogs, opener, pageTitle, canonicalUrl, year, reference, citationOutput, copyButton, closeDialog, name, dialog |
-| `mmp311/search/index.html` | `.html` | `842fd0081f48` | Guided search \| MMP311 |
+| `mmp311/search/index.html` | `.html` | `ae732fe865eb` | Guided search \| MMP311 |
 | `mmp311/search/search.js` | `.js` | `3fd437ba08c3` | — |
 | `mmp311/site.js` | `.js` | `2df7eda9588c` | html, header, tools, size, savedSize, label |
-| `mmp311/soft/index.html` | `.html` | `b459f0420663` | SOFT Analytical Lens \| MMP311 |
-| `mmp311/styles.css` | `.css` | `ccaaabb2f434` | @media (max-width:850px), @media (prefers-reduced-motion:reduce), @media (max-width: 850px), @media (max-width: 42rem), @media (prefers-reduced-motion: no-preference) |
+| `mmp311/soft/index.html` | `.html` | `e6393a98dbae` | SOFT Analytical Lens \| MMP311 |
+| `mmp311/styles.css` | `.css` | `4cb5798bfce0` | @media (max-width:850px), @media (prefers-reduced-motion:reduce), @media (max-width: 850px), @media (max-width: 42rem), @media (prefers-reduced-motion: no-preference), @media (prefers-reduced-motion: reduce) |
 | `requirements.txt` | `.txt` | `ed58f33ba012` | fastapi>=0.115,<1, uvicorn>=0.30,<1 |
 | `scripts/build_manual.py` | `.py` | `9fcacf8b903f` | source_markdown_files, source_code_files, document_title, document_summary, source_symbols, code_map_markdown, catalog_markdown, manual_markdown, markdown_lines, pdf_literal, create_pdf, write_or_check, main |
 | `scripts/check_documentation.py` | `.py` | `60f98fd902e2` | markdown_files, internal_link_errors, tracked_secret_errors, documentation_index_errors, main |
@@ -1615,6 +1616,8 @@ Sjå [current-state.md](project/current-state.md) og [next-actions.md](project/n
 ## Genererte manualfiler
 
 `manual/knowledge-catalog.md`, `manual/development-manual.md` og PDF er bygde frå kjelde-Markdown. Ikkje rediger dei for hand. Køyr `python3 scripts/build_manual.py` etter kjeldeendringar; CI kontrollerer at output er fersk. Manuellrapport/manual og agentreglar er informasjonssider, ikkje ny kjelde til fakta.
+
+- [ARBEIDSFLYT](project/ARBEIDSFLYT.md)
 
 ---
 

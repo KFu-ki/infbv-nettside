@@ -770,3 +770,217 @@ a[target="_blank"]::after {
   line-height: 0;
   vertical-align: super;
 }
+
+/* Contextual portal search */
+.portal-search {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+.portal-search__open {
+  position: fixed;
+  right: max(1rem, env(safe-area-inset-right));
+  bottom: max(1rem, env(safe-area-inset-bottom));
+  z-index: 30;
+  display: inline-flex;
+  min-width: 44px;
+  min-height: 44px;
+  align-items: center;
+  justify-content: center;
+  gap: .45rem;
+  padding: .65rem .9rem;
+  border: 1px solid var(--line, var(--border));
+  border-radius: 999px;
+  background: var(--ink);
+  color: var(--paper, var(--bg));
+  font: 700 .82rem/1 system-ui, sans-serif;
+  box-shadow: 0 .55rem 1.7rem rgb(0 0 0 / .2);
+  cursor: pointer;
+}
+
+.portal-search__open:hover {
+  transform: translateY(-1px);
+}
+
+.portal-search__open:focus-visible,
+.portal-search__nav-button:focus-visible,
+.portal-search__close:focus-visible,
+.portal-search__row input:focus-visible,
+.portal-search__row button:focus-visible {
+  outline: 3px solid var(--accent, var(--amber));
+  outline-offset: 3px;
+}
+
+.portal-search__nav-button {
+  min-height: 44px;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  color: inherit;
+  font: inherit;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.portal-search__dialog {
+  width: min(46rem, calc(100% - 2rem));
+  max-height: min(88vh, 52rem);
+  padding: 0;
+  border: 1px solid var(--line, var(--border));
+  border-radius: .7rem;
+  background: var(--paper, var(--panel));
+  color: var(--ink);
+  box-shadow: 0 1.4rem 4rem rgb(0 0 0 / .3);
+}
+
+.portal-search__dialog::backdrop {
+  background: rgb(0 0 0 / .58);
+  backdrop-filter: blur(2px);
+}
+
+.portal-search__panel {
+  padding: clamp(1rem, 4vw, 2rem);
+}
+
+.portal-search__header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 1rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid var(--line, var(--border));
+}
+
+.portal-search__header h2 {
+  margin: .2rem 0 0;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(1.35rem, 4vw, 2rem);
+  line-height: 1.2;
+}
+
+.portal-search__eyebrow {
+  margin: 0;
+  color: var(--accent, var(--amber));
+  font-size: .72rem;
+  font-weight: 800;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+}
+
+.portal-search__close {
+  display: grid;
+  width: 44px;
+  height: 44px;
+  flex: 0 0 auto;
+  place-items: center;
+  border: 1px solid var(--line, var(--border));
+  border-radius: 50%;
+  background: transparent;
+  color: inherit;
+  font-size: 1.35rem;
+  cursor: pointer;
+}
+
+.portal-search__form {
+  margin-top: 1.2rem;
+}
+
+.portal-search__form label {
+  display: block;
+  margin-bottom: .45rem;
+  font-weight: 700;
+}
+
+.portal-search__row {
+  display: flex;
+  gap: .55rem;
+}
+
+.portal-search__row input {
+  min-width: 0;
+  min-height: 48px;
+  flex: 1;
+  padding: .7rem .8rem;
+  border: 1px solid var(--line, var(--border));
+  border-radius: .3rem;
+  background: var(--paper, var(--panel));
+  color: var(--ink);
+  font: 1rem/1.4 system-ui, sans-serif;
+}
+
+.portal-search__row button {
+  min-height: 48px;
+  padding: .65rem 1rem;
+  border: 1px solid var(--ink);
+  border-radius: .3rem;
+  background: var(--ink);
+  color: var(--paper, var(--bg));
+  font: 750 .9rem/1 system-ui, sans-serif;
+  cursor: pointer;
+}
+
+.portal-search__status {
+  min-height: 1.5rem;
+  margin: .9rem 0 .3rem;
+  color: var(--muted);
+  font-size: .85rem;
+}
+
+.portal-search__results {
+  margin: 0;
+  padding-left: 1.3rem;
+}
+
+.portal-search__results li {
+  padding: .85rem 0;
+  border-top: 1px solid var(--line, var(--border));
+}
+
+.portal-search__results h3 {
+  margin: 0 0 .25rem;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1rem;
+}
+
+.portal-search__results p {
+  margin: 0;
+  color: var(--muted);
+  font-size: .84rem;
+  line-height: 1.5;
+}
+
+.portal-search__fallback {
+  margin: 1rem 0 0;
+  font-size: .82rem;
+}
+
+@media (max-width: 42rem) {
+  .portal-search__open span:last-child {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip-path: inset(50%);
+    white-space: nowrap;
+  }
+
+  .portal-search__open {
+    width: 48px;
+    height: 48px;
+    padding: 0;
+    font-size: 1.25rem;
+  }
+
+  .portal-search__row {
+    flex-direction: column;
+  }
+
+  .portal-search__row button {
+    width: 100%;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .portal-search__open {
+    transform: none !important;
+  }
+}
