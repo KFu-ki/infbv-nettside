@@ -1073,3 +1073,104 @@ a[target="_blank"]::after {
     white-space: normal;
   }
 }
+
+
+/* MMP311 skills and knowledge registry */
+.registry-main {
+  width: min(100% - 2rem, 1100px);
+}
+
+.registry-main > article {
+  max-width: none;
+}
+
+.registry-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.registry-card {
+  min-width: 0;
+  padding: 1.2rem;
+  border: 1px solid var(--line);
+  background: var(--paper);
+}
+
+.registry-card h2 {
+  margin: .25rem 0 .65rem;
+  font-size: 1.12rem;
+}
+
+.registry-card h3 {
+  margin: 1rem 0 .25rem;
+  font-size: .9rem;
+}
+
+.registry-card ul {
+  margin: .3rem 0 .8rem;
+  padding-left: 1.2rem;
+}
+
+.registry-card li {
+  margin: .32rem 0;
+}
+
+.registry-type {
+  margin: 0;
+  color: var(--accent);
+  font: 800 .7rem/1.3 system-ui, sans-serif;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+}
+
+.registry-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .4rem;
+  margin-top: .8rem;
+}
+
+.registry-tag {
+  display: inline-flex;
+  min-height: 44px;
+  align-items: center;
+  padding: .35rem .65rem;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: #f1eee5;
+  font: 700 .74rem/1.25 system-ui, sans-serif;
+  text-decoration: none;
+}
+
+.registry-tag:hover {
+  border-color: var(--accent);
+  text-decoration: underline;
+}
+
+.registry-details {
+  margin-top: .8rem;
+  border-top: 1px solid var(--line);
+}
+
+.registry-details summary {
+  display: flex;
+  min-height: 44px;
+  align-items: center;
+  color: var(--link);
+  font: 750 .82rem/1.4 system-ui, sans-serif;
+  cursor: pointer;
+}
+
+.registry-details summary:focus-visible,
+.registry-tag:focus-visible {
+  outline: 3px solid var(--accent);
+  outline-offset: 3px;
+}
+
+@media (max-width: 48rem) {
+  .registry-grid {
+    grid-template-columns: 1fr;
+  }
+}

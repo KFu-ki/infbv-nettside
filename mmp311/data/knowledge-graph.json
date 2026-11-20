@@ -1,0 +1,256 @@
+{
+  "version": "1.0",
+  "subject": "MMP311",
+  "skills": [
+    {
+      "id": "distinguish-risk-concepts",
+      "title": "Distinguish hazard, risk and uncertainty",
+      "description": "Separate hazard, risk, uncertainty and ambiguity before assessing a case.",
+      "usedIn": [
+        {
+          "title": "Risk society",
+          "url": "/mmp311/learning-path/01-risk-society/"
+        }
+      ],
+      "relatedKnowledge": [
+        "risk",
+        "uncertainty"
+      ]
+    },
+    {
+      "id": "communicate-uncertainty",
+      "title": "Communicate under uncertainty",
+      "description": "State what is known, what remains uncertain, what people should do and when new information will come.",
+      "usedIn": [
+        {
+          "title": "Risk communication",
+          "url": "/mmp311/learning-path/02-risk-communication/"
+        },
+        {
+          "title": "Crisis communication",
+          "url": "/mmp311/learning-path/06-crisis-communication/"
+        }
+      ],
+      "relatedKnowledge": [
+        "risk",
+        "uncertainty",
+        "crisis"
+      ]
+    },
+    {
+      "id": "identify-issues",
+      "title": "Identify an emerging issue",
+      "description": "Identify who makes a matter relevant, what supports the claim and what the organisation may need to clarify or change.",
+      "usedIn": [
+        {
+          "title": "Issues management",
+          "url": "/mmp311/learning-path/03-issues/"
+        }
+      ],
+      "relatedKnowledge": [
+        "issue",
+        "problem",
+        "public"
+      ]
+    },
+    {
+      "id": "analyse-frames",
+      "title": "Analyse competing frames",
+      "description": "Identify how language, images and sources define causes, responsibility, consequences and possible responses.",
+      "usedIn": [
+        {
+          "title": "PRK and SOFT",
+          "url": "/mmp311/learning-path/04-prk-soft/"
+        },
+        {
+          "title": "Academic writing",
+          "url": "/mmp311/learning-path/07-academic-writing/#example"
+        }
+      ],
+      "relatedKnowledge": [
+        "framing",
+        "media-distortion"
+      ]
+    },
+    {
+      "id": "challenge-blind-spots",
+      "title": "Challenge blind spots with SOFT",
+      "description": "Test whether social conditions, expectations, framing, transparency or organisational capacity are missing from the first analysis.",
+      "usedIn": [
+        {
+          "title": "PRK and SOFT",
+          "url": "/mmp311/learning-path/04-prk-soft/"
+        },
+        {
+          "title": "SOFT analytical lens",
+          "url": "/mmp311/soft/"
+        }
+      ],
+      "relatedKnowledge": [
+        "soft",
+        "public",
+        "framing"
+      ]
+    },
+    {
+      "id": "plan-response",
+      "title": "Move from analysis to organisational response",
+      "description": "Identify necessary changes in policy, roles, resources, routines or coordination before treating communication as the solution.",
+      "usedIn": [
+        {
+          "title": "FIVER",
+          "url": "/mmp311/learning-path/05-fiver/"
+        },
+        {
+          "title": "FIVER process model",
+          "url": "/mmp311/fiver/"
+        }
+      ],
+      "relatedKnowledge": [
+        "fiver",
+        "problem",
+        "risk"
+      ]
+    },
+    {
+      "id": "write-initial-update",
+      "title": "Write an initial crisis update",
+      "description": "Combine verified information, explicit uncertainty, practical advice, responsibility and a time for the next update.",
+      "usedIn": [
+        {
+          "title": "Crisis communication",
+          "url": "/mmp311/learning-path/06-crisis-communication/"
+        }
+      ],
+      "relatedKnowledge": [
+        "crisis",
+        "uncertainty"
+      ]
+    },
+    {
+      "id": "write-bounded-analysis",
+      "title": "Write a bounded academic analysis",
+      "description": "Move from claim to evidence, explanation and interpretation without drawing conclusions beyond the material.",
+      "usedIn": [
+        {
+          "title": "Academic writing",
+          "url": "/mmp311/learning-path/07-academic-writing/"
+        }
+      ],
+      "relatedKnowledge": [
+        "framing",
+        "uncertainty"
+      ]
+    }
+  ],
+  "knowledge": [
+    {
+      "id": "issue",
+      "title": "Issue",
+      "description": "A matter becomes an issue when an actor makes conduct, consequences, values or responsibility relevant.",
+      "source": "/mmp311/glossary/#issue",
+      "usedIn": [
+        "/mmp311/learning-path/03-issues/",
+        "/mmp311/learning-path/04-prk-soft/"
+      ]
+    },
+    {
+      "id": "problem",
+      "title": "Problem",
+      "description": "A documented condition or expectation gap that requires investigation, clarification or change.",
+      "source": "/mmp311/glossary/#problem",
+      "usedIn": [
+        "/mmp311/learning-path/03-issues/",
+        "/mmp311/prk/"
+      ]
+    },
+    {
+      "id": "risk",
+      "title": "Risk",
+      "description": "Possible future consequences considered together with uncertainty, exposure, vulnerability and values.",
+      "source": "/mmp311/glossary/#risk",
+      "usedIn": [
+        "/mmp311/learning-path/01-risk-society/",
+        "/mmp311/learning-path/02-risk-communication/"
+      ]
+    },
+    {
+      "id": "uncertainty",
+      "title": "Uncertainty",
+      "description": "Limits to knowledge about probability, consequences, causal relations or future development.",
+      "source": "/mmp311/learning-path/01-risk-society/",
+      "usedIn": [
+        "/mmp311/learning-path/01-risk-society/",
+        "/mmp311/learning-path/02-risk-communication/",
+        "/mmp311/learning-path/06-crisis-communication/"
+      ]
+    },
+    {
+      "id": "crisis",
+      "title": "Crisis",
+      "description": "A situation that threatens valued outcomes, compresses decision time and challenges ordinary organisational capacity.",
+      "source": "/mmp311/glossary/#crisis",
+      "usedIn": [
+        "/mmp311/learning-path/06-crisis-communication/",
+        "/mmp311/prk/"
+      ]
+    },
+    {
+      "id": "public",
+      "title": "Public",
+      "description": "A group that forms around a recognised consequence, shared concern or contested value.",
+      "source": "/mmp311/glossary/#public",
+      "usedIn": [
+        "/mmp311/learning-path/03-issues/",
+        "/mmp311/soft/"
+      ]
+    },
+    {
+      "id": "framing",
+      "title": "Framing",
+      "description": "Selection and organisation of elements into an interpretation of problems, causes, evaluations and possible responses.",
+      "source": "/mmp311/glossary/#framing",
+      "usedIn": [
+        "/mmp311/learning-path/04-prk-soft/",
+        "/mmp311/learning-path/07-academic-writing/"
+      ]
+    },
+    {
+      "id": "media-distortion",
+      "title": "Media distortion",
+      "description": "Presentational operations such as sharpening, simplification, polarisation, intensification, concretisation and personification.",
+      "source": "/mmp311/glossary/#media-distortion",
+      "usedIn": [
+        "/mmp311/learning-path/03-issues/",
+        "/mmp311/full-text/media-distortion-framing-mediatization/"
+      ]
+    },
+    {
+      "id": "prk",
+      "title": "PRK",
+      "description": "An analytical model for conditional movement among problem, risk and crisis.",
+      "source": "/mmp311/prk/",
+      "usedIn": [
+        "/mmp311/learning-path/04-prk-soft/"
+      ]
+    },
+    {
+      "id": "soft",
+      "title": "SOFT",
+      "description": "A reflexive lens for testing social and organisational assumptions and blind spots.",
+      "source": "/mmp311/soft/",
+      "usedIn": [
+        "/mmp311/learning-path/04-prk-soft/"
+      ]
+    },
+    {
+      "id": "fiver",
+      "title": "FIVER",
+      "description": "A five-stage framework for understanding, identifying, evaluating, changing and responding.",
+      "source": "/mmp311/fiver/",
+      "usedIn": [
+        "/mmp311/learning-path/05-fiver/"
+      ]
+    }
+  ]
+}
