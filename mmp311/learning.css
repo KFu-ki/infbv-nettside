@@ -590,3 +590,59 @@ a[target="_blank"]::after {
     transition: none;
   }
 }
+
+/* Extended David essay. */
+.david-story__essay {
+  margin-top: 1.25rem;
+}
+
+.david-story__essay .david-story__expanded {
+  max-width: 66ch;
+}
+
+.david-story__essay h3 {
+  margin-top: 1rem;
+  font-size: 1.18rem;
+}
+
+.david-story__essay h4 {
+  margin-top: 1.6rem;
+  padding-top: .2rem;
+  font-size: 1rem;
+}
+
+.david-story__signature {
+  margin: 1.5rem 0;
+  font-family: system-ui, sans-serif;
+  font-size: .88rem;
+  font-weight: 700;
+  letter-spacing: .04em;
+}
+
+.david-story__essay-sources {
+  margin-top: 1.5rem;
+  padding: 1rem;
+  border-top: 1px solid var(--line);
+  background: var(--paper);
+  font-family: system-ui, sans-serif;
+  font-size: .82rem;
+  line-height: 1.55;
+}
+
+.david-story__essay-sources > p:first-child {
+  margin-top: 0;
+}
+
+.david-story__essay-sources ul {
+  margin: .5rem 0 1rem;
+  padding-left: 1.2rem;
+}
+
+.david-story__essay-sources li {
+  margin: .45rem 0;
+}
+
+.david-story__editorial {
+  margin-bottom: 0;
+  color: var(--muted);
+}
