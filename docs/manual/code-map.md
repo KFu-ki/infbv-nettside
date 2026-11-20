@@ -30,9 +30,9 @@ Automatisk oversyn over kjelde-/konfigurasjonsfiler. Korte SHA-256-prefiksar gje
 | `mmp311/learning-path/04-prk-soft/index.html` | `.html` | `6b11baea7a32` | PRK and SOFT: movement, attention and interpretation \| MMP311 |
 | `mmp311/learning-path/05-fiver/index.html` | `.html` | `8647f6333053` | FIVER: from understanding to response \| MMP311 |
 | `mmp311/learning-path/06-crisis-communication/index.html` | `.html` | `19e1774127b8` | Crisis communication as part of crisis management \| MMP311 |
-| `mmp311/learning-path/07-academic-writing/index.html` | `.html` | `78b341cf7e7d` | Academic writing \| MMP311 |
+| `mmp311/learning-path/07-academic-writing/index.html` | `.html` | `382e7df91d4f` | Academic writing \| MMP311 |
 | `mmp311/learning-path/index.html` | `.html` | `5ea1dd628156` | Learning path \| MMP311 |
-| `mmp311/learning.css` | `.css` | `7274d2e93ef0` | @media (max-width:800px), @media (prefers-reduced-motion:reduce), @media (max-width: 800px), @media (max-width: 42rem), @media (prefers-reduced-motion: no-preference), @media (max-width:42rem) |
+| `mmp311/learning.css` | `.css` | `d92230552a2a` | @media (max-width:800px), @media (prefers-reduced-motion:reduce), @media (max-width: 800px), @media (max-width: 42rem), @media (prefers-reduced-motion: no-preference), @media (max-width:42rem), @media (prefers-reduced-motion: reduce) |
 | `mmp311/learning.js` | `.js` | `c4bb3ea82f6b` | root, savedSize, label |
 | `mmp311/prk/index.html` | `.html` | `fd1890e41611` | PRK: Problem, Risk and Crisis \| MMP311 |
 | `mmp311/resource-tools.js` | `.js` | `04cbd24cf67a` | triggers, dialogs, opener, pageTitle, canonicalUrl, year, reference, citationOutput, copyButton, closeDialog, name, dialog |
