@@ -86,7 +86,6 @@ Automatisk oversyn over Markdown-kjeldene. Innhaldet vert regenerert av `scripts
 | `tekst/krisekommunikasjon-med-bakkekontakt/kapittel-09.md` | kapittel-09 | Markdown-kjelde i prosjektet. |
 | `tekst/krisekommunikasjon-med-bakkekontakt/kapittel-10.md` | kapittel-10 | Markdown-kjelde i prosjektet. |
 | `tekst/krisekommunikasjon-med-bakkekontakt/README.md` | README | Markdown-kjelde i prosjektet. |
-| `tekst/prosjektstyring/index.md` | Prosjektstyring for tekst | title: Prosjektstyring for tekst |
 | `tekst/README.md` | Tekst | Arbeidsmanus, pågåande forsking og publiserte tekstar. |
 | `tekst/samtalepodkastar/index.md` | samtalepodkastar | Status: Arbeidsmanus |
 | `tekst/samtalepodkastar/README.md` | README | Markdown-kjelde i prosjektet. |
