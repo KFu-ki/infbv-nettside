@@ -92,3 +92,5 @@ Sjå [current-state.md](project/current-state.md) og [next-actions.md](project/n
 ## Genererte manualfiler
 
 `manual/knowledge-catalog.md`, `manual/development-manual.md` og PDF er bygde frå kjelde-Markdown. Ikkje rediger dei for hand. Køyr `python3 scripts/build_manual.py` etter kjeldeendringar; CI kontrollerer at output er fersk. Manuellrapport/manual og agentreglar er informasjonssider, ikkje ny kjelde til fakta.
+
+- [ARBEIDSFLYT](project/ARBEIDSFLYT.md)
