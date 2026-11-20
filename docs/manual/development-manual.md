@@ -2,7 +2,7 @@
 
 Samla, generert frå Markdown-kjelde i repoet. Endre kjeldefilene og regenerer denne fila.
 
-Dokumentkjelder: 85.
+Dokumentkjelder: 90.
 
 ## Innhald
 
@@ -52,6 +52,10 @@ Dokumentkjelder: 85.
 - [Backup og gjenoppretting](#docs-operations-backup-and-recovery.md) — `docs/operations/backup-and-recovery.md`
 - [Vercel og publisering](#docs-operations-vercel.md) — `docs/operations/vercel.md`
 - [Versjonar og trygg gjenoppretting](#docs-operations-version-restore.md) — `docs/operations/version-restore.md`
+- [Fagfellekontroll: Klima og berekraft](#docs-peer-review-klima-og-berekraft.md) — `docs/peer-review/klima-og-berekraft.md`
+- [Fagfellekontrollar](#docs-peer-review-README.md) — `docs/peer-review/README.md`
+- [Fagfellekontroll: Totalforsvarsåret 2026](#docs-peer-review-totalforsvarsaret-2026.md) — `docs/peer-review/totalforsvarsaret-2026.md`
+- [Fagfellekontroll: Weird Crisis Exercises](#docs-peer-review-weird-crisis-exercises.md) — `docs/peer-review/weird-crisis-exercises.md`
 - [Arbeidsflyt for INFBV](#docs-project-ARBEIDSFLYT.md) — `docs/project/ARBEIDSFLYT.md`
 - [No-situasjon](#docs-project-current-state.md) — `docs/project/current-state.md`
 - [Neste steg](#docs-project-next-actions.md) — `docs/project/next-actions.md`
@@ -84,6 +88,7 @@ Dokumentkjelder: 85.
 - [kapittel-09](#tekst-krisekommunikasjon-med-bakkekontakt-kapittel-09.md) — `tekst/krisekommunikasjon-med-bakkekontakt/kapittel-09.md`
 - [kapittel-10](#tekst-krisekommunikasjon-med-bakkekontakt-kapittel-10.md) — `tekst/krisekommunikasjon-med-bakkekontakt/kapittel-10.md`
 - [README](#tekst-krisekommunikasjon-med-bakkekontakt-README.md) — `tekst/krisekommunikasjon-med-bakkekontakt/README.md`
+- [Prosjektstyring for tekst](#tekst-prosjektstyring-index.md) — `tekst/prosjektstyring/index.md`
 - [Tekst](#tekst-README.md) — `tekst/README.md`
 - [samtalepodkastar](#tekst-samtalepodkastar-index.md) — `tekst/samtalepodkastar/index.md`
 - [README](#tekst-samtalepodkastar-README.md) — `tekst/samtalepodkastar/README.md`
@@ -1626,6 +1631,28 @@ Sjå [current-state.md](project/current-state.md) og [next-actions.md](project/n
 
 - [ARBEIDSFLYT](project/ARBEIDSFLYT.md)
 
+## Fagfellekontroll
+
+- peer-review/README.md
+
+## Fagfellekontroll
+
+- peer-review/totalforsvarsaret-2026.md
+- peer-review/klima-og-berekraft.md
+- peer-review/weird-crisis-exercises.md
+
+- `docs/peer-review/README.md`
+- `docs/peer-review/totalforsvarsaret-2026.md`
+- `docs/peer-review/klima-og-berekraft.md`
+- `docs/peer-review/weird-crisis-exercises.md`
+
+## Fagfellekontrollar
+
+- [Readme](peer-review/README.md)
+- [Totalforsvarsaret 2026](peer-review/totalforsvarsaret-2026.md)
+- [Klima Og Berekraft](peer-review/klima-og-berekraft.md)
+- [Weird Crisis Exercises](peer-review/weird-crisis-exercises.md)
+
 ---
 
 <a id="docs-introduction-overview.md"></a>
@@ -1931,6 +1958,169 @@ Første test skal bruke ein ufarlig testcommit som straks kan gjenopprettast. Ko
 - ny gjenopprettingscommit vert pusha til `main`;
 - Vercel-prosjektet `infbv-nettside` vert `READY`;
 - hovudportalen peikar på rett innhald.
+
+---
+
+<a id="docs-peer-review-klima-og-berekraft.md"></a>
+## Kjelde: `docs/peer-review/klima-og-berekraft.md`
+
+# Fagfellekontroll: Klima og berekraft
+
+## Dokumentert leveranse
+
+- Samandrag på maksimalt 400 ord.
+- Frist 1. desember 2026.
+- Ved invitasjon: kapittelutkast på 5 000–6 000 ord innan 31. mars 2027.
+
+## Stoppkriterium
+
+- [ ] Teksten er ikkje over 400 ord.
+- [ ] Bidraget gjeld undervisning i kommunikasjon, medium eller journalistikk.
+- [ ] Teksten skil gjennomført undervisning frå planlagde tiltak.
+- [ ] Påstandar om studentlæring og effekt har dokumentasjon eller atterhald.
+- [ ] Framdrift i eventuell ny datainnsamling er oppgitt.
+
+## Fagleg test
+
+Gi 0–2 poeng per punkt.
+
+- [ ] Eit konkret undervisningsproblem er identifisert.
+- [ ] Klima eller miljø er integrert i det faglege problemet.
+- [ ] Bidraget passar eitt av temaa i utlysinga.
+- [ ] Eit praktisk døme viser kva kapittelet skal gjere.
+- [ ] Det teoretiske eller pedagogiske bidraget er presist.
+
+Krav: minst 8 av 10 poeng og ingen opne stoppkriterium.
+
+## Avgjerda
+
+- [ ] Klar for innsending
+- [ ] Mindre revisjon
+- [ ] Ny intern vurdering
+- [ ] Ikkje klar
+
+Tre krav før innsending:
+
+1.
+2.
+3.
+
+---
+
+<a id="docs-peer-review-README.md"></a>
+## Kjelde: `docs/peer-review/README.md`
+
+# Fagfellekontrollar
+
+- [Totalforsvarsåret 2026](totalforsvarsaret-2026.md)
+- [Klima og berekraft](klima-og-berekraft.md)
+- [Weird Crisis Exercises](weird-crisis-exercises.md)
+
+---
+
+<a id="docs-peer-review-totalforsvarsaret-2026.md"></a>
+## Kjelde: `docs/peer-review/totalforsvarsaret-2026.md`
+
+# Fagfellekontroll: Totalforsvarsåret 2026
+
+## Stoppkriterium
+
+- [ ] Hovudpåstanden om strukturell dobbeltkommunikasjon er dokumentert.
+- [ ] Analysen skil politisk styring, embetsverk og direktorat.
+- [ ] Påstandar om motstrid, disiplinering og identifikasjon har tekstnære døme.
+- [ ] Materiale, utval og metode er spesifiserte.
+- [ ] Sitat og referansar er kontrollerte mot primærkjeldene.
+- [ ] Manuskriptet er anonymisert.
+
+## Fagleg test
+
+Gi 0–2 poeng per punkt.
+
+- [ ] Problemstillinga er presis.
+- [ ] Omgrepet strukturell dobbeltkommunikasjon er definert.
+- [ ] Bitzer, Burke og Bacchi/WPR har kvar sin analytiske funksjon.
+- [ ] Analysen skil dokumentasjon frå tolking.
+- [ ] Alternative tolkingar og avgrensingar er drøfta.
+
+Krav: minst 8 av 10 poeng og ingen opne stoppkriterium.
+
+## Formkrav
+
+- [ ] 6 000–8 000 ord.
+- [ ] Norsk og engelsk samandrag, maksimalt 200 ord kvar.
+- [ ] 3–8 nøkkelord.
+- [ ] Maksimalt to unummererte mellomtittelnivå.
+- [ ] APA 7 og klikkbare DOI-ar.
+- [ ] Separate figurar, tabellar, tittelside og alt-tekstar.
+- [ ] Ingen identifiserande forfattaropplysningar i manusfila.
+
+## Avgjerda
+
+- [ ] Klar for innsending
+- [ ] Mindre revisjon
+- [ ] Ny intern vurdering
+- [ ] Ikkje klar
+
+Tre krav før innsending:
+
+1.
+2.
+3.
+
+---
+
+<a id="docs-peer-review-weird-crisis-exercises.md"></a>
+## Kjelde: `docs/peer-review/weird-crisis-exercises.md`
+
+# Fagfellekontroll: Weird Crisis Exercises
+
+## Dokumentert leveranse
+
+- Tidlegfrist 17. mars 2027.
+- Endeleg frist 19. april 2027.
+- Maksimalt 500 ord utan litteraturliste.
+- Format: paper abstract, work in progress eller reflection.
+
+## Stoppkriterium
+
+- [ ] Formatet er valt.
+- [ ] Teksten er ikkje over 500 ord utan litteraturlista.
+- [ ] Weird fungerer som analytisk omgrep, ikkje berre som merkelapp.
+- [ ] Materiale eller kriseøvingar er avgrensa.
+- [ ] Det disiplinerande eller skadelege potensialet i omgrepet er drøfta.
+
+## Fagleg test
+
+Gi 0–2 poeng per punkt.
+
+- [ ] Teksten viser kva som utfordrar normalitet og orden.
+- [ ] Eit konkret døme forankrar analysen.
+- [ ] Scenario, faktisk praksis og tolking er skilde.
+- [ ] Bidraget passar valt konferanseformat.
+- [ ] Konklusjonen lovar ikkje meir enn materialet kan bere.
+
+Krav: minst 8 av 10 poeng og ingen opne stoppkriterium.
+
+## Innsending
+
+- [ ] Namn og tilknyting eller alma mater er med.
+- [ ] Eventuelt ønske om å skjule tilknyting er oppgitt.
+- [ ] Innsendinga går til adressa i utlysinga.
+- [ ] Forpliktinga til å kommentere ein annan presentasjon er akseptert.
+
+## Avgjerda
+
+- [ ] Klar for tidlegfristen
+- [ ] Klar etter mindre revisjon
+- [ ] Vent til endeleg frist
+- [ ] Ny intern vurdering
+- [ ] Ikkje klar
+
+Tre krav før innsending:
+
+1.
+2.
+3.
 
 ---
 
@@ -2812,6 +3002,126 @@ Sist oppdatert: 2026-11-18
 ## Kjelde: `tekst/krisekommunikasjon-med-bakkekontakt/README.md`
 
 # README
+
+---
+
+<a id="tekst-prosjektstyring-index.md"></a>
+## Kjelde: `tekst/prosjektstyring/index.md`
+
+---
+title: Prosjektstyring for tekst
+---
+
+# Prosjektstyring for tekst
+
+Fristane byggjer på dei aktuelle utlysingane. Statusen kan oppdaterast lokalt i nettlesaren.
+
+<div id="project-dashboard" aria-live="polite"></div>
+
+<script>
+const projects = [
+  {
+    priority: 1,
+    title: "Totalforsvarsåret 2026",
+    slug: "/tekst/totalforsvarsaret-2026/",
+    deadline: null,
+    deadlineLabel: "Ikkje fastsett",
+    status: "yellow",
+    review: "/docs/peer-review/totalforsvarsaret-2026/"
+  },
+  {
+    priority: 2,
+    title: "Klima og berekraft",
+    slug: "/tekst/klima-og-berekraft/",
+    deadline: "2026-12-01",
+    deadlineLabel: "1. desember 2026",
+    status: "yellow",
+    review: "/docs/peer-review/klima-og-berekraft/"
+  },
+  {
+    priority: 3,
+    title: "Weird Crisis Exercises",
+    slug: "/tekst/weird-crisis-exercises/",
+    deadline: "2027-03-17",
+    deadlineLabel: "Tidlegfrist 17. mars 2027. Endeleg frist 19. april 2027",
+    status: "yellow",
+    review: "/docs/peer-review/weird-crisis-exercises/"
+  }
+];
+
+const labels = {
+  red: "Forseinka eller kritisk",
+  yellow: "Arbeid pågår",
+  green: "Klar for neste steg",
+  submitted: "Sendt inn",
+  white: "Ikkje prioritert no"
+};
+
+const key = "infbv-project-status-v1";
+const saved = JSON.parse(localStorage.getItem(key) || "{}");
+
+function localDate(value) {
+  if (!value) return null;
+  const [year, month, day] = value.split("-").map(Number);
+  return new Date(year, month - 1, day);
+}
+
+function daysRemaining(value) {
+  const due = localDate(value);
+  if (!due) return null;
+  const now = new Date();
+  const today = new Date(now.getFullYear(), now.getMonth(), now.getDate());
+  return Math.round((due - today) / 86400000);
+}
+
+function deadlineText(project) {
+  const days = daysRemaining(project.deadline);
+  if (days === null) return project.deadlineLabel;
+  if (days < 0) return `${project.deadlineLabel}, ${Math.abs(days)} dagar forseinka`;
+  if (days === 0) return `${project.deadlineLabel}, frist i dag`;
+  return `${project.deadlineLabel}, ${days} dagar att`;
+}
+
+function render() {
+  const target = document.querySelector("#project-dashboard");
+  const ordered = [...projects].sort((a, b) => {
+    if (!a.deadline && !b.deadline) return a.priority - b.priority;
+    if (!a.deadline) return 1;
+    if (!b.deadline) return -1;
+    return localDate(a.deadline) - localDate(b.deadline);
+  });
+
+  target.innerHTML = ordered.map(project => {
+    const status = saved[project.slug] || project.status;
+    return `
+      <article class="project-card">
+        <h2><a href="${project.slug}">${project.title}</a></h2>
+        <p><strong>Frist:</strong> ${deadlineText(project)}</p>
+        <p><strong>Status:</strong> ${labels[status]}</p>
+        <label>
+          Oppdater status
+          <select data-project="${project.slug}">
+            ${Object.entries(labels).map(([value, label]) =>
+              `<option value="${value}" ${value === status ? "selected" : ""}>${label}</option>`
+            ).join("")}
+          </select>
+        </label>
+        <p><a href="${project.review}">Opne fagfellekontrollen</a></p>
+      </article>
+    `;
+  }).join("");
+
+  target.querySelectorAll("select").forEach(select => {
+    select.addEventListener("change", event => {
+      saved[event.target.dataset.project] = event.target.value;
+      localStorage.setItem(key, JSON.stringify(saved));
+      render();
+    });
+  });
+}
+
+render();
+</script>
 
 ---
 

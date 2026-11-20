@@ -50,6 +50,10 @@ Automatisk oversyn over Markdown-kjeldene. Innhaldet vert regenerert av `scripts
 | `docs/operations/backup-and-recovery.md` | Backup og gjenoppretting | Før dokumentasjonsendringane vart dei 25 versjonskontrollerte filene kopierte frå `HEAD` med `git archive` til `_backup/2026-11-08_210007/`. Backupen er ei lokal, Git-ignorert kopi av tracked-filer, ikkje kryptert og ikkje utanfor denne maskina/synka OneDrive-rot. Ignorerte cache-filer og eksterne arbeidsbøker er ikkje med. Denne rapporten dokumenterer kva som vart gjort; ho garanterer ikkje backupintegritet. |
 | `docs/operations/vercel.md` | Vercel og publisering | - Git remote `origin` er `https://github.com/KFu-ki/infbv-nettside.git`; lokal branch var `main` ved kontroll. |
 | `docs/operations/version-restore.md` | Versjonar og trygg gjenoppretting | Den offentlege sida `/versjonar/` viser dei 20 nyaste commitane på `main` i `KFu-ki/infbv-nettside`. Sida gjev oversikt, men har ikkje løyndomar, GitHub-token eller direkte skrivetilgang. |
+| `docs/peer-review/klima-og-berekraft.md` | Fagfellekontroll: Klima og berekraft | - Samandrag på maksimalt 400 ord. |
+| `docs/peer-review/README.md` | Fagfellekontrollar | - [Totalforsvarsåret 2026](totalforsvarsaret-2026.md) |
+| `docs/peer-review/totalforsvarsaret-2026.md` | Fagfellekontroll: Totalforsvarsåret 2026 | - [ ] Hovudpåstanden om strukturell dobbeltkommunikasjon er dokumentert. |
+| `docs/peer-review/weird-crisis-exercises.md` | Fagfellekontroll: Weird Crisis Exercises | - Tidlegfrist 17. mars 2027. |
 | `docs/project/ARBEIDSFLYT.md` | Arbeidsflyt for INFBV | /Users/kristian/.copilot/repos/infbv-nettside |
 | `docs/project/current-state.md` | No-situasjon | **Sist kontrollert:** 2026-11-09 |
 | `docs/project/next-actions.md` | Neste steg | Prioritering: `No` → `Neste` → `Seinare`. `Blokkert` krev avklaring før gjennomføring. |
@@ -82,6 +86,7 @@ Automatisk oversyn over Markdown-kjeldene. Innhaldet vert regenerert av `scripts
 | `tekst/krisekommunikasjon-med-bakkekontakt/kapittel-09.md` | kapittel-09 | Markdown-kjelde i prosjektet. |
 | `tekst/krisekommunikasjon-med-bakkekontakt/kapittel-10.md` | kapittel-10 | Markdown-kjelde i prosjektet. |
 | `tekst/krisekommunikasjon-med-bakkekontakt/README.md` | README | Markdown-kjelde i prosjektet. |
+| `tekst/prosjektstyring/index.md` | Prosjektstyring for tekst | title: Prosjektstyring for tekst |
 | `tekst/README.md` | Tekst | Arbeidsmanus, pågåande forsking og publiserte tekstar. |
 | `tekst/samtalepodkastar/index.md` | samtalepodkastar | Status: Arbeidsmanus |
 | `tekst/samtalepodkastar/README.md` | README | Markdown-kjelde i prosjektet. |
