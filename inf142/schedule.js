@@ -1,0 +1,22 @@
+window.INF142_SCHEDULE = [
+ {date:'2027-01-05',time:'12:30–14:15',topic:'Introduksjon, emneinformasjon, arbeidskrav og eksamen',type:'felles',room:'SAA269'},
+ {date:'2027-01-06',time:'11:00–12:30',topic:'Kva er eit prosjekt? Mål, formål og prosjektarbeid',type:'prosjekt',room:'SAA269'},
+ {date:'2027-01-11',time:'08:30–10:15',topic:'Samarbeid, roller og prosjektgrupper',type:'prosjekt',room:'SAA269'},
+ {date:'2027-01-13',time:'10:30–12:15',topic:'Planlegging, milepælar og Gantt',type:'prosjekt',room:'SAA269'},
+ {date:'2027-01-15',time:'08:30–10:15',topic:'Internkommunikasjon og opplegget framover',type:'intern',room:'SAA269'},
+ {date:'2027-01-18',time:'08:30–10:15',topic:'Studentpresentasjonar: internkommunikasjon kapittel 1–2',type:'student',room:'SAA269'},
+ {date:'2027-01-20',time:'10:30–12:15',topic:'Studentpresentasjonar: internkommunikasjon kapittel 3–4',type:'student',room:'SAA269'},
+ {date:'2027-01-22',time:'08:30–10:15',topic:'Studentpresentasjonar: internkommunikasjon kapittel 5–6',type:'student',room:'SAA269'},
+ {date:'2027-02-01',time:'08:30–10:15',topic:'Studentpresentasjonar: internkommunikasjon kapittel 7–8',type:'student',room:'SAA269'},
+ {date:'2027-02-03',time:'08:30–10:15',topic:'Studentpresentasjonar: internkommunikasjon kapittel 9–10',type:'student',room:'SAA269'},
+ {date:'2027-02-12',time:'08:30–10:15',topic:'Oppsummering av internkommunikasjon',type:'intern',room:'SAA269'},
+ {date:'2027-03-01',time:'10:30–12:15',topic:'Siste førebuing før studieturen',type:'tur',room:'SAA269'},
+ {date:'2027-03-08',time:'10:30–12:15',topic:'Refleksjon, læring og Gibbs’ reflective cycle',type:'refleksjon',room:'SAA269'},
+ {date:'2027-03-15',time:'Heile veka',topic:'Studietur og casearbeid i Bergen, 15.–19. mars',type:'tur',room:'Bergen'},
+ {date:'2027-04-05',time:'08:30–16:00',topic:'Studentpresentasjonar og fagleg samanheng',type:'student',room:'SAA269'},
+ {date:'2027-04-06',time:'13:15–15:00',topic:'Prosjektarbeid',type:'prosjekt',room:'SAA269'},
+ {date:'2027-04-07',time:'10:30–12:15',topic:'Prosjektarbeid',type:'prosjekt',room:'SAA269'},
+ {date:'2027-04-12',time:'10:30–13:15',topic:'Prosjektarbeid og praktisk gjennomføring',type:'prosjekt',room:'SAA269'},
+ {date:'2027-04-21',time:'08:30–14:15',topic:'Presentasjonar av prosjektarbeid',type:'student',room:'SAA269'},
+ {date:'2027-04-22',time:'09:30–11:15',topic:'Eksamensførebuing og oppsummering',type:'refleksjon',room:'SAA269'}
+];

@@ -123,3 +123,4 @@ Sjå [current-state.md](project/current-state.md) og [next-actions.md](project/n
 - [Aktiv Laering](inf142/aktiv-laering.md)
 - [Kjeldekart](inf142/kjeldekart.md)
 - [Moderne Case](inf142/moderne-case.md)
+- [Prosjektarbeid forelesingsmanual](inf142/prosjektarbeid-forelesingsmanual.md)

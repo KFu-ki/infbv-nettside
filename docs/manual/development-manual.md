@@ -2,7 +2,7 @@
 
 Samla, generert frå Markdown-kjelde i repoet. Endre kjeldefilene og regenerer denne fila.
 
-Dokumentkjelder: 93.
+Dokumentkjelder: 94.
 
 ## Innhald
 
@@ -50,6 +50,7 @@ Dokumentkjelder: 93.
 - [Forelesingsmanual: internkommunikasjon i INF142](#docs-inf142-forelesingsmanual-internkommunikasjon.md) — `docs/inf142/forelesingsmanual-internkommunikasjon.md`
 - [Kjeldekart for INF142](#docs-inf142-kjeldekart.md) — `docs/inf142/kjeldekart.md`
 - [Moderne case til INF142](#docs-inf142-moderne-case.md) — `docs/inf142/moderne-case.md`
+- [Forelesingsmanual: prosjektarbeid i INF142](#docs-inf142-prosjektarbeid-forelesingsmanual.md) — `docs/inf142/prosjektarbeid-forelesingsmanual.md`
 - [Introduksjon til INFBV fagportal](#docs-introduction-overview.md) — `docs/introduction/overview.md`
 - [Generert utviklingsmanual](#docs-manual-README.md) — `docs/manual/README.md`
 - [Automatisk backup av INFBV-fagportalen](#docs-operations-automatic-backup.md) — `docs/operations/automatic-backup.md`
@@ -125,9 +126,13 @@ Automatisk oversyn over kjelde-/konfigurasjonsfiler. Korte SHA-256-prefiksar gje
 | `budsjett/index.html` | `.html` | `95690952975b` | AMF \| Budsjett og ressursoversikt |
 | `budsjett/styles.css` | `.css` | `78639b5b1345` | @media (min-width: 1500px), @media (max-width: 1120px), @media (max-width: 820px), @media (max-width: 560px), @media print |
 | `index.html` | `.html` | `9b5949835774` | INFBV — kompetansetrapp og fagportal \| Høgskulen i Volda |
-| `inf142/index.html` | `.html` | `2fbccda62fc0` | INF142 Arbeidsliv og kommunikasjon i praksis \| INFBV |
+| `inf142/index.html` | `.html` | `a04458314c7e` | INF142 Arbeidsliv og kommunikasjon i praksis \| INFBV |
 | `inf142/learning.css` | `.css` | `843dd73d9996` | @media (max-width:800px), @media (prefers-reduced-motion:reduce) |
 | `inf142/learning.js` | `.js` | `54b0829f606d` | paths, tools, key, renderPaths, renderTools |
+| `inf142/portal-update.js` | `.js` | `ae7c267d06dd` | schedule, main, esc, scheduleSection, anchor, renderSchedule, project |
+| `inf142/project-module.js` | `.js` | `1d0208cd8bb2` | — |
+| `inf142/project-update.css` | `.css` | `331ceae5c0f3` | @media (max-width:650px) |
+| `inf142/schedule.js` | `.js` | `59251f77c465` | — |
 | `language.js` | `.js` | `85ace0f3a098` | STORAGE_KEY, params, requested, currentLanguage, originals, english, setText, element, staircaseCopy, updateMainStaircase, copy, headerSpans, title, description, updateStaticInterface, isEnglish, toggle, level4, level5, applyLanguage, url |
 | `mmp311/cases/index.html` | `.html` | `44c4baed40a5` | Cases and examples \| MMP311 |
 | `mmp311/fiver/index.html` | `.html` | `5e7316d6774b` | FIVER Process Model \| MMP311 |
@@ -1666,6 +1671,7 @@ Sjå [current-state.md](project/current-state.md) og [next-actions.md](project/n
 - [Aktiv Laering](inf142/aktiv-laering.md)
 - [Kjeldekart](inf142/kjeldekart.md)
 - [Moderne Case](inf142/moderne-case.md)
+- [Prosjektarbeid forelesingsmanual](inf142/prosjektarbeid-forelesingsmanual.md)
 
 ---
 
@@ -1884,6 +1890,85 @@ Bruk Arbeidstilsynet sitt skilje mellom psykologisk tryggleik og ytringseffektiv
 
 ## 6. Digital omstilling i kommunesektoren
 Bruk KS sitt materiale til å analysere eigarskap, medverknad, læringskultur, endra arbeidsprosessar og gevinstrealisering.
+
+---
+
+<a id="docs-inf142-prosjektarbeid-forelesingsmanual.md"></a>
+## Kjelde: `docs/inf142/prosjektarbeid-forelesingsmanual.md`
+
+# Forelesingsmanual: prosjektarbeid i INF142
+
+## Fagleg prioritering
+
+Linda sine to prosjektøkter bør gjere meir enn å presentere verktøy. Første økt etablerer prosjektarbeid som læringsform og koplar problem, formål og mål. Andre økt viser korleis planen gjer prosjektet styrbart. Samarbeid, kommunikasjon og refleksjon må deretter gå att i resten av emnet.
+
+## 6. januar 2027, 11.00–12.30
+
+### Tema
+Kva er eit prosjekt? Mål, formål og prosjektarbeid.
+
+### Etter økta skal studentane kunne
+- forklare kvifor prosjektarbeid er problemorientert, tidsavgrensa, resultatretta og samarbeidsbasert;
+- skilje formål, produktmål og prosessmål;
+- formulere ei avgrensa problemstilling;
+- bruke Leavitts diamant til å analysere følgjer av endring.
+
+### Forslag til gjennomføring
+- 0–10 minutt: kvifor prosjektarbeid og fem prinsipp: problem, deltaking, samarbeid, erfaring og refleksjon.
+- 10–25 minutt: prosjektet som prosess, ikkje berre sluttprodukt.
+- 25–40 minutt: mål, formål, produktmål og prosessmål.
+- 40–55 minutt: case om beredskap på campus.
+- 55–70 minutt: Leavitts diamant med endra målgruppe.
+- 70–85 minutt: grupper skriv mini-mandat for studieturen.
+- 85–90 minutt: eitt uklart punkt og eitt neste steg.
+
+### Mellom øktene
+Gruppene leverer ei prosjektskisse med problem, formål, to produktmål, eitt prosessmål, førebels målgruppe og ei kort avgrensing.
+
+## 11. januar 2027, 08.30–10.15
+
+Denne økta vert brukt til samarbeid, roller og prosjektgrupper. Ho byggjer direkte på Andersen og Schwencke sitt treledda ansvar: felles ansvar for problemstilling, planlegging, organisering, idéskaping og fellesskap; kombinert ansvar for rapportskriving; individuelt ansvar for aktivitetar.
+
+### Aktiv læring
+- vel leiingsmodell og grunngje valet;
+- lag fem obligatoriske punkt i samarbeidskontrakten;
+- skriv to setningar til eit gruppemedlem som ikkje leverer;
+- klassifiser konflikt som sak, norm eller person;
+- lag avgjerdsregel for situasjonar der gruppa står fast.
+
+## 13. januar 2027, 10.30–12.15
+
+### Tema
+Planlegging, milepælar og Gantt.
+
+### Etter økta skal studentane kunne
+- skilje aktivitet frå milepæl;
+- bryte leveransen ned i arbeid;
+- vise avhengnader, ansvar og kontrollpunkt;
+- bruke Gantt som samtale- og styringsverktøy;
+- oppdatere planen når føresetnadene endrar seg.
+
+### Forslag til gjennomføring
+- 0–15 minutt: frå formål og mål til leveranse.
+- 15–35 minutt: aktivitet, milepæl, avhengnad og kontrollpunkt.
+- 35–50 minutt: kritikk av ein dårleg milepælsplan.
+- 50–70 minutt: gruppene lagar fem milepælar for studieturen.
+- 70–90 minutt: Gantt, ansvar og realistiske reservar.
+- 90–100 minutt: Leavitt-test av planen.
+- 100–105 minutt: dokumentasjonskrav fram til neste leveranse.
+
+## Dokumentasjon gjennom semesteret
+
+Kvar gruppe skal halde ved lag:
+- prosjektmandat og endringslogg;
+- samarbeidskontrakt;
+- møteinnkallingar, sakslister og referat;
+- milepælsplan og Gantt;
+- avgjerdslogg med grunngjeving;
+- individuell eller felles refleksjonslogg;
+- oversikt over avvik og justeringar.
+
+Dokumentasjonen skal ikkje berre vise aktivitet. Han skal gjere det mogleg å forklare kvifor gruppa handla som ho gjorde, kva følgjer valet fekk, og kva gruppa ville ha endra.
 
 ---
 
