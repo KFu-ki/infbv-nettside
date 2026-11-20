@@ -56,15 +56,16 @@ Automatisk oversyn over kjelde-/konfigurasjonsfiler. Korte SHA-256-prefiksar gje
 | `scripts/update_budsjett_data.py` | `.py` | `0aa4a1b0bac6` | main |
 | `scripts/update_changed_page_metadata.py` | `.py` | `7c4915a58131` | git_paths, changed_html_files, suffix, update_page, main |
 | `scripts/update_mmp311_page_metadata.py` | `.py` | `249c100daf19` | ordinal |
-| `styles.css` | `.css` | `ebac53e82ad6` | @media (max-width: 1023px), @media (prefers-reduced-motion: reduce), @media (max-width: 480px), @media (max-width: 420px), @media (forced-colors: active), @media (max-width: 42rem) |
-| `tekst/deliberasjon/index.html` | `.html` | `804207876c6d` | deliberasjon |
-| `tekst/index.html` | `.html` | `6b1dc494fb4f` | Tekst \| INFBV |
-| `tekst/klima-og-berekraft/abstract/index.html` | `.html` | `52964bc9a8e8` | Beyond Sustainability \| Working abstract |
-| `tekst/klima-og-berekraft/index.html` | `.html` | `cab0f5d6144c` | Klima og berekraft \| INFBV |
-| `tekst/krisekommunikasjon-med-bakkekontakt/index.html` | `.html` | `595238dd38a8` | krisekommunikasjon-med-bakkekontakt |
-| `tekst/samtalepodkastar/index.html` | `.html` | `39e57b9c10a0` | samtalepodkastar |
-| `tekst/totalforsvarsaret-2026/index.html` | `.html` | `042ee585f8c3` | totalforsvarsaret-2026 |
-| `tekst/weird-crisis-exercises/index.html` | `.html` | `910a595d8959` | weird-crisis-exercises |
+| `styles.css` | `.css` | `a94ea497675c` | @media (max-width: 1023px), @media (prefers-reduced-motion: reduce), @media (max-width: 480px), @media (max-width: 420px), @media (forced-colors: active), @media (max-width: 42rem), @media (max-width: 64rem) |
+| `tekst/deliberasjon/index.html` | `.html` | `39d7ba106306` | deliberasjon |
+| `tekst/index.html` | `.html` | `25d84fdb67eb` | Tekst \| INFBV |
+| `tekst/klima-og-berekraft/abstract/index.html` | `.html` | `b29975dd978e` | Beyond Sustainability \| Working abstract |
+| `tekst/klima-og-berekraft/index.html` | `.html` | `63ee21620922` | Klima og berekraft \| INFBV |
+| `tekst/krisekommunikasjon-med-bakkekontakt/index.html` | `.html` | `d95e76d65747` | krisekommunikasjon-med-bakkekontakt |
+| `tekst/portal-text.css` | `.css` | `2e44b8eb74a5` | @media (max-width: 46rem), @media (prefers-reduced-motion: reduce) |
+| `tekst/samtalepodkastar/index.html` | `.html` | `3a7bb3a5d999` | samtalepodkastar |
+| `tekst/totalforsvarsaret-2026/index.html` | `.html` | `44dcec1969f4` | totalforsvarsaret-2026 |
+| `tekst/weird-crisis-exercises/index.html` | `.html` | `a6f1fe50311a` | weird-crisis-exercises |
 | `timeplan2027/app.js` | `.js` | `6b22b2ea90c7` | DATA_URL, STORAGE_KEY, COURSE_FILTER_KEY, state, element, escapeHtml, editedItem, dateValue, displayDate, date, displayCourseName, setStatus, status, saveEdits, changed, applyEdit, original, matchesSearch, text, filteredItems, query, renderFilters, courses, filters, rowDetails, details, renderRows, items, changedFields, current, changes, buildProposalBody, lines, submitProposal, message, title, body, issueUrl, popup, downloadWorkbook, button, response, dateStamp, timeStamp, currentItems, columns, escapeCsv, csv, downloadUrl, link, loadPlan, savedEdits |
 | `timeplan2027/index.html` | `.html` | `e56db14571f3` | Timeplan 2027 \| Institutt for kommunikasjon |
 | `timeplan2027/styles.css` | `.css` | `ac74c7118abd` | @media (max-width: 1120px), @media (max-width: 700px), @media print |

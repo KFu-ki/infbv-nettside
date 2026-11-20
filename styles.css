@@ -666,3 +666,314 @@ html[data-theme="light"],
 html[data-theme="dark"] {
   color-scheme: light;
 }
+
+/* INFBV visual harmonisation 2026-11-20 */
+:root,
+html,
+html[data-theme="light"],
+html[data-theme="dark"] {
+  color-scheme: light;
+
+  --atlas-canvas: #f3f1e9;
+  --atlas-paper: #fffdfa;
+  --atlas-paper-soft: #f7f4ec;
+  --atlas-ink: #20231f;
+  --atlas-muted: #515a52;
+  --atlas-line: #b7bdb6;
+  --atlas-line-strong: #747d75;
+  --atlas-link: #27457d;
+  --atlas-accent: #795100;
+  --atlas-focus: #a65f00;
+  --atlas-content: 1100px;
+}
+
+html,
+body,
+html[data-theme="light"] body,
+html[data-theme="dark"] body {
+  background: var(--atlas-canvas);
+  color: var(--atlas-ink);
+}
+
+body {
+  min-width: 0;
+  text-rendering: optimizeLegibility;
+}
+
+/* INFBV top bar */
+body > header {
+  border-bottom: 1px solid var(--atlas-line) !important;
+  background: rgb(243 241 233 / .97) !important;
+  color: var(--atlas-ink) !important;
+  box-shadow: 0 1px 0 rgb(255 255 255 / .75);
+}
+
+body > header > div {
+  max-width: var(--atlas-content) !important;
+}
+
+body > header .text-slate-100,
+body > header .text-slate-200,
+body > header .text-slate-300 {
+  color: var(--atlas-ink) !important;
+}
+
+body > header .text-slate-400,
+body > header .text-slate-500 {
+  color: var(--atlas-muted) !important;
+}
+
+body > header .border-slate-700,
+body > header .border-slate-800 {
+  border-color: var(--atlas-line) !important;
+}
+
+body > header .bg-slate-800\/80 {
+  background: var(--atlas-paper) !important;
+}
+
+body > header button {
+  min-width: 44px;
+  min-height: 44px;
+}
+
+body > header a:focus-visible,
+body > header button:focus-visible {
+  outline: 3px solid var(--atlas-focus) !important;
+  outline-offset: 3px;
+  box-shadow: none !important;
+}
+
+/* Main INFBV canvas */
+#main-content {
+  max-width: var(--atlas-content) !important;
+}
+
+#home-view > section,
+#step-details-container {
+  border-color: var(--atlas-line) !important;
+  border-radius: .65rem !important;
+  background: var(--atlas-paper) !important;
+  color: var(--atlas-ink) !important;
+  box-shadow: 0 .5rem 1.8rem rgb(32 35 31 / .07) !important;
+}
+
+#home-view h1,
+#home-view h2,
+#home-view h3,
+#course-view h1,
+#course-view h2,
+#course-view h3 {
+  color: var(--atlas-ink) !important;
+  font-family: Georgia, Cambria, "Times New Roman", serif;
+  text-wrap: balance;
+}
+
+#home-view .text-slate-100,
+#home-view .text-slate-200,
+#course-view .text-slate-100,
+#course-view .text-slate-200 {
+  color: var(--atlas-ink) !important;
+}
+
+#home-view .text-slate-300,
+#home-view .text-slate-400,
+#home-view .text-slate-500,
+#course-view .text-slate-300,
+#course-view .text-slate-400,
+#course-view .text-slate-500 {
+  color: var(--atlas-muted) !important;
+}
+
+#home-view .border-slate-700,
+#home-view .border-slate-800,
+#course-view .border-slate-700,
+#course-view .border-slate-800 {
+  border-color: var(--atlas-line) !important;
+}
+
+/* Competence staircase remains the front-page focal object */
+.stair-step {
+  min-width: 0;
+  border-color: var(--atlas-line-strong) !important;
+  background: var(--atlas-paper-soft) !important;
+  color: var(--atlas-ink) !important;
+  box-shadow: none !important;
+}
+
+.stair-step:hover,
+.stair-step:focus-visible {
+  border-color: var(--atlas-accent) !important;
+}
+
+.stair-step[aria-pressed="true"],
+.stair-step.ring-2 {
+  border-color: var(--atlas-link) !important;
+  box-shadow: 0 0 0 3px rgb(39 69 125 / .18) !important;
+}
+
+.stair-step .text-amber-400,
+.stair-step .text-amber-300,
+.stair-step .text-indigo-400 {
+  color: var(--atlas-accent) !important;
+}
+
+.stair-step .text-slate-100,
+.stair-step .text-slate-200,
+.stair-step .text-slate-300,
+.stair-step .text-slate-400 {
+  color: var(--atlas-ink) !important;
+}
+
+/* Skills and subject cards */
+#skills-grid article,
+#course-list article,
+#course-detail-content > section,
+#course-detail-content > article {
+  border: 1px solid var(--atlas-line) !important;
+  border-radius: .4rem !important;
+  background: var(--atlas-paper) !important;
+  color: var(--atlas-ink) !important;
+  box-shadow: none !important;
+}
+
+#skills-grid article:hover,
+#course-list article:hover {
+  border-color: var(--atlas-line-strong) !important;
+}
+
+#skills-grid a,
+#course-list a,
+#course-detail-content a {
+  color: var(--atlas-link) !important;
+  text-decoration-thickness: .07em;
+  text-underline-offset: .16em;
+}
+
+#skills-grid a:hover,
+#course-list a:hover,
+#course-detail-content a:hover {
+  text-decoration-thickness: .12em;
+}
+
+/* Shared controls */
+button,
+a {
+  -webkit-tap-highlight-color: transparent;
+}
+
+a:focus-visible,
+button:focus-visible,
+[role="button"]:focus-visible {
+  outline: 3px solid var(--atlas-focus) !important;
+  outline-offset: 3px;
+}
+
+#theme-toggle {
+  display: none !important;
+}
+
+/* Search follows the same paper design */
+.portal-search__dialog {
+  border-color: var(--atlas-line-strong);
+  background: var(--atlas-paper);
+  color: var(--atlas-ink);
+}
+
+.portal-search__header,
+.portal-search__results li {
+  border-color: var(--atlas-line);
+}
+
+.portal-search__header h2,
+.portal-search__form label,
+.portal-search__results h3 {
+  color: var(--atlas-ink);
+}
+
+.portal-search__status,
+.portal-search__results p {
+  color: var(--atlas-muted);
+}
+
+.portal-search__results a,
+.portal-search__fallback a {
+  color: var(--atlas-link);
+}
+
+/* Responsive front page */
+@media (max-width: 64rem) {
+  body > header > div {
+    height: auto !important;
+    min-height: 3.75rem;
+    padding-block: .35rem;
+  }
+
+  #main-content {
+    padding-top: 1rem !important;
+  }
+
+  #home-view {
+    gap: 1.5rem !important;
+  }
+
+  #home-view > section:first-child {
+    padding: .75rem !important;
+  }
+
+  #home-view > section:first-child > div {
+    height: auto !important;
+    min-height: 0 !important;
+    display: grid !important;
+    grid-template-columns: 1fr !important;
+    gap: .5rem !important;
+    padding: 0 !important;
+  }
+
+  .stair-step {
+    min-height: 7.25rem;
+    border-radius: .5rem !important;
+    padding: .85rem !important;
+  }
+}
+
+@media (max-width: 42rem) {
+  body > header .max-w-7xl {
+    padding-inline: .65rem !important;
+  }
+
+  body > header .brand-tagline,
+  #brand-tagline {
+    display: none !important;
+  }
+
+  #main-content {
+    padding-inline: .65rem !important;
+  }
+
+  #home-view > section,
+  #step-details-container {
+    border-radius: .45rem !important;
+  }
+
+  #ferdigheiter,
+  #emne-indeks {
+    padding-top: 0 !important;
+  }
+
+  #skills-grid,
+  #course-list {
+    gap: .7rem !important;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    scroll-behavior: auto !important;
+    transition-duration: .01ms !important;
+    animation-duration: .01ms !important;
+    animation-iteration-count: 1 !important;
+  }
+}
