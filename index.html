@@ -1,22 +1,11 @@
 <!DOCTYPE html>
-<html lang="nn" class="h-full bg-slate-950 text-slate-100" data-theme="dark">
+<html lang="nn" class="h-full bg-slate-950 text-slate-100" data-theme="light">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>INFBV — kompetansetrapp og fagportal | Høgskulen i Volda</title>
     <meta name="theme-color" content="#020617">
-    <script>
-        (() => {
-            try {
-                const savedTheme = localStorage.getItem('infbv-theme');
-                if (savedTheme === 'light' || savedTheme === 'dark') {
-                    document.documentElement.dataset.theme = savedTheme;
-                }
-            } catch (error) {
-                // The page remains usable when browser storage is unavailable.
-            }
-        })();
-    </script>
+
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
         tailwind.config = {
@@ -44,6 +33,14 @@
         }
     </script>
     <link rel="stylesheet" href="styles.css">
+    <script>
+        document.documentElement.dataset.theme = "light";
+        try {
+            localStorage.setItem("infbv-theme", "light");
+        } catch (error) {
+            // Sidan er framleis lys når lokal lagring er utilgjengeleg.
+        }
+    </script>
 </head>
 <body class="h-full flex flex-col font-sans antialiased bg-slate-950 text-slate-100 selection:bg-amber-500 selection:text-slate-950">
     <a href="#main-content" class="sr-only focus:not-sr-only focus:absolute focus:top-4 focus:left-4 bg-amber-500 text-slate-950 font-bold px-4 py-2 rounded-md z-50">
@@ -99,7 +96,7 @@
               <span id="infbv-search-label">Search</span>
             </button>
             <button id="language-toggle" type="button" onclick="toggleLanguage()" aria-label="Switch to English" title="Switch to English" lang="en" class="inline-flex min-h-11 min-w-11 items-center justify-center rounded-lg border border-slate-700 bg-slate-800/80 px-3 py-2 text-sm font-bold text-slate-200 hover:border-indigo-400/70 hover:text-indigo-300 transition-colors focus:outline-none focus:ring-2 focus:ring-indigo-500/60">EN</button>
-            <button id="theme-toggle" type="button" role="switch" aria-label="Lyst tema" aria-checked="false" title="Slå på lyst tema" class="inline-flex min-h-11 items-center gap-2 rounded-lg border border-slate-700 bg-slate-800/80 px-3 py-2 text-sm font-medium text-slate-200 hover:border-amber-400/70 hover:text-amber-300 transition-colors focus:outline-none focus:ring-2 focus:ring-amber-500/60">
+            <button id="theme-toggle" hidden aria-hidden="true" tabindex="-1" type="button" role="switch" aria-label="Lyst tema" aria-checked="false" title="Slå på lyst tema" class="inline-flex min-h-11 items-center gap-2 rounded-lg border border-slate-700 bg-slate-800/80 px-3 py-2 text-sm font-medium text-slate-200 hover:border-amber-400/70 hover:text-amber-300 transition-colors focus:outline-none focus:ring-2 focus:ring-amber-500/60">
                 <svg id="theme-toggle-icon" class="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v2m0 14v2M5.64 5.64l1.42 1.42m9.88 9.88 1.42 1.42M3 12h2m14 0h2M5.64 18.36l1.42-1.42m9.88-9.88 1.42-1.42M16 12a4 4 0 1 1-8 0 4 4 0 0 1 8 0Z"></path></svg>
                 <span id="theme-toggle-label">Lys</span>
             </button>

@@ -654,3 +654,15 @@ html[data-theme="light"] .portal-search__fallback a {
   letter-spacing: .06em;
   text-transform: uppercase;
 }
+
+/* Permanent light theme */
+#theme-toggle,
+button#theme-toggle {
+  display: none !important;
+}
+
+html,
+html[data-theme="light"],
+html[data-theme="dark"] {
+  color-scheme: light;
+}
