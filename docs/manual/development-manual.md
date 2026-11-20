@@ -2,7 +2,7 @@
 
 Samla, generert frå Markdown-kjelde i repoet. Endre kjeldefilene og regenerer denne fila.
 
-Dokumentkjelder: 89.
+Dokumentkjelder: 93.
 
 ## Innhald
 
@@ -46,6 +46,10 @@ Dokumentkjelder: 89.
 - [Bygg prosjektet opp att manuelt](#docs-development-rebuild-from-zero.md) — `docs/development/rebuild-from-zero.md`
 - [Prosjektdiskusjonar og dokumenterte avklaringar](#docs-history-discussion-log.md) — `docs/history/discussion-log.md`
 - [Prosjektdokumentasjon](#docs-INDEX.md) — `docs/INDEX.md`
+- [Aktiv læring mellom øktene](#docs-inf142-aktiv-laering.md) — `docs/inf142/aktiv-laering.md`
+- [Forelesingsmanual: internkommunikasjon i INF142](#docs-inf142-forelesingsmanual-internkommunikasjon.md) — `docs/inf142/forelesingsmanual-internkommunikasjon.md`
+- [Kjeldekart for INF142](#docs-inf142-kjeldekart.md) — `docs/inf142/kjeldekart.md`
+- [Moderne case til INF142](#docs-inf142-moderne-case.md) — `docs/inf142/moderne-case.md`
 - [Introduksjon til INFBV fagportal](#docs-introduction-overview.md) — `docs/introduction/overview.md`
 - [Generert utviklingsmanual](#docs-manual-README.md) — `docs/manual/README.md`
 - [Automatisk backup av INFBV-fagportalen](#docs-operations-automatic-backup.md) — `docs/operations/automatic-backup.md`
@@ -121,6 +125,9 @@ Automatisk oversyn over kjelde-/konfigurasjonsfiler. Korte SHA-256-prefiksar gje
 | `budsjett/index.html` | `.html` | `95690952975b` | AMF \| Budsjett og ressursoversikt |
 | `budsjett/styles.css` | `.css` | `78639b5b1345` | @media (min-width: 1500px), @media (max-width: 1120px), @media (max-width: 820px), @media (max-width: 560px), @media print |
 | `index.html` | `.html` | `9b5949835774` | INFBV — kompetansetrapp og fagportal \| Høgskulen i Volda |
+| `inf142/index.html` | `.html` | `34b8b3f56cb6` | INF142 Arbeidsliv og kommunikasjon i praksis \| INFBV |
+| `inf142/learning.css` | `.css` | `843dd73d9996` | @media (max-width:800px), @media (prefers-reduced-motion:reduce) |
+| `inf142/learning.js` | `.js` | `54b0829f606d` | paths, tools, key, renderPaths, renderTools |
 | `language.js` | `.js` | `85ace0f3a098` | STORAGE_KEY, params, requested, currentLanguage, originals, english, setText, element, staircaseCopy, updateMainStaircase, copy, headerSpans, title, description, updateStaticInterface, isEnglish, toggle, level4, level5, applyLanguage, url |
 | `mmp311/cases/index.html` | `.html` | `44c4baed40a5` | Cases and examples \| MMP311 |
 | `mmp311/fiver/index.html` | `.html` | `5e7316d6774b` | FIVER Process Model \| MMP311 |
@@ -1652,6 +1659,231 @@ Sjå [current-state.md](project/current-state.md) og [next-actions.md](project/n
 - [Totalforsvarsaret 2026](peer-review/totalforsvarsaret-2026.md)
 - [Klima Og Berekraft](peer-review/klima-og-berekraft.md)
 - [Weird Crisis Exercises](peer-review/weird-crisis-exercises.md)
+
+## INF142
+
+- [Forelesingsmanual Internkommunikasjon](inf142/forelesingsmanual-internkommunikasjon.md)
+- [Aktiv Laering](inf142/aktiv-laering.md)
+- [Kjeldekart](inf142/kjeldekart.md)
+- [Moderne Case](inf142/moderne-case.md)
+
+---
+
+<a id="docs-inf142-aktiv-laering.md"></a>
+## Kjelde: `docs/inf142/aktiv-laering.md`
+
+# Aktiv læring mellom øktene
+
+## Fast rytme
+
+Kvar arbeidsperiode skal ende i eit spor som kan brukast i prosjektet eller eksamen:
+
+1. **Før økta:** les eit avgrensa kapittelutdrag og skriv eitt spørsmål.
+2. **I økta:** bruk omgrepet på eit ferdig case.
+3. **Etter økta:** undersøk ein liten del av røyndommen.
+4. **Neste økt:** samanlikn funn, rett overtolking og oppdater prosjektloggen.
+
+## Oppgåvebank
+
+- Informasjonsaudit: tel kanalar, ikkje meldingar. Finn dobbeltarbeid og ingen-eigar-informasjon.
+- Nettverkskart: kven spør kven når noko hastar?
+- Mottakartest: be ein annan gruppe forklare kva eit bodskap krev av dei.
+- Stillheitsanalyse: kva vert ikkje sagt, og kva dokumenterer materialet ikkje?
+- Medverknadstest: kva kan studentane faktisk påverke?
+- Kanalmiks: kva skjer med dei som ikkje sit ved PC?
+- Ytringsklima: er det trygt å seie frå, og nyttar det?
+- KI-test: kva data vert brukte, kven kan kontrollere resultatet, og korleis kan ein klage?
+- Endringslogg: kva vart endra etter tilbakemelding?
+- Refleksjonskort: observasjon, tolking, teori, alternativ handling.
+
+---
+
+<a id="docs-inf142-forelesingsmanual-internkommunikasjon.md"></a>
+## Kjelde: `docs/inf142/forelesingsmanual-internkommunikasjon.md`
+
+# Forelesingsmanual: internkommunikasjon i INF142
+
+## Fagleg hovudgrep
+
+Førelesingsrekka bør ikkje følgje kapittel 1–10 som ti separate referat. Ho bør byggje ein argumentasjon: Internkommunikasjon er ikkje distribusjon av bodskap, men organisering av relasjonar, tolking, makt, medverknad og handling. Erlien sitt skilje mellom informasjon og kommunikasjon, og vekta på tovegs dialog, nettverk, struktur, kultur og leiing, toler godt møtet med 2027. Det som må aktualiserast, er plattformmakt, hybrid arbeid, KI, personvern, algoritmisk styring og tilsette som ikkje sit ved ein PC.
+
+## Økt 1: Kva er internkommunikasjon, og kvifor er ho viktig?
+
+### Kjernepåstand
+Internkommunikasjon må vurderast etter kva medarbeidarar kan forstå, svare på og handle ut frå, ikkje etter kor mykje organisasjonen har sendt.
+
+### Føreles over
+- informasjon versus kommunikasjon
+- oppover, nedover og på tvers
+- sosiale, ekspressive, informasjons- og kontrollfunksjonar
+- interne målgrupper og gråsoner
+- internkommunikasjon som leiaransvar
+- motivasjon, tryggleik, læring og kvalitet
+
+### Aktiv læring
+Studentane kartlegg ein vanleg studiedag som informasjonsøkologi: meldingar, møte, Canvas, e-post, Teams og uformelle samtalar. Dei identifiserer støy, brot og manglande responskanalar.
+
+### Mellom øktene
+Kvar gruppe observerer éin kommunikasjonssituasjon og leverer tre kolonnar: observasjon, mogleg tolking, manglande informasjon.
+
+## Økt 2: Dialog, nettverk, makt og etikk
+
+### Kjernepåstand
+Ein kanal vert ikkje dialogisk berre fordi han har kommentarfelt. Dialog krev at responsen kan påverke forståing eller handling.
+
+### Føreles over
+- kommunikasjonsprinsippet versus informasjonsprinsippet
+- aktiv og passiv sendar/mottakar
+- symmetri som ideal og makt som vilkår
+- formelle og uformelle nettverk
+- ytringsklima, openheit og varsling
+- når lytting berre produserer data utan oppfølging
+
+### Aktiv læring
+Gruppene analyserer same endringsbodskap i tre format: direktør-e-post, Teams-tråd og avdelingsmøte. Dei vurderer kven som kan svare, kven som kan påverke, og kven som vert usynleg.
+
+### Mellom øktene
+Mini-feltarbeid: gjennomfør to korte, anonyme samtalar om kva som gjer det trygt og nyttig å seie frå. Ikkje samle sensitive personopplysningar.
+
+## Økt 3: Språk, tolking og kommunikasjonsklima
+
+### Kjernepåstand
+Misforståing er ikkje berre eit tekstproblem. Ho oppstår mellom språk, erfaring, posisjon, timing og relasjon.
+
+### Føreles over
+- fagspråk og makt
+- kodar og rammer
+- lytting og mottakarperspektiv
+- tolking gjennom fleire ledd
+- korleis mellomleiarar omset strategiske vedtak
+- klart språk utan å skjule reell uvisse
+
+### Aktiv læring
+Studentane skriv om eit teknisk eller juridisk endringsbodskap til tre målgrupper. Deretter markerer dei kva presisjon som gjekk tapt, og kva som vart forståeleg.
+
+### Mellom øktene
+Lag ei ordliste med ti uttrykk frå arbeidslivet som kan skape avstand. Kvar term skal få forklaring, konkret døme og eit tilfelle der termen likevel trengst.
+
+## Økt 4: Struktur, informasjonsflyt og organisasjonskultur
+
+### Kjernepåstand
+Kommunikasjonsproblem kan vere strukturelle. Dei kan ikkje alltid løysast med betre formuleringar eller fleire kanalar.
+
+### Føreles over
+- formell og uformell struktur
+- flate, hierarkiske, profesjonelle og matrisebaserte organisasjonar
+- subkulturar og profesjonsidentitet
+- spor etter tidlegare struktur
+- kultur som tolking og praksis, ikkje slagord
+- prosjektorganisering som mellombels struktur
+
+### Aktiv læring
+Gruppene får eit case med hovudkontor, skiftarbeid, feltpersonell og prosjektteam. Dei teiknar faktisk informasjonsflyt og finn tre strukturelle flaskehalsar.
+
+### Mellom øktene
+Analyser ein organisasjonsverdi. Finn eitt synleg tiltak som støttar verdien, eitt motdøme og eitt spørsmål materialet ikkje kan svare på.
+
+## Økt 5: Endring, krise og intern tillit
+
+### Kjernepåstand
+Endringskommunikasjon skal ikkje selje bort uvisse. Ho skal forklare kva som er avgjort, kva som ikkje er avgjort, kven som kan påverke, og når neste oppdatering kjem.
+
+### Føreles over
+- top-down, medverknad og totrinnsstrategiar
+- mellomleiaren som omsetjar
+- verdig kommunikasjon ved omstilling
+- intern kommunikasjon før ekstern merksemd
+- reservekanalar og systembortfall
+- skiljet mellom krisebodskap og reell handlingskapasitet
+
+### Aktiv læring
+Lag ein 72-timars plan for innføring av eit KI-verktøy eller bortfall av Teams og e-post. Planen skal ha målgrupper, eigarskap, kanal, reservekanal, responsmekanisme og neste oppdatering.
+
+### Mellom øktene
+Skriv eit leiarbrief på éi side: kva veit vi, kva veit vi ikkje, kva kan medarbeidaren gjere no, og kvar kan spørsmål stillast?
+
+## Økt 6: Strategisk rolle, leiarkommunikasjon og kanalval
+
+### Kjernepåstand
+Strategisk internkommunikasjon startar med verksemda sitt problem og medarbeidarane sine arbeidsvilkår, ikkje med produksjonsplanen for intranettet.
+
+### Føreles over
+- kommunikasjonsfunksjonen i leiinga
+- leiarkommunikasjon, tillit og oppfølging
+- kanalrikdom, rekkevidd, tilgang og sporbarheit
+- digitale arbeidsflater, KI og datastyring
+- måling av utfall framfor aktivitet
+- analyse, mål, strategi, tiltak og evaluering
+
+### Aktiv læring
+Gruppene får fem kanalar og fire målgrupper. Dei må velje kanalmiks, grunngje kva kvar kanal skal gjere og formulere eitt mål på forståing, eitt på dialog og eitt på handling.
+
+### Mellom øktene
+Lag ein enkel evalueringsplan. Skil mellom sendt, nådd, forstått, diskutert og gjort.
+
+## Studentpresentasjonane
+
+Kvart kapittelpar bør presenterast gjennom ein påstand og eit case, ikkje som referat:
+
+1. Påstand frå pensum.
+2. Kort definisjon av omgrepet.
+3. Moderne case.
+4. Analyse av eit konkret kommunikasjonstrekk.
+5. Avgrensing eller alternativ tolking.
+6. Eitt spørsmål til klassen.
+
+Tidsramme: 7 minutt presentasjon, 5 minutt casearbeid, 3 minutt plenumskorreksjon.
+
+---
+
+<a id="docs-inf142-kjeldekart.md"></a>
+## Kjelde: `docs/inf142/kjeldekart.md`
+
+# Kjeldekart for INF142
+
+## Pensum
+
+- Kveine, R., & Erlien, B. (2019). *Internkommunikasjon* (5. utg.). Universitetsforlaget.
+- Erlien, B. (1997). *Intern kommunikasjon: Planlegging og tilrettelegging*. Tano Aschehoug.
+- Andersen, E. S., & Schwencke, E. (2024). *Prosjektarbeid: En veiledning for studenter* (6. utg.). Fagbokforlaget.
+
+## Kapittelkopling til undervisninga
+
+- Kap. 1–2: definisjon, målgrupper, funksjon, behov, motivasjon, regelverk og kultur.
+- Kap. 3–4: dialog, nettverk, makt, etikk, språk og rammer.
+- Kap. 5–6: lytting, tolking, kommunikasjonsklima, struktur og informasjonsflyt.
+- Kap. 7–8: kultur, medverknad, endring og krise.
+- Kap. 9–10: strategisk rolle, leiarkommunikasjon og tillit.
+- Kap. 11–14: kanalval, analyse, plan, målgrupper, timing, måling og framtidig kompetanse. Desse kapitla bør trekkjast inn i oppsummering og prosjektarbeid sjølv om førelesingsplanen nemner kapittel 1–10 eksplisitt.
+
+## Kjeldekritisk merknad
+
+1997-utgåva dokumenterer faglege røter og den praktiske resonnementsforma, men døme på kanalar, teknologi, lovverk og arbeidsliv må oppdaterast. 2019-innhaldsoversikta dokumenterer strukturen i pensumboka, ikkje alle argumenta i kapitla. Sidetal skal kontrollerast mot studentane si utgåve før dei vert brukte i undervisningsmateriell.
+
+---
+
+<a id="docs-inf142-moderne-case.md"></a>
+## Kjelde: `docs/inf142/moderne-case.md`
+
+# Moderne case til INF142
+
+## 1. Microsoft: dialog og tillit i stor skala
+Bruk Viva Engage og AMA-format som case for skiljet mellom kanaltilgang og reell dialog. Studentane skal undersøkje kva som må til for at spørsmål frå tilsette påverkar leiarkommunikasjonen.
+
+## 2. Baneservice: arbeidsstyrke utan fast PC
+Bruk som case for rekkevidd, skift, geografisk spreiing og tryggleikskommunikasjon. Oppgåva er å lage ein kanalmiks som ikkje føreset at alle les intranettet.
+
+## 3. NAV: interne arbeidsflater og brukarinvolvering
+Bruk som case for at tilsette er brukarar av interne system, og at involvering krev breidde, personvern og kontakt over tid.
+
+## 4. KI og personvern
+Bruk Datatilsynet sitt materiale til å undersøkje transparens, produktivitetsmåling, tilgangsstyring og tillit ved innføring av Microsoft 365 Copilot eller liknande verktøy.
+
+## 5. Ytringsklima og varsling
+Bruk Arbeidstilsynet sitt skilje mellom psykologisk tryggleik og ytringseffektivitet. Studentane skal analysere både risikoen ved å ytre seg og om mottakaren faktisk kan handle.
+
+## 6. Digital omstilling i kommunesektoren
+Bruk KS sitt materiale til å analysere eigarskap, medverknad, læringskultur, endra arbeidsprosessar og gevinstrealisering.
 
 ---
 

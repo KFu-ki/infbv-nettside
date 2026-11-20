@@ -1,0 +1,21 @@
+const paths=[
+["Prosjektet",["Skil prosjekt frå drift","Formuler formål, resultatmål og effektmål","Lag eit avgrensa prosjektmandat"],"Prosjektmandat"],
+["Gruppe og roller",["Avklar ansvar og mynde","Lag gruppenormer og avgjerdsreglar","Handter usemje før ho vert fastlåst"],"Gruppekontrakt"],
+["Planlegging",["Bryt leveransen ned i arbeid","Set milepælar og avhengnader","Lag risiko- og reserveplan"],"Milepælsplan"],
+["Internkommunikasjon",["Skil informasjon frå dialog","Kartlegg formelle og uformelle nettverk","Vurder målgruppe, timing og kanal"],"Kommunikasjonskart"],
+["Organisasjon og leiing",["Les struktur som informasjonsvilkår","Analyser kultur og ytringsklima","Vurder leiaren som kommunikasjonsaktør"],"Leiarbrief"],
+["Endring og digitale kanalar",["Reduser uvisse utan å late som alt er avklart","Planlegg medverknad og tilbakemelding","Vurder KI, personvern og kanalrisiko"],"Endringsplan"],
+["Studietur og feltarbeid",["Førebu gode faglege spørsmål","Skil observasjon frå tolking","Dokumenter utan å samle unødige persondata"],"Feltlogg"],
+["Refleksjon og eksamen",["Bruk Gibbs i seks steg","Knytt erfaring til pensum","Bygg ein 15- eller 30-minutts presentasjon"],"Manusutkast"]];
+const tools=[
+["Mandatbyggjar","Skriv formål, leveranse, avgrensing og tre mål.","Prosjektmandat\nFormål: [kva behov prosjektet svarar på]\nLeveranse: [kva gruppa skal levere]\nAvgrensing: [kva prosjektet ikkje omfattar]\nResultatmål: [kontrollerbart resultat]\nEffektmål: [ønskt verknad etterpå]"],
+["Gruppekontrakt","Avklar roller, avgjerder, møte og konflikt.","Gruppekontrakt\nRoller: [ansvar og mynde]\nAvgjerder: [kven avgjer kva]\nMøte: [førebuing, referat, oppfølging]\nUsemje: [korleis ta ho tidleg]\nFråvær: [korleis sikre kontinuitet]"],
+["Kommunikasjonskart","Kartlegg kven som treng kva, når og kvifor.","Kommunikasjonskart\nMålgruppe: [kven]\nBehov: [kva mottakaren må kunne gjere]\nBodskap: [kort og handlingsretta]\nKanal: [kvifor denne]\nRespons: [korleis svaret kjem tilbake]"],
+["Kanalmiks-test","Test rekkevidd, dialog, sporbarheit og reservekanal.","Kanalmiks\nHovudkanal: [kanal og føremål]\nDialogkanal: [spørsmål og svar]\nDokumentasjon: [kvar avgjerder vert lagra]\nFelt/turnus: [korleis nå dei utan PC]\nBortfall: [reservekanal]"],
+["Gibbs-logg","Gjer erfaring om til fagleg læring.","Gibbs-refleksjon\n1. Skildring: [kva hende]\n2. Reaksjon: [kva la du merke til]\n3. Vurdering: [kva fungerte/ikkje]\n4. Analyse: [pensumomgrep]\n5. Konklusjon: [alternativ handling]\n6. Handlingsplan: [neste gong]"],
+["Ytringsklima-test","Vurder om det både er trygt og nyttig å seie frå.","Ytringsklima\nPsykologisk tryggleik: [kva kan det koste å ytre seg]\nYtringseffektivitet: [kan innspelet påverke]\nMottakar: [kven kan handle]\nTilbakemelding: [korleis vert løkka lukka]"],
+["Manusbyggjar","Bygg eksamenspåstand, døme, teori og refleksjon.","Manus\nHovudpåstand: [kva lærte prosjektet]\nDøme: [konkret situasjon]\nTeori: [omgrep/modell]\nAnalyse: [korleis teorien presiserer dømet]\nAvgrensing: [kva materialet ikkje viser]\nNeste praksis: [kva du vil gjere annleis]"]];
+const key="inf142-progress-v1",state=JSON.parse(localStorage.getItem(key)||"{}");
+function renderPaths(){document.querySelector("#paths").innerHTML=paths.map((p,i)=>{const done=state[i]?100:0;return `<article class="card"><span class="meta">Sti ${i+1}</span><h3>${p[0]}</h3><ul>${p[1].map(x=>`<li>${x}</li>`).join("")}</ul><p><strong>Produkt:</strong> ${p[2]}</p><div class="progress" aria-label="Framdrift"><span style="width:${done}%"></span></div><div class="actions"><button class="btn" data-done="${i}">${state[i]?"Ferdig":"Marker som ferdig"}</button></div></article>`}).join("");document.querySelectorAll("[data-done]").forEach(b=>b.onclick=()=>{state[b.dataset.done]=!state[b.dataset.done];localStorage.setItem(key,JSON.stringify(state));renderPaths()})}
+function renderTools(){document.querySelector("#tools").innerHTML=tools.map((t,i)=>`<article class="card"><span class="meta">Verkstad</span><h3>${t[0]}</h3><p>${t[1]}</p><button class="btn secondary" data-tool="${i}">Lag mal</button><div id="out-${i}"></div></article>`).join("");document.querySelectorAll("[data-tool]").forEach(b=>b.onclick=()=>{const i=b.dataset.tool;document.querySelector(`#out-${i}`).innerHTML=`<div class="tooloutput" tabindex="0">${tools[i][2]}</div>`})}
+renderPaths();renderTools();

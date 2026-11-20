@@ -116,3 +116,10 @@ Sjå [current-state.md](project/current-state.md) og [next-actions.md](project/n
 - [Totalforsvarsaret 2026](peer-review/totalforsvarsaret-2026.md)
 - [Klima Og Berekraft](peer-review/klima-og-berekraft.md)
 - [Weird Crisis Exercises](peer-review/weird-crisis-exercises.md)
+
+## INF142
+
+- [Forelesingsmanual Internkommunikasjon](inf142/forelesingsmanual-internkommunikasjon.md)
+- [Aktiv Laering](inf142/aktiv-laering.md)
+- [Kjeldekart](inf142/kjeldekart.md)
+- [Moderne Case](inf142/moderne-case.md)
