@@ -2033,3 +2033,113 @@ footer {
 
 /* Bokleg typografisystem */
 :root{--font-book:Charter,"Bitstream Charter","Iowan Old Style","Palatino Linotype",Palatino,Georgia,serif;--font-ui:Inter,ui-sans-serif,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}body{font-family:var(--font-book);font-size:18px;line-height:1.6}nav,button,input,select,.eyebrow,.meta,.label,[class*="uppercase"],[class*="tracking"]{font-family:var(--font-ui)}h1,h2,h3,h4{font-family:var(--font-book);font-weight:700;text-wrap:balance}p,li{max-width:70ch}header,nav{font-size:16px;line-height:1.4}
+
+/* INFBV SIX-STYLE TYPOGRAPHY START */
+:root {
+  --infbv-book: Charter, "Bitstream Charter", "Iowan Old Style", Palatino, Georgia, serif;
+  --infbv-ui: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+/* 1. Hovudtittel */
+body .hero h1,
+body main > section:first-of-type h1 {
+  font-family: var(--infbv-book) !important;
+  font-size: clamp(2.75rem, 5.5vw, 4.25rem) !important;
+  font-weight: 700 !important;
+  line-height: 1.04 !important;
+  letter-spacing: -0.025em !important;
+  text-wrap: balance;
+}
+
+/* 2. Seksjonstittel */
+body main h2 {
+  font-family: var(--infbv-book) !important;
+  font-size: clamp(2rem, 3.2vw, 2.75rem) !important;
+  font-weight: 700 !important;
+  line-height: 1.12 !important;
+  letter-spacing: -0.018em !important;
+  text-wrap: balance;
+}
+
+/* 3. Korttittel */
+body main article h3,
+body main .card h3 {
+  font-family: var(--infbv-book) !important;
+  font-size: clamp(1.45rem, 2vw, 1.75rem) !important;
+  font-weight: 700 !important;
+  line-height: 1.18 !important;
+  letter-spacing: -0.012em !important;
+  text-wrap: balance;
+}
+
+/* 4. Brødtekst */
+body main p,
+body main li {
+  font-family: var(--infbv-book) !important;
+  font-size: 1.125rem !important;
+  font-weight: 400 !important;
+  line-height: 1.62 !important;
+  letter-spacing: 0 !important;
+  max-width: 70ch;
+}
+
+/* 5. Navigasjon og handling */
+body header,
+body nav,
+body nav a,
+body button,
+body .button,
+body a[class*="button"],
+body a[class*="btn"] {
+  font-family: var(--infbv-ui) !important;
+  font-size: 1rem !important;
+  font-weight: 600 !important;
+  line-height: 1.35 !important;
+  letter-spacing: 0 !important;
+}
+
+/* 6. Metadata og etikett */
+body .eyebrow,
+body .meta,
+body .label,
+body [class*="eyebrow"],
+body [class*="uppercase"],
+body [class*="tracking-"],
+body main article > :first-child {
+  font-family: var(--infbv-ui) !important;
+  font-size: 0.875rem !important;
+  font-weight: 650 !important;
+  line-height: 1.35 !important;
+  letter-spacing: 0.075em !important;
+  text-transform: uppercase;
+}
+
+/* Fjern typografiske mellomvariantar */
+body main article p strong,
+body main article li strong {
+  font-family: inherit !important;
+  font-size: inherit !important;
+  line-height: inherit !important;
+}
+
+body main article a:not([class*="button"]):not([class*="btn"]) {
+  font-family: var(--infbv-ui) !important;
+  font-size: 1rem !important;
+  font-weight: 650 !important;
+  line-height: 1.4 !important;
+  letter-spacing: 0 !important;
+}
+
+body main article,
+body main .card {
+  text-wrap: pretty;
+}
+
+@media (max-width: 48rem) {
+  body main p,
+  body main li {
+    font-size: 1rem !important;
+    line-height: 1.58 !important;
+  }
+}
+/* INFBV SIX-STYLE TYPOGRAPHY END */
