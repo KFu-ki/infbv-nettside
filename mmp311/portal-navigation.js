@@ -1,7 +1,7 @@
 (() => {
   "use strict";
 
-  const media = window.matchMedia("(max-width: 50rem)");
+  const media = window.matchMedia("(max-width: 64rem)");
 
   document.addEventListener("DOMContentLoaded", () => {
     const shell = document.querySelector(".portal-shell");

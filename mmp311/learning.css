@@ -1029,7 +1029,7 @@ a[target="_blank"]::after {
   border-radius: .15rem;
 }
 
-@media (max-width: 50rem) {
+@media (max-width: 64rem) {
   .portal-shell {
     position: static;
   }
@@ -1303,7 +1303,7 @@ a[target="_blank"]::after {
   display: none;
 }
 
-@media (max-width: 50rem) {
+@media (max-width: 64rem) {
   .portal-shell {
     position: sticky;
     top: 0;
@@ -1457,4 +1457,47 @@ a[target="_blank"]::after {
   font: 800 .68rem/1.35 system-ui, sans-serif !important;
   letter-spacing: .06em;
   text-transform: uppercase;
+}
+
+/* Mobile menu visibility correction */
+@media (max-width: 64rem) {
+  .portal-shell__inner {
+    min-height: 4rem;
+    padding-block: .45rem;
+  }
+
+  .portal-menu-button {
+    position: relative;
+    z-index: 95;
+    display: inline-flex;
+    flex: 0 0 auto;
+    margin-left: auto;
+    visibility: visible;
+    opacity: 1;
+  }
+
+  .portal-menu-button__label,
+  .portal-menu-button > span:last-child {
+    display: inline;
+  }
+}
+
+@media (max-width: 24rem) {
+  .portal-menu-button__label,
+  .portal-menu-button > span:last-child {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    overflow: hidden;
+    clip-path: inset(50%);
+    white-space: nowrap;
+  }
+
+  .portal-menu-button {
+    width: 48px;
+    height: 48px;
+    justify-content: center;
+    padding: 0;
+  }
 }
