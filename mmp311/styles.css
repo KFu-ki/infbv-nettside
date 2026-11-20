@@ -1442,3 +1442,104 @@ a[target="_blank"]::after {
     padding: 0;
   }
 }
+
+
+/* Compact MMP311 mobile header */
+@media (max-width: 64rem) {
+  .portal-shell {
+    position: sticky;
+    top: 0;
+    min-height: 0;
+    background: var(--bg);
+  }
+
+  .portal-shell__inner {
+    display: flex;
+    width: min(100% - 1rem, 1100px);
+    min-height: 3.75rem;
+    align-items: center;
+    justify-content: flex-end;
+    gap: .5rem;
+    padding: .35rem 0;
+  }
+
+  .portal-shell__inner::before {
+    content: "INFBV";
+    margin-right: auto;
+    color: var(--ink);
+    font: 800 .9rem/1 system-ui, sans-serif;
+    letter-spacing: .02em;
+  }
+
+  .portal-shell__inner::after {
+    content: "MMP311";
+    color: var(--muted);
+    font: 700 .74rem/1 system-ui, sans-serif;
+  }
+
+  .portal-menu-button {
+    position: static;
+    z-index: auto;
+    display: inline-grid;
+    width: 48px;
+    min-width: 48px;
+    height: 48px;
+    min-height: 48px;
+    margin: 0 0 0 .25rem;
+    padding: 0;
+    place-items: center;
+    border-radius: .45rem;
+  }
+
+  .portal-menu-button > span:last-child,
+  .portal-menu-button__label {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    clip-path: inset(50%);
+    white-space: nowrap;
+  }
+
+  .portal-menu-button__icon {
+    width: 1.35rem;
+    gap: .25rem;
+  }
+
+  .portal-menu-panel {
+    inset: 0;
+    width: 100%;
+    height: 100dvh;
+    max-width: none;
+    max-height: none;
+    margin: 0;
+    border: 0;
+    border-radius: 0;
+  }
+
+  .portal-menu-panel__header {
+    min-height: 3.75rem;
+    padding:
+      max(.35rem, env(safe-area-inset-top))
+      max(.75rem, env(safe-area-inset-right))
+      .35rem
+      max(.75rem, env(safe-area-inset-left));
+  }
+
+  .portal-menu-panel__header strong,
+  .portal-menu-panel__header p {
+    margin: 0;
+    font: 800 .95rem/1.2 system-ui, sans-serif;
+  }
+
+  .portal-menu-panel__close {
+    width: 44px;
+    height: 44px;
+  }
+
+  .portal-menu-panel__body {
+    padding-top: .5rem;
+  }
+}
