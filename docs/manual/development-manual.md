@@ -125,7 +125,7 @@ Automatisk oversyn over kjelde-/konfigurasjonsfiler. Korte SHA-256-prefiksar gje
 | `budsjett/index.html` | `.html` | `95690952975b` | AMF \| Budsjett og ressursoversikt |
 | `budsjett/styles.css` | `.css` | `78639b5b1345` | @media (min-width: 1500px), @media (max-width: 1120px), @media (max-width: 820px), @media (max-width: 560px), @media print |
 | `index.html` | `.html` | `9b5949835774` | INFBV — kompetansetrapp og fagportal \| Høgskulen i Volda |
-| `inf142/index.html` | `.html` | `34b8b3f56cb6` | INF142 Arbeidsliv og kommunikasjon i praksis \| INFBV |
+| `inf142/index.html` | `.html` | `2fbccda62fc0` | INF142 Arbeidsliv og kommunikasjon i praksis \| INFBV |
 | `inf142/learning.css` | `.css` | `843dd73d9996` | @media (max-width:800px), @media (prefers-reduced-motion:reduce) |
 | `inf142/learning.js` | `.js` | `54b0829f606d` | paths, tools, key, renderPaths, renderTools |
 | `language.js` | `.js` | `85ace0f3a098` | STORAGE_KEY, params, requested, currentLanguage, originals, english, setText, element, staircaseCopy, updateMainStaircase, copy, headerSpans, title, description, updateStaticInterface, isEnglish, toggle, level4, level5, applyLanguage, url |
