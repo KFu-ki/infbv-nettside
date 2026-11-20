@@ -460,8 +460,8 @@ a[target="_blank"]::after {
 
 .david-story {
   display: grid;
-  grid-template-columns: minmax(11rem, .78fr) minmax(0, 1.5fr);
-  gap: clamp(1.15rem, 3vw, 2rem);
+  grid-template-columns: minmax(0, 1fr);
+  gap: clamp(1.15rem, 3vw, 1.75rem);
   margin: 2rem 0;
   padding: clamp(1rem, 3vw, 1.6rem);
   border: 1px solid var(--line);
@@ -580,8 +580,8 @@ a[target="_blank"]::after {
   }
 
   .david-story__visual {
-    width: min(100%, 25rem);
-    margin-inline: auto;
+    width: 100%;
+    margin-inline: 0;
   }
 }
 
