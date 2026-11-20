@@ -646,3 +646,49 @@ a[target="_blank"]::after {
   margin-bottom: 0;
   color: var(--muted);
 }
+
+/* KFu author signature and compact AI disclosure. */
+.david-story__signature {
+  display: flex;
+  justify-content: flex-end;
+  margin: 1.7rem .35rem 1.45rem 0;
+  font-family: "Segoe Script", "Bradley Hand", "Snell Roundhand",
+    "Apple Chancery", cursive;
+  font-size: 1.42rem;
+  font-style: italic;
+  font-weight: 500;
+  letter-spacing: -.035em;
+  line-height: 1;
+  transform: rotate(-2deg);
+}
+
+.david-story__signature span {
+  position: relative;
+  display: inline-block;
+  padding: 0 .28rem .24rem .08rem;
+}
+
+.david-story__signature span::after {
+  content: "";
+  position: absolute;
+  right: -.12rem;
+  bottom: 0;
+  left: -.08rem;
+  height: 1px;
+  background: currentColor;
+  opacity: .72;
+  transform: rotate(-1deg);
+  transform-origin: left center;
+}
+
+.david-story__ai-note {
+  color: var(--muted);
+  font-size: 80%;
+  line-height: 1.5;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .david-story__signature {
+    transform: none;
+  }
+}
