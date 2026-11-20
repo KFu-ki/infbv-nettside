@@ -52,7 +52,9 @@ Automatisk oversyn over kjelde-/konfigurasjonsfiler. Korte SHA-256-prefiksar gje
 | `scripts/export_timeplan.py` | `.py` | `b379215bdffe` | atomic_write, main |
 | `scripts/import_timeplan.py` | `.py` | `18bad415b248` | column_number, read_rows, field, build_items, atomic_write, main |
 | `scripts/knowledge_lookup.py` | `.py` | `e17cceecb7d3` | searchable_files, score_document, matching_lines, main |
+| `scripts/prepare_portal_update.py` | `.py` | `77fc89665bc4` | run, main |
 | `scripts/update_budsjett_data.py` | `.py` | `0aa4a1b0bac6` | main |
+| `scripts/update_changed_page_metadata.py` | `.py` | `7c4915a58131` | git_paths, changed_html_files, suffix, update_page, main |
 | `scripts/update_mmp311_page_metadata.py` | `.py` | `249c100daf19` | ordinal |
 | `styles.css` | `.css` | `61092bef7b39` | @media (max-width: 1023px), @media (prefers-reduced-motion: reduce), @media (max-width: 480px), @media (max-width: 420px), @media (forced-colors: active), @media (max-width: 42rem) |
 | `tekst/deliberasjon/index.html` | `.html` | `804207876c6d` | deliberasjon |
