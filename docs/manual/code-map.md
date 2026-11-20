@@ -18,30 +18,30 @@ Automatisk oversyn over kjelde-/konfigurasjonsfiler. Korte SHA-256-prefiksar gje
 | `budsjett/styles.css` | `.css` | `78639b5b1345` | @media (min-width: 1500px), @media (max-width: 1120px), @media (max-width: 820px), @media (max-width: 560px), @media print |
 | `index.html` | `.html` | `8d7a0b18fa68` | INFBV — kompetansetrapp og fagportal \| Høgskulen i Volda |
 | `language.js` | `.js` | `85ace0f3a098` | STORAGE_KEY, params, requested, currentLanguage, originals, english, setText, element, staircaseCopy, updateMainStaircase, copy, headerSpans, title, description, updateStaticInterface, isEnglish, toggle, level4, level5, applyLanguage, url |
-| `mmp311/cases/index.html` | `.html` | `7e007dd5a246` | Cases and examples \| MMP311 |
-| `mmp311/fiver/index.html` | `.html` | `01ed5915dd00` | FIVER Process Model \| MMP311 |
-| `mmp311/full-text/index.html` | `.html` | `63457f0ad17f` | Full-text explanations \| MMP311 |
-| `mmp311/full-text/media-distortion-framing-mediatization/index.html` | `.html` | `1103a6fd4d01` | Media distortion, news framing and mediatization \| MMP311 |
-| `mmp311/glossary/index.html` | `.html` | `06cd908dca90` | Glossary \| MMP311 |
-| `mmp311/index.html` | `.html` | `261da6fd4850` | MMP311 Risk Communication and Issue Management \| INFBV |
-| `mmp311/learning-path/01-risk-society/index.html` | `.html` | `0187cd832b1a` | Risk, uncertainty and the social production of relevance \| MMP311 |
-| `mmp311/learning-path/02-risk-communication/index.html` | `.html` | `8ff097a40a58` | Risk communication as knowledge and trust work \| MMP311 |
-| `mmp311/learning-path/03-issues/index.html` | `.html` | `1b2eab05386a` | Issue detection and problem prevention \| MMP311 |
-| `mmp311/learning-path/04-prk-soft/index.html` | `.html` | `7b9468f6f3be` | PRK and SOFT: movement, attention and interpretation \| MMP311 |
-| `mmp311/learning-path/05-fiver/index.html` | `.html` | `55ab055a0540` | FIVER: from understanding to response \| MMP311 |
-| `mmp311/learning-path/06-crisis-communication/index.html` | `.html` | `9c61baaa8a46` | Crisis communication as part of crisis management \| MMP311 |
-| `mmp311/learning-path/07-academic-writing/index.html` | `.html` | `0d86a02ebd3b` | Academic writing \| MMP311 |
-| `mmp311/learning-path/index.html` | `.html` | `ba02df224d22` | Learning path \| MMP311 |
-| `mmp311/learning.css` | `.css` | `eb789fe23b18` | @media (max-width:800px), @media (prefers-reduced-motion:reduce), @media (max-width: 800px), @media (max-width: 42rem), @media (prefers-reduced-motion: no-preference), @media (max-width:42rem), @media (prefers-reduced-motion: reduce) |
+| `mmp311/cases/index.html` | `.html` | `cb669a1addf0` | Cases and examples \| MMP311 |
+| `mmp311/fiver/index.html` | `.html` | `daac03175dde` | FIVER Process Model \| MMP311 |
+| `mmp311/full-text/index.html` | `.html` | `4143ceb055a7` | Full-text explanations \| MMP311 |
+| `mmp311/full-text/media-distortion-framing-mediatization/index.html` | `.html` | `5b5dd9f4dec2` | Media distortion, news framing and mediatization \| MMP311 |
+| `mmp311/glossary/index.html` | `.html` | `96a891a1e8e7` | Glossary \| MMP311 |
+| `mmp311/index.html` | `.html` | `a5f5919c6430` | MMP311 Risk Communication and Issue Management \| INFBV |
+| `mmp311/learning-path/01-risk-society/index.html` | `.html` | `f8d85df34bc9` | Risk, uncertainty and the social production of relevance \| MMP311 |
+| `mmp311/learning-path/02-risk-communication/index.html` | `.html` | `84fe2b136f18` | Risk communication as knowledge and trust work \| MMP311 |
+| `mmp311/learning-path/03-issues/index.html` | `.html` | `b20a813a21fc` | Issue detection and problem prevention \| MMP311 |
+| `mmp311/learning-path/04-prk-soft/index.html` | `.html` | `4419cf903f19` | PRK and SOFT: movement, attention and interpretation \| MMP311 |
+| `mmp311/learning-path/05-fiver/index.html` | `.html` | `2a1aacbee7fe` | FIVER: from understanding to response \| MMP311 |
+| `mmp311/learning-path/06-crisis-communication/index.html` | `.html` | `074c171b7105` | Crisis communication as part of crisis management \| MMP311 |
+| `mmp311/learning-path/07-academic-writing/index.html` | `.html` | `796230bb502f` | Academic writing \| MMP311 |
+| `mmp311/learning-path/index.html` | `.html` | `21272f0be8e6` | Learning path \| MMP311 |
+| `mmp311/learning.css` | `.css` | `f749715947d5` | @media (max-width:800px), @media (prefers-reduced-motion:reduce), @media (max-width: 800px), @media (max-width: 42rem), @media (prefers-reduced-motion: no-preference), @media (max-width:42rem), @media (prefers-reduced-motion: reduce), @media (max-width: 50rem), @media (max-width: 32rem) |
 | `mmp311/learning.js` | `.js` | `c4bb3ea82f6b` | root, savedSize, label |
-| `mmp311/portal-search.js` | `.js` | `ee4780df588d` | INDEX_URL, SEARCH_URL, normalise, loadIndex, scoreItem, title, headings, text, score, createSearch, container, replaceSearchLinks, links, button, renderResults, terms, hits, item, heading, link, summary, source, elements, previousFocus, openSearch, closeSearch, data, target, writing |
-| `mmp311/prk/index.html` | `.html` | `8b15a125b1ad` | PRK: Problem, Risk and Crisis \| MMP311 |
+| `mmp311/portal-search.js` | `.js` | `43d31ea6f43d` | INDEX_URL, SEARCH_URL, normalise, loadIndex, scoreItem, title, headings, text, score, createSearch, container, replaceSearchLinks, links, button, renderResults, terms, hits, item, heading, link, summary, source, elements, previousFocus, openSearch, closeSearch, data, target, writing |
+| `mmp311/prk/index.html` | `.html` | `a492980a5e03` | PRK: Problem, Risk and Crisis \| MMP311 |
 | `mmp311/resource-tools.js` | `.js` | `04cbd24cf67a` | triggers, dialogs, opener, pageTitle, canonicalUrl, year, reference, citationOutput, copyButton, closeDialog, name, dialog |
-| `mmp311/search/index.html` | `.html` | `ae732fe865eb` | Guided search \| MMP311 |
+| `mmp311/search/index.html` | `.html` | `bde8391c91d5` | Guided search \| MMP311 |
 | `mmp311/search/search.js` | `.js` | `3fd437ba08c3` | — |
 | `mmp311/site.js` | `.js` | `2df7eda9588c` | html, header, tools, size, savedSize, label |
-| `mmp311/soft/index.html` | `.html` | `e6393a98dbae` | SOFT Analytical Lens \| MMP311 |
-| `mmp311/styles.css` | `.css` | `4cb5798bfce0` | @media (max-width:850px), @media (prefers-reduced-motion:reduce), @media (max-width: 850px), @media (max-width: 42rem), @media (prefers-reduced-motion: no-preference), @media (prefers-reduced-motion: reduce) |
+| `mmp311/soft/index.html` | `.html` | `4a8c38e3f2e3` | SOFT Analytical Lens \| MMP311 |
+| `mmp311/styles.css` | `.css` | `726bcad10efc` | @media (max-width:850px), @media (prefers-reduced-motion:reduce), @media (max-width: 850px), @media (max-width: 42rem), @media (prefers-reduced-motion: no-preference), @media (prefers-reduced-motion: reduce), @media (max-width: 50rem), @media (max-width: 32rem) |
 | `requirements.txt` | `.txt` | `ed58f33ba012` | fastapi>=0.115,<1, uvicorn>=0.30,<1 |
 | `scripts/build_manual.py` | `.py` | `9fcacf8b903f` | source_markdown_files, source_code_files, document_title, document_summary, source_symbols, code_map_markdown, catalog_markdown, manual_markdown, markdown_lines, pdf_literal, create_pdf, write_or_check, main |
 | `scripts/check_documentation.py` | `.py` | `60f98fd902e2` | markdown_files, internal_link_errors, tracked_secret_errors, documentation_index_errors, main |

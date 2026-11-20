@@ -486,7 +486,7 @@ endobj
 << /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 10 0 R >>
 endobj
 12 0 obj
-<< /Length 4267 >>
+<< /Length 4351 >>
 stream
 BT
 /F1 9 Tf
@@ -494,63 +494,63 @@ BT
 13 TL
 (url |) Tj
 T*
-(| mmp311/cases/index.html | .html | 7e007dd5a246 | Cases and examples \\| MMP311 |) Tj
+(| mmp311/cases/index.html | .html | cb669a1addf0 | Cases and examples \\| MMP311 |) Tj
 T*
-(| mmp311/fiver/index.html | .html | 01ed5915dd00 | FIVER Process Model \\| MMP311 |) Tj
+(| mmp311/fiver/index.html | .html | daac03175dde | FIVER Process Model \\| MMP311 |) Tj
 T*
-(| mmp311/full-text/index.html | .html | 63457f0ad17f | Full-text explanations \\| MMP311 |) Tj
+(| mmp311/full-text/index.html | .html | 4143ceb055a7 | Full-text explanations \\| MMP311 |) Tj
 T*
-(| mmp311/full-text/media-distortion-framing-mediatization/index.html | .html | 1103a6fd4d01) Tj
+(| mmp311/full-text/media-distortion-framing-mediatization/index.html | .html | 5b5dd9f4dec2) Tj
 T*
 (| Media distortion, news framing and mediatization \\| MMP311 |) Tj
 T*
-(| mmp311/glossary/index.html | .html | 06cd908dca90 | Glossary \\| MMP311 |) Tj
+(| mmp311/glossary/index.html | .html | 96a891a1e8e7 | Glossary \\| MMP311 |) Tj
 T*
-(| mmp311/index.html | .html | 261da6fd4850 | MMP311 Risk Communication and Issue Management) Tj
+(| mmp311/index.html | .html | a5f5919c6430 | MMP311 Risk Communication and Issue Management) Tj
 T*
 (\\| INFBV |) Tj
 T*
-(| mmp311/learning-path/01-risk-society/index.html | .html | 0187cd832b1a | Risk, uncertainty) Tj
+(| mmp311/learning-path/01-risk-society/index.html | .html | f8d85df34bc9 | Risk, uncertainty) Tj
 T*
 (and the social production of relevance \\| MMP311 |) Tj
 T*
-(| mmp311/learning-path/02-risk-communication/index.html | .html | 8ff097a40a58 | Risk) Tj
+(| mmp311/learning-path/02-risk-communication/index.html | .html | 84fe2b136f18 | Risk) Tj
 T*
 (communication as knowledge and trust work \\| MMP311 |) Tj
 T*
-(| mmp311/learning-path/03-issues/index.html | .html | 1b2eab05386a | Issue detection and) Tj
+(| mmp311/learning-path/03-issues/index.html | .html | b20a813a21fc | Issue detection and) Tj
 T*
 (problem prevention \\| MMP311 |) Tj
 T*
-(| mmp311/learning-path/04-prk-soft/index.html | .html | 7b9468f6f3be | PRK and SOFT:) Tj
+(| mmp311/learning-path/04-prk-soft/index.html | .html | 4419cf903f19 | PRK and SOFT:) Tj
 T*
 (movement, attention and interpretation \\| MMP311 |) Tj
 T*
-(| mmp311/learning-path/05-fiver/index.html | .html | 55ab055a0540 | FIVER: from) Tj
+(| mmp311/learning-path/05-fiver/index.html | .html | 2a1aacbee7fe | FIVER: from) Tj
 T*
 (understanding to response \\| MMP311 |) Tj
 T*
-(| mmp311/learning-path/06-crisis-communication/index.html | .html | 9c61baaa8a46 | Crisis) Tj
+(| mmp311/learning-path/06-crisis-communication/index.html | .html | 074c171b7105 | Crisis) Tj
 T*
 (communication as part of crisis management \\| MMP311 |) Tj
 T*
-(| mmp311/learning-path/07-academic-writing/index.html | .html | 0d86a02ebd3b | Academic) Tj
+(| mmp311/learning-path/07-academic-writing/index.html | .html | 796230bb502f | Academic) Tj
 T*
 (writing \\| MMP311 |) Tj
 T*
-(| mmp311/learning-path/index.html | .html | ba02df224d22 | Learning path \\| MMP311 |) Tj
+(| mmp311/learning-path/index.html | .html | 21272f0be8e6 | Learning path \\| MMP311 |) Tj
 T*
-(| mmp311/learning.css | .css | eb789fe23b18 | @media \(max-width:800px\), @media \(prefers-) Tj
+(| mmp311/learning.css | .css | f749715947d5 | @media \(max-width:800px\), @media \(prefers-) Tj
 T*
 (reduced-motion:reduce\), @media \(max-width: 800px\), @media \(max-width: 42rem\), @media) Tj
 T*
 (\(prefers-reduced-motion: no-preference\), @media \(max-width:42rem\), @media \(prefers-reduced-) Tj
 T*
-(motion: reduce\) |) Tj
+(motion: reduce\), @media \(max-width: 50rem\), @media \(max-width: 32rem\) |) Tj
 T*
 (| mmp311/learning.js | .js | c4bb3ea82f6b | root, savedSize, label |) Tj
 T*
-(| mmp311/portal-search.js | .js | ee4780df588d | INDEXURL, SEARCHURL, normalise, loadIndex,) Tj
+(| mmp311/portal-search.js | .js | 43d31ea6f43d | INDEXURL, SEARCHURL, normalise, loadIndex,) Tj
 T*
 (scoreItem, title, headings, text, score, createSearch, container, replaceSearchLinks, links,) Tj
 T*
@@ -558,25 +558,27 @@ T*
 T*
 (previousFocus, openSearch, closeSearch, data, target, writing |) Tj
 T*
-(| mmp311/prk/index.html | .html | 8b15a125b1ad | PRK: Problem, Risk and Crisis \\| MMP311 |) Tj
+(| mmp311/prk/index.html | .html | a492980a5e03 | PRK: Problem, Risk and Crisis \\| MMP311 |) Tj
 T*
 (| mmp311/resource-tools.js | .js | 04cbd24cf67a | triggers, dialogs, opener, pageTitle,) Tj
 T*
 (canonicalUrl, year, reference, citationOutput, copyButton, closeDialog, name, dialog |) Tj
 T*
-(| mmp311/search/index.html | .html | ae732fe865eb | Guided search \\| MMP311 |) Tj
+(| mmp311/search/index.html | .html | bde8391c91d5 | Guided search \\| MMP311 |) Tj
 T*
 (| mmp311/search/search.js | .js | 3fd437ba08c3 | \227 |) Tj
 T*
 (| mmp311/site.js | .js | 2df7eda9588c | html, header, tools, size, savedSize, label |) Tj
 T*
-(| mmp311/soft/index.html | .html | e6393a98dbae | SOFT Analytical Lens \\| MMP311 |) Tj
+(| mmp311/soft/index.html | .html | 4a8c38e3f2e3 | SOFT Analytical Lens \\| MMP311 |) Tj
 T*
-(| mmp311/styles.css | .css | 4cb5798bfce0 | @media \(max-width:850px\), @media \(prefers-) Tj
+(| mmp311/styles.css | .css | 726bcad10efc | @media \(max-width:850px\), @media \(prefers-) Tj
 T*
 (reduced-motion:reduce\), @media \(max-width: 850px\), @media \(max-width: 42rem\), @media) Tj
 T*
-(\(prefers-reduced-motion: no-preference\), @media \(prefers-reduced-motion: reduce\) |) Tj
+(\(prefers-reduced-motion: no-preference\), @media \(prefers-reduced-motion: reduce\), @media) Tj
+T*
+(\(max-width: 50rem\), @media \(max-width: 32rem\) |) Tj
 T*
 (| requirements.txt | .txt | ed58f33ba012 | fastapi>=0.115,<1, uvicorn>=0.30,<1 |) Tj
 T*
@@ -594,8 +596,6 @@ T*
 T*
 (| scripts/importtimeplan.py | .py | 18bad415b248 | columnnumber, readrows, field,) Tj
 T*
-(builditems, atomicwrite, main |) Tj
-T*
 0 -22 Td
 (Side 5 / 78) Tj
 ET
@@ -605,12 +605,14 @@ endobj
 << /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 12 0 R >>
 endobj
 14 0 obj
-<< /Length 3283 >>
+<< /Length 3314 >>
 stream
 BT
 /F1 9 Tf
 48 794 Td
 13 TL
+(builditems, atomicwrite, main |) Tj
+T*
 (| scripts/knowledgelookup.py | .py | e17cceecb7d3 | searchablefiles, scoredocument,) Tj
 T*
 (matchinglines, main |) Tj
@@ -713,8 +715,6 @@ T*
 T*
 (SHARED PROJECT RULES) Tj
 T*
-() Tj
-T*
 0 -22 Td
 (Side 6 / 78) Tj
 ET
@@ -724,12 +724,14 @@ endobj
 << /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 14 0 R >>
 endobj
 16 0 obj
-<< /Length 2654 >>
+<< /Length 2573 >>
 stream
 BT
 /F1 9 Tf
 48 794 Td
 13 TL
+() Tj
+T*
 (Follow the root AGENTS.md and docs/INDEX.md. Read the README, current state, next actions,) Tj
 T*
 (and relevant architecture/data/decision documents before changes. Run python3) Tj
@@ -832,8 +834,6 @@ T*
 T*
 () Tj
 T*
-(For eit kort, lokalt kunnskapsoppslag f\370r du les fleire filer, k\370yr python3) Tj
-T*
 0 -22 Td
 (Side 7 / 78) Tj
 ET
@@ -843,12 +843,14 @@ endobj
 << /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 16 0 R >>
 endobj
 18 0 obj
-<< /Length 2257 >>
+<< /Length 2327 >>
 stream
 BT
 /F1 9 Tf
 48 794 Td
 13 TL
+(For eit kort, lokalt kunnskapsoppslag f\370r du les fleire filer, k\370yr python3) Tj
+T*
 (scripts/knowledgelookup.py "<emne>". Opne kjeldedokumentet f\370r du endrar kode. Etter) Tj
 T*
 (Markdown-/kodeendringar, k\370yr python3 scripts/buildmanual.py; ikkje rediger genererte filer) Tj
@@ -951,8 +953,6 @@ T*
 T*
 (1. Les AGENTS.md, docs/INDEX.md, docs/project/current-state.md og docs/project/next-) Tj
 T*
-(actions.md.) Tj
-T*
 0 -22 Td
 (Side 8 / 78) Tj
 ET
@@ -962,12 +962,14 @@ endobj
 << /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 18 0 R >>
 endobj
 20 0 obj
-<< /Length 2514 >>
+<< /Length 2508 >>
 stream
 BT
 /F1 9 Tf
 48 794 Td
 13 TL
+(actions.md.) Tj
+T*
 (2. Kontroller git status --short og bevar alle eksisterande endringar.) Tj
 T*
 (3. Vel \370vste ublokkerte oppg\345ve i next-actions.md; avklar krav og relevante) Tj
@@ -1070,8 +1072,6 @@ T*
 T*
 (- Bruk eller oppdater eksisterande importskript; valider format, felt, kvalitet og) Tj
 T*
-(transformasjonar.) Tj
-T*
 0 -22 Td
 (Side 9 / 78) Tj
 ET
@@ -1081,12 +1081,14 @@ endobj
 << /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 20 0 R >>
 endobj
 22 0 obj
-<< /Length 3186 >>
+<< /Length 3134 >>
 stream
 BT
 /F1 9 Tf
 48 794 Td
 13 TL
+(transformasjonar.) Tj
+T*
 (- Kontroller diff og publiseringsm\345l f\370r utdata vert lagra.) Tj
 T*
 (- Dokumenter importen, kjende avgrensingar, changelog og neste steg.) Tj
@@ -1189,8 +1191,6 @@ T*
 T*
 (list first, stage only task files, verify the remote branch is still at the expected base,) Tj
 T*
-(and then verify the actual deployment status before claiming success.) Tj
-T*
 0 -22 Td
 (Side 10 / 78) Tj
 ET
@@ -1200,12 +1200,14 @@ endobj
 << /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 22 0 R >>
 endobj
 24 0 obj
-<< /Length 2371 >>
+<< /Length 2440 >>
 stream
 BT
 /F1 9 Tf
 48 794 Td
 13 TL
+(and then verify the actual deployment status before claiming success.) Tj
+T*
 () Tj
 T*
 (FINISH WITH) Tj
@@ -1308,8 +1310,6 @@ T*
 T*
 (GJENNOMF\330RING) Tj
 T*
-() Tj
-T*
 0 -22 Td
 (Side 11 / 78) Tj
 ET
@@ -1319,12 +1319,14 @@ endobj
 << /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 24 0 R >>
 endobj
 26 0 obj
-<< /Length 2717 >>
+<< /Length 2652 >>
 stream
 BT
 /F1 9 Tf
 48 794 Td
 13 TL
+() Tj
+T*
 (- Gjer den minste forsvarlege, komplette endringa. Bruk eksisterande runtime, pakkar og) Tj
 T*
 (m\370nster.) Tj
@@ -1427,8 +1429,6 @@ T*
 T*
 (framleis i budsjett/data.json og timeplanside/timeplan-2027.json fordi applikasjonen viser) Tj
 T*
-(til dei. Ikkje flytt dei utan kodeendring, test og godkjend plan.) Tj
-T*
 0 -22 Td
 (Side 12 / 78) Tj
 ET
@@ -1438,12 +1438,14 @@ endobj
 << /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 26 0 R >>
 endobj
 28 0 obj
-<< /Length 3401 >>
+<< /Length 3407 >>
 stream
 BT
 /F1 9 Tf
 48 794 Td
 13 TL
+(til dei. Ikkje flytt dei utan kodeendring, test og godkjend plan.) Tj
+T*
 () Tj
 T*
 (data/raw/, data/processed/ og data/exports/ ignorerer innhald i Git som standard. Det) Tj
@@ -1546,8 +1548,6 @@ T*
 T*
 (7. Ikkje p\345st\345 at testar, manualbygging, commit, push eller deploy er utf\370rt utan faktisk) Tj
 T*
-(dokumentasjon. Ikkje publiser utan uttrykkjeleg bestilling.) Tj
-T*
 0 -22 Td
 (Side 13 / 78) Tj
 ET
@@ -1557,12 +1557,14 @@ endobj
 << /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 28 0 R >>
 endobj
 30 0 obj
-<< /Length 3192 >>
+<< /Length 3185 >>
 stream
 BT
 /F1 9 Tf
 48 794 Td
 13 TL
+(dokumentasjon. Ikkje publiser utan uttrykkjeleg bestilling.) Tj
+T*
 (8. Svar kort p\345 nynorsk. Oppsummer kjelder, forslag, kontrollar brukaren sj\370lv m\345 k\370yre og) Tj
 T*
 (uavklarte punkt.) Tj
@@ -1665,8 +1667,6 @@ T*
 T*
 (    docs/INDEX.md, docs/project/current-state.md og docs/project/next-actions.md. Bruk) Tj
 T*
-(    docs/INDEX.md til \345 finne berre dokumenta oppg\345va treng.) Tj
-T*
 0 -22 Td
 (Side 14 / 78) Tj
 ET
@@ -1676,12 +1676,14 @@ endobj
 << /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 30 0 R >>
 endobj
 32 0 obj
-<< /Length 3418 >>
+<< /Length 3481 >>
 stream
 BT
 /F1 9 Tf
 48 794 Td
 13 TL
+(    docs/INDEX.md til \345 finne berre dokumenta oppg\345va treng.) Tj
+T*
 (For emnenamn bruk INFBV-studiemodell/studiemodell.md og studiemodell.xlsx som kuratert) Tj
 T*
 (    register. For framsida er app.js k\370yrekjelda; index.html og styles.css viser) Tj
@@ -1784,8 +1786,6 @@ T*
 T*
 () Tj
 T*
-(---) Tj
-T*
 0 -22 Td
 (Side 15 / 78) Tj
 ET
@@ -1795,12 +1795,14 @@ endobj
 << /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 32 0 R >>
 endobj
 34 0 obj
-<< /Length 2967 >>
+<< /Length 2894 >>
 stream
 BT
 /F1 9 Tf
 48 794 Td
 13 TL
+(---) Tj
+T*
 () Tj
 T*
 (<a id="docs-agents-efficient-context.md"></a>) Tj
@@ -1903,8 +1905,6 @@ T*
 T*
 (- Be om avgrensa m\345l og rapporter berre relevante filer, diff og kontrollar.) Tj
 T*
-(- Bruk konkret s\370keord heller enn \345 sende heile manualen til modellen.) Tj
-T*
 0 -22 Td
 (Side 16 / 78) Tj
 ET
@@ -1914,12 +1914,14 @@ endobj
 << /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 34 0 R >>
 endobj
 36 0 obj
-<< /Length 3246 >>
+<< /Length 3242 >>
 stream
 BT
 /F1 9 Tf
 48 794 Td
 13 TL
+(- Bruk konkret s\370keord heller enn \345 sende heile manualen til modellen.) Tj
+T*
 (- Bruk --max-results og korte utdrag.) Tj
 T*
 (- Ikkje send JSON-datasett eller kjeldearbeidsb\370ker i heile dersom berre feltkontrakt er) Tj
@@ -2022,8 +2024,6 @@ T*
 T*
 (- Microsoft Copilot Chat \(Basic\) m\345 f\345 repo-filer som vedlegg eller bruke offentlege kjelder) Tj
 T*
-(agenten kan opne. Oppdaterte grenser, filopplasting og agenttilgang er skildra i) Tj
-T*
 0 -22 Td
 (Side 17 / 78) Tj
 ET
@@ -2033,12 +2033,14 @@ endobj
 << /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 36 0 R >>
 endobj
 38 0 obj
-<< /Length 2591 >>
+<< /Length 2644 >>
 stream
 BT
 /F1 9 Tf
 48 794 Td
 13 TL
+(agenten kan opne. Oppdaterte grenser, filopplasting og agenttilgang er skildra i) Tj
+T*
 (brukarrettleiinga <../user-guides/copilot-chat-basic.md>; kontroller Microsoft-kjeldene f\370r) Tj
 T*
 (ein lovar ei bestemt funksjon.) Tj
@@ -2141,8 +2143,6 @@ T*
 T*
 () Tj
 T*
-(DATA OG RESERVEOPPF\330RSEL) Tj
-T*
 0 -22 Td
 (Side 18 / 78) Tj
 ET
@@ -2152,12 +2152,14 @@ endobj
 << /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 38 0 R >>
 endobj
 40 0 obj
-<< /Length 2494 >>
+<< /Length 2521 >>
 stream
 BT
 /F1 9 Tf
 48 794 Td
 13 TL
+(DATA OG RESERVEOPPF\330RSEL) Tj
+T*
 () Tj
 T*
 (Frontendene hentar i praksis statiske filer \(/budsjett/data.json,) Tj
@@ -2260,8 +2262,6 @@ T*
 T*
 (| version.txt | tekst | Versjonsstempel som hovudsida kan hente |) Tj
 T*
-() Tj
-T*
 0 -22 Td
 (Side 19 / 78) Tj
 ET
@@ -2271,12 +2271,14 @@ endobj
 << /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 40 0 R >>
 endobj
 42 0 obj
-<< /Length 2721 >>
+<< /Length 2635 >>
 stream
 BT
 /F1 9 Tf
 48 794 Td
 13 TL
+() Tj
+T*
 (FRONTENDMAPPER) Tj
 T*
 () Tj
@@ -2379,8 +2381,6 @@ T*
 T*
 (- R\345 Excel-filer vert verande utanfor repoet og vert ikkje endra manuelt.) Tj
 T*
-(- Skripta lagar normaliserte/offentlege JSON-utdrag og/eller tidsstempla Excel-kopiar.) Tj
-T*
 0 -22 Td
 (Side 20 / 78) Tj
 ET
@@ -2390,12 +2390,14 @@ endobj
 << /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 42 0 R >>
 endobj
 44 0 obj
-<< /Length 2698 >>
+<< /Length 2694 >>
 stream
 BT
 /F1 9 Tf
 48 794 Td
 13 TL
+(- Skripta lagar normaliserte/offentlege JSON-utdrag og/eller tidsstempla Excel-kopiar.) Tj
+T*
 (- Frontend les JSON-filer fr\345 Git/deploy; den brukar ikkje kjeldearbeidsb\370kene direkte.) Tj
 T*
 (- Godkjenning er manuell f\370r endring av publiserte data. Eksport til OneDrive/SharePoint er) Tj
@@ -2498,8 +2500,6 @@ T*
 T*
 () Tj
 T*
-(Importen bruker XLSX-zip/XML i Python-standardbiblioteket. Den validerer at TimeEdit-arket) Tj
-T*
 0 -22 Td
 (Side 21 / 78) Tj
 ET
@@ -2509,12 +2509,14 @@ endobj
 << /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 44 0 R >>
 endobj
 46 0 obj
-<< /Length 2490 >>
+<< /Length 2548 >>
 stream
 BT
 /F1 9 Tf
 48 794 Td
 13 TL
+(Importen bruker XLSX-zip/XML i Python-standardbiblioteket. Den validerer at TimeEdit-arket) Tj
+T*
 (har n\370dvendige felt i rad 6. Rad-ID vert r<kjelderad> og kjende emnekodar vert trekt ut fr\345) Tj
 T*
 (kursnamnet. Skildring vert sett saman av ekstern kommentar og aktivitet. Supplerande JSON-) Tj
@@ -2617,8 +2619,6 @@ T*
 T*
 (- index.html definerer sidelenkjer, femtrinns trapp, emne/ferdigheitsomr\345de og) Tj
 T*
-(hjelparar/tilgjengeleg struktur.) Tj
-T*
 0 -22 Td
 (Side 22 / 78) Tj
 ET
@@ -2628,12 +2628,14 @@ endobj
 << /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 46 0 R >>
 endobj
 48 0 obj
-<< /Length 3375 >>
+<< /Length 3342 >>
 stream
 BT
 /F1 9 Tf
 48 794 Td
 13 TL
+(hjelparar/tilgjengeleg struktur.) Tj
+T*
 (- app.js inneheld STAGES, COURSECONTENT og SKILLS. DOMContentLoaded viser f\370rste trinn,) Tj
 T*
 (ferdigheitsgrid og event-lyttarar.) Tj
@@ -2736,8 +2738,6 @@ T*
 T*
 (- mmp311/index.html er ei sj\370lvstendig engelskspr\345kleg l\346ringsflate for MMP311 med) Tj
 T*
-(kursinngang, l\346ringssti, PRK, SOFT, FIVER og APA 7-referansar.) Tj
-T*
 0 -22 Td
 (Side 23 / 78) Tj
 ET
@@ -2747,12 +2747,14 @@ endobj
 << /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 48 0 R >>
 endobj
 50 0 obj
-<< /Length 2807 >>
+<< /Length 2846 >>
 stream
 BT
 /F1 9 Tf
 48 794 Td
 13 TL
+(kursinngang, l\346ringssti, PRK, SOFT, FIVER og APA 7-referansar.) Tj
+T*
 (- mmp311/styles.css har responsivt oppsett, synleg tastaturfokus, redusert r\370rsle og lokale) Tj
 T*
 (systemfontar.) Tj
@@ -2855,8 +2857,6 @@ T*
 T*
 (prosjektinnstillingar og produksjonsbranch er ikkje verifiserte. Sj\345 Vercel og publisering) Tj
 T*
-(<../operations/vercel.md>.) Tj
-T*
 0 -22 Td
 (Side 24 / 78) Tj
 ET
@@ -2866,12 +2866,14 @@ endobj
 << /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 50 0 R >>
 endobj
 52 0 obj
-<< /Length 3062 >>
+<< /Length 2985 >>
 stream
 BT
 /F1 9 Tf
 48 794 Td
 13 TL
+(<../operations/vercel.md>.) Tj
+T*
 () Tj
 T*
 (DATAFLYT OG KJENDE AVGRENSINGAR) Tj
@@ -2974,8 +2976,6 @@ T*
 T*
 (8. deviation = idealStaff - staffEffective.) Tj
 T*
-(9. Belastning \253over snitt\273 vert markert n\345r studentar per effektivt \345rsverk er meir enn 105) Tj
-T*
 0 -22 Td
 (Side 25 / 78) Tj
 ET
@@ -2985,12 +2985,14 @@ endobj
 << /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 52 0 R >>
 endobj
 54 0 obj
-<< /Length 2878 >>
+<< /Length 2962 >>
 stream
 BT
 /F1 9 Tf
 48 794 Td
 13 TL
+(9. Belastning \253over snitt\273 vert markert n\345r studentar per effektivt \345rsverk er meir enn 105) Tj
+T*
 (% av gjennomsnittet.) Tj
 T*
 () Tj
@@ -3093,8 +3095,6 @@ T*
 T*
 (- Fylte bokm\345ls- og engelske namn i Excel-arbeidsboka; dokumenterte to openberre) Tj
 T*
-(kjeldekorreksjonar.) Tj
-T*
 0 -22 Td
 (Side 26 / 78) Tj
 ET
@@ -3104,12 +3104,14 @@ endobj
 << /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 54 0 R >>
 endobj
 56 0 obj
-<< /Length 1997 >>
+<< /Length 2011 >>
 stream
 BT
 /F1 9 Tf
 48 794 Td
 13 TL
+(kjeldekorreksjonar.) Tj
+T*
 () Tj
 T*
 (2026-11-09 \227 EMNENAMN OG COPILOT-ARBEIDSFLYT) Tj
@@ -3212,8 +3214,6 @@ T*
 T*
 () Tj
 T*
-(RETTA) Tj
-T*
 0 -22 Td
 (Side 27 / 78) Tj
 ET
@@ -3223,12 +3223,14 @@ endobj
 << /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 56 0 R >>
 endobj
 58 0 obj
-<< /Length 2022 >>
+<< /Length 2014 >>
 stream
 BT
 /F1 9 Tf
 48 794 Td
 13 TL
+(RETTA) Tj
+T*
 () Tj
 T*
 (- Ingen kodefeil retta i denne oppstarten.) Tj
@@ -3331,8 +3333,6 @@ T*
 T*
 () Tj
 T*
-(DOKUMENTASJON) Tj
-T*
 0 -22 Td
 (Side 28 / 78) Tj
 ET
@@ -3342,12 +3342,14 @@ endobj
 << /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 58 0 R >>
 endobj
 60 0 obj
-<< /Length 2931 >>
+<< /Length 2944 >>
 stream
 BT
 /F1 9 Tf
 48 794 Td
 13 TL
+(DOKUMENTASJON) Tj
+T*
 () Tj
 T*
 (- Skildra faktiske kodeflater, API, statiske dataflytar, observerte designm\370nster og) Tj
@@ -3450,8 +3452,6 @@ T*
 T*
 (2026-11-09 \227 STUDIEMODELLREGISTER OG COPILOT) Tj
 T*
-() Tj
-T*
 0 -22 Td
 (Side 29 / 78) Tj
 ET
@@ -3461,12 +3461,14 @@ endobj
 << /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 60 0 R >>
 endobj
 62 0 obj
-<< /Length 3229 >>
+<< /Length 3136 >>
 stream
 BT
 /F1 9 Tf
 48 794 Td
 13 TL
+() Tj
+T*
 (- Leste og visuelt kontrollerte revisjonstabellen p\345 side 1. Oppdaterte berre emnekoden) Tj
 T*
 (SAJ101 og det utvida INF213-namnet; MEV221 er halde p\345 nynorsk.) Tj
@@ -3569,8 +3571,6 @@ T*
 T*
 (generator.) Tj
 T*
-(- Dokumenterte frontend/backend-arkitektur, dataflyt, JSON-felt, scenarioformlar fr\345 kode,) Tj
-T*
 0 -22 Td
 (Side 30 / 78) Tj
 ET
@@ -3580,12 +3580,14 @@ endobj
 << /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 62 0 R >>
 endobj
 64 0 obj
-<< /Length 3635 >>
+<< /Length 3685 >>
 stream
 BT
 /F1 9 Tf
 48 794 Td
 13 TL
+(- Dokumenterte frontend/backend-arkitektur, dataflyt, JSON-felt, scenarioformlar fr\345 kode,) Tj
+T*
 (observerte UI-design og stegvis gjenoppbygging.) Tj
 T*
 (- Laga tynne Cursor/Windsurf/Cline/Roo/Continue/Amazon Q-adapterar; felles reglar vert) Tj
@@ -3688,8 +3690,6 @@ T*
 T*
 (- Delte modellstoffet i tre samanhengande undersider med felles navigasjon, arbeidssp\370rsm\345l) Tj
 T*
-(og naturlege overgangar mellom perspektiva.) Tj
-T*
 0 -22 Td
 (Side 31 / 78) Tj
 ET
@@ -3699,12 +3699,14 @@ endobj
 << /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 64 0 R >>
 endobj
 66 0 obj
-<< /Length 2432 >>
+<< /Length 2447 >>
 stream
 BT
 /F1 9 Tf
 48 794 Td
 13 TL
+(og naturlege overgangar mellom perspektiva.) Tj
+T*
 () Tj
 T*
 (---) Tj
@@ -3807,8 +3809,6 @@ T*
 T*
 () Tj
 T*
-(- JSON skal parse med UTF-8.) Tj
-T*
 0 -22 Td
 (Side 32 / 78) Tj
 ET
@@ -3818,12 +3818,14 @@ endobj
 << /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 66 0 R >>
 endobj
 68 0 obj
-<< /Length 3963 >>
+<< /Length 3903 >>
 stream
 BT
 /F1 9 Tf
 48 794 Td
 13 TL
+(- JSON skal parse med UTF-8.) Tj
+T*
 (- Timeplan toppniv\345 skal vere objekt med items som liste.) Tj
 T*
 (- Ikkje kast ukjende metadatafelt ved import/eksport utan eksplisitt avgjerd.) Tj
@@ -3926,8 +3928,6 @@ T*
 T*
 (oppgjeven lokalt | Excel .xlsx, ark TimeEdit | scripts/importtimeplan.py les XLSX-XML og) Tj
 T*
-(krev kjende overskrifter p\345 rad 6 | Manuell ved godkjend/importert timeplan | Kjelde:) Tj
-T*
 0 -22 Td
 (Side 33 / 78) Tj
 ET
@@ -3937,12 +3937,14 @@ endobj
 << /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 68 0 R >>
 endobj
 70 0 obj
-<< /Length 3376 >>
+<< /Length 3445 >>
 stream
 BT
 /F1 9 Tf
 48 794 Td
 13 TL
+(krev kjende overskrifter p\345 rad 6 | Manuell ved godkjend/importert timeplan | Kjelde:) Tj
+T*
 (ukjend. Offentleg datautdrag: offentleg | Kan innehalde tilsettnamn, rom og interne/eksterne) Tj
 T*
 (kommentarar. Persondata; behandlingsgrunnlag/tilgang m\345 stadfestast | Rader vert) Tj
@@ -4045,8 +4047,6 @@ T*
 T*
 () Tj
 T*
-(VURDERTE ALTERNATIV) Tj
-T*
 0 -22 Td
 (Side 34 / 78) Tj
 ET
@@ -4056,12 +4056,14 @@ endobj
 << /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 70 0 R >>
 endobj
 72 0 obj
-<< /Length 2010 >>
+<< /Length 1937 >>
 stream
 BT
 /F1 9 Tf
 48 794 Td
 13 TL
+(VURDERTE ALTERNATIV) Tj
+T*
 () Tj
 T*
 (- Alternativ og relevante fordelar/ulemper.) Tj
@@ -4164,8 +4166,6 @@ T*
 T*
 () Tj
 T*
-(Krev ny ADR, plan for API-tilgjenge og migrering av frontend. Test statisk og backend-basert) Tj
-T*
 0 -22 Td
 (Side 35 / 78) Tj
 ET
@@ -4175,12 +4175,14 @@ endobj
 << /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 72 0 R >>
 endobj
 74 0 obj
-<< /Length 1991 >>
+<< /Length 2068 >>
 stream
 BT
 /F1 9 Tf
 48 794 Td
 13 TL
+(Krev ny ADR, plan for API-tilgjenge og migrering av frontend. Test statisk og backend-basert) Tj
+T*
 (vising f\370r publisering.) Tj
 T*
 () Tj
@@ -4283,8 +4285,6 @@ T*
 T*
 () Tj
 T*
-(RELATERTE FILER) Tj
-T*
 0 -22 Td
 (Side 36 / 78) Tj
 ET
@@ -4294,12 +4294,14 @@ endobj
 << /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 74 0 R >>
 endobj
 76 0 obj
-<< /Length 2655 >>
+<< /Length 2670 >>
 stream
 BT
 /F1 9 Tf
 48 794 Td
 13 TL
+(RELATERTE FILER) Tj
+T*
 () Tj
 T*
 (- README.md) Tj
@@ -4402,8 +4404,6 @@ T*
 T*
 (TIMEPLAN) Tj
 T*
-() Tj
-T*
 0 -22 Td
 (Side 37 / 78) Tj
 ET
@@ -4413,12 +4413,14 @@ endobj
 << /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 76 0 R >>
 endobj
 78 0 obj
-<< /Length 2820 >>
+<< /Length 2735 >>
 stream
 BT
 /F1 9 Tf
 48 794 Td
 13 TL
+() Tj
+T*
 (- Lys, tabellbasert vising med emnefilter, friteksts\370k, dato/klokkeslett, rom, tilsett og) Tj
 T*
 (detaljmerknader.) Tj
@@ -4521,8 +4523,6 @@ T*
 T*
 (Agentar kan endre dei same prosjektfilene dersom dei har repo-tilgang, men chatloggar og) Tj
 T*
-(privat kontekst vert ikkje n\370dvendigvis delte. Alle agentar skal lese AGENTS.md og) Tj
-T*
 0 -22 Td
 (Side 38 / 78) Tj
 ET
@@ -4532,12 +4532,14 @@ endobj
 << /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 78 0 R >>
 endobj
 80 0 obj
-<< /Length 2512 >>
+<< /Length 2504 >>
 stream
 BT
 /F1 9 Tf
 48 794 Td
 13 TL
+(privat kontekst vert ikkje n\370dvendigvis delte. Alle agentar skal lese AGENTS.md og) Tj
+T*
 (prosjektindeksen.) Tj
 T*
 () Tj
@@ -4640,8 +4642,6 @@ T*
 T*
 () Tj
 T*
-(Hald koden med HTML/CSS/JS og Python. Ikkje innf\370r frontend-bundlar eller ny database utan) Tj
-T*
 0 -22 Td
 (Side 39 / 78) Tj
 ET
@@ -4651,12 +4651,14 @@ endobj
 << /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 80 0 R >>
 endobj
 82 0 obj
-<< /Length 2769 >>
+<< /Length 2776 >>
 stream
 BT
 /F1 9 Tf
 48 794 Td
 13 TL
+(Hald koden med HTML/CSS/JS og Python. Ikkje innf\370r frontend-bundlar eller ny database utan) Tj
+T*
 (dokumentert behov og ADR.) Tj
 T*
 () Tj
@@ -4759,8 +4761,6 @@ T*
 T*
 () Tj
 T*
-(Sj\345 dataflyt <../architecture/data-flows.md>, dataregister <../data-sources/source-) Tj
-T*
 0 -22 Td
 (Side 40 / 78) Tj
 ET
@@ -4770,12 +4770,14 @@ endobj
 << /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 82 0 R >>
 endobj
 84 0 obj
-<< /Length 3450 >>
+<< /Length 3449 >>
 stream
 BT
 /F1 9 Tf
 48 794 Td
 13 TL
+(Sj\345 dataflyt <../architecture/data-flows.md>, dataregister <../data-sources/source-) Tj
+T*
 (register.md> og skript <../../scripts/README.md>.) Tj
 T*
 () Tj
@@ -4878,8 +4880,6 @@ T*
 T*
 (timeplanpublisering vert behandla som eksisterande praksis fordi README/kode seier det |) Tj
 T*
-(ADR-001 <../decisions/ADR-001-static-json.md>, ADR-002 <../decisions/ADR-002-timetable-) Tj
-T*
 0 -22 Td
 (Side 41 / 78) Tj
 ET
@@ -4889,12 +4889,14 @@ endobj
 << /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 84 0 R >>
 endobj
 86 0 obj
-<< /Length 2980 >>
+<< /Length 2975 >>
 stream
 BT
 /F1 9 Tf
 48 794 Td
 13 TL
+(ADR-001 <../decisions/ADR-001-static-json.md>, ADR-002 <../decisions/ADR-002-timetable-) Tj
+T*
 (review.md> | Opphavleg avgjerdsdato, eigar og formell godkjenning er ukjend; ADR-dato er) Tj
 T*
 (dokumentasjonsdato |) Tj
@@ -4997,8 +4999,6 @@ T*
 T*
 (| AGENTS.md <../AGENTS.md> | Felles, leverand\370ruavhengige agentreglar | F\370r kvar) Tj
 T*
-(agentoppg\345ve | Felles arbeidsreglar endrar seg | Denne fila for prosjektfakta; AGENTS for) Tj
-T*
 0 -22 Td
 (Side 42 / 78) Tj
 ET
@@ -5008,12 +5008,14 @@ endobj
 << /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 86 0 R >>
 endobj
 88 0 obj
-<< /Length 4244 >>
+<< /Length 4253 >>
 stream
 BT
 /F1 9 Tf
 48 794 Td
 13 TL
+(agentoppg\345ve | Felles arbeidsreglar endrar seg | Denne fila for prosjektfakta; AGENTS for) Tj
+T*
 (arbeidsm\345te |) Tj
 T*
 (| Arkitekturoversyn <architecture/overview.md> | Komponentar, dataflyt og publiseringsflater) Tj
@@ -5116,8 +5118,6 @@ T*
 T*
 (gjeldande kode |) Tj
 T*
-(| Endringslogg <changes/CHANGELOG.md> | Samandrag av endringar etter kategori | Ved) Tj
-T*
 0 -22 Td
 (Side 43 / 78) Tj
 ET
@@ -5127,12 +5127,14 @@ endobj
 << /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 88 0 R >>
 endobj
 90 0 obj
-<< /Length 4350 >>
+<< /Length 4344 >>
 stream
 BT
 /F1 9 Tf
 48 794 Td
 13 TL
+(| Endringslogg <changes/CHANGELOG.md> | Samandrag av endringar etter kategori | Ved) Tj
+T*
 (gjennomgang av nylege endringar | Ved kvar vesentleg prosjektendring | Git-diff og k\370yrande) Tj
 T*
 (kode |) Tj
@@ -5235,8 +5237,6 @@ T*
 T*
 (| Vercel og publisering <operations/vercel.md> | Hosting, milj\370 og trygg deployflyt | F\370r) Tj
 T*
-(hostingoppsett eller publisering | Hosting, branch-policy eller milj\370krav endrar seg |) Tj
-T*
 0 -22 Td
 (Side 44 / 78) Tj
 ET
@@ -5246,12 +5246,14 @@ endobj
 << /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 90 0 R >>
 endobj
 92 0 obj
-<< /Length 4127 >>
+<< /Length 4125 >>
 stream
 BT
 /F1 9 Tf
 48 794 Td
 13 TL
+(hostingoppsett eller publisering | Hosting, branch-policy eller milj\370krav endrar seg |) Tj
+T*
 (Faktisk Vercel-/GitHub-konfigurasjon og godkjend ADR |) Tj
 T*
 (| Backup og gjenoppretting <operations/backup-and-recovery.md> | Backupformat, avgrensingar) Tj
@@ -5354,8 +5356,6 @@ T*
 T*
 (i repoet | Agentinngang endrar seg | AGENTS.md |) Tj
 T*
-(| Amazon Q-regel <../.amazonq/rules/project.md> | Kort Amazon Q-adapter | Amazon Q arbeider) Tj
-T*
 0 -22 Td
 (Side 45 / 78) Tj
 ET
@@ -5365,12 +5365,14 @@ endobj
 << /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 92 0 R >>
 endobj
 94 0 obj
-<< /Length 3012 >>
+<< /Length 3103 >>
 stream
 BT
 /F1 9 Tf
 48 794 Td
 13 TL
+(| Amazon Q-regel <../.amazonq/rules/project.md> | Kort Amazon Q-adapter | Amazon Q arbeider) Tj
+T*
 (i repoet | Agentinngang endrar seg | AGENTS.md |) Tj
 T*
 (| Skriptkontroll <../scripts/checkdocumentation.py> | Obligatoriske dokument, interne) Tj
@@ -5473,8 +5475,6 @@ T*
 T*
 (endringsutkast.) Tj
 T*
-() Tj
-T*
 0 -22 Td
 (Side 46 / 78) Tj
 ET
@@ -5484,12 +5484,14 @@ endobj
 << /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 94 0 R >>
 endobj
 96 0 obj
-<< /Length 2727 >>
+<< /Length 2697 >>
 stream
 BT
 /F1 9 Tf
 48 794 Td
 13 TL
+() Tj
+T*
 (Nettsidene er prim\346rt HTML, CSS og JavaScript. Python/FastAPI er eit valfritt serverlag for) Tj
 T*
 (JSON-ruter og Excel-eksport. Dei offentlege JSON-filene er kjeldeutdrag som ligg i repoet;) Tj
@@ -5592,8 +5594,6 @@ T*
 T*
 (    [kode]) Tj
 T*
-(python3 scripts/buildmanual.py) Tj
-T*
 0 -22 Td
 (Side 47 / 78) Tj
 ET
@@ -5603,12 +5603,14 @@ endobj
 << /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 96 0 R >>
 endobj
 98 0 obj
-<< /Length 2529 >>
+<< /Length 2559 >>
 stream
 BT
 /F1 9 Tf
 48 794 Td
 13 TL
+(python3 scripts/buildmanual.py) Tj
+T*
 (    [slutt kode]) Tj
 T*
 () Tj
@@ -5711,8 +5713,6 @@ T*
 T*
 (macOS LaunchAgent no.hivolda.infbv.backup k\370yrer backup:) Tj
 T*
-() Tj
-T*
 0 -22 Td
 (Side 48 / 78) Tj
 ET
@@ -5722,12 +5722,14 @@ endobj
 << /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 98 0 R >>
 endobj
 100 0 obj
-<< /Length 2010 >>
+<< /Length 1994 >>
 stream
 BT
 /F1 9 Tf
 48 794 Td
 13 TL
+() Tj
+T*
 (- ved innlogging eller n\345r agenten vert lasta;) Tj
 T*
 (- kvar 30. minutt medan brukaren er innlogga;) Tj
@@ -5830,8 +5832,6 @@ T*
 T*
 (tail -50 "$HOME/Library/Logs/INFBV-backup/backup-error.log") Tj
 T*
-(    [slutt kode]) Tj
-T*
 0 -22 Td
 (Side 49 / 78) Tj
 ET
@@ -5841,12 +5841,14 @@ endobj
 << /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 100 0 R >>
 endobj
 102 0 obj
-<< /Length 2394 >>
+<< /Length 2366 >>
 stream
 BT
 /F1 9 Tf
 48 794 Td
 13 TL
+(    [slutt kode]) Tj
+T*
 () Tj
 T*
 (Kontroller den nyaste ZIP-fila:) Tj
@@ -5949,8 +5951,6 @@ T*
 T*
 (cache-filer og eksterne arbeidsb\370ker er ikkje med. Denne rapporten dokumenterer kva som vart) Tj
 T*
-(gjort; ho garanterer ikkje backupintegritet.) Tj
-T*
 0 -22 Td
 (Side 50 / 78) Tj
 ET
@@ -5960,12 +5960,14 @@ endobj
 << /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 102 0 R >>
 endobj
 104 0 obj
-<< /Length 2981 >>
+<< /Length 2970 >>
 stream
 BT
 /F1 9 Tf
 48 794 Td
 13 TL
+(gjort; ho garanterer ikkje backupintegritet.) Tj
+T*
 () Tj
 T*
 (RUTINE F\330R RISIKOFYLT ENDRING) Tj
@@ -6068,8 +6070,6 @@ T*
 T*
 (Dersom seinare endringar treng milj\370variablar, oppdater .env.example og Vercel-) Tj
 T*
-(konfigurasjonen med namn/f\370rem\345l, ikkje verdiane.) Tj
-T*
 0 -22 Td
 (Side 51 / 78) Tj
 ET
@@ -6079,12 +6079,14 @@ endobj
 << /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 104 0 R >>
 endobj
 106 0 obj
-<< /Length 3096 >>
+<< /Length 3062 >>
 stream
 BT
 /F1 9 Tf
 48 794 Td
 13 TL
+(konfigurasjonen med namn/f\370rem\345l, ikkje verdiane.) Tj
+T*
 () Tj
 T*
 (KOPLING OG PUBLISERINGSPOLICY) Tj
@@ -6187,8 +6189,6 @@ T*
 T*
 () Tj
 T*
-(Vercel-programtillegget for Claude Code eller Codex er valfritt. Feil ved installasjon av) Tj
-T*
 0 -22 Td
 (Side 52 / 78) Tj
 ET
@@ -6198,12 +6198,14 @@ endobj
 << /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 106 0 R >>
 endobj
 108 0 obj
-<< /Length 2437 >>
+<< /Length 2514 >>
 stream
 BT
 /F1 9 Tf
 48 794 Td
 13 TL
+(Vercel-programtillegget for Claude Code eller Codex er valfritt. Feil ved installasjon av) Tj
+T*
 (programtillegget p\345verkar ikkje GitHub-integrasjonen, Vercel CLI eller vanleg) Tj
 T*
 (produksjonsdeploy.) Tj
@@ -6306,8 +6308,6 @@ T*
 T*
 (- Workflowen rullar tilbake heile repo-innhaldet til vald commit, ikkje berre \351i) Tj
 T*
-(nettsidefil.) Tj
-T*
 0 -22 Td
 (Side 53 / 78) Tj
 ET
@@ -6317,12 +6317,14 @@ endobj
 << /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 108 0 R >>
 endobj
 110 0 obj
-<< /Length 1424 >>
+<< /Length 1422 >>
 stream
 BT
 /F1 9 Tf
 48 794 Td
 13 TL
+(nettsidefil.) Tj
+T*
 (- Dersom branch protection krev pull request eller andre kontrollar, vil direkte push fr\345) Tj
 T*
 (workflowen stoppe. D\345 m\345 policyen tilpassast eller gjenopprettinga gjennomf\370rast via pull) Tj
@@ -6425,8 +6427,6 @@ T*
 T*
 () Tj
 T*
-(PRIORITERINGAR) Tj
-T*
 0 -22 Td
 (Side 54 / 78) Tj
 ET
@@ -6436,12 +6436,14 @@ endobj
 << /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 110 0 R >>
 endobj
 112 0 obj
-<< /Length 2614 >>
+<< /Length 2594 >>
 stream
 BT
 /F1 9 Tf
 48 794 Td
 13 TL
+(PRIORITERINGAR) Tj
+T*
 () Tj
 T*
 (1. Climate in the Classroom) Tj
@@ -6544,8 +6546,6 @@ T*
 T*
 (- To lokale GitHub Pages-workflowfiler er uversjonerte og ikkje inkluderte i denne deployen;) Tj
 T*
-(eigarskap/vidare bruk er uavklart.) Tj
-T*
 0 -22 Td
 (Side 55 / 78) Tj
 ET
@@ -6555,12 +6555,14 @@ endobj
 << /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 112 0 R >>
 endobj
 114 0 obj
-<< /Length 3517 >>
+<< /Length 3490 >>
 stream
 BT
 /F1 9 Tf
 48 794 Td
 13 TL
+(eigarskap/vidare bruk er uavklart.) Tj
+T*
 (- Dokumentasjonen har no detaljert komponentkart, backend/API, frontend, datakontraktar og) Tj
 T*
 (flytar, budsjettformlar fr\345 kode, designsamandrag og stegvis manuell gjenoppbygging.) Tj
@@ -6663,8 +6665,6 @@ T*
 T*
 (| python3 scripts/exporttimeplan.py --help | Best\345tt |) Tj
 T*
-(| python3 scripts/updatebudsjettdata.py --help | Best\345tt |) Tj
-T*
 0 -22 Td
 (Side 56 / 78) Tj
 ET
@@ -6674,12 +6674,14 @@ endobj
 << /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 114 0 R >>
 endobj
 116 0 obj
-<< /Length 3560 >>
+<< /Length 3611 >>
 stream
 BT
 /F1 9 Tf
 48 794 Td
 13 TL
+(| python3 scripts/updatebudsjettdata.py --help | Best\345tt |) Tj
+T*
 (| python3 scripts/knowledgelookup.py "timeplan import" | Best\345tt: viser rangerte kjeldetreff) Tj
 T*
 (med linjenummer og avgrensa utdrag |) Tj
@@ -6782,8 +6784,6 @@ T*
 T*
 () Tj
 T*
-(NESTE STEG) Tj
-T*
 0 -22 Td
 (Side 57 / 78) Tj
 ET
@@ -6793,12 +6793,14 @@ endobj
 << /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 116 0 R >>
 endobj
 118 0 obj
-<< /Length 3074 >>
+<< /Length 3056 >>
 stream
 BT
 /F1 9 Tf
 48 794 Td
 13 TL
+(NESTE STEG) Tj
+T*
 () Tj
 T*
 (Prioritering: No ? Neste ? Seinare. Blokkert krev avklaring f\370r gjennomf\370ring.) Tj
@@ -6901,8 +6903,6 @@ T*
 T*
 () Tj
 T*
-(KVA GRUNNVERSJONEN KAN GJERE) Tj
-T*
 0 -22 Td
 (Side 58 / 78) Tj
 ET
@@ -6912,12 +6912,14 @@ endobj
 << /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 118 0 R >>
 endobj
 120 0 obj
-<< /Length 3360 >>
+<< /Length 3294 >>
 stream
 BT
 /F1 9 Tf
 48 794 Td
 13 TL
+(KVA GRUNNVERSJONEN KAN GJERE) Tj
+T*
 () Tj
 T*
 (Copilot Chat kan svare fr\345 offentleg nettinnhald og lese filer du legg ved i chatten.) Tj
@@ -7020,8 +7022,6 @@ T*
 T*
 (agenttypar kan vere styrte av lisens og administrator. Agentar med offentlege kjelder kan) Tj
 T*
-(vere tilgjengelege for Copilot Chat \(Basic\) utan ekstra kostnad. Bruk av OneDrive/SharePoint) Tj
-T*
 0 -22 Td
 (Side 59 / 78) Tj
 ET
@@ -7031,12 +7031,14 @@ endobj
 << /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 120 0 R >>
 endobj
 122 0 obj
-<< /Length 3091 >>
+<< /Length 3110 >>
 stream
 BT
 /F1 9 Tf
 48 794 Td
 13 TL
+(vere tilgjengelege for Copilot Chat \(Basic\) utan ekstra kostnad. Bruk av OneDrive/SharePoint) Tj
+T*
 (eller innebygde filer som varig agentkunnskap kan krevje lisens eller m\345lt Copilot Studio-) Tj
 T*
 (bruk. Prompten er laga utan slike krav.) Tj
@@ -7139,8 +7141,6 @@ T*
 T*
 (    f\370reset tilgang, men ikkje be meg stadfeste noko du kan sjekke sj\370lv.) Tj
 T*
-(2. Dersom du har repo-tilgang, start i repo-rota. Les AGENTS.md, README.md,) Tj
-T*
 0 -22 Td
 (Side 60 / 78) Tj
 ET
@@ -7150,12 +7150,14 @@ endobj
 << /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 122 0 R >>
 endobj
 124 0 obj
-<< /Length 4027 >>
+<< /Length 4011 >>
 stream
 BT
 /F1 9 Tf
 48 794 Td
 13 TL
+(2. Dersom du har repo-tilgang, start i repo-rota. Les AGENTS.md, README.md,) Tj
+T*
 (    docs/INDEX.md, docs/project/current-state.md og docs/project/next-actions.md. K\370yr) Tj
 T*
 (    eit avgrensa lokalt kunnskapsoppslag for den konkrete oppg\345va, til d\370mes python3) Tj
@@ -7258,8 +7260,6 @@ T*
 T*
 (    at endringa skal gjennomf\370rast. Sp\370r meg berre n\345r faktisk tilgang manglar,) Tj
 T*
-(    m\345l/branch er uklar, det ligg f\370re ein reell konflikt, eller personvern/tryggleik) Tj
-T*
 0 -22 Td
 (Side 61 / 78) Tj
 ET
@@ -7269,12 +7269,14 @@ endobj
 << /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 124 0 R >>
 endobj
 126 0 obj
-<< /Length 2724 >>
+<< /Length 2815 >>
 stream
 BT
 /F1 9 Tf
 48 794 Td
 13 TL
+(    m\345l/branch er uklar, det ligg f\370re ein reell konflikt, eller personvern/tryggleik) Tj
+T*
 (    krev eigaravgjerd. Ikkje sp\370r p\345 nytt om publisering innanfor fullmakta over.) Tj
 T*
 () Tj
@@ -7377,8 +7379,6 @@ T*
 T*
 (4. KI-APP ELLER AGENT MOT GITHUB) Tj
 T*
-() Tj
-T*
 0 -22 Td
 (Side 62 / 78) Tj
 ET
@@ -7388,12 +7388,14 @@ endobj
 << /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 126 0 R >>
 endobj
 128 0 obj
-<< /Length 2904 >>
+<< /Length 2797 >>
 stream
 BT
 /F1 9 Tf
 48 794 Td
 13 TL
+() Tj
+T*
 (Ein KI-app kan hjelpe med repoet dersom han har naudsynt tilgang. Gje minst mogleg tilgang;) Tj
 T*
 (les agentdiff og kontrollresultat. Agenten m\345 f\370lgje AGENTS.md. Agentar deler prosjektfiler) Tj
@@ -7496,8 +7498,6 @@ T*
 T*
 (normalisert til \253kommunikasjonsarbeid\273, og INF213 sitt doble \253gjennom praksis\273 er redusert) Tj
 T*
-(til \351i f\370rekomst. Prefikset \253PR og kommunikasjon 5\273 er \362g fjerna fr\345 bokm\345lsnamnet for) Tj
-T*
 0 -22 Td
 (Side 63 / 78) Tj
 ET
@@ -7507,12 +7507,14 @@ endobj
 << /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 128 0 R >>
 endobj
 130 0 obj
-<< /Length 3168 >>
+<< /Length 3264 >>
 stream
 BT
 /F1 9 Tf
 48 794 Td
 13 TL
+(til \351i f\370rekomst. Prefikset \253PR og kommunikasjon 5\273 er \362g fjerna fr\345 bokm\345lsnamnet for) Tj
+T*
 (INF213 i tr\345d med stilkravet.) Tj
 T*
 () Tj
@@ -7615,8 +7617,6 @@ T*
 T*
 () Tj
 T*
-(VEDLIKEHALD) Tj
-T*
 0 -22 Td
 (Side 64 / 78) Tj
 ET
@@ -7626,12 +7626,14 @@ endobj
 << /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 130 0 R >>
 endobj
 132 0 obj
-<< /Length 1354 >>
+<< /Length 1365 >>
 stream
 BT
 /F1 9 Tf
 48 794 Td
 13 TL
+(VEDLIKEHALD) Tj
+T*
 () Tj
 T*
 (1. Bruk studiemodell.xlsx som arbeidsbok for nynorsk, bokm\345l og engelsk. Oppdater Markdown-) Tj
@@ -7734,8 +7736,6 @@ T*
 T*
 (Status: Aktiv) Tj
 T*
-() Tj
-T*
 0 -22 Td
 (Side 65 / 78) Tj
 ET
@@ -7751,6 +7751,8 @@ BT
 /F1 9 Tf
 48 794 Td
 13 TL
+() Tj
+T*
 (Mappe:) Tj
 T*
 (tekst/totalforsvarsaret-2026) Tj
@@ -7853,8 +7855,6 @@ T*
 T*
 (---) Tj
 T*
-() Tj
-T*
 0 -22 Td
 (Side 66 / 78) Tj
 ET
@@ -7870,6 +7870,8 @@ BT
 /F1 9 Tf
 48 794 Td
 13 TL
+() Tj
+T*
 (PRIORITET 7) Tj
 T*
 () Tj
@@ -7972,8 +7974,6 @@ T*
 T*
 (repoarbeid og deploy <docs/user-guides/copilot-chat-start-prompt.md>.) Tj
 T*
-() Tj
-T*
 0 -22 Td
 (Side 67 / 78) Tj
 ET
@@ -7983,12 +7983,14 @@ endobj
 << /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 136 0 R >>
 endobj
 138 0 obj
-<< /Length 2347 >>
+<< /Length 2285 >>
 stream
 BT
 /F1 9 Tf
 48 794 Td
 13 TL
+() Tj
+T*
 (Kort lokalt kunnskapsoppslag for menneske og agentar:) Tj
 T*
 () Tj
@@ -8091,8 +8093,6 @@ T*
 T*
 (python3 scripts/updatebudsjettdata.py \\) Tj
 T*
-(  --dashboard-server "/path/to/Budsjett/dashbord/server.py" \\) Tj
-T*
 0 -22 Td
 (Side 68 / 78) Tj
 ET
@@ -8102,12 +8102,14 @@ endobj
 << /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 138 0 R >>
 endobj
 140 0 obj
-<< /Length 3121 >>
+<< /Length 3149 >>
 stream
 BT
 /F1 9 Tf
 48 794 Td
 13 TL
+(  --dashboard-server "/path/to/Budsjett/dashbord/server.py" \\) Tj
+T*
 (  --students-workbook "/path/to/Registrerte studenter tidsserie utvida.xls-3.xlsx" \\) Tj
 T*
 (  --amf-workbook "/path/to/AMF2027arbeidsnotatdesignv2.xlsx") Tj
@@ -8210,8 +8212,6 @@ T*
 T*
 (har fullf\370rt deployen. Den nye Excel-kopien blir skriven i OneDrive-synka mappe, slik at) Tj
 T*
-(OneDrive synkar ho til SharePoint.) Tj
-T*
 0 -22 Td
 (Side 69 / 78) Tj
 ET
@@ -8221,12 +8221,14 @@ endobj
 << /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 140 0 R >>
 endobj
 142 0 obj
-<< /Length 3957 >>
+<< /Length 3962 >>
 stream
 BT
 /F1 9 Tf
 48 794 Td
 13 TL
+(OneDrive synkar ho til SharePoint.) Tj
+T*
 () Tj
 T*
 (---) Tj
@@ -8329,8 +8331,6 @@ T*
 T*
 (CLI-skript. requirements.txt installerer FastAPI og Uvicorn. Frontend JS/HTML/CSS har ingen) Tj
 T*
-(build/runtime-pakkebehandlar.) Tj
-T*
 0 -22 Td
 (Side 70 / 78) Tj
 ET
@@ -8340,12 +8340,14 @@ endobj
 << /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 142 0 R >>
 endobj
 144 0 obj
-<< /Length 2357 >>
+<< /Length 2295 >>
 stream
 BT
 /F1 9 Tf
 48 794 Td
 13 TL
+(build/runtime-pakkebehandlar.) Tj
+T*
 () Tj
 T*
 (Etter endring i Markdown \(.md, .mdc eller .windsurfrules\), kode eller skript, k\370yr python3) Tj
@@ -8448,8 +8450,6 @@ T*
 T*
 (but its breadth offers limited guidance when ecological concerns compete with other) Tj
 T*
-(professional priorities. This chapter therefore asks how environmental justice can function) Tj
-T*
 0 -22 Td
 (Side 71 / 78) Tj
 ET
@@ -8459,12 +8459,14 @@ endobj
 << /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 144 0 R >>
 endobj
 146 0 obj
-<< /Length 3533 >>
+<< /Length 3531 >>
 stream
 BT
 /F1 9 Tf
 48 794 Td
 13 TL
+(professional priorities. This chapter therefore asks how environmental justice can function) Tj
+T*
 (as a pedagogical foundation across media education, not only in courses explicitly devoted) Tj
 T*
 (to climate or sustainability.) Tj
@@ -8567,8 +8569,6 @@ T*
 T*
 () Tj
 T*
-(Holland, B. \(2008\). Justice and the environment in Nussbaum\222s capabilities approach: Why) Tj
-T*
 0 -22 Td
 (Side 72 / 78) Tj
 ET
@@ -8578,12 +8578,14 @@ endobj
 << /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 146 0 R >>
 endobj
 148 0 obj
-<< /Length 1958 >>
+<< /Length 2051 >>
 stream
 BT
 /F1 9 Tf
 48 794 Td
 13 TL
+(Holland, B. \(2008\). Justice and the environment in Nussbaum\222s capabilities approach: Why) Tj
+T*
 (sustainable ecological capacity is a meta-capability. Political Research Quarterly, 61\(2\),) Tj
 T*
 (319\226332. https://doi.org/10.1177/1065912907306471) Tj
@@ -8686,8 +8688,6 @@ T*
 T*
 (DOKUMENT) Tj
 T*
-() Tj
-T*
 0 -22 Td
 (Side 73 / 78) Tj
 ET
@@ -8703,6 +8703,8 @@ BT
 /F1 9 Tf
 48 794 Td
 13 TL
+() Tj
+T*
 (- abstract.md) Tj
 T*
 (- litteratur.md) Tj
@@ -8805,8 +8807,6 @@ T*
 T*
 (KJELDE: TEKST/KLIMA-OG-BEREKRAFT/PROSJEKTLOGG.MD) Tj
 T*
-() Tj
-T*
 0 -22 Td
 (Side 74 / 78) Tj
 ET
@@ -8822,6 +8822,8 @@ BT
 /F1 9 Tf
 48 794 Td
 13 TL
+() Tj
+T*
 (PROSJEKTLOGG) Tj
 T*
 () Tj
@@ -8924,8 +8926,6 @@ T*
 T*
 (KJELDE: TEKST/KRISEKOMMUNIKASJON-MED-BAKKEKONTAKT/KAPITTEL-02.MD) Tj
 T*
-() Tj
-T*
 0 -22 Td
 (Side 75 / 78) Tj
 ET
@@ -8935,12 +8935,14 @@ endobj
 << /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 152 0 R >>
 endobj
 154 0 obj
-<< /Length 1568 >>
+<< /Length 1565 >>
 stream
 BT
 /F1 9 Tf
 48 794 Td
 13 TL
+() Tj
+T*
 (KAPITTEL-02) Tj
 T*
 () Tj
@@ -9043,8 +9045,6 @@ T*
 T*
 () Tj
 T*
-(---) Tj
-T*
 0 -22 Td
 (Side 76 / 78) Tj
 ET
@@ -9054,12 +9054,14 @@ endobj
 << /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 154 0 R >>
 endobj
 156 0 obj
-<< /Length 1369 >>
+<< /Length 1346 >>
 stream
 BT
 /F1 9 Tf
 48 794 Td
 13 TL
+(---) Tj
+T*
 () Tj
 T*
 (<a id="tekst-krisekommunikasjon-med-bakkekontakt-kapittel-10.md"></a>) Tj
@@ -9162,8 +9164,6 @@ T*
 T*
 () Tj
 T*
-(Sist oppdatert: 2026-11-18) Tj
-T*
 0 -22 Td
 (Side 77 / 78) Tj
 ET
@@ -9173,12 +9173,14 @@ endobj
 << /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 156 0 R >>
 endobj
 158 0 obj
-<< /Length 797 >>
+<< /Length 832 >>
 stream
 BT
 /F1 9 Tf
 48 794 Td
 13 TL
+(Sist oppdatert: 2026-11-18) Tj
+T*
 () Tj
 T*
 (---) Tj
@@ -9266,155 +9268,155 @@ xref
 0000011938 00000 n 
 0000016759 00000 n 
 0000016887 00000 n 
-0000021207 00000 n 
-0000021335 00000 n 
-0000024671 00000 n 
-0000024799 00000 n 
-0000027506 00000 n 
-0000027634 00000 n 
-0000029944 00000 n 
-0000030072 00000 n 
-0000032639 00000 n 
-0000032767 00000 n 
-0000036006 00000 n 
-0000036134 00000 n 
-0000038558 00000 n 
-0000038686 00000 n 
-0000041456 00000 n 
-0000041584 00000 n 
-0000045038 00000 n 
-0000045166 00000 n 
-0000048411 00000 n 
-0000048539 00000 n 
-0000052010 00000 n 
-0000052138 00000 n 
-0000055158 00000 n 
-0000055286 00000 n 
-0000058585 00000 n 
-0000058713 00000 n 
-0000061357 00000 n 
-0000061485 00000 n 
-0000064032 00000 n 
-0000064160 00000 n 
-0000066934 00000 n 
-0000067062 00000 n 
-0000069813 00000 n 
-0000069941 00000 n 
-0000072484 00000 n 
-0000072612 00000 n 
-0000076040 00000 n 
-0000076168 00000 n 
-0000079028 00000 n 
-0000079156 00000 n 
-0000082271 00000 n 
-0000082399 00000 n 
-0000085330 00000 n 
-0000085458 00000 n 
-0000087508 00000 n 
-0000087636 00000 n 
-0000089711 00000 n 
-0000089839 00000 n 
-0000092823 00000 n 
-0000092951 00000 n 
-0000096233 00000 n 
-0000096361 00000 n 
-0000100049 00000 n 
-0000100177 00000 n 
-0000102662 00000 n 
-0000102790 00000 n 
-0000106806 00000 n 
-0000106934 00000 n 
-0000110363 00000 n 
-0000110491 00000 n 
-0000112554 00000 n 
-0000112682 00000 n 
-0000114726 00000 n 
-0000114854 00000 n 
-0000117562 00000 n 
-0000117690 00000 n 
-0000120563 00000 n 
-0000120691 00000 n 
-0000123256 00000 n 
-0000123384 00000 n 
-0000126206 00000 n 
-0000126334 00000 n 
-0000129837 00000 n 
-0000129965 00000 n 
-0000132998 00000 n 
-0000133126 00000 n 
-0000137423 00000 n 
-0000137551 00000 n 
-0000141954 00000 n 
-0000142082 00000 n 
-0000146262 00000 n 
-0000146390 00000 n 
-0000149455 00000 n 
-0000149583 00000 n 
-0000152363 00000 n 
-0000152491 00000 n 
-0000155073 00000 n 
-0000155201 00000 n 
-0000157265 00000 n 
-0000157395 00000 n 
-0000159843 00000 n 
-0000159973 00000 n 
-0000163008 00000 n 
-0000163138 00000 n 
-0000166288 00000 n 
-0000166418 00000 n 
-0000168909 00000 n 
-0000169039 00000 n 
-0000170517 00000 n 
-0000170647 00000 n 
-0000173315 00000 n 
-0000173445 00000 n 
-0000177016 00000 n 
-0000177146 00000 n 
-0000180760 00000 n 
-0000180890 00000 n 
-0000184018 00000 n 
-0000184148 00000 n 
-0000187562 00000 n 
-0000187692 00000 n 
-0000190837 00000 n 
-0000190967 00000 n 
-0000195048 00000 n 
-0000195178 00000 n 
-0000197956 00000 n 
-0000198086 00000 n 
-0000201044 00000 n 
-0000201174 00000 n 
-0000204396 00000 n 
-0000204526 00000 n 
-0000205934 00000 n 
-0000206064 00000 n 
-0000207025 00000 n 
-0000207155 00000 n 
-0000208986 00000 n 
-0000209116 00000 n 
-0000211517 00000 n 
-0000211647 00000 n 
-0000214822 00000 n 
-0000214952 00000 n 
-0000218963 00000 n 
-0000219093 00000 n 
-0000221504 00000 n 
-0000221634 00000 n 
-0000225221 00000 n 
-0000225351 00000 n 
-0000227363 00000 n 
-0000227493 00000 n 
-0000228748 00000 n 
-0000228878 00000 n 
-0000230462 00000 n 
-0000230592 00000 n 
-0000232214 00000 n 
-0000232344 00000 n 
-0000233767 00000 n 
-0000233897 00000 n 
-0000234747 00000 n 
+0000021291 00000 n 
+0000021419 00000 n 
+0000024786 00000 n 
+0000024914 00000 n 
+0000027540 00000 n 
+0000027668 00000 n 
+0000030048 00000 n 
+0000030176 00000 n 
+0000032737 00000 n 
+0000032865 00000 n 
+0000036052 00000 n 
+0000036180 00000 n 
+0000038673 00000 n 
+0000038801 00000 n 
+0000041506 00000 n 
+0000041634 00000 n 
+0000045094 00000 n 
+0000045222 00000 n 
+0000048460 00000 n 
+0000048588 00000 n 
+0000052122 00000 n 
+0000052250 00000 n 
+0000055197 00000 n 
+0000055325 00000 n 
+0000058620 00000 n 
+0000058748 00000 n 
+0000061445 00000 n 
+0000061573 00000 n 
+0000064147 00000 n 
+0000064275 00000 n 
+0000066963 00000 n 
+0000067091 00000 n 
+0000069838 00000 n 
+0000069966 00000 n 
+0000072567 00000 n 
+0000072695 00000 n 
+0000076090 00000 n 
+0000076218 00000 n 
+0000079117 00000 n 
+0000079245 00000 n 
+0000082283 00000 n 
+0000082411 00000 n 
+0000085426 00000 n 
+0000085554 00000 n 
+0000087618 00000 n 
+0000087746 00000 n 
+0000089813 00000 n 
+0000089941 00000 n 
+0000092938 00000 n 
+0000093066 00000 n 
+0000096255 00000 n 
+0000096383 00000 n 
+0000100121 00000 n 
+0000100249 00000 n 
+0000102749 00000 n 
+0000102877 00000 n 
+0000106833 00000 n 
+0000106961 00000 n 
+0000110459 00000 n 
+0000110587 00000 n 
+0000112577 00000 n 
+0000112705 00000 n 
+0000114826 00000 n 
+0000114954 00000 n 
+0000117677 00000 n 
+0000117805 00000 n 
+0000120593 00000 n 
+0000120721 00000 n 
+0000123278 00000 n 
+0000123406 00000 n 
+0000126235 00000 n 
+0000126363 00000 n 
+0000129865 00000 n 
+0000129993 00000 n 
+0000133021 00000 n 
+0000133149 00000 n 
+0000137455 00000 n 
+0000137583 00000 n 
+0000141980 00000 n 
+0000142108 00000 n 
+0000146286 00000 n 
+0000146414 00000 n 
+0000149570 00000 n 
+0000149698 00000 n 
+0000152448 00000 n 
+0000152576 00000 n 
+0000155188 00000 n 
+0000155316 00000 n 
+0000157364 00000 n 
+0000157494 00000 n 
+0000159914 00000 n 
+0000160044 00000 n 
+0000163068 00000 n 
+0000163198 00000 n 
+0000166314 00000 n 
+0000166444 00000 n 
+0000169012 00000 n 
+0000169142 00000 n 
+0000170618 00000 n 
+0000170748 00000 n 
+0000173396 00000 n 
+0000173526 00000 n 
+0000177070 00000 n 
+0000177200 00000 n 
+0000180865 00000 n 
+0000180995 00000 n 
+0000184105 00000 n 
+0000184235 00000 n 
+0000187583 00000 n 
+0000187713 00000 n 
+0000190877 00000 n 
+0000191007 00000 n 
+0000195072 00000 n 
+0000195202 00000 n 
+0000198071 00000 n 
+0000198201 00000 n 
+0000201052 00000 n 
+0000201182 00000 n 
+0000204500 00000 n 
+0000204630 00000 n 
+0000206049 00000 n 
+0000206179 00000 n 
+0000207140 00000 n 
+0000207270 00000 n 
+0000209101 00000 n 
+0000209231 00000 n 
+0000211570 00000 n 
+0000211700 00000 n 
+0000214903 00000 n 
+0000215033 00000 n 
+0000219049 00000 n 
+0000219179 00000 n 
+0000221528 00000 n 
+0000221658 00000 n 
+0000225243 00000 n 
+0000225373 00000 n 
+0000227478 00000 n 
+0000227608 00000 n 
+0000228863 00000 n 
+0000228993 00000 n 
+0000230577 00000 n 
+0000230707 00000 n 
+0000232326 00000 n 
+0000232456 00000 n 
+0000233856 00000 n 
+0000233986 00000 n 
+0000234871 00000 n 
 trailer
 << /Size 160 /Root 1 0 R >>
 startxref
-234877
+235001
 %%EOF

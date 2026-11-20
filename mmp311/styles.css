@@ -984,3 +984,170 @@ a[target="_blank"]::after {
     transform: none !important;
   }
 }
+
+
+/* INFBV portal and MMP311 course navigation */
+.portal-shell {
+  position: sticky;
+  top: 0;
+  z-index: 25;
+  border-bottom: 1px solid var(--line, var(--border));
+  background: color-mix(
+    in srgb,
+    var(--bg) 96%,
+    transparent
+  );
+  backdrop-filter: blur(10px);
+  font-family:
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    sans-serif;
+}
+
+.portal-shell__inner {
+  width: min(100% - 2rem, 1100px);
+  margin-inline: auto;
+}
+
+.portal-nav,
+.course-nav {
+  display: flex;
+  min-height: 3.2rem;
+  align-items: center;
+  gap: 1rem;
+}
+
+.portal-nav {
+  border-bottom: 1px solid
+    color-mix(in srgb, var(--line, var(--border)) 70%, transparent);
+}
+
+.portal-nav__home,
+.course-nav__title {
+  display: inline-flex;
+  min-height: 44px;
+  align-items: center;
+  gap: .55rem;
+  flex: 0 0 auto;
+  color: var(--ink);
+  font-weight: 800;
+  text-decoration: none;
+}
+
+.portal-nav__mark {
+  display: grid;
+  width: 2rem;
+  height: 2rem;
+  place-items: center;
+  border: 1px solid var(--line, var(--border));
+  border-radius: .42rem;
+  background: #e3ded1;
+  color: #20231f;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1rem;
+}
+
+.portal-nav__links,
+.course-nav__links {
+  display: flex;
+  min-width: 0;
+  align-items: center;
+  gap: .85rem;
+  margin-left: auto;
+}
+
+.portal-nav a,
+.course-nav a,
+.portal-nav__search {
+  min-height: 44px;
+  align-items: center;
+  color: var(--ink);
+  font-size: .84rem;
+  text-decoration: none;
+}
+
+.portal-nav__links a,
+.course-nav__links a,
+.portal-nav__search {
+  display: inline-flex;
+  white-space: nowrap;
+}
+
+.portal-nav__search {
+  padding: 0;
+  border: 0;
+  background: transparent;
+  font: inherit;
+  cursor: pointer;
+}
+
+.portal-nav a:hover,
+.course-nav a:hover,
+.portal-nav__search:hover {
+  text-decoration: underline;
+  text-decoration-thickness: .08em;
+  text-underline-offset: .22em;
+}
+
+.course-nav a[aria-current="page"] {
+  color: var(--link, var(--indigo));
+  font-weight: 800;
+  text-decoration: underline;
+  text-decoration-thickness: .12em;
+  text-underline-offset: .32em;
+}
+
+.portal-nav a:focus-visible,
+.course-nav a:focus-visible,
+.portal-nav__search:focus-visible {
+  outline: 3px solid var(--accent, var(--amber));
+  outline-offset: 2px;
+  border-radius: .15rem;
+}
+
+@media (max-width: 50rem) {
+  .portal-shell {
+    position: static;
+  }
+
+  .portal-nav,
+  .course-nav {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: .2rem;
+    padding: .5rem 0;
+  }
+
+  .portal-nav__links,
+  .course-nav__links {
+    width: 100%;
+    margin-left: 0;
+    overflow-x: auto;
+    overscroll-behavior-inline: contain;
+    scrollbar-width: thin;
+  }
+
+  .portal-nav__links a,
+  .course-nav__links a,
+  .portal-nav__search {
+    flex: 0 0 auto;
+  }
+}
+
+@media (max-width: 32rem) {
+  .portal-nav__links,
+  .course-nav__links {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    overflow: visible;
+    gap: .15rem .75rem;
+  }
+
+  .portal-nav__links a,
+  .course-nav__links a,
+  .portal-nav__search {
+    white-space: normal;
+  }
+}

@@ -220,6 +220,10 @@
 
     replaceSearchLinks(openSearch);
 
+    document.querySelectorAll("[data-open-portal-search]").forEach(button => {
+      button.addEventListener("click", openSearch);
+    });
+
     document.addEventListener("keydown", event => {
       const target = event.target;
       const writing =
