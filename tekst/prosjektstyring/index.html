@@ -3,119 +3,930 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Prosjektstyring for tekst</title>
+<meta name="color-scheme" content="light">
+<title>Prosjektstyring for tekst | INFBV</title>
+<meta name="description" content="Arbeidsflate for fristar, framdrift og fagfellekontroll i prioriterte tekstprosjekt.">
+<style>
+:root {
+  --ink: #17212b;
+  --muted: #637180;
+  --paper: #f3f6f8;
+  --card: #ffffff;
+  --line: #d7e0e7;
+  --navy: #102a43;
+  --blue: #116ba8;
+  --teal: #12858b;
+  --red: #b42318;
+  --amber: #8a5a00;
+  --green: #176b45;
+  --grey: #53606d;
+  --focus: #ffbf47;
+  --shadow: 0 16px 45px rgba(16, 42, 67, 0.10);
+  --radius: 22px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background:
+    radial-gradient(circle at 85% 8%, rgba(18, 133, 139, 0.14), transparent 23rem),
+    linear-gradient(180deg, #eef4f8 0, #f8f9fa 32rem);
+  color: var(--ink);
+  font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont,
+               "Segoe UI", sans-serif;
+  line-height: 1.55;
+}
+
+a {
+  color: var(--blue);
+  text-underline-offset: 0.18em;
+}
+
+button,
+select,
+input {
+  font: inherit;
+}
+
+button,
+select,
+input[type="number"] {
+  min-height: 44px;
+  padding: 0.65rem 0.8rem;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  background: var(--card);
+  color: var(--ink);
+}
+
+button {
+  cursor: pointer;
+  font-weight: 750;
+}
+
+button:hover {
+  border-color: var(--blue);
+  color: var(--blue);
+}
+
+:focus-visible {
+  outline: 3px solid var(--focus);
+  outline-offset: 3px;
+}
+
+.skip-link {
+  position: absolute;
+  left: 1rem;
+  top: -5rem;
+  z-index: 99;
+  padding: 0.75rem 1rem;
+  background: white;
+}
+
+.skip-link:focus {
+  top: 1rem;
+}
+
+.shell {
+  width: min(1180px, calc(100% - 2rem));
+  margin-inline: auto;
+}
+
+.topbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  padding-block: 1rem;
+}
+
+.brand {
+  color: var(--navy);
+  font-weight: 900;
+  letter-spacing: 0.08em;
+  text-decoration: none;
+}
+
+.breadcrumbs {
+  color: var(--muted);
+  font-size: 0.92rem;
+}
+
+.hero {
+  position: relative;
+  overflow: hidden;
+  padding: clamp(1.5rem, 4vw, 3.4rem);
+  border-radius: 28px;
+  background: linear-gradient(135deg, #102a43 0%, #174f78 62%, #117b86 100%);
+  box-shadow: var(--shadow);
+  color: white;
+}
+
+.hero::after {
+  position: absolute;
+  width: 26rem;
+  height: 26rem;
+  right: -8rem;
+  top: -13rem;
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  border-radius: 50%;
+  content: "";
+}
+
+.eyebrow {
+  color: #bee3f8;
+  font-size: 0.78rem;
+  font-weight: 800;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.hero h1 {
+  max-width: 13ch;
+  margin: 0.45rem 0 1rem;
+  font-size: clamp(2.15rem, 6vw, 4.6rem);
+  line-height: 0.98;
+}
+
+.hero > p {
+  max-width: 66ch;
+  color: #e4f2f8;
+  font-size: 1.08rem;
+}
+
+.hero-stats {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 0.8rem;
+  max-width: 44rem;
+  margin-top: 2rem;
+}
+
+.hero-stat {
+  padding: 1rem;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  border-radius: 16px;
+  background: rgba(255, 255, 255, 0.10);
+  backdrop-filter: blur(12px);
+}
+
+.hero-stat strong {
+  display: block;
+  font-size: 1.55rem;
+}
+
+.hero-stat span {
+  color: #d9eef8;
+  font-size: 0.82rem;
+}
+
+.workspace {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 300px;
+  gap: 1.25rem;
+  margin-block: 1.5rem 4rem;
+}
+
+.toolbar,
+.panel {
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: rgba(255, 255, 255, 0.95);
+  box-shadow: var(--shadow);
+}
+
+.toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: end;
+  gap: 0.8rem;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+.control {
+  display: grid;
+  gap: 0.3rem;
+}
+
+.control label {
+  color: var(--muted);
+  font-size: 0.78rem;
+  font-weight: 800;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.spacer {
+  flex: 1;
+}
+
+.project-list,
+.sidebar {
+  display: grid;
+  gap: 1rem;
+}
+
+.card {
+  position: relative;
+  overflow: hidden;
+  padding: 1.3rem;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: var(--card);
+  box-shadow: 0 10px 30px rgba(16, 42, 67, 0.06);
+  transition: transform 0.18s ease, box-shadow 0.18s ease;
+}
+
+.card:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow);
+}
+
+.card::before {
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 6px;
+  background: var(--status-color, var(--grey));
+  content: "";
+}
+
+.card-head {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.priority {
+  color: var(--muted);
+  font-size: 0.76rem;
+  font-weight: 850;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.card h2 {
+  margin: 0.2rem 0 0.35rem;
+  font-size: clamp(1.25rem, 3vw, 1.65rem);
+  line-height: 1.15;
+}
+
+.card h2 a {
+  color: var(--navy);
+  text-decoration: none;
+}
+
+.card h2 a:hover {
+  text-decoration: underline;
+}
+
+.tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  padding: 0.38rem 0.7rem;
+  border-radius: 999px;
+  background: var(--status-background);
+  color: var(--status-color);
+  font-size: 0.78rem;
+  font-weight: 850;
+  white-space: nowrap;
+}
+
+.tag::before {
+  width: 0.55rem;
+  height: 0.55rem;
+  border-radius: 50%;
+  background: currentColor;
+  content: "";
+}
+
+.deadline {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-block: 0.8rem;
+  color: var(--muted);
+}
+
+.deadline strong {
+  color: var(--ink);
+}
+
+.deliverable {
+  padding: 0.85rem 1rem;
+  margin-block: 0.85rem;
+  border-radius: 14px;
+  background: var(--paper);
+}
+
+.progress-grid {
+  display: grid;
+  grid-template-columns: 1fr 5.2rem;
+  gap: 0.75rem;
+  align-items: end;
+  margin-block: 1rem;
+}
+
+.bar-label {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.35rem;
+  font-size: 0.84rem;
+  font-weight: 750;
+}
+
+.bar {
+  height: 0.7rem;
+  overflow: hidden;
+  border-radius: 999px;
+  background: #e8edf1;
+}
+
+.bar span {
+  display: block;
+  height: 100%;
+  border-radius: inherit;
+  background: linear-gradient(90deg, var(--blue), var(--teal));
+}
+
+.card-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.65rem;
+  margin-top: 1rem;
+}
+
+.button-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 44px;
+  padding: 0.6rem 0.9rem;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  font-weight: 800;
+  text-decoration: none;
+}
+
+.button-link.primary {
+  border-color: var(--navy);
+  background: var(--navy);
+  color: white;
+}
+
+.button-link:hover {
+  transform: translateY(-1px);
+}
+
+.sidebar {
+  align-content: start;
+}
+
+.panel {
+  padding: 1.15rem;
+}
+
+.panel h2 {
+  margin: 0 0 0.8rem;
+  font-size: 1.05rem;
+}
+
+.legend,
+.next-list {
+  display: grid;
+  gap: 0.65rem;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.legend li {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  font-size: 0.9rem;
+}
+
+.dot {
+  width: 0.72rem;
+  height: 0.72rem;
+  border-radius: 50%;
+  background: var(--dot);
+}
+
+.next-list li {
+  padding-top: 0.65rem;
+  border-top: 1px solid var(--line);
+}
+
+.next-list strong,
+.next-list span {
+  display: block;
+}
+
+.next-list span {
+  color: var(--muted);
+  font-size: 0.85rem;
+}
+
+.empty {
+  padding: 2rem;
+  text-align: center;
+  color: var(--muted);
+}
+
+.toast {
+  position: fixed;
+  right: 1rem;
+  bottom: 1rem;
+  padding: 0.8rem 1rem;
+  border-radius: 12px;
+  background: var(--navy);
+  box-shadow: var(--shadow);
+  color: white;
+  transform: translateY(140%);
+  transition: transform 0.2s;
+}
+
+.toast.show {
+  transform: translateY(0);
+}
+
+footer {
+  padding-block: 1.5rem 3rem;
+  border-top: 1px solid var(--line);
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
+@media (max-width: 850px) {
+  .workspace {
+    grid-template-columns: 1fr;
+  }
+
+  .sidebar {
+    grid-row: 1;
+  }
+
+  .hero-stats {
+    grid-template-columns: 1fr;
+  }
+
+  .card-head {
+    display: grid;
+  }
+
+  .tag {
+    width: max-content;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    scroll-behavior: auto !important;
+    transition: none !important;
+  }
+}
+</style>
 </head>
 <body>
-<main>
-<h1>Prosjektstyring for tekst</h1>
-<p>Fristane byggjer på dei aktuelle utlysingane. Statusen kan oppdaterast lokalt i nettlesaren.</p>
-<div id="project-dashboard" aria-live="polite"></div>
+<a class="skip-link" href="#main">Hopp til hovudinnhaldet</a>
+
+<header class="shell topbar">
+  <a class="brand" href="/">INFBV</a>
+  <nav class="breadcrumbs" aria-label="Brødsmular">
+    <a href="/tekst/">Tekst</a> / Prosjektstyring
+  </nav>
+</header>
+
+<main id="main" class="shell">
+  <section class="hero" aria-labelledby="page-title">
+    <div class="eyebrow">Redaksjonell arbeidsflate</div>
+    <h1 id="page-title">Prosjektstyring for tekst</h1>
+    <p>
+      Fristar, framdrift og kvalitetssikring i éi arbeidsflate.
+      Dokumenterte fristar vert rekna automatisk, medan lokale
+      statusendringar vert lagra i nettlesaren.
+    </p>
+
+    <div class="hero-stats" aria-label="Prosjektstatus">
+      <div class="hero-stat">
+        <strong id="active-count">0</strong>
+        <span>aktive prosjekt</span>
+      </div>
+      <div class="hero-stat">
+        <strong id="nearest-days">–</strong>
+        <span>dagar til næraste frist</span>
+      </div>
+      <div class="hero-stat">
+        <strong id="average-progress">0 %</strong>
+        <span>samla framdrift</span>
+      </div>
+    </div>
+  </section>
+
+  <div class="workspace">
+    <section aria-labelledby="projects-heading">
+      <h2 id="projects-heading" hidden>Prosjekt</h2>
+
+      <div class="toolbar">
+        <div class="control">
+          <label for="sort-order">Sortering</label>
+          <select id="sort-order">
+            <option value="deadline">Næraste frist</option>
+            <option value="priority">Redaksjonell prioritet</option>
+            <option value="progress">Lågast framdrift</option>
+          </select>
+        </div>
+
+        <div class="control">
+          <label for="status-filter">Vis status</label>
+          <select id="status-filter">
+            <option value="all">Alle</option>
+            <option value="yellow">Arbeid pågår</option>
+            <option value="green">Klar for neste steg</option>
+            <option value="red">Kritisk</option>
+            <option value="submitted">Sendt inn</option>
+            <option value="white">Ikkje prioritert</option>
+          </select>
+        </div>
+
+        <span class="spacer"></span>
+        <button id="reset-status" type="button">Nullstill lokal status</button>
+      </div>
+
+      <div id="project-list" class="project-list"></div>
+    </section>
+
+    <aside class="sidebar" aria-label="Støtteinformasjon">
+      <section class="panel">
+        <h2>Neste handlingar</h2>
+        <ol id="next-actions" class="next-list"></ol>
+      </section>
+
+      <section class="panel">
+        <h2>Statusforklaring</h2>
+        <ul class="legend">
+          <li><span class="dot" style="--dot:#b42318"></span>Forseinka eller kritisk</li>
+          <li><span class="dot" style="--dot:#d59a00"></span>Arbeid pågår</li>
+          <li><span class="dot" style="--dot:#176b45"></span>Klar for neste steg</li>
+          <li><span class="dot" style="--dot:#53606d"></span>Ikkje prioritert no</li>
+        </ul>
+      </section>
+
+      <section class="panel">
+        <h2>Datagrunnlag</h2>
+        <p>
+          Fristane kjem frå utlysingane. Norsk medietidsskrift har ikkje
+          fast dato i den tilgjengelege forfattarrettleiinga.
+        </p>
+      </section>
+    </aside>
+  </div>
+</main>
+
+<footer>
+  <div class="shell">
+    INFBV · Lokal status vert berre lagra i denne nettlesaren.
+  </div>
+</footer>
+
+<div id="toast" class="toast" role="status" aria-live="polite"></div>
 
 <script>
-const projects = [
+"use strict";
+
+const baseProjects = [
   {
-    priority: 1,
-    title: "Totalforsvarsåret 2026",
-    slug: "/tekst/totalforsvarsaret-2026/",
-    deadline: null,
-    deadlineLabel: "Ikkje fastsett",
-    status: "yellow",
-    review: "/docs/peer-review/totalforsvarsaret-2026/"
-  },
-  {
+    id: "climate",
     priority: 2,
     title: "Klima og berekraft",
     slug: "/tekst/klima-og-berekraft/",
     deadline: "2026-12-01",
     deadlineLabel: "1. desember 2026",
+    next: "Kapittelutkast 31. mars 2027 ved invitasjon",
+    deliverable: "Samandrag på maksimalt 400 ord",
     status: "yellow",
-    review: "/docs/peer-review/klima-og-berekraft/"
+    progress: 70,
+    review: "/docs/peer-review/klima-og-berekraft.md"
   },
   {
+    id: "weird",
     priority: 3,
     title: "Weird Crisis Exercises",
     slug: "/tekst/weird-crisis-exercises/",
     deadline: "2027-03-17",
-    deadlineLabel: "Tidlegfrist 17. mars 2027. Endeleg frist 19. april 2027",
+    deadlineLabel: "Tidlegfrist 17. mars 2027",
+    next: "Endeleg frist 19. april 2027",
+    deliverable: "Abstract på maksimalt 500 ord utan litteraturliste",
     status: "yellow",
-    review: "/docs/peer-review/weird-crisis-exercises/"
+    progress: 55,
+    review: "/docs/peer-review/weird-crisis-exercises.md"
+  },
+  {
+    id: "total",
+    priority: 1,
+    title: "Totalforsvarsåret 2026",
+    slug: "/tekst/totalforsvarsaret-2026/",
+    deadline: null,
+    deadlineLabel: "Ikkje fastsett",
+    next: "Avklar innsendingstidspunkt med redaksjonen",
+    deliverable: "Vitskapleg artikkel på 6 000–8 000 ord",
+    status: "yellow",
+    progress: 60,
+    review: "/docs/peer-review/totalforsvarsaret-2026.md"
   }
 ];
 
-const labels = {
-  red: "Forseinka eller kritisk",
-  yellow: "Arbeid pågår",
-  green: "Klar for neste steg",
-  submitted: "Sendt inn",
-  white: "Ikkje prioritert no"
+const statusMeta = {
+  red: ["Forseinka eller kritisk", "#b42318", "#fff0ee"],
+  yellow: ["Arbeid pågår", "#8a5a00", "#fff7df"],
+  green: ["Klar for neste steg", "#176b45", "#e8f7ef"],
+  submitted: ["Sendt inn", "#176b45", "#e8f7ef"],
+  white: ["Ikkje prioritert no", "#53606d", "#eef1f4"]
 };
 
-const key = "infbv-project-status-v1";
-const saved = JSON.parse(localStorage.getItem(key) || "{}");
+const storageKey = "infbv-dashboard-v2";
+let savedState = {};
 
-function localDate(value) {
+try {
+  savedState = JSON.parse(localStorage.getItem(storageKey) || "{}");
+} catch (error) {
+  savedState = {};
+}
+
+const find = selector => document.querySelector(selector);
+
+function parseDate(value) {
   if (!value) return null;
   const [year, month, day] = value.split("-").map(Number);
   return new Date(year, month - 1, day);
 }
 
 function daysRemaining(value) {
-  const due = localDate(value);
-  if (!due) return null;
+  const deadline = parseDate(value);
+  if (!deadline) return null;
+
   const now = new Date();
   const today = new Date(now.getFullYear(), now.getMonth(), now.getDate());
-  return Math.round((due - today) / 86400000);
+  return Math.round((deadline - today) / 86400000);
+}
+
+function projects() {
+  return baseProjects.map(project => ({
+    ...project,
+    ...(savedState[project.id] || {})
+  }));
+}
+
+function announce(message) {
+  const toast = find("#toast");
+  toast.textContent = message;
+  toast.classList.add("show");
+
+  window.setTimeout(() => {
+    toast.classList.remove("show");
+  }, 1800);
+}
+
+function saveProject(id, patch) {
+  savedState[id] = {
+    ...(savedState[id] || {}),
+    ...patch
+  };
+
+  localStorage.setItem(storageKey, JSON.stringify(savedState));
+  announce("Statusen er lagra lokalt");
+  render();
 }
 
 function deadlineText(project) {
-  const days = daysRemaining(project.deadline);
-  if (days === null) return project.deadlineLabel;
-  if (days < 0) return `${project.deadlineLabel}, ${Math.abs(days)} dagar forseinka`;
-  if (days === 0) return `${project.deadlineLabel}, frist i dag`;
-  return `${project.deadlineLabel}, ${days} dagar att`;
+  const remaining = daysRemaining(project.deadline);
+
+  if (remaining === null) return project.deadlineLabel;
+  if (remaining < 0) {
+    return `${project.deadlineLabel} · ${Math.abs(remaining)} dagar forseinka`;
+  }
+  if (remaining === 0) return `${project.deadlineLabel} · frist i dag`;
+
+  return `${project.deadlineLabel} · ${remaining} dagar att`;
 }
 
-function render() {
-  const target = document.querySelector("#project-dashboard");
-  const ordered = [...projects].sort((a, b) => {
-    if (!a.deadline && !b.deadline) return a.priority - b.priority;
-    if (!a.deadline) return 1;
-    if (!b.deadline) return -1;
-    return localDate(a.deadline) - localDate(b.deadline);
+function effectiveStatus(project) {
+  const remaining = daysRemaining(project.deadline);
+
+  if (
+    remaining !== null &&
+    remaining < 0 &&
+    project.status !== "submitted"
+  ) {
+    return "red";
+  }
+
+  return project.status;
+}
+
+function projectCard(project) {
+  const status = effectiveStatus(project);
+  const meta = statusMeta[status];
+
+  const statusOptions = Object.entries(statusMeta)
+    .map(([value, details]) => `
+      <option value="${value}" ${project.status === value ? "selected" : ""}>
+        ${details[0]}
+      </option>
+    `)
+    .join("");
+
+  return `
+    <article
+      class="card"
+      style="--status-color:${meta[1]};--status-background:${meta[2]}">
+
+      <div class="card-head">
+        <div>
+          <div class="priority">Prioritet ${project.priority}</div>
+          <h2><a href="${project.slug}">${project.title}</a></h2>
+        </div>
+        <span class="tag">${meta[0]}</span>
+      </div>
+
+      <p class="deadline">
+        <span aria-hidden="true">◷</span>
+        <strong>${deadlineText(project)}</strong>
+      </p>
+
+      <div class="deliverable">
+        <strong>Leveranse:</strong> ${project.deliverable}<br>
+        <small>${project.next}</small>
+      </div>
+
+      <div class="progress-grid">
+        <div>
+          <div class="bar-label">
+            <span>Framdrift</span>
+            <span>${project.progress} %</span>
+          </div>
+          <div
+            class="bar"
+            role="progressbar"
+            aria-label="Framdrift for ${project.title}"
+            aria-valuenow="${project.progress}"
+            aria-valuemin="0"
+            aria-valuemax="100">
+            <span style="width:${project.progress}%"></span>
+          </div>
+        </div>
+
+        <input
+          class="progress-input"
+          data-project="${project.id}"
+          aria-label="Framdrift i prosent for ${project.title}"
+          type="number"
+          min="0"
+          max="100"
+          step="5"
+          value="${project.progress}">
+      </div>
+
+      <div class="control">
+        <label for="status-${project.id}">Status</label>
+        <select
+          class="status-input"
+          id="status-${project.id}"
+          data-project="${project.id}">
+          ${statusOptions}
+        </select>
+      </div>
+
+      <div class="card-actions">
+        <a class="button-link primary" href="${project.slug}">
+          Opne prosjektet
+        </a>
+        <a class="button-link" href="${project.review}">
+          Fagfellekontroll
+        </a>
+      </div>
+    </article>
+  `;
+}
+
+function bindProjectControls() {
+  document.querySelectorAll(".status-input").forEach(control => {
+    control.addEventListener("change", event => {
+      saveProject(event.target.dataset.project, {
+        status: event.target.value
+      });
+    });
   });
 
-  target.innerHTML = ordered.map(project => {
-    const status = saved[project.slug] || project.status;
-    return `
-      <article class="project-card">
-        <h2><a href="${project.slug}">${project.title}</a></h2>
-        <p><strong>Frist:</strong> ${deadlineText(project)}</p>
-        <p><strong>Status:</strong> ${labels[status]}</p>
-        <label>
-          Oppdater status
-          <select data-project="${project.slug}">
-            ${Object.entries(labels).map(([value, label]) =>
-              `<option value="${value}" ${value === status ? "selected" : ""}>${label}</option>`
-            ).join("")}
-          </select>
-        </label>
-        <p><a href="${project.review}">Opne fagfellekontrollen</a></p>
-      </article>
-    `;
-  }).join("");
+  document.querySelectorAll(".progress-input").forEach(control => {
+    control.addEventListener("change", event => {
+      const progress = Math.max(
+        0,
+        Math.min(100, Number(event.target.value))
+      );
 
-  target.querySelectorAll("select").forEach(select => {
-    select.addEventListener("change", event => {
-      saved[event.target.dataset.project] = event.target.value;
-      localStorage.setItem(key, JSON.stringify(saved));
-      render();
+      saveProject(event.target.dataset.project, { progress });
     });
   });
 }
 
+function render() {
+  let visibleProjects = projects();
+  const filter = find("#status-filter").value;
+  const sortOrder = find("#sort-order").value;
+
+  if (filter !== "all") {
+    visibleProjects = visibleProjects.filter(
+      project => effectiveStatus(project) === filter
+    );
+  }
+
+  visibleProjects.sort((first, second) => {
+    if (sortOrder === "priority") {
+      return first.priority - second.priority;
+    }
+
+    if (sortOrder === "progress") {
+      return first.progress - second.progress;
+    }
+
+    if (!first.deadline && !second.deadline) {
+      return first.priority - second.priority;
+    }
+
+    if (!first.deadline) return 1;
+    if (!second.deadline) return -1;
+
+    return parseDate(first.deadline) - parseDate(second.deadline);
+  });
+
+  find("#project-list").innerHTML = visibleProjects.length
+    ? visibleProjects.map(projectCard).join("")
+    : '<div class="empty">Ingen prosjekt svarar til filteret.</div>';
+
+  bindProjectControls();
+
+  const allProjects = projects();
+  const activeProjects = allProjects.filter(
+    project =>
+      project.status !== "submitted" &&
+      project.status !== "white"
+  );
+
+  find("#active-count").textContent = activeProjects.length;
+
+  const remainingDays = activeProjects
+    .map(project => daysRemaining(project.deadline))
+    .filter(value => value !== null && value >= 0);
+
+  find("#nearest-days").textContent = remainingDays.length
+    ? Math.min(...remainingDays)
+    : "–";
+
+  const average =
+    allProjects.reduce((sum, project) => sum + project.progress, 0) /
+    allProjects.length;
+
+  find("#average-progress").textContent = `${Math.round(average)} %`;
+
+  find("#next-actions").innerHTML = [...allProjects]
+    .sort((first, second) =>
+      (daysRemaining(first.deadline) ?? 99999) -
+      (daysRemaining(second.deadline) ?? 99999)
+    )
+    .map(project => `
+      <li>
+        <strong>${project.title}</strong>
+        <span>${project.next}</span>
+      </li>
+    `)
+    .join("");
+}
+
+find("#sort-order").addEventListener("change", render);
+find("#status-filter").addEventListener("change", render);
+
+find("#reset-status").addEventListener("click", () => {
+  localStorage.removeItem(storageKey);
+  savedState = {};
+  announce("Lokal status er nullstilt");
+  render();
+});
+
 render();
 </script>
-
-</main>
 </body>
 </html>
