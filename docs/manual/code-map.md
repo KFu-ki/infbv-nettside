@@ -25,15 +25,15 @@ Automatisk oversyn over kjelde-/konfigurasjonsfiler. Korte SHA-256-prefiksar gje
 | `mmp311/glossary/index.html` | `.html` | `20f1a92c6715` | Glossary \| MMP311 |
 | `mmp311/index.html` | `.html` | `369ef47e013d` | MMP311 Risk Communication and Issue Management \| INFBV |
 | `mmp311/knowledge/index.html` | `.html` | `4c318eaacfaa` | Knowledge \| MMP311 |
-| `mmp311/learning-path/01-risk-society/index.html` | `.html` | `eec1f518e677` | Risk, uncertainty and the social production of relevance \| MMP311 |
-| `mmp311/learning-path/02-risk-communication/index.html` | `.html` | `d313825f965b` | Risk communication as knowledge and trust work \| MMP311 |
-| `mmp311/learning-path/03-issues/index.html` | `.html` | `c6165a31ba37` | Issue detection and problem prevention \| MMP311 |
-| `mmp311/learning-path/04-prk-soft/index.html` | `.html` | `2d8c12d29b2c` | PRK and SOFT: movement, attention and interpretation \| MMP311 |
-| `mmp311/learning-path/05-fiver/index.html` | `.html` | `1b55de7b3c4b` | FIVER: from understanding to response \| MMP311 |
-| `mmp311/learning-path/06-crisis-communication/index.html` | `.html` | `bcf238d67e64` | Crisis communication as part of crisis management \| MMP311 |
-| `mmp311/learning-path/07-academic-writing/index.html` | `.html` | `dba5d5cfad15` | Academic writing \| MMP311 |
+| `mmp311/learning-path/01-risk-society/index.html` | `.html` | `084865867a85` | Risk, uncertainty and the social production of relevance \| MMP311 |
+| `mmp311/learning-path/02-risk-communication/index.html` | `.html` | `29175a59a0b0` | Risk communication as knowledge and trust work \| MMP311 |
+| `mmp311/learning-path/03-issues/index.html` | `.html` | `f3f9f6d6020a` | Issue detection and problem prevention \| MMP311 |
+| `mmp311/learning-path/04-prk-soft/index.html` | `.html` | `c9497991e106` | PRK and SOFT: movement, attention and interpretation \| MMP311 |
+| `mmp311/learning-path/05-fiver/index.html` | `.html` | `574b1ce18463` | FIVER: from understanding to response \| MMP311 |
+| `mmp311/learning-path/06-crisis-communication/index.html` | `.html` | `991b01398402` | Crisis communication as part of crisis management \| MMP311 |
+| `mmp311/learning-path/07-academic-writing/index.html` | `.html` | `9cf287da8171` | Academic writing \| MMP311 |
 | `mmp311/learning-path/index.html` | `.html` | `33867589c8e4` | Learning path \| MMP311 |
-| `mmp311/learning.css` | `.css` | `4d09ea7405c1` | @media (max-width:800px), @media (prefers-reduced-motion:reduce), @media (max-width: 800px), @media (max-width: 42rem), @media (prefers-reduced-motion: no-preference), @media (max-width:42rem), @media (prefers-reduced-motion: reduce), @media (max-width: 50rem), @media (max-width: 32rem), @media (max-width: 48rem) |
+| `mmp311/learning.css` | `.css` | `4e7d23673af3` | @media (max-width:800px), @media (prefers-reduced-motion:reduce), @media (max-width: 800px), @media (max-width: 42rem), @media (prefers-reduced-motion: no-preference), @media (max-width:42rem), @media (prefers-reduced-motion: reduce), @media (max-width: 50rem), @media (max-width: 32rem), @media (max-width: 48rem), @media (max-width: 46rem) |
 | `mmp311/learning.js` | `.js` | `c4bb3ea82f6b` | root, savedSize, label |
 | `mmp311/portal-search.js` | `.js` | `43d31ea6f43d` | INDEX_URL, SEARCH_URL, normalise, loadIndex, scoreItem, title, headings, text, score, createSearch, container, replaceSearchLinks, links, button, renderResults, terms, hits, item, heading, link, summary, source, elements, previousFocus, openSearch, closeSearch, data, target, writing |
 | `mmp311/prk/index.html` | `.html` | `dc590059eb3f` | PRK: Problem, Risk and Crisis \| MMP311 |
