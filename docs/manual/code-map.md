@@ -23,7 +23,7 @@ Automatisk oversyn over kjelde-/konfigurasjonsfiler. Korte SHA-256-prefiksar gje
 | `mmp311/full-text/index.html` | `.html` | `e66fc81be347` | Full-text explanations \| MMP311 |
 | `mmp311/full-text/media-distortion-framing-mediatization/index.html` | `.html` | `318d74dde27d` | Media distortion, news framing and mediatization \| MMP311 |
 | `mmp311/glossary/index.html` | `.html` | `20f1a92c6715` | Glossary \| MMP311 |
-| `mmp311/index.html` | `.html` | `4dc91544a5ac` | MMP311 Risk Communication and Issue Management \| INFBV |
+| `mmp311/index.html` | `.html` | `369ef47e013d` | MMP311 Risk Communication and Issue Management \| INFBV |
 | `mmp311/knowledge/index.html` | `.html` | `4c318eaacfaa` | Knowledge \| MMP311 |
 | `mmp311/learning-path/01-risk-society/index.html` | `.html` | `eec1f518e677` | Risk, uncertainty and the social production of relevance \| MMP311 |
 | `mmp311/learning-path/02-risk-communication/index.html` | `.html` | `d313825f965b` | Risk communication as knowledge and trust work \| MMP311 |
@@ -43,7 +43,7 @@ Automatisk oversyn over kjelde-/konfigurasjonsfiler. Korte SHA-256-prefiksar gje
 | `mmp311/site.js` | `.js` | `2df7eda9588c` | html, header, tools, size, savedSize, label |
 | `mmp311/skills/index.html` | `.html` | `789b842ae5f1` | Skills \| MMP311 |
 | `mmp311/soft/index.html` | `.html` | `29c6d2a5f96e` | SOFT Analytical Lens \| MMP311 |
-| `mmp311/styles.css` | `.css` | `726bcad10efc` | @media (max-width:850px), @media (prefers-reduced-motion:reduce), @media (max-width: 850px), @media (max-width: 42rem), @media (prefers-reduced-motion: no-preference), @media (prefers-reduced-motion: reduce), @media (max-width: 50rem), @media (max-width: 32rem) |
+| `mmp311/styles.css` | `.css` | `26e3a024708a` | @media (max-width:850px), @media (prefers-reduced-motion:reduce), @media (max-width: 850px), @media (max-width: 42rem), @media (prefers-reduced-motion: no-preference), @media (prefers-reduced-motion: reduce), @media (max-width: 50rem), @media (max-width: 32rem), @media (max-width: 56rem), @media (max-width: 38rem) |
 | `requirements.txt` | `.txt` | `ed58f33ba012` | fastapi>=0.115,<1, uvicorn>=0.30,<1 |
 | `scripts/build_manual.py` | `.py` | `9fcacf8b903f` | source_markdown_files, source_code_files, document_title, document_summary, source_symbols, code_map_markdown, catalog_markdown, manual_markdown, markdown_lines, pdf_literal, create_pdf, write_or_check, main |
 | `scripts/check_documentation.py` | `.py` | `60f98fd902e2` | markdown_files, internal_link_errors, tracked_secret_errors, documentation_index_errors, main |
