@@ -27,7 +27,8 @@ Automatisk oversyn over kjelde-/konfigurasjonsfiler. Korte SHA-256-prefiksar gje
 | `language.js` | `.js` | `85ace0f3a098` | STORAGE_KEY, params, requested, currentLanguage, originals, english, setText, element, staircaseCopy, updateMainStaircase, copy, headerSpans, title, description, updateStaticInterface, isEnglish, toggle, level4, level5, applyLanguage, url |
 | `mmp311/cases/index.html` | `.html` | `44c4baed40a5` | Cases and examples \| MMP311 |
 | `mmp311/fiver/index.html` | `.html` | `5e7316d6774b` | FIVER Process Model \| MMP311 |
-| `mmp311/full-text/index.html` | `.html` | `c683fc886b74` | Full-text explanations \| MMP311 |
+| `mmp311/full-text/index.html` | `.html` | `2e48b7c1fc96` | Full-text explanations \| MMP311 |
+| `mmp311/full-text/issues-management-local-government-soft/index.html` | `.html` | `c579b0024c91` | Issues management in local government and the SOFT approach \| MMP311 |
 | `mmp311/full-text/media-distortion-framing-mediatization/index.html` | `.html` | `3087ea289d65` | Media distortion, news framing and mediatization \| MMP311 |
 | `mmp311/glossary/index.html` | `.html` | `19c7bda2ed66` | Glossary \| MMP311 |
 | `mmp311/index.html` | `.html` | `c3a7f1d06a3a` | MMP311 Risk Communication and Issue Management \| INFBV |
@@ -50,7 +51,7 @@ Automatisk oversyn over kjelde-/konfigurasjonsfiler. Korte SHA-256-prefiksar gje
 | `mmp311/search/search.js` | `.js` | `3fd437ba08c3` | — |
 | `mmp311/site.js` | `.js` | `2df7eda9588c` | html, header, tools, size, savedSize, label |
 | `mmp311/skills/index.html` | `.html` | `76153c8f0ddf` | Skills \| MMP311 |
-| `mmp311/soft/index.html` | `.html` | `04513948684f` | SOFT Analytical Lens \| MMP311 |
+| `mmp311/soft/index.html` | `.html` | `faeb4a0ab75f` | SOFT Analytical Lens \| MMP311 |
 | `mmp311/styles.css` | `.css` | `4d57cabbc285` | @media (max-width:850px), @media (prefers-reduced-motion:reduce), @media (max-width: 850px), @media (max-width: 42rem), @media (prefers-reduced-motion: no-preference), @media (prefers-reduced-motion: reduce), @media (max-width: 64rem), @media (max-width: 32rem), @media (max-width: 56rem), @media (max-width: 38rem), @media (max-width: 24rem), @media (max-width: 50rem), @media (max-width: 48rem) |
 | `requirements.txt` | `.txt` | `ed58f33ba012` | fastapi>=0.115,<1, uvicorn>=0.30,<1 |
 | `scripts/build_manual.py` | `.py` | `9fcacf8b903f` | source_markdown_files, source_code_files, document_title, document_summary, source_symbols, code_map_markdown, catalog_markdown, manual_markdown, markdown_lines, pdf_literal, create_pdf, write_or_check, main |
