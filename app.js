@@ -106,7 +106,7 @@ const COURSE_HUB_PREVIEWS = {
                     <li>prosjektlogg og kjeldegrunnlag</li>
                 </ul>
             </div>
-            <a href="/inf142/" class="course-hub-link">Gå til INF142-emnerommet <span aria-hidden="true">→</span></a>
+            <a href="/inf142/" class="course-hub-button">Gå til INF142-emnerommet <span aria-hidden="true">→</span></a>
         </section>`,
     MMP311: `
         <section class="course-bridge" aria-labelledby="mmp311-bridge-title" lang="en">
@@ -124,7 +124,7 @@ const COURSE_HUB_PREVIEWS = {
                     <li>links between theory and professional practice</li>
                 </ul>
             </div>
-            <a href="/mmp311/" class="course-hub-link">Enter the MMP311 learning hub <span aria-hidden="true">→</span></a>
+            <a href="/mmp311/" class="course-hub-button">Enter the MMP311 learning hub <span aria-hidden="true">→</span></a>
         </section>`
 };
 

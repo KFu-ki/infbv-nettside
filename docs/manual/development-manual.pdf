@@ -413,7 +413,7 @@ T*
 T*
 (| .vscode/extensions.json | .json | e6089ad5102d | Konfigurasjon |) Tj
 T*
-(| app.js | .js | f9df7f44bbf7 | STAGES, COURSECONTENT, COURSEHUBPREVIEWS, SKILLS,) Tj
+(| app.js | .js | 1c77c7500635 | STAGES, COURSECONTENT, COURSEHUBPREVIEWS, SKILLS,) Tj
 T*
 (activeStep, setupEventListeners, menuBtn, staircaseWidget, drawer, popover,) Tj
 T*
@@ -695,7 +695,7 @@ T*
 T*
 (| scripts/updatemmp311pagemetadata.py | .py | 249c100daf19 | ordinal |) Tj
 T*
-(| styles.css | .css | 33259152c316 | @media \(max-width: 1023px\), @media \(prefers-reduced-) Tj
+(| styles.css | .css | 33090fc07fbb | @media \(max-width: 1023px\), @media \(prefers-reduced-) Tj
 T*
 (motion: reduce\), @media \(max-width: 480px\), @media \(max-width: 420px\), @media \(forced-) Tj
 T*
