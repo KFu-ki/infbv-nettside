@@ -1,5 +1,99 @@
 <!DOCTYPE html>
-<html data-theme="light" lang="en"><head><meta charset="utf-8"/><meta content="width=device-width,initial-scale=1" name="viewport"/><meta content="#081222" name="theme-color"/><title>PRK: Problem, Risk and Crisis | MMP311</title><meta content="PRK learning resource: how problems, risks and crises develop, overlap and feed organisational learning." name="description"/><link href="../styles.css" rel="stylesheet"/></head><body><a class="skip-link" href="#main">Skip to main content</a>
+<html data-theme="light" lang="en"><head><meta charset="utf-8"/><meta content="width=device-width,initial-scale=1" name="viewport"/><meta content="#081222" name="theme-color"/><title>PRK: Problem, Risk and Crisis | MMP311</title><meta content="PRK learning resource: how problems, risks and crises develop, overlap and feed organisational learning." name="description"/><link href="../styles.css" rel="stylesheet"/>
+<style id="prk-layout-fix">
+#prk-expanded-cases {
+  width: 100%;
+  max-width: 72rem;
+  margin-inline: auto;
+  box-sizing: border-box;
+  overflow-wrap: anywhere;
+}
+
+#prk-expanded-cases .cards,
+#prk-expanded-cases .cards > article {
+  min-width: 0;
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
+#prk-expanded-cases .cards {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: clamp(1rem, 2.5vw, 1.5rem);
+}
+
+#prk-expanded-cases .cards > article {
+  overflow: hidden;
+}
+
+#prk-expanded-cases h2,
+#prk-expanded-cases h3,
+#prk-expanded-cases p,
+#prk-expanded-cases a {
+  overflow-wrap: anywhere;
+  word-break: normal;
+}
+
+.prk-learning-lab {
+  width: 100%;
+  max-width: 72rem;
+  margin-inline: auto;
+  box-sizing: border-box;
+}
+
+.prk-learning-lab__matrix {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+  margin-block: 1.5rem;
+}
+
+.prk-learning-lab__matrix > article {
+  min-width: 0;
+  padding: 1.15rem;
+  border: 1px solid var(--border, #d8dee6);
+  border-radius: .75rem;
+  background: var(--surface, #fff);
+  box-sizing: border-box;
+}
+
+.prk-learning-lab__matrix h3 {
+  margin-top: 0;
+}
+
+.prk-learning-lab__sequence {
+  margin-block: 1.5rem;
+  padding: 1.25rem;
+  border-left: .35rem solid #315c72;
+  border-radius: .25rem .75rem .75rem .25rem;
+  background: #f2f7f9;
+}
+
+.prk-learning-lab table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.prk-learning-lab__table-wrap {
+  max-width: 100%;
+  overflow-x: auto;
+  margin-block: 1.5rem;
+}
+
+.prk-learning-lab th,
+.prk-learning-lab td {
+  min-width: 10rem;
+  vertical-align: top;
+}
+
+@media (max-width: 48rem) {
+  #prk-expanded-cases .cards,
+  .prk-learning-lab__matrix {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}
+</style>
+</head><body><a class="skip-link" href="#main">Skip to main content</a>
 <header class="portal-shell">
   <div class="portal-shell__inner">
 
@@ -125,7 +219,150 @@
     research.
   </p>
 </section>
-</main><section class="section" id="prk-expanded-cases"><p class="eyebrow">Cases and evidence</p><h2>Use PRK to analyse issue development</h2><p>PRK does not assume that every issue becomes a crisis. The expanded material asks students to document when a matter becomes a problem, what uncertainty constitutes risk and what evidence would justify crisis mobilisation.</p><div class="cards two"><article><h3>Haramsøya and the tipping point</h3><p>Analyse how an access-road dispute, local mobilisation, police intervention and visual news coverage connected a local wind-power conflict to national policy debate.</p></article><article><h3>Fosen and rights-based reframing</h3><p>Compare a technical and administrative account of renewable-energy development with a definition grounded in Indigenous cultural rights.</p></article><article><h3>Contractor exposure</h3><p>Distinguish the responsibilities and risks of NVE, Zephyr, Haram Kraft and Stangeland Maskin. Explain why public attribution may differ from legal responsibility.</p></article><article><h3>Evidence task</h3><p>Build a timeline and identify a candidate tipping point. Separate evidence of media attention from evidence of changed policy, behaviour or operational capacity.</p></article></div><aside class="full-text-link"><p><strong>Extended curriculum text.</strong> The full text defines PRK, connects it to issues-management theory and develops Haramsøya as a detailed case. <a href="/mmp311/full-text/prk-framework/">Read the PRK full-text explanation</a>.</p></aside></section><section aria-label="Information about this learning resource" class="resource-tools">
+</main><section class="section" id="prk-expanded-cases"><p class="eyebrow">Cases and evidence</p><h2>Use PRK to analyse issue development</h2><p>PRK does not assume that every issue becomes a crisis. The expanded material asks students to document when a matter becomes a problem, what uncertainty constitutes risk and what evidence would justify crisis mobilisation.</p><div class="cards two"><article><h3>Haramsøya and the tipping point</h3><p>Analyse how an access-road dispute, local mobilisation, police intervention and visual news coverage connected a local wind-power conflict to national policy debate.</p></article><article><h3>Fosen and rights-based reframing</h3><p>Compare a technical and administrative account of renewable-energy development with a definition grounded in Indigenous cultural rights.</p></article><article><h3>Contractor exposure</h3><p>Distinguish the responsibilities and risks of NVE, Zephyr, Haram Kraft and Stangeland Maskin. Explain why public attribution may differ from legal responsibility.</p></article><article><h3>Evidence task</h3><p>Build a timeline and identify a candidate tipping point. Separate evidence of media attention from evidence of changed policy, behaviour or operational capacity.</p></article></div><aside class="full-text-link"><p><strong>Extended curriculum text.</strong> The full text defines PRK, connects it to issues-management theory and develops Haramsøya as a detailed case. <a href="/mmp311/full-text/prk-framework/">Read the PRK full-text explanation</a>.</p></aside></section>
+<section class="section prk-learning-lab" id="ethics-rights-learning-lab">
+<p class="eyebrow">Comparative learning lab</p>
+<h2>From broken expectations to public regulation</h2>
+
+<p>
+This activity connects PRK to environmental ethics, justice and rights.
+Students compare how different actors define harm, responsibility and
+legitimate intervention. The purpose is not to treat the cases as
+equivalent. It is to identify how ethical claims become issues, how
+issues acquire publics and how public mobilisation may contribute to
+regulation or institutional change.
+</p>
+
+<div class="prk-learning-lab__matrix">
+<article>
+<h3>Gro Harlem Brundtland</h3>
+<p>
+Begin with sustainable development as an attempt to connect present
+needs, future generations, poverty reduction and ecological limits.
+Ask when a compromise between economic development and environmental
+protection remains defensible, and when the compromise transfers costs
+to groups with less political power.
+</p>
+</article>
+
+<article>
+<h3>Martha Nussbaum</h3>
+<p>
+Use the capabilities approach to ask which real opportunities people
+must possess to live with dignity. Relevant capabilities include life,
+bodily health, affiliation, relations with other species and control
+over one's political and material environment.
+</p>
+</article>
+
+<article>
+<h3>Ella Marie Hætta Isaksen</h3>
+<p>
+Examine how the Fosen conflict was maintained as a question of
+Indigenous cultural rights rather than reduced to a technical balance
+between renewable-energy production and local inconvenience. Analyse
+how cultural expression, public argument and protest made the
+rights-based definition harder to exclude.
+</p>
+</article>
+
+<article>
+<h3>Erin Brockovich</h3>
+<p>
+Examine conflicts in which residents connect industrial development to
+water, health, transparency and local decision-making. Compare the
+authority of lived experience, legal documentation, scientific
+expertise and company sustainability claims.
+</p>
+</article>
+</div>
+
+<div class="prk-learning-lab__sequence">
+<h3>Analytical sequence</h3>
+<ol>
+<li><strong>Expectation:</strong> What does the affected public expect from the state, municipality or company?</li>
+<li><strong>Breach:</strong> Which event, decision or omission makes the expectation gap visible?</li>
+<li><strong>Ethical claim:</strong> Is the objection grounded in utility, rights, capabilities, recognition, procedural justice or the intrinsic value of nature?</li>
+<li><strong>Issue carrier:</strong> Who gives the claim continuity, language and public visibility?</li>
+<li><strong>Tipping point:</strong> When does the issue move from a specialist or local arena to a broader political agenda?</li>
+<li><strong>PRK movement:</strong> What evidence supports classification as a problem, risk or crisis?</li>
+<li><strong>Institutional response:</strong> Does the issue lead to dialogue, compensation, organisational change, regulation, legislation or judicial review?</li>
+</ol>
+</div>
+
+<h3>Comparative case matrix</h3>
+<div class="prk-learning-lab__table-wrap">
+<table>
+<caption>
+<strong>Table 2.</strong> Questions for comparing wind power, data
+centres and Indigenous rights.
+</caption>
+<thead>
+<tr>
+<th scope="col">Dimension</th>
+<th scope="col">Wind power</th>
+<th scope="col">Data centres</th>
+<th scope="col">Indigenous rights</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th scope="row">Promised benefit</th>
+<td>Renewable electricity, climate mitigation and local economic activity</td>
+<td>Digital infrastructure, investment, employment and technological capacity</td>
+<td>Public development pursued within a rights-based democratic order</td>
+</tr>
+<tr>
+<th scope="row">Possible burden</th>
+<td>Landscape change, land use, ecological loss and local conflict</td>
+<td>Demand for electricity, water, land, grid capacity and public subsidies</td>
+<td>Loss of culturally significant land use, participation or control over the material basis of culture</td>
+</tr>
+<tr>
+<th scope="row">Broken expectation</th>
+<td>Residents may expect meaningful participation and current assessment of consequences</td>
+<td>Residents may expect transparency about resource use, public costs and local effects</td>
+<td>Rights-holders may expect that protected rights constrain administrative and commercial decisions</td>
+</tr>
+<tr>
+<th scope="row">Ethical question</th>
+<td>Can aggregate climate benefit justify concentrated local loss?</td>
+<td>Who should carry the infrastructure and environmental costs of digital growth?</td>
+<td>Which claims are protected rights rather than interests available for ordinary balancing?</td>
+</tr>
+<tr>
+<th scope="row">Evidence of change</th>
+<td>Revised licensing practice, municipal authority or changed project conditions</td>
+<td>Disclosure requirements, resource limits, taxation, moratoria or planning rules</td>
+<td>Judgments, altered administrative practice, remedies and effective participation</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+<h3>Student assignment</h3>
+<p>
+Choose one wind-power case and one data-centre case. Construct a
+source-based timeline from initial issue to possible institutional
+change. Identify the issue carriers, the ethical vocabulary and the
+evidence for each PRK classification. End by assessing whether the
+response addressed the underlying condition or merely changed its
+public presentation.
+</p>
+
+<aside class="full-text-link">
+<p>
+<strong>Use the extended explanation.</strong>
+The PRK full text distinguishes the tipping-point sequence from a
+non-linear relationship among issue management, crisis prevention,
+crisis response and learning.
+<a href="/mmp311/full-text/prk-framework/">
+Read the PRK full-text explanation
+</a>.
+</p>
+</aside>
+</section>
+<section aria-label="Information about this learning resource" class="resource-tools">
 <p class="resource-tools__label">About this resource</p>
 <div class="resource-tools__actions"><button aria-haspopup="dialog" class="resource-tool" data-resource-dialog="citation" type="button">
 <span aria-hidden="true" class="resource-tool__icon resource-tool__quote">“</span>

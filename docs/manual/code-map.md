@@ -30,7 +30,7 @@ Automatisk oversyn over kjelde-/konfigurasjonsfiler. Korte SHA-256-prefiksar gje
 | `mmp311/full-text/index.html` | `.html` | `d9be0979f320` | Full-text explanations \| MMP311 |
 | `mmp311/full-text/issues-management-local-government-soft/index.html` | `.html` | `b13d2b606cc8` | Issues management in local government and the SOFT approach \| MMP311 |
 | `mmp311/full-text/media-distortion-framing-mediatization/index.html` | `.html` | `3087ea289d65` | Media distortion, news framing and mediatization \| MMP311 |
-| `mmp311/full-text/prk-framework/index.html` | `.html` | `93f84a6be328` | The PRK framework: Issues, problems, risks and crises \| MMP311 |
+| `mmp311/full-text/prk-framework/index.html` | `.html` | `406c5b5fb1c8` | The PRK framework: Issues, problems, risks and crises \| MMP311 |
 | `mmp311/glossary/index.html` | `.html` | `19c7bda2ed66` | Glossary \| MMP311 |
 | `mmp311/index.html` | `.html` | `c3a7f1d06a3a` | MMP311 Risk Communication and Issue Management \| INFBV |
 | `mmp311/knowledge/index.html` | `.html` | `5011629ff56d` | Knowledge \| MMP311 |
@@ -46,7 +46,7 @@ Automatisk oversyn over kjelde-/konfigurasjonsfiler. Korte SHA-256-prefiksar gje
 | `mmp311/learning.js` | `.js` | `c4bb3ea82f6b` | root, savedSize, label |
 | `mmp311/portal-navigation.js` | `.js` | `08ea27fd90ff` | media, shell, inner, portalNav, courseNav, button, panel, body, close, moveNavigation, focusable, openMenu, closeMenu, items, first, last, handleWidth |
 | `mmp311/portal-search.js` | `.js` | `29a729440dee` | INDEX_URL, SEARCH_URL, normalise, loadIndex, scoreItem, title, headings, text, score, createSearch, container, replaceSearchLinks, links, button, renderResults, terms, hits, item, heading, link, summary, source, meta, language, type, elements, previousFocus, openSearch, closeSearch, data, target, writing |
-| `mmp311/prk/index.html` | `.html` | `1a631de49169` | PRK: Problem, Risk and Crisis \| MMP311 |
+| `mmp311/prk/index.html` | `.html` | `b531c1265106` | PRK: Problem, Risk and Crisis \| MMP311 |
 | `mmp311/resource-tools.js` | `.js` | `04cbd24cf67a` | triggers, dialogs, opener, pageTitle, canonicalUrl, year, reference, citationOutput, copyButton, closeDialog, name, dialog |
 | `mmp311/search/index.html` | `.html` | `7c50cb5b2b4b` | Guided search \| MMP311 |
 | `mmp311/search/search.js` | `.js` | `3fd437ba08c3` | — |
