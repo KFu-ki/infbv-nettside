@@ -63,7 +63,7 @@ Automatisk oversyn over kjelde-/konfigurasjonsfiler. Korte SHA-256-prefiksar gje
 | `scripts/update_budsjett_data.py` | `.py` | `0aa4a1b0bac6` | main |
 | `scripts/update_changed_page_metadata.py` | `.py` | `7c4915a58131` | git_paths, changed_html_files, suffix, update_page, main |
 | `scripts/update_mmp311_page_metadata.py` | `.py` | `249c100daf19` | ordinal |
-| `styles.css` | `.css` | `33090fc07fbb` | @media (max-width: 1023px), @media (prefers-reduced-motion: reduce), @media (max-width: 480px), @media (max-width: 420px), @media (forced-colors: active), @media (max-width: 42rem), @media (max-width: 64rem), @media (max-width:48rem) |
+| `styles.css` | `.css` | `f7c56036415f` | @media (max-width: 1023px), @media (prefers-reduced-motion: reduce), @media (max-width: 480px), @media (max-width: 420px), @media (forced-colors: active), @media (max-width: 42rem), @media (max-width: 64rem), @media (max-width:48rem) |
 | `tekst/deliberasjon/index.html` | `.html` | `39d7ba106306` | deliberasjon |
 | `tekst/index.html` | `.html` | `25d84fdb67eb` | Tekst \| INFBV |
 | `tekst/klima-og-berekraft/abstract/index.html` | `.html` | `b29975dd978e` | Beyond Sustainability \| Working abstract |

@@ -1045,3 +1045,35 @@ body main .course-bridge a.course-hub-button:focus-visible {
   color: #ffffff !important;
   -webkit-text-fill-color: #ffffff !important;
 }
+
+/* Endeleg kontrastregel for emnesideknappane */
+body main .course-bridge a.course-hub-button,
+body main .course-bridge a.course-hub-button:link,
+body main .course-bridge a.course-hub-button:visited {
+  display: inline-flex;
+  min-height: 48px;
+  align-items: center;
+  gap: 0.55rem;
+  padding: 0.8rem 1.1rem;
+  border: 2px solid #6b3300 !important;
+  border-radius: 0.65rem;
+  background: #6b3300 !important;
+  color: #ffffff !important;
+  -webkit-text-fill-color: #ffffff !important;
+  font-weight: 750;
+  text-decoration: none !important;
+}
+
+body main .course-bridge a.course-hub-button:hover {
+  border-color: #4b2400 !important;
+  background: #4b2400 !important;
+  color: #ffffff !important;
+  -webkit-text-fill-color: #ffffff !important;
+}
+
+body main .course-bridge a.course-hub-button:focus-visible {
+  outline: 3px solid #f59e0b !important;
+  outline-offset: 4px;
+  color: #ffffff !important;
+  -webkit-text-fill-color: #ffffff !important;
+}
