@@ -27,16 +27,17 @@ Automatisk oversyn over kjelde-/konfigurasjonsfiler. Korte SHA-256-prefiksar gje
 | `language.js` | `.js` | `85ace0f3a098` | STORAGE_KEY, params, requested, currentLanguage, originals, english, setText, element, staircaseCopy, updateMainStaircase, copy, headerSpans, title, description, updateStaticInterface, isEnglish, toggle, level4, level5, applyLanguage, url |
 | `mmp311/cases/index.html` | `.html` | `44c4baed40a5` | Cases and examples \| MMP311 |
 | `mmp311/fiver/index.html` | `.html` | `5e7316d6774b` | FIVER Process Model \| MMP311 |
-| `mmp311/full-text/index.html` | `.html` | `2e48b7c1fc96` | Full-text explanations \| MMP311 |
-| `mmp311/full-text/issues-management-local-government-soft/index.html` | `.html` | `c579b0024c91` | Issues management in local government and the SOFT approach \| MMP311 |
+| `mmp311/full-text/index.html` | `.html` | `d9be0979f320` | Full-text explanations \| MMP311 |
+| `mmp311/full-text/issues-management-local-government-soft/index.html` | `.html` | `b13d2b606cc8` | Issues management in local government and the SOFT approach \| MMP311 |
 | `mmp311/full-text/media-distortion-framing-mediatization/index.html` | `.html` | `3087ea289d65` | Media distortion, news framing and mediatization \| MMP311 |
+| `mmp311/full-text/prk-framework/index.html` | `.html` | `93f84a6be328` | The PRK framework: Issues, problems, risks and crises \| MMP311 |
 | `mmp311/glossary/index.html` | `.html` | `19c7bda2ed66` | Glossary \| MMP311 |
 | `mmp311/index.html` | `.html` | `c3a7f1d06a3a` | MMP311 Risk Communication and Issue Management \| INFBV |
 | `mmp311/knowledge/index.html` | `.html` | `5011629ff56d` | Knowledge \| MMP311 |
 | `mmp311/learning-path/01-risk-society/index.html` | `.html` | `b87d6ab9f92d` | Risk, uncertainty and the social production of relevance \| MMP311 |
 | `mmp311/learning-path/02-risk-communication/index.html` | `.html` | `601f2f4b754f` | Risk communication as knowledge and trust work \| MMP311 |
 | `mmp311/learning-path/03-issues/index.html` | `.html` | `b9c0e2937d9a` | Issue detection and problem prevention \| MMP311 |
-| `mmp311/learning-path/04-prk-soft/index.html` | `.html` | `089f22718dcf` | PRK and SOFT: movement, attention and interpretation \| MMP311 |
+| `mmp311/learning-path/04-prk-soft/index.html` | `.html` | `3dce6f47976a` | PRK and SOFT: movement, attention and interpretation \| MMP311 |
 | `mmp311/learning-path/05-fiver/index.html` | `.html` | `e295e49b8455` | FIVER: from understanding to response \| MMP311 |
 | `mmp311/learning-path/06-crisis-communication/index.html` | `.html` | `be55ed977350` | Crisis communication as part of crisis management \| MMP311 |
 | `mmp311/learning-path/07-academic-writing/index.html` | `.html` | `05304eec48b6` | Academic writing \| MMP311 |
@@ -45,13 +46,13 @@ Automatisk oversyn over kjelde-/konfigurasjonsfiler. Korte SHA-256-prefiksar gje
 | `mmp311/learning.js` | `.js` | `c4bb3ea82f6b` | root, savedSize, label |
 | `mmp311/portal-navigation.js` | `.js` | `08ea27fd90ff` | media, shell, inner, portalNav, courseNav, button, panel, body, close, moveNavigation, focusable, openMenu, closeMenu, items, first, last, handleWidth |
 | `mmp311/portal-search.js` | `.js` | `29a729440dee` | INDEX_URL, SEARCH_URL, normalise, loadIndex, scoreItem, title, headings, text, score, createSearch, container, replaceSearchLinks, links, button, renderResults, terms, hits, item, heading, link, summary, source, meta, language, type, elements, previousFocus, openSearch, closeSearch, data, target, writing |
-| `mmp311/prk/index.html` | `.html` | `07b06b36a2a3` | PRK: Problem, Risk and Crisis \| MMP311 |
+| `mmp311/prk/index.html` | `.html` | `1a631de49169` | PRK: Problem, Risk and Crisis \| MMP311 |
 | `mmp311/resource-tools.js` | `.js` | `04cbd24cf67a` | triggers, dialogs, opener, pageTitle, canonicalUrl, year, reference, citationOutput, copyButton, closeDialog, name, dialog |
 | `mmp311/search/index.html` | `.html` | `7c50cb5b2b4b` | Guided search \| MMP311 |
 | `mmp311/search/search.js` | `.js` | `3fd437ba08c3` | — |
 | `mmp311/site.js` | `.js` | `2df7eda9588c` | html, header, tools, size, savedSize, label |
 | `mmp311/skills/index.html` | `.html` | `76153c8f0ddf` | Skills \| MMP311 |
-| `mmp311/soft/index.html` | `.html` | `faeb4a0ab75f` | SOFT Analytical Lens \| MMP311 |
+| `mmp311/soft/index.html` | `.html` | `d695fb0b2c02` | SOFT Analytical Lens \| MMP311 |
 | `mmp311/styles.css` | `.css` | `4d57cabbc285` | @media (max-width:850px), @media (prefers-reduced-motion:reduce), @media (max-width: 850px), @media (max-width: 42rem), @media (prefers-reduced-motion: no-preference), @media (prefers-reduced-motion: reduce), @media (max-width: 64rem), @media (max-width: 32rem), @media (max-width: 56rem), @media (max-width: 38rem), @media (max-width: 24rem), @media (max-width: 50rem), @media (max-width: 48rem) |
 | `requirements.txt` | `.txt` | `ed58f33ba012` | fastapi>=0.115,<1, uvicorn>=0.30,<1 |
 | `scripts/build_manual.py` | `.py` | `9fcacf8b903f` | source_markdown_files, source_code_files, document_title, document_summary, source_symbols, code_map_markdown, catalog_markdown, manual_markdown, markdown_lines, pdf_literal, create_pdf, write_or_check, main |
