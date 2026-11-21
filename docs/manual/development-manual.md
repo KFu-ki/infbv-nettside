@@ -139,7 +139,7 @@ Automatisk oversyn over kjelde-/konfigurasjonsfiler. Korte SHA-256-prefiksar gje
 | `mmp311/full-text/index.html` | `.html` | `d9be0979f320` | Full-text explanations \| MMP311 |
 | `mmp311/full-text/issues-management-local-government-soft/index.html` | `.html` | `b13d2b606cc8` | Issues management in local government and the SOFT approach \| MMP311 |
 | `mmp311/full-text/media-distortion-framing-mediatization/index.html` | `.html` | `3087ea289d65` | Media distortion, news framing and mediatization \| MMP311 |
-| `mmp311/full-text/prk-framework/index.html` | `.html` | `406c5b5fb1c8` | The PRK framework: Issues, problems, risks and crises \| MMP311 |
+| `mmp311/full-text/prk-framework/index.html` | `.html` | `93f84a6be328` | The PRK framework: Issues, problems, risks and crises \| MMP311 |
 | `mmp311/glossary/index.html` | `.html` | `19c7bda2ed66` | Glossary \| MMP311 |
 | `mmp311/index.html` | `.html` | `c3a7f1d06a3a` | MMP311 Risk Communication and Issue Management \| INFBV |
 | `mmp311/knowledge/index.html` | `.html` | `5011629ff56d` | Knowledge \| MMP311 |
