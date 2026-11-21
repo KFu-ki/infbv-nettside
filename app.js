@@ -89,6 +89,45 @@ const COURSE_CONTENT = {
     MMP314: "Skriftleg masteroppgåve. Eitt av to oppgåvealternativ; oppgåva blir rettleidd og skal følgje forskingsetiske normer."
 };
 
+const COURSE_HUB_PREVIEWS = {
+    INF142: `
+        <section class="course-bridge" aria-labelledby="inf142-bridge-title">
+            <p class="course-bridge__stage">Trinn 1 · Nybyrjar</p>
+            <h2 id="inf142-bridge-title">Frå prosjektidé til profesjonell refleksjon</h2>
+            <ol class="course-bridge__flow" aria-label="Arbeidsløpet i INF142">
+                <li>Forstå</li><li>Planleggje</li><li>Gjennomføre</li><li>Dokumentere</li><li>Reflektere</li>
+            </ol>
+            <div class="course-bridge__preview">
+                <h3>I emnerommet finn du</h3>
+                <ul>
+                    <li>åtte læringsstiar og sju verkstadverktøy</li>
+                    <li>undervisningsdatoar og fagleg progresjon</li>
+                    <li>prosjektarbeid frå problem til refleksjon</li>
+                    <li>prosjektlogg og kjeldegrunnlag</li>
+                </ul>
+            </div>
+            <a href="/inf142/" class="course-hub-link">Gå til INF142-emnerommet <span aria-hidden="true">→</span></a>
+        </section>`,
+    MMP311: `
+        <section class="course-bridge" aria-labelledby="mmp311-bridge-title" lang="en">
+            <p class="course-bridge__stage">Stage 4 · Proficient</p>
+            <h2 id="mmp311-bridge-title">From issue detection to evaluated response</h2>
+            <ol class="course-bridge__flow" aria-label="Learning sequence in MMP311">
+                <li>Identify</li><li>Assess</li><li>Plan</li><li>Communicate</li><li>Evaluate</li>
+            </ol>
+            <div class="course-bridge__preview">
+                <h3>In the learning hub</h3>
+                <ul>
+                    <li>course introduction and learning path</li>
+                    <li>PRK, SOFT and FIVER as analytical models</li>
+                    <li>reading and source guidance</li>
+                    <li>links between theory and professional practice</li>
+                </ul>
+            </div>
+            <a href="/mmp311/" class="course-hub-link">Enter the MMP311 learning hub <span aria-hidden="true">→</span></a>
+        </section>`
+};
+
 const SKILLS = [
     { name: "Sosiale medium", description: "Startar med enkel publisering og innhaldsforståing, og blir vidareutvikla gjennom kommunikasjonsprosjekt og praksis.", courses: ["INF131", "KOM202", "INF211", "INF213"] },
     { name: "Nettside og nettsideutvikling", description: "Grunnleggjande nettinnhald kjem tidleg; webdokumentar og sjølvstendig produksjon gir rom for meir avansert arbeid.", courses: ["INF131", "KOM202", "INF213", "MMP310"] },
@@ -397,8 +436,7 @@ function openCourse(code, name, stp, sem) {
                 <div>
                     <h3 class="text-sm font-semibold uppercase tracking-wider text-amber-400 mb-2">Om emnet og læringsutbytte</h3>
                     <p class="text-slate-300 text-sm leading-relaxed">${courseContent || "Emnet inngår i kompetansetrappa ved Høgskulen i Volda og byggjer vidare på fagleg kunnskap og praktiske ferdigheiter."}</p>
-                    ${code === "INF142" ? `<a href="/inf142/" class="mt-4 inline-flex min-h-11 items-center rounded-lg bg-emerald-800 px-4 py-2 text-sm font-bold text-white hover:bg-emerald-700 focus:outline-none focus:ring-2 focus:ring-emerald-500">Opne emnerommet →</a>` : ""}
-                    ${code === "MMP311" ? `<a href="/mmp311/" class="mt-4 inline-flex min-h-11 items-center rounded-lg bg-indigo-500 px-4 py-2 text-sm font-bold text-white hover:bg-indigo-400 focus:outline-none focus:ring-2 focus:ring-indigo-300">Open the MMP311 learning hub →</a>` : ""}
+                    ${COURSE_HUB_PREVIEWS[code] || ""}
                 </div>
 
                 ${courseContent ? "" : `
