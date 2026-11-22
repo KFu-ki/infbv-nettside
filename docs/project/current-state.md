@@ -78,3 +78,5 @@ Ved dokumentasjonsoppstart var `git status --short` tom, og `git ls-files` viste
 
 Kontrollane seier ikkje noko om ekstern deploy, produksjonsdrift eller gyldigheita av eksterne kjeldedata.
 - PRK, SOFT og FIVER har eigne MMP311-undersider med menylenkjer og krysslenkjer frå kvar modellomtale.
+
+- Tunet er etablert på `/tekst/prosjektstyring/` som kompakt FoU-cockpit. Lokale arbeidsnotat, arbeidssteg og framdrift vert lagra i nettlesaren og kan eksporterast som JSON. Rå TimeEdit-data og abonnementsadresse er ikkje publiserte.

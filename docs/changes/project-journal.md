@@ -71,3 +71,6 @@
 
 ## 2026-11-17 — PRK, SOFT og FIVER som eigne læringssteg
 - Delte modellstoffet i tre samanhengande undersider med felles navigasjon, arbeidsspørsmål og naturlege overgangar mellom perspektiva.
+
+## 2026-11-22 – Tunet
+- Prosjektstyringssida vart omforma til ein FoU-cockpit. Klima og berekraft og Weird Crisis Exercises fekk abstractfrist 30. november 2026 og eigne arbeidsløp. TimeEdit er førebels eit lite instrument utan publiserte rådata.

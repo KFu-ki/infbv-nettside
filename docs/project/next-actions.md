@@ -22,3 +22,7 @@ Prioritering: `No` → `Neste` → `Seinare`. `Blokkert` krev avklaring før gje
 ## Blokkert
 
 - **Endre eller republisere rådata.** Filer: lokale arbeidsbøker og importskript. Blokkert til kjeldeeigar, tilgang og personvernstatus er stadfesta; rådata skal ikkje endrast manuelt.
+
+## Tunet
+- **Kople privat kalenderkjelde til Tunet.** Ferdig når eit lokalt eller autentisert lag leverer berre næraste relevante aktivitetar utan at TimeEdit-abonnement, rådata eller nye tilsettnamn vert publiserte.
+- **Flytt arbeidslogg frå berre localStorage til kontrollert varig lagring.** Bevar eksport til JSON som reserve.

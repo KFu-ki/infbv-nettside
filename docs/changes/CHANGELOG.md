@@ -115,3 +115,5 @@
 
 ## 2026-11-17 — Modellundersider for MMP311
 - La til eigne sider for PRK, SOFT og FIVER og kopla dei frå hubmenyen og dei enkelte modellkorta.
+
+- Etablerte Tunet som kompakt FoU-cockpit med korrigerte abstractfristar, arbeidssteg, «Her slapp eg», neste handling og eksport av lokal arbeidslogg.
