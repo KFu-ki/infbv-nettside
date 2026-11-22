@@ -181,7 +181,7 @@ Automatisk oversyn over kjelde-/konfigurasjonsfiler. Korte SHA-256-prefiksar gje
 | `tekst/klima-og-berekraft/index.html` | `.html` | `63ee21620922` | Klima og berekraft \| INFBV |
 | `tekst/krisekommunikasjon-med-bakkekontakt/index.html` | `.html` | `d95e76d65747` | krisekommunikasjon-med-bakkekontakt |
 | `tekst/portal-text.css` | `.css` | `2e44b8eb74a5` | @media (max-width: 46rem), @media (prefers-reduced-motion: reduce) |
-| `tekst/prosjektstyring/index.html` | `.html` | `0619a37136dc` | Tunet \| INFBV |
+| `tekst/prosjektstyring/index.html` | `.html` | `7775188e7ad0` | Tunet \| INFBV |
 | `tekst/samtalepodkastar/index.html` | `.html` | `3a7bb3a5d999` | samtalepodkastar |
 | `tekst/totalforsvarsaret-2026/index.html` | `.html` | `44dcec1969f4` | totalforsvarsaret-2026 |
 | `tekst/weird-crisis-exercises/index.html` | `.html` | `a6f1fe50311a` | weird-crisis-exercises |
