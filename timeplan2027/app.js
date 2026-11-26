@@ -1,6 +1,9 @@
 const DATA_URL = "/timeplanside/timeplan-2027.json";
 const STORAGE_KEY = "infbv-timeplan-2027-edits";
 const COURSE_FILTER_KEY = "all";
+const MINE_FILTER_KEY = "mine";
+const MY_STAFF_NAME = "Fuglseth Kristian";
+const MY_MUNICIPAL_COURSES = new Set(["FSK", "KST"]);
 const state = {
   source: null,
   items: [],
@@ -78,7 +81,14 @@ function filteredItems() {
   const query = state.search.trim().toLocaleLowerCase("nn");
   return state.items
     .map(editedItem)
-    .filter((item) => state.course === COURSE_FILTER_KEY || item.course.split(" / ").includes(state.course))
+    .filter((item) => {
+      if (state.course === COURSE_FILTER_KEY) return true;
+      if (state.course === MINE_FILTER_KEY) {
+        return String(item.staff || "").includes(MY_STAFF_NAME)
+          || MY_MUNICIPAL_COURSES.has(item.course);
+      }
+      return item.course.split(" / ").includes(state.course);
+    })
     .filter((item) => matchesSearch(item, query))
     .sort((left, right) => dateValue(left.startDate) - dateValue(right.startDate)
       || String(left.startTime).localeCompare(String(right.startTime), "nn"));
@@ -88,7 +98,11 @@ function renderFilters() {
   const courses = [...new Set(state.items.flatMap((item) => item.course.split(" / ")))]
     .filter(Boolean)
     .sort((a, b) => a.localeCompare(b, "nn"));
-  const filters = [{ value: COURSE_FILTER_KEY, label: "Alle emne" }, ...courses.map((course) => ({ value: course, label: course }))];
+  const filters = [
+    { value: COURSE_FILTER_KEY, label: "Alle oppføringar" },
+    { value: MINE_FILTER_KEY, label: "Mine oppføringar" },
+    ...courses.map((course) => ({ value: course, label: course })),
+  ];
   element("#course-filters").innerHTML = filters.map((filter) => `
     <button class="filter-chip${state.course === filter.value ? " active" : ""}" type="button" data-course="${escapeHtml(filter.value)}" aria-pressed="${state.course === filter.value}">
       ${escapeHtml(filter.label)}
