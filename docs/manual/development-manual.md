@@ -3490,17 +3490,21 @@ Underspørsmål:
 
 ## Abstractutkast
 
-### When Crisis Exercises Become Weird: Scenario Fidelity, Role Displacement and Professional Learning
+### When Crisis Exercises Become Weird: Role Discipline, Artificial Performance and the Limits of Simulation
 
-Crisis exercises depend on a fiction that participants agree to treat as operationally real. This convention allows organisations to practise decision-making, communication and coordination without waiting for an actual crisis. Yet accepting a fictional event is not the same as accepting a fictional professional role. The educational value of an exercise may weaken when participants must disregard their actual responsibilities, organisational knowledge or available courses of action to keep the scenario moving.
+**Format:** Work in progress
 
-This paper examines the boundary between productive simulation and artificial role-play in crisis exercises. It builds on earlier findings from exercises with Norwegian local authorities, where established contingency plans and recurring scenarios directed attention towards accidents, natural hazards and ongoing violence. Participants became more capable of handling these familiar events, but were more easily destabilised by organisational misconduct, rumours, disputed responsibility and communication problems that developed within the original crisis.
+Crisis exercises ask participants to accept events that have not occurred as operationally real. This agreed fiction makes rehearsal possible. Yet the fiction also establishes a temporary order: it defines what the crisis is, which actions count as relevant, how time progresses, and which responses allow the exercise to continue. The exercise becomes weird when this order can be sustained only by treating credible professional conduct as a disturbance.
 
-The paper extends this argument by examining role displacement, understood as situations in which exercise play moves participants away from the professional roles and practices the exercise is intended to develop. It distinguishes scenario fidelity from role, organisational and pedagogical fidelity.
+This work in progress examines two anonymised crisis exercises in a Norwegian higher-education organisation. The material includes exercise directives, observation notes, logs and evaluations. It is read alongside a practice-oriented framework for preparedness planning which connects risk analysis, plans, exercises, evaluation and organisational learning. This framework emphasises that exercises should activate defined roles, responsibilities, communication practices and decision structures rather than reward apparent realism for its own sake (Brataas et al., 2026).
 
-The analysis draws on [specify exercise material, observations, recordings and debriefs]. It asks how participants signal that an exercise has crossed from simulation into artificial performance, how facilitators respond to such resistance, and what is evaluated as successful exercise participation.
+The first exercise exposed uncertainty about which organisational level owned several parallel inputs. Tasks circulated through the central crisis leadership while local functions and communication channels remained incompletely integrated. The second exercise made the problem more visible. A role played by an exercise marker was drawn into the operational organisation and assigned tasks, while an exercise-produced list of participants and relatives supplied information that the organisation might not have possessed in an actual crisis. The simulation therefore tested organisational action with roles and resources partly created by the exercise itself.
 
-We argue that crisis exercises become pedagogically “weird” when the scenario ceases to activate professional practice and instead requires participants to perform the exercise designers’ preferred version of the crisis. [Empirical support required.]
+I use these episodes to develop *role displacement* as a provisional analytical concept. Role displacement occurs when exercise play moves participants away from the responsibilities, knowledge and constraints that the exercise purports to test. The stronger form, *exercise inversion*, appears when participants must adapt professional practice to preserve the designed scenario, rather than the scenario being adjusted to activate professional practice.
+
+This argument approaches weirdness as a normative and disciplinary relation, not as a label for unusual participants. Exercise control defines a normal path through the simulated crisis. Actions that fit this path appear competent and realistic, while professionally credible interruptions may be marked as resistance, confusion or failure. The weird therefore lies in the reversal through which the simulation becomes more authoritative than the organisation it represents.
+
+The paper does not claim that all scenario control displaces professional roles, nor that the two exercises establish a general model. It asks a narrower question: When does the necessary fiction of a crisis exercise begin to discipline the professional reality it was designed to examine? This perspective connects crisis simulation with research on roleplay, performance and transgression, while identifying a possible gap between research on multidimensional fidelity and analysis of the normative power of exercise design.
 
 ## Empirisk kontroll
 

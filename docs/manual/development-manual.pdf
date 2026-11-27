@@ -4,7 +4,7 @@
 << /Type /Catalog /Pages 2 0 R >>
 endobj
 2 0 obj
-<< /Type /Pages /Kids [5 0 R 7 0 R 9 0 R 11 0 R 13 0 R 15 0 R 17 0 R 19 0 R 21 0 R 23 0 R 25 0 R 27 0 R 29 0 R 31 0 R 33 0 R 35 0 R 37 0 R 39 0 R 41 0 R 43 0 R 45 0 R 47 0 R 49 0 R 51 0 R 53 0 R 55 0 R 57 0 R 59 0 R 61 0 R 63 0 R 65 0 R 67 0 R 69 0 R 71 0 R 73 0 R 75 0 R 77 0 R 79 0 R 81 0 R 83 0 R 85 0 R 87 0 R 89 0 R 91 0 R 93 0 R 95 0 R 97 0 R 99 0 R 101 0 R 103 0 R 105 0 R 107 0 R 109 0 R 111 0 R 113 0 R 115 0 R 117 0 R 119 0 R 121 0 R 123 0 R 125 0 R 127 0 R 129 0 R 131 0 R 133 0 R 135 0 R 137 0 R 139 0 R 141 0 R 143 0 R 145 0 R 147 0 R 149 0 R 151 0 R 153 0 R 155 0 R 157 0 R 159 0 R 161 0 R 163 0 R 165 0 R 167 0 R 169 0 R 171 0 R 173 0 R 175 0 R 177 0 R 179 0 R 181 0 R 183 0 R 185 0 R 187 0 R 189 0 R 191 0 R 193 0 R 195 0 R 197 0 R 199 0 R 201 0 R 203 0 R 205 0 R 207 0 R] /Count 102 >>
+<< /Type /Pages /Kids [5 0 R 7 0 R 9 0 R 11 0 R 13 0 R 15 0 R 17 0 R 19 0 R 21 0 R 23 0 R 25 0 R 27 0 R 29 0 R 31 0 R 33 0 R 35 0 R 37 0 R 39 0 R 41 0 R 43 0 R 45 0 R 47 0 R 49 0 R 51 0 R 53 0 R 55 0 R 57 0 R 59 0 R 61 0 R 63 0 R 65 0 R 67 0 R 69 0 R 71 0 R 73 0 R 75 0 R 77 0 R 79 0 R 81 0 R 83 0 R 85 0 R 87 0 R 89 0 R 91 0 R 93 0 R 95 0 R 97 0 R 99 0 R 101 0 R 103 0 R 105 0 R 107 0 R 109 0 R 111 0 R 113 0 R 115 0 R 117 0 R 119 0 R 121 0 R 123 0 R 125 0 R 127 0 R 129 0 R 131 0 R 133 0 R 135 0 R 137 0 R 139 0 R 141 0 R 143 0 R 145 0 R 147 0 R 149 0 R 151 0 R 153 0 R 155 0 R 157 0 R 159 0 R 161 0 R 163 0 R 165 0 R 167 0 R 169 0 R 171 0 R 173 0 R 175 0 R 177 0 R 179 0 R 181 0 R 183 0 R 185 0 R 187 0 R 189 0 R 191 0 R 193 0 R 195 0 R 197 0 R 199 0 R 201 0 R 203 0 R 205 0 R 207 0 R 209 0 R] /Count 103 >>
 endobj
 3 0 obj
 << /Type /Font /Subtype /Type1 /BaseFont /Helvetica /Encoding /WinAnsiEncoding >>
@@ -121,7 +121,7 @@ T*
 (contracts.md) Tj
 T*
 0 -22 Td
-(Side 1 / 102) Tj
+(Side 1 / 103) Tj
 ET
 endstream
 endobj
@@ -240,7 +240,7 @@ T*
 (studiemodell/studiemodell.md) Tj
 T*
 0 -22 Td
-(Side 2 / 102) Tj
+(Side 2 / 103) Tj
 ET
 endstream
 endobj
@@ -359,7 +359,7 @@ T*
 (- weird-crisis-exercises <#tekst-weird-crisis-exercises-index.md> \227 tekst/weird-crisis-) Tj
 T*
 0 -22 Td
-(Side 3 / 102) Tj
+(Side 3 / 103) Tj
 ET
 endstream
 endobj
@@ -478,7 +478,7 @@ T*
 (units, sumCard, fellesSources, fellesComponentsTotal, dbhStudents, studentDifference,) Tj
 T*
 0 -22 Td
-(Side 4 / 102) Tj
+(Side 4 / 103) Tj
 ET
 endstream
 endobj
@@ -597,7 +597,7 @@ T*
 (| mmp311/learning-path/03-issues/index.html | .html | b9c0e2937d9a | Issue detection and) Tj
 T*
 0 -22 Td
-(Side 5 / 102) Tj
+(Side 5 / 103) Tj
 ET
 endstream
 endobj
@@ -716,7 +716,7 @@ T*
 (| scripts/updatebudsjettdata.py | .py | 0aa4a1b0bac6 | main |) Tj
 T*
 0 -22 Td
-(Side 6 / 102) Tj
+(Side 6 / 103) Tj
 ET
 endstream
 endobj
@@ -835,7 +835,7 @@ T*
 (scripts/knowledgelookup.py "<topic>" for concise local context. Preserve existing changes;) Tj
 T*
 0 -22 Td
-(Side 7 / 102) Tj
+(Side 7 / 103) Tj
 ET
 endstream
 endobj
@@ -954,7 +954,7 @@ T*
 () Tj
 T*
 0 -22 Td
-(Side 8 / 102) Tj
+(Side 8 / 103) Tj
 ET
 endstream
 endobj
@@ -1073,7 +1073,7 @@ T*
 (- Ikkje commit, push eller publiser utan uttrykkjeleg godkjenning.) Tj
 T*
 0 -22 Td
-(Side 9 / 102) Tj
+(Side 9 / 103) Tj
 ET
 endstream
 endobj
@@ -1192,7 +1192,7 @@ T*
 () Tj
 T*
 0 -22 Td
-(Side 10 / 102) Tj
+(Side 10 / 103) Tj
 ET
 endstream
 endobj
@@ -1311,7 +1311,7 @@ T*
 (- Do not change raw data or publish personal data. Do not introduce secrets.) Tj
 T*
 0 -22 Td
-(Side 11 / 102) Tj
+(Side 11 / 103) Tj
 ET
 endstream
 endobj
@@ -1430,7 +1430,7 @@ T*
 () Tj
 T*
 0 -22 Td
-(Side 12 / 102) Tj
+(Side 12 / 103) Tj
 ET
 endstream
 endobj
@@ -1549,7 +1549,7 @@ T*
 () Tj
 T*
 0 -22 Td
-(Side 13 / 102) Tj
+(Side 13 / 103) Tj
 ET
 endstream
 endobj
@@ -1668,7 +1668,7 @@ T*
 (3. Bruk berre filer og kjelder du faktisk kan opne. Sei kva du har lese. Ikkje dikt opp) Tj
 T*
 0 -22 Td
-(Side 14 / 102) Tj
+(Side 14 / 103) Tj
 ET
 endstream
 endobj
@@ -1787,7 +1787,7 @@ T*
 () Tj
 T*
 0 -22 Td
-(Side 15 / 102) Tj
+(Side 15 / 103) Tj
 ET
 endstream
 endobj
@@ -1906,7 +1906,7 @@ T*
 (    offentlege nettsider, skil det fr\345 lokal eller nyaste repo-versjon.) Tj
 T*
 0 -22 Td
-(Side 16 / 102) Tj
+(Side 16 / 103) Tj
 ET
 endstream
 endobj
@@ -2025,7 +2025,7 @@ T*
 () Tj
 T*
 0 -22 Td
-(Side 17 / 102) Tj
+(Side 17 / 103) Tj
 ET
 endstream
 endobj
@@ -2144,7 +2144,7 @@ T*
 (KVAR LEVERAND\330R SINE GRENSER) Tj
 T*
 0 -22 Td
-(Side 18 / 102) Tj
+(Side 18 / 103) Tj
 ET
 endstream
 endobj
@@ -2263,7 +2263,7 @@ T*
 (Timeplaneksport |) Tj
 T*
 0 -22 Td
-(Side 19 / 102) Tj
+(Side 19 / 103) Tj
 ET
 endstream
 endobj
@@ -2382,7 +2382,7 @@ T*
 (| Fil | Spr\345k/teknologi | Ansvar |) Tj
 T*
 0 -22 Td
-(Side 20 / 102) Tj
+(Side 20 / 103) Tj
 ET
 endstream
 endobj
@@ -2501,7 +2501,7 @@ T*
 (---) Tj
 T*
 0 -22 Td
-(Side 21 / 102) Tj
+(Side 21 / 103) Tj
 ET
 endstream
 endobj
@@ -2620,7 +2620,7 @@ T*
 (       +--> nettlesarkladd i localStorage \(berre description/staff\)) Tj
 T*
 0 -22 Td
-(Side 22 / 102) Tj
+(Side 22 / 103) Tj
 ET
 endstream
 endobj
@@ -2739,7 +2739,7 @@ T*
 (FELLES TEKNIKK) Tj
 T*
 0 -22 Td
-(Side 23 / 102) Tj
+(Side 23 / 103) Tj
 ET
 endstream
 endobj
@@ -2858,7 +2858,7 @@ T*
 (FRONTENDVALIDERING) Tj
 T*
 0 -22 Td
-(Side 24 / 102) Tj
+(Side 24 / 103) Tj
 ET
 endstream
 endobj
@@ -2977,7 +2977,7 @@ T*
 () Tj
 T*
 0 -22 Td
-(Side 25 / 102) Tj
+(Side 25 / 103) Tj
 ET
 endstream
 endobj
@@ -3096,7 +3096,7 @@ T*
 (administrationPercent/100.) Tj
 T*
 0 -22 Td
-(Side 26 / 102) Tj
+(Side 26 / 103) Tj
 ET
 endstream
 endobj
@@ -3215,7 +3215,7 @@ T*
 (---) Tj
 T*
 0 -22 Td
-(Side 27 / 102) Tj
+(Side 27 / 103) Tj
 ET
 endstream
 endobj
@@ -3334,7 +3334,7 @@ T*
 () Tj
 T*
 0 -22 Td
-(Side 28 / 102) Tj
+(Side 28 / 103) Tj
 ET
 endstream
 endobj
@@ -3453,7 +3453,7 @@ T*
 (RETTA) Tj
 T*
 0 -22 Td
-(Side 29 / 102) Tj
+(Side 29 / 103) Tj
 ET
 endstream
 endobj
@@ -3572,7 +3572,7 @@ T*
 () Tj
 T*
 0 -22 Td
-(Side 30 / 102) Tj
+(Side 30 / 103) Tj
 ET
 endstream
 endobj
@@ -3691,7 +3691,7 @@ T*
 (cache-filer vart ikkje kopierte.) Tj
 T*
 0 -22 Td
-(Side 31 / 102) Tj
+(Side 31 / 103) Tj
 ET
 endstream
 endobj
@@ -3810,7 +3810,7 @@ T*
 (language.js omset no synleg trappetekst og aria-label for alle fem niv\345 og set teksten) Tj
 T*
 0 -22 Td
-(Side 32 / 102) Tj
+(Side 32 / 103) Tj
 ET
 endstream
 endobj
@@ -3929,7 +3929,7 @@ T*
 (| Felt | Innhald |) Tj
 T*
 0 -22 Td
-(Side 33 / 102) Tj
+(Side 33 / 103) Tj
 ET
 endstream
 endobj
@@ -4048,7 +4048,7 @@ T*
 (publisert JSON | scripts/updatebudsjettdata.py |) Tj
 T*
 0 -22 Td
-(Side 34 / 102) Tj
+(Side 34 / 103) Tj
 ET
 endstream
 endobj
@@ -4167,7 +4167,7 @@ T*
 (---) Tj
 T*
 0 -22 Td
-(Side 35 / 102) Tj
+(Side 35 / 103) Tj
 ET
 endstream
 endobj
@@ -4286,7 +4286,7 @@ T*
 (Hald dei offentlege datautdraga som statiske JSON-filer som sidene kan lese. FastAPI kan) Tj
 T*
 0 -22 Td
-(Side 36 / 102) Tj
+(Side 36 / 103) Tj
 ET
 endstream
 endobj
@@ -4405,7 +4405,7 @@ T*
 (VURDERTE ALTERNATIV) Tj
 T*
 0 -22 Td
-(Side 37 / 102) Tj
+(Side 37 / 103) Tj
 ET
 endstream
 endobj
@@ -4524,7 +4524,7 @@ T*
 (indigo- og gr\370n aksenttekst. Representativ kontrastm\345ling for vanleg tekst gav minst 6,08:1;) Tj
 T*
 0 -22 Td
-(Side 38 / 102) Tj
+(Side 38 / 103) Tj
 ET
 endstream
 endobj
@@ -4643,7 +4643,7 @@ T*
 () Tj
 T*
 0 -22 Td
-(Side 39 / 102) Tj
+(Side 39 / 103) Tj
 ET
 endstream
 endobj
@@ -4762,7 +4762,7 @@ T*
 (- Excel-/TimeEdit-kjelder og ekstern dashboard-lesarmodul for dataimport, med godkjenning og) Tj
 T*
 0 -22 Td
-(Side 40 / 102) Tj
+(Side 40 / 103) Tj
 ET
 endstream
 endobj
@@ -4881,7 +4881,7 @@ T*
 (python3 -m pip install -r requirements.txt) Tj
 T*
 0 -22 Td
-(Side 41 / 102) Tj
+(Side 41 / 103) Tj
 ET
 endstream
 endobj
@@ -5000,7 +5000,7 @@ T*
 (|---|---|---|---|---|) Tj
 T*
 0 -22 Td
-(Side 42 / 102) Tj
+(Side 42 / 103) Tj
 ET
 endstream
 endobj
@@ -5119,7 +5119,7 @@ T*
 () Tj
 T*
 0 -22 Td
-(Side 43 / 102) Tj
+(Side 43 / 103) Tj
 ET
 endstream
 endobj
@@ -5238,7 +5238,7 @@ T*
 (| Manuell gjenoppbygging <development/rebuild-from-zero.md> | Stegvis rekonstruksjon av) Tj
 T*
 0 -22 Td
-(Side 44 / 102) Tj
+(Side 44 / 103) Tj
 ET
 endstream
 endobj
@@ -5357,7 +5357,7 @@ T*
 (| Generert kunnskapskatalog <manual/knowledge-catalog.md> | Automatisk Markdown-register og) Tj
 T*
 0 -22 Td
-(Side 45 / 102) Tj
+(Side 45 / 103) Tj
 ET
 endstream
 endobj
@@ -5476,7 +5476,7 @@ T*
 (funksjon | Funksjonsarbeidsflyt endrar seg | Kode, ADR-ar og krav |) Tj
 T*
 0 -22 Td
-(Side 46 / 102) Tj
+(Side 46 / 103) Tj
 ET
 endstream
 endobj
@@ -5595,7 +5595,7 @@ T*
 () Tj
 T*
 0 -22 Td
-(Side 47 / 102) Tj
+(Side 47 / 103) Tj
 ET
 endstream
 endobj
@@ -5714,7 +5714,7 @@ T*
 (- Mottakartest: be ein annan gruppe forklare kva eit bodskap krev av dei.) Tj
 T*
 0 -22 Td
-(Side 48 / 102) Tj
+(Side 48 / 103) Tj
 ET
 endstream
 endobj
@@ -5833,7 +5833,7 @@ T*
 (kan p\345verke forst\345ing eller handling.) Tj
 T*
 0 -22 Td
-(Side 49 / 102) Tj
+(Side 49 / 103) Tj
 ET
 endstream
 endobj
@@ -5952,7 +5952,7 @@ T*
 (- kultur som tolking og praksis, ikkje slagord) Tj
 T*
 0 -22 Td
-(Side 50 / 102) Tj
+(Side 50 / 103) Tj
 ET
 endstream
 endobj
@@ -6071,7 +6071,7 @@ T*
 (MELLOM \330KTENE) Tj
 T*
 0 -22 Td
-(Side 51 / 102) Tj
+(Side 51 / 103) Tj
 ET
 endstream
 endobj
@@ -6190,7 +6190,7 @@ T*
 () Tj
 T*
 0 -22 Td
-(Side 52 / 102) Tj
+(Side 52 / 103) Tj
 ET
 endstream
 endobj
@@ -6309,7 +6309,7 @@ T*
 (- bruke Leavitts diamant til \345 analysere f\370lgjer av endring.) Tj
 T*
 0 -22 Td
-(Side 53 / 102) Tj
+(Side 53 / 103) Tj
 ET
 endstream
 endobj
@@ -6428,7 +6428,7 @@ T*
 () Tj
 T*
 0 -22 Td
-(Side 54 / 102) Tj
+(Side 54 / 103) Tj
 ET
 endstream
 endobj
@@ -6547,7 +6547,7 @@ T*
 (4. Installer Python-avhengnader berre dersom backend eller Python-verkt\370y skal k\370yrast.) Tj
 T*
 0 -22 Td
-(Side 55 / 102) Tj
+(Side 55 / 103) Tj
 ET
 endstream
 endobj
@@ -6666,7 +6666,7 @@ T*
 (rekursjon. Hashar oppdagar endring, men erstattar ikkje menneskeleg oppdatering av) Tj
 T*
 0 -22 Td
-(Side 56 / 102) Tj
+(Side 56 / 103) Tj
 ET
 endstream
 endobj
@@ -6785,7 +6785,7 @@ T*
 (    [kode]) Tj
 T*
 0 -22 Td
-(Side 57 / 102) Tj
+(Side 57 / 103) Tj
 ET
 endstream
 endobj
@@ -6904,7 +6904,7 @@ T*
 (tilgang til OneDrive-omr\345det under Systeminnstillingar ? Personvern og tryggleik. Kontroller) Tj
 T*
 0 -22 Td
-(Side 58 / 102) Tj
+(Side 58 / 103) Tj
 ET
 endstream
 endobj
@@ -7023,7 +7023,7 @@ T*
 (versjonskontrollerte filer fr\345 HEAD.) Tj
 T*
 0 -22 Td
-(Side 59 / 102) Tj
+(Side 59 / 103) Tj
 ET
 endstream
 endobj
@@ -7142,7 +7142,7 @@ T*
 (Ei chatkommando utl\370yser ikkje i seg sj\370lv commit, push eller publisering. Ikkje start) Tj
 T*
 0 -22 Td
-(Side 60 / 102) Tj
+(Side 60 / 103) Tj
 ET
 endstream
 endobj
@@ -7261,7 +7261,7 @@ T*
 (BRUKARFLATE) Tj
 T*
 0 -22 Td
-(Side 61 / 102) Tj
+(Side 61 / 103) Tj
 ET
 endstream
 endobj
@@ -7380,7 +7380,7 @@ T*
 () Tj
 T*
 0 -22 Td
-(Side 62 / 102) Tj
+(Side 62 / 103) Tj
 ET
 endstream
 endobj
@@ -7499,7 +7499,7 @@ T*
 () Tj
 T*
 0 -22 Td
-(Side 63 / 102) Tj
+(Side 63 / 103) Tj
 ET
 endstream
 endobj
@@ -7618,7 +7618,7 @@ T*
 (---) Tj
 T*
 0 -22 Td
-(Side 64 / 102) Tj
+(Side 64 / 103) Tj
 ET
 endstream
 endobj
@@ -7737,7 +7737,7 @@ T*
 () Tj
 T*
 0 -22 Td
-(Side 65 / 102) Tj
+(Side 65 / 103) Tj
 ET
 endstream
 endobj
@@ -7856,7 +7856,7 @@ T*
 () Tj
 T*
 0 -22 Td
-(Side 66 / 102) Tj
+(Side 66 / 103) Tj
 ET
 endstream
 endobj
@@ -7975,7 +7975,7 @@ T*
 (- INFBV-studiemodell/ samlar emneoversikt og spr\345kvariantar. app.js er framleis k\370yrande) Tj
 T*
 0 -22 Td
-(Side 67 / 102) Tj
+(Side 67 / 103) Tj
 ET
 endstream
 endobj
@@ -8094,7 +8094,7 @@ T*
 (vart funne. FastAPI/Uvicorn vart ikkje funne i lokal pip-pakkeoversikt; backend-smoketest) Tj
 T*
 0 -22 Td
-(Side 68 / 102) Tj
+(Side 68 / 103) Tj
 ET
 endstream
 endobj
@@ -8213,7 +8213,7 @@ T*
 (| python3 scripts/buildmanual.py og --check | Best\345tt etter oppdatering av kode og Markdown) Tj
 T*
 0 -22 Td
-(Side 69 / 102) Tj
+(Side 69 / 103) Tj
 ET
 endstream
 endobj
@@ -8332,7 +8332,7 @@ T*
 (.gitignore, docs/data-sources/source-register.md. Ferdig n\345r eigar har avgjort kva som skal) Tj
 T*
 0 -22 Td
-(Side 70 / 102) Tj
+(Side 70 / 103) Tj
 ET
 endstream
 endobj
@@ -8451,7 +8451,7 @@ T*
 (ein diff. Legg sj\370lv endringane inn i arbeidskopien og k\370yr kontrollane lokalt.) Tj
 T*
 0 -22 Td
-(Side 71 / 102) Tj
+(Side 71 / 103) Tj
 ET
 endstream
 endobj
@@ -8570,7 +8570,7 @@ T*
 (- Datavern for arbeid/skule-konto <https://support.microsoft.com/en-us/privacy/data-) Tj
 T*
 0 -22 Td
-(Side 72 / 102) Tj
+(Side 72 / 103) Tj
 ET
 endstream
 endobj
@@ -8689,7 +8689,7 @@ T*
 (- Ikkje publiser nye personopplysningar. Publiseringsstatus for tilsettnamn i) Tj
 T*
 0 -22 Td
-(Side 73 / 102) Tj
+(Side 73 / 103) Tj
 ET
 endstream
 endobj
@@ -8808,7 +8808,7 @@ T*
 (---) Tj
 T*
 0 -22 Td
-(Side 74 / 102) Tj
+(Side 74 / 103) Tj
 ET
 endstream
 endobj
@@ -8927,7 +8927,7 @@ T*
 (F\370lg AGENTS.md <AGENTS.md>, dokumentasjonsindeksen <docs/INDEX.md>, prosjektstatus) Tj
 T*
 0 -22 Td
-(Side 75 / 102) Tj
+(Side 75 / 103) Tj
 ET
 endstream
 endobj
@@ -9046,7 +9046,7 @@ T*
 (Analyzing Media | 28 V | 15 |) Tj
 T*
 0 -22 Td
-(Side 76 / 102) Tj
+(Side 76 / 103) Tj
 ET
 endstream
 endobj
@@ -9165,7 +9165,7 @@ T*
 () Tj
 T*
 0 -22 Td
-(Side 77 / 102) Tj
+(Side 77 / 103) Tj
 ET
 endstream
 endobj
@@ -9284,7 +9284,7 @@ T*
 (Internkommunikasjon) Tj
 T*
 0 -22 Td
-(Side 78 / 102) Tj
+(Side 78 / 103) Tj
 ET
 endstream
 endobj
@@ -9403,7 +9403,7 @@ T*
 () Tj
 T*
 0 -22 Td
-(Side 79 / 102) Tj
+(Side 79 / 103) Tj
 ET
 endstream
 endobj
@@ -9522,7 +9522,7 @@ T*
 (python3 -m pip install -r requirements.txt) Tj
 T*
 0 -22 Td
-(Side 80 / 102) Tj
+(Side 80 / 103) Tj
 ET
 endstream
 endobj
@@ -9641,7 +9641,7 @@ T*
 (  --source "/path/to/MEV131 - INF142 - KOM102 - INF213 - MMP311.xlsx" \\) Tj
 T*
 0 -22 Td
-(Side 81 / 102) Tj
+(Side 81 / 103) Tj
 ET
 endstream
 endobj
@@ -9760,7 +9760,7 @@ T*
 (JSON med items; xlsxexport.py | python3 scripts/exporttimeplan.py --data) Tj
 T*
 0 -22 Td
-(Side 82 / 102) Tj
+(Side 82 / 103) Tj
 ET
 endstream
 endobj
@@ -9879,7 +9879,7 @@ T*
 () Tj
 T*
 0 -22 Td
-(Side 83 / 102) Tj
+(Side 83 / 103) Tj
 ET
 endstream
 endobj
@@ -9998,7 +9998,7 @@ T*
 (attention from thematic inclusion to normative orientation. Rather than adding climate) Tj
 T*
 0 -22 Td
-(Side 84 / 102) Tj
+(Side 84 / 103) Tj
 ET
 endstream
 endobj
@@ -10117,7 +10117,7 @@ T*
 () Tj
 T*
 0 -22 Td
-(Side 85 / 102) Tj
+(Side 85 / 103) Tj
 ET
 endstream
 endobj
@@ -10236,7 +10236,7 @@ T*
 () Tj
 T*
 0 -22 Td
-(Side 86 / 102) Tj
+(Side 86 / 103) Tj
 ET
 endstream
 endobj
@@ -10355,7 +10355,7 @@ T*
 () Tj
 T*
 0 -22 Td
-(Side 87 / 102) Tj
+(Side 87 / 103) Tj
 ET
 endstream
 endobj
@@ -10474,7 +10474,7 @@ T*
 (KJELDE: TEKST/KRISEKOMMUNIKASJON-MED-BAKKEKONTAKT/KAPITTEL-06.MD) Tj
 T*
 0 -22 Td
-(Side 88 / 102) Tj
+(Side 88 / 103) Tj
 ET
 endstream
 endobj
@@ -10593,7 +10593,7 @@ T*
 (<a id="tekst-samtalepodkastar-index.md"></a>) Tj
 T*
 0 -22 Td
-(Side 89 / 102) Tj
+(Side 89 / 103) Tj
 ET
 endstream
 endobj
@@ -10712,7 +10712,7 @@ T*
 (also allow organisations to test plans, identify vulnerabilities and use experience to) Tj
 T*
 0 -22 Td
-(Side 90 / 102) Tj
+(Side 90 / 103) Tj
 ET
 endstream
 endobj
@@ -10831,7 +10831,7 @@ T*
 () Tj
 T*
 0 -22 Td
-(Side 91 / 102) Tj
+(Side 91 / 103) Tj
 ET
 endstream
 endobj
@@ -10950,7 +10950,7 @@ T*
 () Tj
 T*
 0 -22 Td
-(Side 92 / 102) Tj
+(Side 92 / 103) Tj
 ET
 endstream
 endobj
@@ -10958,7 +10958,7 @@ endobj
 << /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 186 0 R >>
 endobj
 188 0 obj
-<< /Length 3281 >>
+<< /Length 3535 >>
 stream
 BT
 /F1 9 Tf
@@ -10990,67 +10990,118 @@ T*
 T*
 () Tj
 T*
-(WHEN CRISIS EXERCISES BECOME WEIRD: SCENARIO FIDELITY, ROLE DISPLACEMENT AND PROFESSIONAL) Tj
+(WHEN CRISIS EXERCISES BECOME WEIRD: ROLE DISCIPLINE, ARTIFICIAL PERFORMANCE AND THE LIMITS) Tj
 T*
-(LEARNING) Tj
-T*
-() Tj
-T*
-(Crisis exercises depend on a fiction that participants agree to treat as operationally real.) Tj
-T*
-(This convention allows organisations to practise decision-making, communication and) Tj
-T*
-(coordination without waiting for an actual crisis. Yet accepting a fictional event is not) Tj
-T*
-(the same as accepting a fictional professional role. The educational value of an exercise) Tj
-T*
-(may weaken when participants must disregard their actual responsibilities, organisational) Tj
-T*
-(knowledge or available courses of action to keep the scenario moving.) Tj
+(OF SIMULATION) Tj
 T*
 () Tj
 T*
-(This paper examines the boundary between productive simulation and artificial role-play in) Tj
-T*
-(crisis exercises. It builds on earlier findings from exercises with Norwegian local) Tj
-T*
-(authorities, where established contingency plans and recurring scenarios directed attention) Tj
-T*
-(towards accidents, natural hazards and ongoing violence. Participants became more capable of) Tj
-T*
-(handling these familiar events, but were more easily destabilised by organisational) Tj
-T*
-(misconduct, rumours, disputed responsibility and communication problems that developed) Tj
-T*
-(within the original crisis.) Tj
+(Format: Work in progress) Tj
 T*
 () Tj
 T*
-(The paper extends this argument by examining role displacement, understood as situations in) Tj
+(Crisis exercises ask participants to accept events that have not occurred as operationally) Tj
 T*
-(which exercise play moves participants away from the professional roles and practices the) Tj
+(real. This agreed fiction makes rehearsal possible. Yet the fiction also establishes a) Tj
 T*
-(exercise is intended to develop. It distinguishes scenario fidelity from role,) Tj
+(temporary order: it defines what the crisis is, which actions count as relevant, how time) Tj
 T*
-(organisational and pedagogical fidelity.) Tj
+(progresses, and which responses allow the exercise to continue. The exercise becomes weird) Tj
 T*
-() Tj
+(when this order can be sustained only by treating credible professional conduct as a) Tj
 T*
-(The analysis draws on [specify exercise material, observations, recordings and debriefs]. It) Tj
-T*
-(asks how participants signal that an exercise has crossed from simulation into artificial) Tj
-T*
-(performance, how facilitators respond to such resistance, and what is evaluated as) Tj
-T*
-(successful exercise participation.) Tj
+(disturbance.) Tj
 T*
 () Tj
 T*
-(We argue that crisis exercises become pedagogically \223weird\224 when the scenario ceases to) Tj
+(This work in progress examines two anonymised crisis exercises in a Norwegian higher-) Tj
 T*
-(activate professional practice and instead requires participants to perform the exercise) Tj
+(education organisation. The material includes exercise directives, observation notes, logs) Tj
 T*
-(designers\222 preferred version of the crisis. [Empirical support required.]) Tj
+(and evaluations. It is read alongside a practice-oriented framework for preparedness) Tj
+T*
+(planning which connects risk analysis, plans, exercises, evaluation and organisational) Tj
+T*
+(learning. This framework emphasises that exercises should activate defined roles,) Tj
+T*
+(responsibilities, communication practices and decision structures rather than reward) Tj
+T*
+(apparent realism for its own sake \(Brataas et al., 2026\).) Tj
+T*
+() Tj
+T*
+(The first exercise exposed uncertainty about which organisational level owned several) Tj
+T*
+(parallel inputs. Tasks circulated through the central crisis leadership while local) Tj
+T*
+(functions and communication channels remained incompletely integrated. The second exercise) Tj
+T*
+(made the problem more visible. A role played by an exercise marker was drawn into the) Tj
+T*
+(operational organisation and assigned tasks, while an exercise-produced list of participants) Tj
+T*
+(and relatives supplied information that the organisation might not have possessed in an) Tj
+T*
+(actual crisis. The simulation therefore tested organisational action with roles and) Tj
+T*
+(resources partly created by the exercise itself.) Tj
+T*
+() Tj
+T*
+(I use these episodes to develop role displacement as a provisional analytical concept. Role) Tj
+T*
+(displacement occurs when exercise play moves participants away from the responsibilities,) Tj
+T*
+(knowledge and constraints that the exercise purports to test. The stronger form, exercise) Tj
+T*
+(inversion, appears when participants must adapt professional practice to preserve the) Tj
+T*
+(designed scenario, rather than the scenario being adjusted to activate professional) Tj
+T*
+(practice.) Tj
+T*
+() Tj
+T*
+(This argument approaches weirdness as a normative and disciplinary relation, not as a label) Tj
+T*
+(for unusual participants. Exercise control defines a normal path through the simulated) Tj
+T*
+(crisis. Actions that fit this path appear competent and realistic, while professionally) Tj
+T*
+0 -22 Td
+(Side 93 / 103) Tj
+ET
+endstream
+endobj
+189 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 188 0 R >>
+endobj
+190 0 obj
+<< /Length 3928 >>
+stream
+BT
+/F1 9 Tf
+48 794 Td
+13 TL
+(credible interruptions may be marked as resistance, confusion or failure. The weird) Tj
+T*
+(therefore lies in the reversal through which the simulation becomes more authoritative than) Tj
+T*
+(the organisation it represents.) Tj
+T*
+() Tj
+T*
+(The paper does not claim that all scenario control displaces professional roles, nor that) Tj
+T*
+(the two exercises establish a general model. It asks a narrower question: When does the) Tj
+T*
+(necessary fiction of a crisis exercise begin to discipline the professional reality it was) Tj
+T*
+(designed to examine? This perspective connects crisis simulation with research on roleplay,) Tj
+T*
+(performance and transgression, while identifying a possible gap between research on) Tj
+T*
+(multidimensional fidelity and analysis of the normative power of exercise design.) Tj
 T*
 () Tj
 T*
@@ -11068,21 +11119,6 @@ T*
 T*
 (- \370vingsleiinga ber deltakarane sj\345 bort fr\345 faktisk prosedyre;) Tj
 T*
-0 -22 Td
-(Side 93 / 102) Tj
-ET
-endstream
-endobj
-189 0 obj
-<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 188 0 R >>
-endobj
-190 0 obj
-<< /Length 4014 >>
-stream
-BT
-/F1 9 Tf
-48 794 Td
-13 TL
 (- innspel vert gjentekne fordi deltakarane ikkje reagerer som venta;) Tj
 T*
 (- manglande system, bemanning eller fullmakt vert simulerte bort;) Tj
@@ -11151,6 +11187,21 @@ T*
 T*
 (Ei spela rolle utf\370rte oppg\345ver for den faktiske organisasjonen, medan ein \370vingsprodusert) Tj
 T*
+0 -22 Td
+(Side 94 / 103) Tj
+ET
+endstream
+endobj
+191 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 190 0 R >>
+endobj
+192 0 obj
+<< /Length 3111 >>
+stream
+BT
+/F1 9 Tf
+48 794 Td
+13 TL
 (informasjonsressurs fylte eit mogleg hol i beredskapen. \330vinga kunne dermed sj\345 ut til \345) Tj
 T*
 (teste om organisasjonen klarte \345 skaffe og formidle opplysningane, sj\370lv om spelet gav) Tj
@@ -11187,21 +11238,6 @@ T*
 T*
 () Tj
 T*
-0 -22 Td
-(Side 94 / 102) Tj
-ET
-endstream
-endobj
-191 0 obj
-<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 190 0 R >>
-endobj
-192 0 obj
-<< /Length 2432 >>
-stream
-BT
-/F1 9 Tf
-48 794 Td
-13 TL
 (<!-- REFERANSAR-START -->) Tj
 T*
 (REFERENCES) Tj
@@ -11270,6 +11306,21 @@ T*
 T*
 (PLANLAGD ARTIKKELSTRUKTUR) Tj
 T*
+0 -22 Td
+(Side 95 / 103) Tj
+ET
+endstream
+endobj
+193 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 192 0 R >>
+endobj
+194 0 obj
+<< /Length 2229 >>
+stream
+BT
+/F1 9 Tf
+48 794 Td
+13 TL
 () Tj
 T*
 (ARBEIDSPRINSIPP) Tj
@@ -11306,21 +11357,6 @@ T*
 T*
 (Etabler problemet: Krise\370vingar krev ein avtalt fiksjon, men fiksjonen kan flytte) Tj
 T*
-0 -22 Td
-(Side 95 / 102) Tj
-ET
-endstream
-endobj
-193 0 obj
-<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 192 0 R >>
-endobj
-194 0 obj
-<< /Length 2361 >>
-stream
-BT
-/F1 9 Tf
-48 794 Td
-13 TL
 (deltakarane bort fr\345 dei profesjonelle rollene \370vinga skulle utvikle eller unders\370kje.) Tj
 T*
 () Tj
@@ -11389,6 +11425,21 @@ T*
 T*
 (Planlagde databasar: Scopus, Web of Science, ERIC og Oria. Google Scholar skal berre nyttast) Tj
 T*
+0 -22 Td
+(Side 96 / 103) Tj
+ET
+endstream
+endobj
+195 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 194 0 R >>
+endobj
+196 0 obj
+<< /Length 2051 >>
+stream
+BT
+/F1 9 Tf
+48 794 Td
+13 TL
 (til siteringss\370k og identifisering av kjende tekstar.) Tj
 T*
 () Tj
@@ -11425,21 +11476,6 @@ T*
 T*
 (Utvalet skal dokumenterast fr\345 r\345treff via dublettkontroll, tittel- og abstractscreening og) Tj
 T*
-0 -22 Td
-(Side 96 / 102) Tj
-ET
-endstream
-endobj
-195 0 obj
-<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 194 0 R >>
-endobj
-196 0 obj
-<< /Length 2194 >>
-stream
-BT
-/F1 9 Tf
-48 794 Td
-13 TL
 (fulltekstscreening til endeleg utval. Prosessen skal visast i eit PRISMA-flytdiagram.) Tj
 T*
 () Tj
@@ -11508,6 +11544,21 @@ T*
 T*
 () Tj
 T*
+0 -22 Td
+(Side 97 / 103) Tj
+ET
+endstream
+endobj
+197 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 196 0 R >>
+endobj
+198 0 obj
+<< /Length 2354 >>
+stream
+BT
+/F1 9 Tf
+48 794 Td
+13 TL
 ([Skal skrivast etter resultatdelen.]) Tj
 T*
 () Tj
@@ -11544,21 +11595,6 @@ T*
 T*
 () Tj
 T*
-0 -22 Td
-(Side 97 / 102) Tj
-ET
-endstream
-endobj
-197 0 obj
-<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 196 0 R >>
-endobj
-198 0 obj
-<< /Length 2366 >>
-stream
-BT
-/F1 9 Tf
-48 794 Td
-13 TL
 (KRITISKE F\330RINGAR) Tj
 T*
 () Tj
@@ -11627,6 +11663,21 @@ T*
 T*
 (mellom scenario, realisme, profesjonelle roller, fasilitering og l\346ring.) Tj
 T*
+0 -22 Td
+(Side 98 / 103) Tj
+ET
+endstream
+endobj
+199 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 198 0 R >>
+endobj
+200 0 obj
+<< /Length 2537 >>
+stream
+BT
+/F1 9 Tf
+48 794 Td
+13 TL
 () Tj
 T*
 (REVIEWSP\330RSM\305L) Tj
@@ -11663,21 +11714,6 @@ T*
 T*
 (naturhendingar og p\345g\345ande vald. Kriseleiingane handterte desse scenarioa betre enn) Tj
 T*
-0 -22 Td
-(Side 98 / 102) Tj
-ET
-endstream
-endobj
-199 0 obj
-<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 198 0 R >>
-endobj
-200 0 obj
-<< /Length 2278 >>
-stream
-BT
-/F1 9 Tf
-48 794 Td
-13 TL
 (organisatorisk misferd, rykte, ansvarskonfliktar og kommunikasjonsproblem.) Tj
 T*
 () Tj
@@ -11746,6 +11782,21 @@ T*
 T*
 (DATABASAR) Tj
 T*
+0 -22 Td
+(Side 99 / 103) Tj
+ET
+endstream
+endobj
+201 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 200 0 R >>
+endobj
+202 0 obj
+<< /Length 2210 >>
+stream
+BT
+/F1 9 Tf
+48 794 Td
+13 TL
 () Tj
 T*
 (- Scopus) Tj
@@ -11782,21 +11833,6 @@ T*
 T*
 () Tj
 T*
-0 -22 Td
-(Side 99 / 102) Tj
-ET
-endstream
-endobj
-201 0 obj
-<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 200 0 R >>
-endobj
-202 0 obj
-<< /Length 2694 >>
-stream
-BT
-/F1 9 Tf
-48 794 Td
-13 TL
 (Tre omgrepsgrupper skal kombinerast:) Tj
 T*
 () Tj
@@ -11865,6 +11901,21 @@ T*
 T*
 (| Kontekst | Kommune, helse, politi, industri eller tverretatleg |) Tj
 T*
+0 -22 Td
+(Side 100 / 103) Tj
+ET
+endstream
+endobj
+203 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 202 0 R >>
+endobj
+204 0 obj
+<< /Length 2456 >>
+stream
+BT
+/F1 9 Tf
+48 794 Td
+13 TL
 (| \330vingstype | Table-top, funksjons\370ving, fullskala eller digital |) Tj
 T*
 (| Deltakarrolle | Faktisk rolle, tildelt rolle eller rollebyte |) Tj
@@ -11901,21 +11952,6 @@ T*
 T*
 (- Bony-Dandrieux et al. \(2022\).) Tj
 T*
-0 -22 Td
-(Side 100 / 102) Tj
-ET
-endstream
-endobj
-203 0 obj
-<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 202 0 R >>
-endobj
-204 0 obj
-<< /Length 2423 >>
-stream
-BT
-/F1 9 Tf
-48 794 Td
-13 TL
 (- Mahdi et al. \(2023\).) Tj
 T*
 (- Waring et al. \(2024\).) Tj
@@ -11984,6 +12020,21 @@ T*
 T*
 () Tj
 T*
+0 -22 Td
+(Side 101 / 103) Tj
+ET
+endstream
+endobj
+205 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 204 0 R >>
+endobj
+206 0 obj
+<< /Length 2559 >>
+stream
+BT
+/F1 9 Tf
+48 794 Td
+13 TL
 (WEIRD CRISIS EXERCISES) Tj
 T*
 () Tj
@@ -12020,21 +12071,6 @@ T*
 T*
 (- Publisert kjeldetekst <index.md> er f\370rebels ikkje oppdatert med arbeidsmaterialet.) Tj
 T*
-0 -22 Td
-(Side 101 / 102) Tj
-ET
-endstream
-endobj
-205 0 obj
-<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 204 0 R >>
-endobj
-206 0 obj
-<< /Length 2131 >>
-stream
-BT
-/F1 9 Tf
-48 794 Td
-13 TL
 (- Fagfellekontroll <../../docs/peer-review/weird-crisis-exercises.md> samlar leveransekrav) Tj
 T*
 (og kritiske kontrollpunkt.) Tj
@@ -12103,6 +12139,21 @@ T*
 T*
 (4. Avgrense det empiriske \370vingsmaterialet.) Tj
 T*
+0 -22 Td
+(Side 102 / 103) Tj
+ET
+endstream
+endobj
+207 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 206 0 R >>
+endobj
+208 0 obj
+<< /Length 649 >>
+stream
+BT
+/F1 9 Tf
+48 794 Td
+13 TL
 (5. Revidere abstractet etter kva litteraturen og materialet dokumenterer.) Tj
 T*
 (NETTLESARARBEIDSFLATE) Tj
@@ -12132,225 +12183,227 @@ T*
 (README) Tj
 T*
 0 -22 Td
-(Side 102 / 102) Tj
+(Side 103 / 103) Tj
 ET
 endstream
 endobj
-207 0 obj
-<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 206 0 R >>
+209 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 208 0 R >>
 endobj
 xref
-0 208
+0 210
 0000000000 65535 f 
 0000000015 00000 n 
 0000000064 00000 n 
-0000000882 00000 n 
-0000000979 00000 n 
-0000004527 00000 n 
-0000004653 00000 n 
-0000008700 00000 n 
-0000008826 00000 n 
-0000012751 00000 n 
-0000012877 00000 n 
-0000016653 00000 n 
-0000016781 00000 n 
-0000021250 00000 n 
-0000021378 00000 n 
-0000025843 00000 n 
-0000025971 00000 n 
-0000029717 00000 n 
-0000029845 00000 n 
-0000032232 00000 n 
-0000032360 00000 n 
-0000035016 00000 n 
-0000035144 00000 n 
-0000037517 00000 n 
-0000037645 00000 n 
-0000040560 00000 n 
-0000040688 00000 n 
-0000043361 00000 n 
-0000043489 00000 n 
-0000046158 00000 n 
-0000046286 00000 n 
-0000049618 00000 n 
-0000049746 00000 n 
-0000053068 00000 n 
-0000053196 00000 n 
-0000056962 00000 n 
-0000057090 00000 n 
-0000059975 00000 n 
-0000060103 00000 n 
-0000063240 00000 n 
-0000063368 00000 n 
-0000066064 00000 n 
-0000066192 00000 n 
-0000068805 00000 n 
-0000068933 00000 n 
-0000071944 00000 n 
-0000072072 00000 n 
-0000074628 00000 n 
-0000074756 00000 n 
-0000077375 00000 n 
-0000077503 00000 n 
-0000080811 00000 n 
-0000080939 00000 n 
-0000083787 00000 n 
-0000083915 00000 n 
-0000086874 00000 n 
-0000087002 00000 n 
-0000090242 00000 n 
-0000090370 00000 n 
-0000092661 00000 n 
-0000092789 00000 n 
-0000094763 00000 n 
-0000094891 00000 n 
-0000097784 00000 n 
-0000097912 00000 n 
-0000100964 00000 n 
-0000101092 00000 n 
-0000104846 00000 n 
-0000104974 00000 n 
-0000107595 00000 n 
-0000107723 00000 n 
-0000110989 00000 n 
-0000111117 00000 n 
-0000115713 00000 n 
-0000115841 00000 n 
-0000117566 00000 n 
-0000117694 00000 n 
-0000119845 00000 n 
-0000119973 00000 n 
-0000122471 00000 n 
-0000122599 00000 n 
-0000125466 00000 n 
-0000125594 00000 n 
-0000128372 00000 n 
-0000128500 00000 n 
-0000131136 00000 n 
-0000131264 00000 n 
-0000134104 00000 n 
-0000134232 00000 n 
-0000137596 00000 n 
-0000137724 00000 n 
-0000141860 00000 n 
-0000141988 00000 n 
-0000146399 00000 n 
-0000146527 00000 n 
-0000150682 00000 n 
-0000150810 00000 n 
-0000154621 00000 n 
-0000154749 00000 n 
-0000156887 00000 n 
-0000157015 00000 n 
-0000159811 00000 n 
-0000159941 00000 n 
-0000162342 00000 n 
-0000162472 00000 n 
-0000165022 00000 n 
-0000165152 00000 n 
-0000167687 00000 n 
-0000167817 00000 n 
-0000170515 00000 n 
-0000170645 00000 n 
-0000173290 00000 n 
-0000173420 00000 n 
-0000176127 00000 n 
-0000176257 00000 n 
-0000179101 00000 n 
-0000179231 00000 n 
-0000181412 00000 n 
-0000181542 00000 n 
-0000183611 00000 n 
-0000183741 00000 n 
-0000186546 00000 n 
-0000186676 00000 n 
-0000189472 00000 n 
-0000189602 00000 n 
-0000192566 00000 n 
-0000192696 00000 n 
-0000195178 00000 n 
-0000195308 00000 n 
-0000197173 00000 n 
-0000197303 00000 n 
-0000199232 00000 n 
-0000199362 00000 n 
-0000201729 00000 n 
-0000201859 00000 n 
-0000203412 00000 n 
-0000203542 00000 n 
-0000205393 00000 n 
-0000205523 00000 n 
-0000209169 00000 n 
-0000209299 00000 n 
-0000213368 00000 n 
-0000213498 00000 n 
-0000216617 00000 n 
-0000216747 00000 n 
-0000219936 00000 n 
-0000220066 00000 n 
-0000223262 00000 n 
-0000223392 00000 n 
-0000226927 00000 n 
-0000227057 00000 n 
-0000230701 00000 n 
-0000230831 00000 n 
-0000233368 00000 n 
-0000233498 00000 n 
-0000236993 00000 n 
-0000237123 00000 n 
-0000239327 00000 n 
-0000239457 00000 n 
-0000240431 00000 n 
-0000240561 00000 n 
-0000241584 00000 n 
-0000241714 00000 n 
-0000244077 00000 n 
-0000244207 00000 n 
-0000247130 00000 n 
-0000247260 00000 n 
-0000250663 00000 n 
-0000250793 00000 n 
-0000254098 00000 n 
-0000254228 00000 n 
-0000257592 00000 n 
-0000257722 00000 n 
-0000260298 00000 n 
-0000260428 00000 n 
-0000261966 00000 n 
-0000262096 00000 n 
-0000263531 00000 n 
-0000263661 00000 n 
-0000265323 00000 n 
-0000265453 00000 n 
-0000266971 00000 n 
-0000267101 00000 n 
-0000268864 00000 n 
-0000268994 00000 n 
-0000273154 00000 n 
-0000273284 00000 n 
-0000275762 00000 n 
-0000275892 00000 n 
-0000279227 00000 n 
-0000279357 00000 n 
-0000283425 00000 n 
-0000283555 00000 n 
-0000286041 00000 n 
-0000286171 00000 n 
-0000288586 00000 n 
-0000288716 00000 n 
-0000290964 00000 n 
-0000291094 00000 n 
-0000293514 00000 n 
-0000293644 00000 n 
-0000295976 00000 n 
-0000296106 00000 n 
-0000298854 00000 n 
-0000298984 00000 n 
-0000301461 00000 n 
-0000301591 00000 n 
-0000303776 00000 n 
+0000000890 00000 n 
+0000000987 00000 n 
+0000004535 00000 n 
+0000004661 00000 n 
+0000008708 00000 n 
+0000008834 00000 n 
+0000012759 00000 n 
+0000012885 00000 n 
+0000016661 00000 n 
+0000016789 00000 n 
+0000021258 00000 n 
+0000021386 00000 n 
+0000025851 00000 n 
+0000025979 00000 n 
+0000029725 00000 n 
+0000029853 00000 n 
+0000032240 00000 n 
+0000032368 00000 n 
+0000035024 00000 n 
+0000035152 00000 n 
+0000037525 00000 n 
+0000037653 00000 n 
+0000040568 00000 n 
+0000040696 00000 n 
+0000043369 00000 n 
+0000043497 00000 n 
+0000046166 00000 n 
+0000046294 00000 n 
+0000049626 00000 n 
+0000049754 00000 n 
+0000053076 00000 n 
+0000053204 00000 n 
+0000056970 00000 n 
+0000057098 00000 n 
+0000059983 00000 n 
+0000060111 00000 n 
+0000063248 00000 n 
+0000063376 00000 n 
+0000066072 00000 n 
+0000066200 00000 n 
+0000068813 00000 n 
+0000068941 00000 n 
+0000071952 00000 n 
+0000072080 00000 n 
+0000074636 00000 n 
+0000074764 00000 n 
+0000077383 00000 n 
+0000077511 00000 n 
+0000080819 00000 n 
+0000080947 00000 n 
+0000083795 00000 n 
+0000083923 00000 n 
+0000086882 00000 n 
+0000087010 00000 n 
+0000090250 00000 n 
+0000090378 00000 n 
+0000092669 00000 n 
+0000092797 00000 n 
+0000094771 00000 n 
+0000094899 00000 n 
+0000097792 00000 n 
+0000097920 00000 n 
+0000100972 00000 n 
+0000101100 00000 n 
+0000104854 00000 n 
+0000104982 00000 n 
+0000107603 00000 n 
+0000107731 00000 n 
+0000110997 00000 n 
+0000111125 00000 n 
+0000115721 00000 n 
+0000115849 00000 n 
+0000117574 00000 n 
+0000117702 00000 n 
+0000119853 00000 n 
+0000119981 00000 n 
+0000122479 00000 n 
+0000122607 00000 n 
+0000125474 00000 n 
+0000125602 00000 n 
+0000128380 00000 n 
+0000128508 00000 n 
+0000131144 00000 n 
+0000131272 00000 n 
+0000134112 00000 n 
+0000134240 00000 n 
+0000137604 00000 n 
+0000137732 00000 n 
+0000141868 00000 n 
+0000141996 00000 n 
+0000146407 00000 n 
+0000146535 00000 n 
+0000150690 00000 n 
+0000150818 00000 n 
+0000154629 00000 n 
+0000154757 00000 n 
+0000156895 00000 n 
+0000157023 00000 n 
+0000159819 00000 n 
+0000159949 00000 n 
+0000162350 00000 n 
+0000162480 00000 n 
+0000165030 00000 n 
+0000165160 00000 n 
+0000167695 00000 n 
+0000167825 00000 n 
+0000170523 00000 n 
+0000170653 00000 n 
+0000173298 00000 n 
+0000173428 00000 n 
+0000176135 00000 n 
+0000176265 00000 n 
+0000179109 00000 n 
+0000179239 00000 n 
+0000181420 00000 n 
+0000181550 00000 n 
+0000183619 00000 n 
+0000183749 00000 n 
+0000186554 00000 n 
+0000186684 00000 n 
+0000189480 00000 n 
+0000189610 00000 n 
+0000192574 00000 n 
+0000192704 00000 n 
+0000195186 00000 n 
+0000195316 00000 n 
+0000197181 00000 n 
+0000197311 00000 n 
+0000199240 00000 n 
+0000199370 00000 n 
+0000201737 00000 n 
+0000201867 00000 n 
+0000203420 00000 n 
+0000203550 00000 n 
+0000205401 00000 n 
+0000205531 00000 n 
+0000209177 00000 n 
+0000209307 00000 n 
+0000213376 00000 n 
+0000213506 00000 n 
+0000216625 00000 n 
+0000216755 00000 n 
+0000219944 00000 n 
+0000220074 00000 n 
+0000223270 00000 n 
+0000223400 00000 n 
+0000226935 00000 n 
+0000227065 00000 n 
+0000230709 00000 n 
+0000230839 00000 n 
+0000233376 00000 n 
+0000233506 00000 n 
+0000237001 00000 n 
+0000237131 00000 n 
+0000239335 00000 n 
+0000239465 00000 n 
+0000240439 00000 n 
+0000240569 00000 n 
+0000241592 00000 n 
+0000241722 00000 n 
+0000244085 00000 n 
+0000244215 00000 n 
+0000247138 00000 n 
+0000247268 00000 n 
+0000250671 00000 n 
+0000250801 00000 n 
+0000254106 00000 n 
+0000254236 00000 n 
+0000257600 00000 n 
+0000257730 00000 n 
+0000260306 00000 n 
+0000260436 00000 n 
+0000261974 00000 n 
+0000262104 00000 n 
+0000263539 00000 n 
+0000263669 00000 n 
+0000265331 00000 n 
+0000265461 00000 n 
+0000266979 00000 n 
+0000267109 00000 n 
+0000268872 00000 n 
+0000269002 00000 n 
+0000273162 00000 n 
+0000273292 00000 n 
+0000275770 00000 n 
+0000275900 00000 n 
+0000279489 00000 n 
+0000279619 00000 n 
+0000283601 00000 n 
+0000283731 00000 n 
+0000286896 00000 n 
+0000287026 00000 n 
+0000289309 00000 n 
+0000289439 00000 n 
+0000291544 00000 n 
+0000291674 00000 n 
+0000294082 00000 n 
+0000294212 00000 n 
+0000296803 00000 n 
+0000296933 00000 n 
+0000299197 00000 n 
+0000299327 00000 n 
+0000301837 00000 n 
+0000301967 00000 n 
+0000304580 00000 n 
+0000304710 00000 n 
+0000305412 00000 n 
 trailer
-<< /Size 208 /Root 1 0 R >>
+<< /Size 210 /Root 1 0 R >>
 startxref
-303906
+305542
 %%EOF
