@@ -3513,6 +3513,20 @@ Materialet skal undersøkast etter episodar der:
 - manglande system, bemanning eller fullmakt vert simulerte bort;
 - debriefen vurderer scenarioframdrift, men ikkje relevansen for faktisk praksis.
 
+### Anonymiserte undersøkingar frå gjennomførte øvingar
+
+To godkjende, anonymiserte undersøkingar frå øvingar gjennomførte av forfattaren gjev eit førebels empirisk grunnlag for å prøve dei analytiske skilja. Materialet omfattar øvingsloggar, observasjonar og evalueringar. Undersøkingane er ikkje sjølvstendige effektstudiar. Dei dokumenterer bestemte episodar i to øvingar og skal nyttast til analytisk utvikling og kontroll av omgrepa.
+
+I den første øvinga fekk ei sentral kriseleiing fleire parallelle innspel. Evalueringa viser at kriseleiinga måtte vurdere og fordele fleire parallelle innspel, samstundes som nokre av sakene vart plasserte utanfor krisestaben eller delegerte til andre organisatoriske nivå. Førstelinja fekk stor pågang utan tilstrekkeleg loggkapasitet eller tydeleg ansvar for alle kanalane. Ei lokal leiarrolle vart kalla inn undervegs, og personen som møtte som vara, var ikkje orientert om øvinga. Evalueringa tilrådde seinare at lokale leiarar og avdelingar måtte få øve på saker som ikkje høyrer til den sentrale kriseleiinga, og at organisasjonen måtte avklare kanalansvar og øve på roller.
+
+Materialet dokumenterer ikkje åleine role displacement. Det viser likevel ei spenning mellom oppgåvene scenarioet produserte, funksjonane som fekk oppgåvene, og den organisatoriske plasseringa oppgåvene skulle hatt. Når evalueringa etterpå etterlyser øving på roller, tyder det på at scenarioframdrifta ikkje automatisk aktiverte dei faktiske ansvarslinjene.
+
+I den andre øvinga vart ei lokal leiarrolle spela av ein markør. Kriseleiinga tok likevel rolla inn som ein operativ ressurs og la fleire oppgåver til henne. Markøren hadde dessutan tilgang til ei ferdig liste over deltakarar og pårørande som var laga for øvinga. Evalueringa avgrensar sjølv funnet: Lista vart levert samla og tidleg, og utforminga av rolla, spelkorta og markørhandlingane påverka kva øvinga testa.
+
+Denne episoden viser korleis scenarioet kan endre både rollefordelinga og ressursgrunnlaget. Ei spela rolle utførte oppgåver for den faktiske organisasjonen, medan ein øvingsprodusert informasjonsressurs fylte eit mogleg hol i beredskapen. Øvinga kunne dermed sjå ut til å teste om organisasjonen klarte å skaffe og formidle opplysningane, sjølv om spelet gav organisasjonen opplysningar som ikkje nødvendigvis ville vore tilgjengelege i ei reell hending.
+
+Undersøkingane peiker førebels mot to former for rolleforskyving. I den første vert oppgåver lagde til funksjonar som ikkje eig dei i den faktiske organisasjonen. I den andre går ei markørrolle inn i den operative organisasjonen og kompenserer for manglande rolleavklaring eller ressursar. Begge formene må prøvast mot opptak, øvingsdirektiv og anna samtidigdokumentasjon før dei kan presenterast som endelege funn.
+
 ## Kjeldekritiske merknader
 
 - Fuglseth (2020) dokumenterer scenarioseleksjon, men ikkje åleine rolleforskyving.

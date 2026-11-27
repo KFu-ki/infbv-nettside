@@ -7,6 +7,29 @@
 - Maksimalt 500 ord utan litteraturliste.
 - Format: paper abstract, work in progress eller reflection.
 
+
+<!-- ARBEIDSSTATUS-START -->
+## Gjeldande arbeidsstatus
+
+Prosjektet undersøkjer når ei kriseøving går frå produktiv simulering til kunstig framføring. Fuglseth (2020) dokumenterer at scenario og planverk organiserer merksemda rundt utvalde krisetypar. Den vidare analysen skal undersøkje om øvingsspelet òg kan flytte deltakarane bort frå eigne profesjonelle roller.
+
+Ein scoping review er initiert. Reviewen kartlegg scenariofidelitet, autentiske roller, fasilitering, debriefing og læringsoverføring. Databasesøka og fulltekstscreeninga er ikkje gjennomførte.
+
+Førebelse analytiske skilje:
+
+- scenariofidelitet;
+- rollefidelitet;
+- organisatorisk fidelitet;
+- pedagogisk fidelitet.
+
+Role displacement og exercise inversion er førebelse forslag. Paperet skal ikkje love ein ny modell før litteraturen og empirien ber henne.
+
+Tre krav før abstractet kan vurderast som klart:
+
+1. Det empiriske øvingsmaterialet må avgrensast og skildrast.
+2. Det førebelse litteraturholet må kontrollerast gjennom dokumenterte søk.
+3. Påstanden om rolleforskyving må forankrast i observerbare episodar.
+<!-- ARBEIDSSTATUS-SLUTT -->
 ## Stoppkriterium
 
 - [ ] Formatet er valt.
