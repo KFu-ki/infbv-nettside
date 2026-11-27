@@ -74,7 +74,7 @@ Underspørsmål:
 
 ## Abstractutkast
 
-### When Crisis Exercises Become Weird: Role Discipline, Artificial Performance and the Limits of Simulation
+### When Crisis Exercises Become Weird: Roleplay, Professional Transgression and the Authority of Simulation
 
 **Format:** Work in progress
 
@@ -88,7 +88,7 @@ I use these episodes to develop *role displacement* as a provisional analytical 
 
 This argument approaches weirdness as a normative and disciplinary relation, not as a label for unusual participants. Exercise control defines a normal path through the simulated crisis. Actions that fit this path appear competent and realistic, while professionally credible interruptions may be marked as resistance, confusion or failure. The weird therefore lies in the reversal through which the simulation becomes more authoritative than the organisation it represents.
 
-The paper does not claim that all scenario control displaces professional roles, nor that the two exercises establish a general model. It asks a narrower question: When does the necessary fiction of a crisis exercise begin to discipline the professional reality it was designed to examine? This perspective connects crisis simulation with research on roleplay, performance and transgression, while identifying a possible gap between research on multidimensional fidelity and analysis of the normative power of exercise design.
+The paper does not claim that all scenario control displaces professional roles, nor that the two exercises establish a general model. It asks a narrower question: When does the necessary fiction of a crisis exercise begin to discipline the professional reality it was designed to examine? By treating the exercise as an institutional form of roleplay, the analysis shifts attention from whether participants remain inside the simulation to who defines competent participation and what happens when professional judgement transgresses the scenario’s normal path. This perspective identifies a possible gap between research on multidimensional fidelity and analysis of the normative power of exercise design.
 
 ## Empirisk kontroll
 
