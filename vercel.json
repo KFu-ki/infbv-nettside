@@ -1,0 +1,9 @@
+{
+  "redirects": [
+    {
+      "source": "/tunet",
+      "destination": "/tekst/prosjektstyring/",
+      "permanent": true
+    }
+  ]
+}
