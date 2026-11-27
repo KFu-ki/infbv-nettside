@@ -2,7 +2,7 @@
 
 Samla, generert frå Markdown-kjelde i repoet. Endre kjeldefilene og regenerer denne fila.
 
-Dokumentkjelder: 94.
+Dokumentkjelder: 97.
 
 ## Innhald
 
@@ -98,8 +98,11 @@ Dokumentkjelder: 94.
 - [README](#tekst-samtalepodkastar-README.md) — `tekst/samtalepodkastar/README.md`
 - [totalforsvarsaret-2026](#tekst-totalforsvarsaret-2026-index.md) — `tekst/totalforsvarsaret-2026/index.md`
 - [README](#tekst-totalforsvarsaret-2026-README.md) — `tekst/totalforsvarsaret-2026/README.md`
+- [Weird Crisis Exercises: abstractarbeid](#tekst-weird-crisis-exercises-abstract-work.md) — `tekst/weird-crisis-exercises/abstract-work.md`
+- [Planlagd artikkelstruktur](#tekst-weird-crisis-exercises-article-structure.md) — `tekst/weird-crisis-exercises/article-structure.md`
 - [weird-crisis-exercises](#tekst-weird-crisis-exercises-index.md) — `tekst/weird-crisis-exercises/index.md`
-- [README](#tekst-weird-crisis-exercises-README.md) — `tekst/weird-crisis-exercises/README.md`
+- [Litteraturstudie: Weird Crisis Exercises](#tekst-weird-crisis-exercises-literature-review.md) — `tekst/weird-crisis-exercises/literature-review.md`
+- [Weird Crisis Exercises](#tekst-weird-crisis-exercises-README.md) — `tekst/weird-crisis-exercises/README.md`
 - [README](#undervisning-README.md) — `undervisning/README.md`
 
 ---
@@ -185,7 +188,9 @@ Automatisk oversyn over kjelde-/konfigurasjonsfiler. Korte SHA-256-prefiksar gje
 | `tekst/prosjektstyring/index.html` | `.html` | `1bb2fc564718` | Tunet \| INFBV |
 | `tekst/samtalepodkastar/index.html` | `.html` | `3a7bb3a5d999` | samtalepodkastar |
 | `tekst/totalforsvarsaret-2026/index.html` | `.html` | `44dcec1969f4` | totalforsvarsaret-2026 |
-| `tekst/weird-crisis-exercises/index.html` | `.html` | `a6f1fe50311a` | weird-crisis-exercises |
+| `tekst/weird-crisis-exercises/book.css` | `.css` | `e824ee0f6cbc` | @media (max-width:700px), @media print |
+| `tekst/weird-crisis-exercises/editor.js` | `.js` | `b4df41314d3e` | SOURCE, KEY, $, sourceText, editing, esc, inline, markdown, out, close, line, current, render, setMode, status, download, crc32, u16, join, zip, xmlText, docx, plain, document, load |
+| `tekst/weird-crisis-exercises/index.html` | `.html` | `445af39e4df7` | Weird Crisis Exercises - arbeidsmanus |
 | `timeplan2027/app.js` | `.js` | `ea826e41f4cc` | DATA_URL, STORAGE_KEY, COURSE_FILTER_KEY, MINE_FILTER_KEY, MY_STAFF_NAME, MY_MUNICIPAL_COURSES, state, element, escapeHtml, editedItem, dateValue, displayDate, date, displayCourseName, setStatus, status, saveEdits, changed, applyEdit, original, matchesSearch, text, filteredItems, query, renderFilters, courses, filters, rowDetails, details, renderRows, items, changedFields, current, changes, buildProposalBody, lines, submitProposal, message, title, body, issueUrl, popup, downloadWorkbook, button, response, dateStamp, timeStamp, currentItems, columns, escapeCsv, csv, downloadUrl, link, loadPlan, savedEdits |
 | `timeplan2027/index.html` | `.html` | `e56db14571f3` | Timeplan 2027 \| Institutt for kommunikasjon |
 | `timeplan2027/styles.css` | `.css` | `ac74c7118abd` | @media (max-width: 1120px), @media (max-width: 700px), @media print |
@@ -2406,6 +2411,29 @@ Tre krav før innsending:
 - Maksimalt 500 ord utan litteraturliste.
 - Format: paper abstract, work in progress eller reflection.
 
+
+<!-- ARBEIDSSTATUS-START -->
+## Gjeldande arbeidsstatus
+
+Prosjektet undersøkjer når ei kriseøving går frå produktiv simulering til kunstig framføring. Fuglseth (2020) dokumenterer at scenario og planverk organiserer merksemda rundt utvalde krisetypar. Den vidare analysen skal undersøkje om øvingsspelet òg kan flytte deltakarane bort frå eigne profesjonelle roller.
+
+Ein scoping review er initiert. Reviewen kartlegg scenariofidelitet, autentiske roller, fasilitering, debriefing og læringsoverføring. Databasesøka og fulltekstscreeninga er ikkje gjennomførte.
+
+Førebelse analytiske skilje:
+
+- scenariofidelitet;
+- rollefidelitet;
+- organisatorisk fidelitet;
+- pedagogisk fidelitet.
+
+Role displacement og exercise inversion er førebelse forslag. Paperet skal ikkje love ein ny modell før litteraturen og empirien ber henne.
+
+Tre krav før abstractet kan vurderast som klart:
+
+1. Det empiriske øvingsmaterialet må avgrensast og skildrast.
+2. Det førebelse litteraturholet må kontrollerast gjennom dokumenterte søk.
+3. Påstanden om rolleforskyving må forankrast i observerbare episodar.
+<!-- ARBEIDSSTATUS-SLUTT -->
 ## Stoppkriterium
 
 - [ ] Formatet er valt.
@@ -3383,6 +3411,252 @@ Sist oppdatert: 2026-11-18
 
 ---
 
+<a id="tekst-weird-crisis-exercises-abstract-work.md"></a>
+## Kjelde: `tekst/weird-crisis-exercises/abstract-work.md`
+
+# Weird Crisis Exercises: abstractarbeid
+
+## Status
+
+Dette er eit arbeidsdokument. Påstandane om rolleforskyving og læring er førebelse og må kontrollerast mot litteraturen og det empiriske materialet.
+
+<!-- KJELDETETT-OPNING-START -->
+## Introduction
+
+Organisations conduct crisis exercises to prepare people, plans and systems for situations that cannot be learned through ordinary operations alone. Exercises allow participants to practise decision-making, communication and coordination under controlled conditions. They also allow organisations to test plans, identify vulnerabilities and use experience to improve preparedness. The educational value of an exercise does not follow from scale or apparent realism alone. It depends on whether the exercise activates the knowledge, responsibilities and relationships that participants will need in an actual crisis (Brataas et al., 2026; Sommer et al., 2020; Waring et al., 2024).
+
+In Norwegian local government, crisis exercises form part of a broader preparedness cycle. Municipalities must identify and assess adverse events through a comprehensive risk and vulnerability analysis, helhetlig risiko- og sårbarhetsanalyse (h-ROS), use this analysis as the basis for preparedness planning, exercise their contingency plans and revise the plans and risk assessments when exercises reveal deficiencies (Forskrift om kommunal beredskapsplikt, 2011, §§ 2, 4, 7–8). The h-ROS should identify existing and future risks, interdependencies, threats to critical societal functions and the municipality’s capacity to maintain and restore its services (Direktoratet for samfunnssikkerhet og beredskap, 2022).
+
+This connection between risk analysis and exercise design gives scenarios a dual function. A scenario translates an identified risk into a situation that participants can act upon, but it also defines what the exercise will treat as the crisis. Exercises are therefore selective. They direct attention towards particular events, consequences and response requirements, often drawn from risks already recognised in organisational assessments. Brataas et al. (2026) describe h-ROS, preparedness planning, exercises and evaluation as connected parts of systematic preparedness work. Sommer et al. (2020) likewise argue that exercise activities should follow defined learning needs rather than the assumption that larger and apparently more realistic exercises automatically produce more learning.
+
+The selectivity of scenarios has consequences. Research on exercises with Norwegian local authorities found that contingency plans and recurring scenarios concentrated attention on natural hazards, major accidents and ongoing violence. Participants developed experience in managing these familiar events, whereas organisational misconduct, rumours, disputed responsibility and communication problems were less firmly integrated into the exercise framework (Fuglseth, 2020). The exercise did not merely test preparedness. By specifying what counted as the crisis, it also organised attention around selected threats and responses.
+
+Crisis exercises nevertheless require fiction. Participants must treat events that have not occurred as operationally relevant and respond to simulated information as though it demanded action. This convention is productive when it allows participants to encounter an unfamiliar event through recognisable roles, responsibilities and organisational constraints. But accepting a fictional event is not the same as accepting a fictional professional role. A problem arises when participants must disregard their actual responsibilities, organisational knowledge or available courses of action merely to keep the scenario moving.
+<!-- KJELDETETT-OPNING-SLUTT -->
+
+## Kjerneproblem
+
+Kriseøvingar krev at deltakarane godtek ei konstruert hending som operativt reell. Men det følgjer ikkje at dei òg skal godta ei konstruert profesjonsrolle.
+
+Problemet oppstår når spelet flyttar deltakarane bort frå ansvaret, kunnskapen, rutinane og handlingsrommet dei faktisk har. Deltakarane øver då ikkje lenger primært på eigne roller. Dei vert i staden bedne om å halde fram ei forteljing som øvingsleiinga har laga.
+
+## Dokumentert utgangspunkt
+
+Fuglseth (2020) viser at scenario og planverk organiserer merksemda rundt utvalde krisetypar. Kommunale kriseleiingar handterte kjende scenario som ulukker, naturhendingar og PLIVO betre enn organisatorisk misferd, rykte, ansvarskonfliktar og kommunikasjonsproblem.
+
+Bussulukkescenarioet er særleg relevant. Kriseleiingane opplevde kontroll med den operative ulukka, men vart utfordra då mediespelet introduserte moglege bremsefeil og svikt i organisasjonen sine eigne rutinar.
+
+Funnet dokumenterer scenarioseleksjon og styrt merksemd. Det dokumenterer ikkje åleine at deltakarane vart tvinga ut av rollene sine.
+
+## Førebelse analytiske skilje
+
+### Scenariofidelitet
+
+Kor samanhengande og truverdig hendingsforløpet framstår på eigne premiss.
+
+### Rollefidelitet
+
+Kor godt oppgåvene og avgjerdene i øvinga svarar til deltakarane sine faktiske profesjonelle roller.
+
+### Organisatorisk fidelitet
+
+Kor godt ansvarslinjer, ressursar, system og relasjonar i øvinga svarar til organisasjonen deltakarane arbeider i.
+
+### Pedagogisk fidelitet
+
+Kor godt aktivitetane i øvinga aktiverer den kompetansen læringsmåla gjeld.
+
+### Role displacement
+
+Eit førebels analytisk omgrep for situasjonar der øvingsspelet flyttar deltakarane bort frå rollene og praksisane øvinga skulle utvikle eller undersøkje.
+
+### Exercise inversion
+
+Eit førebels analytisk omgrep for situasjonar der deltakarane må tilpasse profesjonsrolla til scenarioet, i staden for at scenarioet vert utforma for å aktivere profesjonsrolla.
+
+## Førebels hovudpåstand
+
+> Crisis exercises require participants to accept a fictional event, but not necessarily a fictional professional role. When exercise play requires participants to disregard their actual responsibilities, organisational knowledge or available courses of action, scenario fidelity may come at the expense of role fidelity.
+
+## Førebels forskingsspørsmål
+
+> How does exercise play displace participants from the professional roles and organisational practices that crisis exercises are intended to develop?
+
+Underspørsmål:
+
+1. How do participants signal conflict between scenario demands and professional judgement?
+2. How do facilitators respond when credible professional action disrupts the planned scenario?
+3. What is evaluated as successful participation when professional judgement and scenario progression point in different directions?
+
+## Abstractutkast
+
+### When Crisis Exercises Become Weird: Scenario Fidelity, Role Displacement and Professional Learning
+
+Crisis exercises depend on a fiction that participants agree to treat as operationally real. This convention allows organisations to practise decision-making, communication and coordination without waiting for an actual crisis. Yet accepting a fictional event is not the same as accepting a fictional professional role. The educational value of an exercise may weaken when participants must disregard their actual responsibilities, organisational knowledge or available courses of action to keep the scenario moving.
+
+This paper examines the boundary between productive simulation and artificial role-play in crisis exercises. It builds on earlier findings from exercises with Norwegian local authorities, where established contingency plans and recurring scenarios directed attention towards accidents, natural hazards and ongoing violence. Participants became more capable of handling these familiar events, but were more easily destabilised by organisational misconduct, rumours, disputed responsibility and communication problems that developed within the original crisis.
+
+The paper extends this argument by examining role displacement, understood as situations in which exercise play moves participants away from the professional roles and practices the exercise is intended to develop. It distinguishes scenario fidelity from role, organisational and pedagogical fidelity.
+
+The analysis draws on [specify exercise material, observations, recordings and debriefs]. It asks how participants signal that an exercise has crossed from simulation into artificial performance, how facilitators respond to such resistance, and what is evaluated as successful exercise participation.
+
+We argue that crisis exercises become pedagogically “weird” when the scenario ceases to activate professional practice and instead requires participants to perform the exercise designers’ preferred version of the crisis. [Empirical support required.]
+
+## Empirisk kontroll
+
+Materialet skal undersøkast etter episodar der:
+
+- deltakarar seier at ei oppgåve ikkje høyrer til rolla;
+- deltakarar spør kva dei skal late som;
+- øvingsleiinga ber deltakarane sjå bort frå faktisk prosedyre;
+- innspel vert gjentekne fordi deltakarane ikkje reagerer som venta;
+- manglande system, bemanning eller fullmakt vert simulerte bort;
+- debriefen vurderer scenarioframdrift, men ikkje relevansen for faktisk praksis.
+
+## Kjeldekritiske merknader
+
+- Fuglseth (2020) dokumenterer scenarioseleksjon, men ikkje åleine rolleforskyving.
+- Funn frå medisinsk simulering kan ikkje overførast direkte til kommunal kriseleiing.
+- Sekundærreferansar må kontrollerast mot originalkjeldene.
+- Endeleg abstract må oppgje konkret materiale og metode.
+
+<!-- REFERANSAR-START -->
+## References
+
+Brataas, K., Bakken, B. T., & Fuglseth, K. (2026). *Etterpåklok på forhånd: Beredskapsplanlegging i teori og praksis*. Fagbokforlaget.
+
+Direktoratet for samfunnssikkerhet og beredskap. (2022). *Rettleiar til heilskapleg risiko- og sårbarheitsanalyse i kommunen: Ein metoderettleiar for heilskapleg ROS i kommunal beredskapsplikt*. https://www.dsb.no/siteassets/rapporter-og-publikasjoner/veileder/rettleiar_til_heilskapeleg_risiko_og_sarbarheitsanalyse_i_kommunen.pdf
+
+Forskrift om kommunal beredskapsplikt (FOR-2011-08-22-894). (2011). Lovdata. https://lovdata.no/forskrift/2011-08-22-894
+
+Fuglseth, K. (2020). Issues management in local government: A case study of risk assessment and issue management in national contingency plans for local governments. In B. Sabuncuoglu Peksevgen (Ed.), *Themes in issues, risk and crisis communication: A multi-dimensional perspective* ([sideintervall må kontrollerast]). Peter Lang.
+
+Sommer, M., Pollestad, B., & Steinnes, T. (2020). *Beredskapsøving og -læring*. Fagbokforlaget.
+
+Waring, S., Moisi, I., Barrett, C., & Gordts, S. (2024). Identifying what components of full-scale emergency exercises improve disaster response learning: A rapid evidence assessment. *International Journal of Disaster Risk Reduction, 104*, Article 104390. https://doi.org/10.1016/j.ijdrr.2024.104390
+<!-- REFERANSAR-SLUTT -->
+
+---
+
+<a id="tekst-weird-crisis-exercises-article-structure.md"></a>
+## Kjelde: `tekst/weird-crisis-exercises/article-structure.md`
+
+# Planlagd artikkelstruktur
+
+## Arbeidsprinsipp
+
+Artikkelen skal på sikt følgje IMRaD-strukturen. Sjølve skrivearbeidet skal starte med metode og resultat, før introduksjonen vert spissa og diskusjonen skriven.
+
+Arbeidsrekkjefølgje:
+
+1. Methods
+2. Results
+3. Introduction
+4. Discussion
+
+## 1. Introduction
+
+### Bakgrunn og kontekst
+
+Etabler problemet: Kriseøvingar krev ein avtalt fiksjon, men fiksjonen kan flytte deltakarane bort frå dei profesjonelle rollene øvinga skulle utvikle eller undersøkje.
+
+### Kunnskapshol
+
+Tidlegare forsking drøftar scenario, fidelitet, autentiske roller, fasilitering, debriefing og læring. Det må undersøkast om litteraturen også analyserer situasjonar der truverdig profesjonell handling forstyrrar det planlagde scenarioet.
+
+### Føremål og forskingsspørsmål
+
+> How does research on crisis and emergency exercises conceptualise the relationship between scenario fidelity, authentic professional roles and learning?
+
+Førebels empirisk spørsmål:
+
+> How does exercise play displace participants from the professional roles and organisational practices that crisis exercises are intended to develop?
+
+For reviewdelen skal PCC vurderast framfor PICO:
+
+- Population: deltakarar i organisatoriske, profesjonelle eller tverretatlege kriseøvingar.
+- Concept: scenariofidelitet, autentiske roller, fasilitering, læring og læringsoverføring.
+- Context: krise-, beredskaps- og katastrofeøvingar.
+
+## 2. Methods
+
+### Reviewdesign
+
+Scoping review. Rapporteringsstrukturen skal tilpassast PRISMA-ScR. Endeleg protokollstandard må kontrollerast før metodekapittelet vert låst.
+
+### Søkjestrategi og databasar
+
+Planlagde databasar: Scopus, Web of Science, ERIC og Oria. Google Scholar skal berre nyttast til siteringssøk og identifisering av kjende tekstar.
+
+For kvart søk skal desse opplysningane førast:
+
+- database;
+- dato og klokkeslett;
+- nøyaktig søkjestreng;
+- tal på treff;
+- eksportformat og filnamn.
+
+### Inklusjons- og eksklusjonskriterium
+
+Kriteria skal avgrense språk, publikasjonsperiode, fagfellevurdering, øvingstype, kontekst og relevans for profesjonelle roller eller læring.
+
+### Utvalsprosess
+
+Utvalet skal dokumenterast frå råtreff via dublettkontroll, tittel- og abstractscreening og fulltekstscreening til endeleg utval. Prosessen skal visast i eit PRISMA-flytdiagram.
+
+### Kvalitetsvurdering og dataekstraksjon
+
+Scoping reviewen skal skilje mellom empiriske studiar, reviewar, teoriartiklar og ekspertbaserte tilrådingar. Val av kvalitetsverktøy må tilpassast studiedesigna. Data skal førast i ei litteraturmatrise.
+
+## 3. Results
+
+### Resultat av litteratursøket
+
+[Tal på råtreff, dublettar, tekstar til fulltekst og inkluderte studiar skal førast inn etter gjennomført søk.]
+
+### Oversikt over inkluderte studiar
+
+Litteraturmatrisa skal minst vise forfattar, år, land, kontekst, øvingstype, deltakarar, metode, rollebruk og dokumenterte læringsfunn.
+
+### Førebelse resultattema
+
+1. Scenarioet organiserer merksemda.
+2. Realisme er fleirdimensjonal.
+3. Autentiske roller og læringsoverføring.
+4. Fasilitering, scenarioframdrift og motstand.
+5. Debriefing og dokumentasjon av læring.
+
+Temaa er førebelse. Dei skal reviderast etter fulltekstscreening og dataekstraksjon.
+
+## 4. Discussion
+
+### Hovudfunn
+
+[Skal skrivast etter resultatdelen.]
+
+### Drøfting
+
+Drøft skiljet mellom scenariofidelitet, rollefidelitet, organisatorisk fidelitet og pedagogisk fidelitet. Vurder om role displacement er eit nødvendig nytt omgrep eller om etablerte omgrep dekkjer fenomenet.
+
+### Metodediskusjon
+
+Vurder databaseutval, språkavgrensing, ulik terminologi, dominansen av medisinsk simulering og risikoen for å oversjå relevant grålitteratur eller skandinavisk forsking.
+
+### Konklusjon og vidare forsking
+
+Konklusjonen skal svare presist på reviewspørsmålet. Ho skal skilje mellom det litteraturen dokumenterer og det den vidare empiriske analysen må undersøkje.
+
+## Kritiske føringar
+
+- Reviewen skal ikkje omtalast som systematisk gjennomført før søk og screening er dokumenterte.
+- Resultatdelen skal presentere funn utan å forskottere diskusjonen.
+- Fuglseth (2020) dokumenterer scenarioseleksjon, men ikkje åleine rolleforskyving.
+- Funn frå medisinsk simulering kan ikkje overførast direkte til kommunal kriseleiing.
+- Role displacement og exercise inversion er førebelse analytiske forslag.
+- Paperet skal ikkje love ein ny heilskapleg modell før litteraturen og empirien ber ein slik modell.
+
+---
+
 <a id="tekst-weird-crisis-exercises-index.md"></a>
 ## Kjelde: `tekst/weird-crisis-exercises/index.md`
 
@@ -3394,10 +3668,195 @@ Sist oppdatert: 2026-11-18
 
 ---
 
+<a id="tekst-weird-crisis-exercises-literature-review.md"></a>
+## Kjelde: `tekst/weird-crisis-exercises/literature-review.md`
+
+# Litteraturstudie: Weird Crisis Exercises
+
+## Status og føremål
+
+Dette dokumentet initierer ein scoping review. Litteraturstudien er ikkje fullført. Føremålet er å kartleggje korleis forsking på krise- og beredskapsøvingar forstår sambandet mellom scenario, realisme, profesjonelle roller, fasilitering og læring.
+
+## Reviewspørsmål
+
+> How does research on crisis and emergency exercises conceptualise the relationship between scenario fidelity, authentic professional roles and learning?
+
+## PCC
+
+- Population: deltakarar i organisatoriske, profesjonelle eller tverretatlege kriseøvingar.
+- Concept: scenariofidelitet, autentiske roller, fasilitering, læring og læringsoverføring.
+- Context: krise-, beredskaps- og katastrofeøvingar.
+
+## Førebels litteraturkart
+
+### Scenarioet organiserer merksemda
+
+Fuglseth (2020) viser korleis kommunale planverk og scenario rettar merksemda mot ulukker, naturhendingar og pågåande vald. Kriseleiingane handterte desse scenarioa betre enn organisatorisk misferd, rykte, ansvarskonfliktar og kommunikasjonsproblem.
+
+### Realisme er fleirdimensjonal
+
+Førebels skilje: fysisk fidelitet, scenariofidelitet, rollefidelitet, organisatorisk fidelitet og pedagogisk fidelitet. Kategoriane må kontrollerast mot litteraturen.
+
+### Autentiske roller
+
+Nyare forsking frå medisinsk simulering tyder på at autentiske roller kan påverke psykologisk tryggleik og overføring til praksis. Overføringa til kommunal kriseleiing må argumenterast for, ikkje føresetjast.
+
+### Fasilitering og scenarioframdrift
+
+Litteraturstudien skal undersøkje korleis fasilitatorar korrigerer, opnar eller lukkar spelet når deltakarane ikkje reagerer slik scenarioet føreset.
+
+### Debriefing og læring
+
+Studien skal undersøkje om debriefen vurderer profesjonelt skjønn og organisatoriske vilkår, eller primært om deltakarane følgde scenarioet.
+
+## Førebels litteraturhol
+
+> Existing research explains how fidelity, facilitation and debriefing may support exercise learning. Less attention appears to have been directed towards situations in which credible professional action disrupts the planned scenario, and participants must choose between role fidelity and compliance with exercise play.
+
+Formuleringa er ei førebels tolking. Ho må kontrollerast gjennom systematiske søk og fulltekstscreening.
+
+## Databasar
+
+- Scopus
+- Web of Science
+- ERIC
+- Oria
+- Google Scholar, avgrensa til siteringssøk og kjende referansar
+
+## Søkjedokumentasjon
+
+| Database | Dato | Søkjestreng | Treff | Eksportfil |
+|---|---|---|---:|---|
+| Scopus | [dato] | [streng] | [tal] | [fil] |
+| Web of Science | [dato] | [streng] | [tal] | [fil] |
+| ERIC | [dato] | [streng] | [tal] | [fil] |
+| Oria | [dato] | [streng] | [tal] | [fil] |
+
+## Søkjestreng
+
+Tre omgrepsgrupper skal kombinerast:
+
+1. crisis exercise, emergency exercise, disaster exercise, crisis simulation, tabletop exercise eller full-scale exercise;
+2. fidelity, realism, scenario, simulation, role-play eller roleplay;
+3. professional role, authentic role, role fidelity, role enactment, learning, transfer, facilitation eller debriefing.
+
+Den nøyaktige databasespesifikke søkjestrengen skal førast i søkjetabellen når kvart søk vert gjennomført.
+
+## Inklusjonskriterium
+
+- fagfellevurderte artiklar og bokkapittel;
+- organisatorisk, strategisk eller tverretatleg krisehandtering;
+- analyse av scenario, fidelitet, profesjonelle roller, fasilitering, debriefing eller læring;
+- engelsk, norsk, svensk eller dansk;
+- publisert 2000–2026, supplert med eldre grunntekstar.
+
+## Eksklusjonskriterium
+
+- reine evakueringsdrillar utan analyse av roller eller læring;
+- teknisk ferdigheitstrening utan organisatorisk relevans;
+- datamodellering utan menneskelege deltakarar;
+- deskriptive rapportar utan analyse av design, erfaring eller læring;
+- marknadsføring av verktøy utan metode eller datagrunnlag.
+
+## Litteraturmatrise
+
+| Felt | Registrering |
+|---|---|
+| Referanse | Forfattar, år, tittel og DOI |
+| Kontekst | Kommune, helse, politi, industri eller tverretatleg |
+| Øvingstype | Table-top, funksjonsøving, fullskala eller digital |
+| Deltakarrolle | Faktisk rolle, tildelt rolle eller rollebyte |
+| Føremål | Kompetanseheving, testing, markering eller kombinasjon |
+| Læringsmål | Kva øvinga skulle utvikle eller undersøkje |
+| Fidelitet | Scenario, rolle, organisasjon og pedagogisk relevans |
+| Fasilitering | Korleis spelet vart styrt, korrigert eller opna |
+| Motstand | Korleis deltakarane utfordra premissa |
+| Debriefing | Kven deltok og kva som vart drøfta |
+| Læringsdokumentasjon | Observasjon, sjølvrapport, test eller praksisendring |
+| Avgrensingar | Metodiske problem og overføringsgrenser |
+
+## Kjelder som skal hentast i fulltekst
+
+- Boin, Kofman-Bos og Overdijk (2004).
+- Fuglseth (2020).
+- Rykkja (2014), Øvelser som kriseforebygging.
+- Sommer, Pollestad og Steinnes (2020).
+- Bony-Dandrieux et al. (2022).
+- Mahdi et al. (2023).
+- Waring et al. (2024).
+- Jansen og van Zelst (2021).
+- Chambers et al. (2025).
+- Krarup et al. (2026).
+
+## Kvalitetsvurdering
+
+Reviewen skal skilje mellom empiriske studiar, systematiske eller raske reviewar, teoriartiklar og ekspertbaserte tilrådingar. Val av kvalitetsverktøy må tilpassast studiedesigna.
+
+## Neste steg
+
+1. Køyr søka og dokumenter dato, streng og treff.
+2. Eksporter resultata som RIS eller BibTeX.
+3. Fjern dublettar.
+4. Screen titlar og abstract.
+5. Les aktuelle tekstar i fulltekst.
+6. Kod studiane i litteraturmatrisa.
+7. Revider omgrepa etter kva materialet dokumenterer.
+
+## Kjeldekritiske merknader
+
+- Reviewen skal ikkje omtalast som fullført før søk og screening er dokumenterte.
+- Sekundærreferansar skal kontrollerast mot originalkjeldene.
+- Funn frå medisinsk simulering skal ikkje overførast direkte.
+- Role displacement og exercise inversion er førebelse analytiske omgrep.
+
+---
+
 <a id="tekst-weird-crisis-exercises-README.md"></a>
 ## Kjelde: `tekst/weird-crisis-exercises/README.md`
 
-# README
+# Weird Crisis Exercises
+
+Status: Aktivt arbeidsprosjekt
+
+Prosjektet undersøkjer når ei kriseøving går frå produktiv simulering til kunstig framføring. Kjerneproblemet er om øvingsspelet kan flytte deltakarane bort frå dei profesjonelle rollene og den organisatoriske praksisen øvinga skulle utvikle eller undersøkje.
+
+## Arbeidsfiler
+
+- [Abstractarbeid](abstract-work.md) utviklar kjernepåstanden, forskingsspørsmåla og eit førebels abstract.
+- [Litteraturstudie](literature-review.md) dokumenterer planen for ein scoping review av scenariofidelitet, autentiske roller, fasilitering og læring.
+- [Artikkelstruktur](article-structure.md) legg opp den endelege IMRaD-strukturen og arbeidsrekkjefølgja metode, resultat, introduksjon og diskusjon.
+- [Publisert kjeldetekst](index.md) er førebels ikkje oppdatert med arbeidsmaterialet.
+- [Fagfellekontroll](../../docs/peer-review/weird-crisis-exercises.md) samlar leveransekrav og kritiske kontrollpunkt.
+
+## Dokumentert utgangspunkt
+
+Fuglseth (2020) viser at scenario og planverk organiserer merksemda rundt utvalde krisetypar. Artikkelen dokumenterer scenarioseleksjon og styrt merksemd, men ikkje åleine rolleforskyving.
+
+## Førebels analytisk retning
+
+Arbeidet skil mellom:
+
+- scenariofidelitet;
+- rollefidelitet;
+- organisatorisk fidelitet;
+- pedagogisk fidelitet.
+
+Role displacement og exercise inversion er førebelse analytiske forslag. Dei skal ikkje presenterast som etablerte omgrep før litteraturstudien og den empiriske analysen viser at dei gjer nødvendig analytisk arbeid.
+
+## Metodisk plan
+
+Litteraturstudien vert utvikla som ein scoping review med PCC og rapportering tilpassa PRISMA-ScR. Reviewen er initiert, men ikkje gjennomført. Databasesøk, dublettkontroll, screening, fulltekstutval og dataekstraksjon står att.
+
+## Neste steg
+
+1. Gjennomføre og dokumentere søk i Scopus, Web of Science, ERIC og Oria.
+2. Hente sentrale tekstar i fulltekst og kontrollere sekundærreferansar.
+3. Byggje litteraturmatrisa.
+4. Avgrense det empiriske øvingsmaterialet.
+5. Revidere abstractet etter kva litteraturen og materialet dokumenterer.
+## Nettlesararbeidsflate
+
+Den publiserte arbeidsflata les `abstract-work.md` og viser teksten med bokleg typografi. Redigeringar vert lagra lokalt i nettlesaren og vert ikkje skrivne til repoet. Sida kan eksportere Markdown og eit enkelt, gyldig DOCX-dokument. PDF vert laga gjennom utskriftsdialogen med «Lagre som PDF».
 
 ---
 

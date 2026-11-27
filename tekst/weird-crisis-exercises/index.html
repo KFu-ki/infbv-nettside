@@ -2,11 +2,12 @@
 <html lang="nn">
 <head>
 <meta charset="utf-8">
-<title>weird-crisis-exercises</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Weird Crisis Exercises - arbeidsmanus</title>
 <link href="/tekst/portal-text.css" rel="stylesheet">
+<link href="book.css" rel="stylesheet">
 </head>
 <body>
-<main class="text-main" id="main">
 <a class="skip-link" href="#main">Hopp til hovudinnhald</a>
 <header class="text-portal-header">
   <div class="text-portal-header__inner">
@@ -18,14 +19,32 @@
     </nav>
   </div>
 </header>
-
-<h1>weird-crisis-exercises</h1>
-
-<p>Status: Arbeidsmanus</p>
-
-<p><a href="../">Tilbake</a></p>
-
+<main id="main" class="workspace">
+  <header class="workspace-head">
+    <p class="eyebrow">Arbeidsmanus</p>
+    <h1>Weird Crisis Exercises</h1>
+    <p>Rediger teksten lokalt i nettlesaren. Ingenting vert publisert før endringa er lagd inn i repoet og pusha.</p>
+  </header>
+  <nav class="document-tools" aria-label="Dokumentverktøy">
+    <button id="edit" type="button">Rediger tekst</button>
+    <button id="save" type="button" disabled>Lagre lokalt</button>
+    <button id="cancel" type="button" disabled>Avbryt</button>
+    <button id="reset" type="button">Tilbakestill</button>
+    <button id="download-md" type="button">Last ned Markdown</button>
+    <button id="download-docx" type="button">Last ned Word</button>
+    <button id="print-pdf" type="button">Lagre som PDF</button>
+  </nav>
+  <p id="status" class="status" role="status" aria-live="polite">Hentar arbeidsmanuset.</p>
+  <section class="paper" aria-label="Arbeidsmanus">
+    <article id="preview" class="article-document"></article>
+    <div id="editor-wrap" class="editor-wrap" hidden>
+      <label for="editor">Markdown-tekst</label>
+      <textarea id="editor" spellcheck="true"></textarea>
+    </div>
+  </section>
+  <p class="privacy-note">Lokale endringar vert lagra i denne nettlesaren. Word-eksporten vert laga direkte i nettlesaren. PDF-knappen opnar utskriftsdialogen, der du vel «Lagre som PDF».</p>
+  <p><a href="../">Tilbake til tekstoversikta</a></p>
 </main>
+<script src="editor.js" defer></script>
 </body>
 </html>
-

@@ -96,6 +96,9 @@ Automatisk oversyn over Markdown-kjeldene. Innhaldet vert regenerert av `scripts
 | `tekst/samtalepodkastar/README.md` | README | Markdown-kjelde i prosjektet. |
 | `tekst/totalforsvarsaret-2026/index.md` | totalforsvarsaret-2026 | Status: Arbeidsmanus |
 | `tekst/totalforsvarsaret-2026/README.md` | README | Markdown-kjelde i prosjektet. |
+| `tekst/weird-crisis-exercises/abstract-work.md` | Weird Crisis Exercises: abstractarbeid | Dette er eit arbeidsdokument. Påstandane om rolleforskyving og læring er førebelse og må kontrollerast mot litteraturen og det empiriske materialet. |
+| `tekst/weird-crisis-exercises/article-structure.md` | Planlagd artikkelstruktur | Artikkelen skal på sikt følgje IMRaD-strukturen. Sjølve skrivearbeidet skal starte med metode og resultat, før introduksjonen vert spissa og diskusjonen skriven. |
 | `tekst/weird-crisis-exercises/index.md` | weird-crisis-exercises | Status: Arbeidsmanus |
-| `tekst/weird-crisis-exercises/README.md` | README | Markdown-kjelde i prosjektet. |
+| `tekst/weird-crisis-exercises/literature-review.md` | Litteraturstudie: Weird Crisis Exercises | Dette dokumentet initierer ein scoping review. Litteraturstudien er ikkje fullført. Føremålet er å kartleggje korleis forsking på krise- og beredskapsøvingar forstår sambandet mellom scenario, realisme, profesjonelle roller, fasilitering og læring. |
+| `tekst/weird-crisis-exercises/README.md` | Weird Crisis Exercises | Status: Aktivt arbeidsprosjekt |
 | `undervisning/README.md` | README | Markdown-kjelde i prosjektet. |

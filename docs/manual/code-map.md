@@ -76,7 +76,9 @@ Automatisk oversyn over kjelde-/konfigurasjonsfiler. Korte SHA-256-prefiksar gje
 | `tekst/prosjektstyring/index.html` | `.html` | `1bb2fc564718` | Tunet \| INFBV |
 | `tekst/samtalepodkastar/index.html` | `.html` | `3a7bb3a5d999` | samtalepodkastar |
 | `tekst/totalforsvarsaret-2026/index.html` | `.html` | `44dcec1969f4` | totalforsvarsaret-2026 |
-| `tekst/weird-crisis-exercises/index.html` | `.html` | `a6f1fe50311a` | weird-crisis-exercises |
+| `tekst/weird-crisis-exercises/book.css` | `.css` | `e824ee0f6cbc` | @media (max-width:700px), @media print |
+| `tekst/weird-crisis-exercises/editor.js` | `.js` | `b4df41314d3e` | SOURCE, KEY, $, sourceText, editing, esc, inline, markdown, out, close, line, current, render, setMode, status, download, crc32, u16, join, zip, xmlText, docx, plain, document, load |
+| `tekst/weird-crisis-exercises/index.html` | `.html` | `445af39e4df7` | Weird Crisis Exercises - arbeidsmanus |
 | `timeplan2027/app.js` | `.js` | `ea826e41f4cc` | DATA_URL, STORAGE_KEY, COURSE_FILTER_KEY, MINE_FILTER_KEY, MY_STAFF_NAME, MY_MUNICIPAL_COURSES, state, element, escapeHtml, editedItem, dateValue, displayDate, date, displayCourseName, setStatus, status, saveEdits, changed, applyEdit, original, matchesSearch, text, filteredItems, query, renderFilters, courses, filters, rowDetails, details, renderRows, items, changedFields, current, changes, buildProposalBody, lines, submitProposal, message, title, body, issueUrl, popup, downloadWorkbook, button, response, dateStamp, timeStamp, currentItems, columns, escapeCsv, csv, downloadUrl, link, loadPlan, savedEdits |
 | `timeplan2027/index.html` | `.html` | `e56db14571f3` | Timeplan 2027 \| Institutt for kommunikasjon |
 | `timeplan2027/styles.css` | `.css` | `ac74c7118abd` | @media (max-width: 1120px), @media (max-width: 700px), @media print |
