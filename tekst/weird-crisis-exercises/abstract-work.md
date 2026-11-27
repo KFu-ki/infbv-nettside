@@ -78,17 +78,17 @@ Underspørsmål:
 
 **Format:** Work in progress
 
-Crisis exercises ask participants to accept events that have not occurred as operationally real. This agreed fiction makes rehearsal possible. Yet the fiction also establishes a temporary order: it defines what the crisis is, which actions count as relevant, how time progresses, and which responses allow the exercise to continue. The exercise becomes weird when this order can be sustained only by treating credible professional conduct as a disturbance.
+Crisis exercises ask participants to accept events that have not occurred as operationally real. This agreed fiction makes rehearsal possible, but it also establishes a temporary order: it defines what the crisis is, which actions count as relevant, and which responses allow the exercise to continue. The exercise becomes weird when this order can be sustained only by treating credible professional conduct as a disturbance.
 
-This work in progress examines two anonymised crisis exercises in a Norwegian higher-education organisation. The material includes exercise directives, observation notes, logs and evaluations. It is read alongside a practice-oriented framework for preparedness planning which connects risk analysis, plans, exercises, evaluation and organisational learning. This framework emphasises that exercises should activate defined roles, responsibilities, communication practices and decision structures rather than reward apparent realism for its own sake (Brataas et al., 2026).
+In Norway, municipal exercise practice is embedded in a statutory preparedness cycle. Municipalities must base exercises on their risk and vulnerability analyses, exercise at least every second year, and evaluate exercises in ways that may lead to revisions of analyses and plans (Forskrift om kommunal beredskapsplikt, 2011, §§ 7–8). National guidance treats exercises as means of testing and developing systems, functions, competence and organisational learning (Direktoratet for samfunnssikkerhet og beredskap [DSB], 2016, 2018a, 2018b; Brataas et al., 2026).
 
-The first exercise exposed uncertainty about which organisational level owned several parallel inputs. Tasks circulated through the central crisis leadership while local functions and communication channels remained incompletely integrated. The second exercise made the problem more visible. A role played by an exercise marker was drawn into the operational organisation and assigned tasks, while an exercise-produced list of participants and relatives supplied information that the organisation might not have possessed in an actual crisis. The simulation therefore tested organisational action with roles and resources partly created by the exercise itself.
+This work in progress examines two anonymised crisis exercises in a Norwegian higher-education organisation. It develops from earlier research based on five crisis exercises involving small and medium-sized public and local organisations, including two municipalities, as well as interviews and an assessment of an actual crisis (Fuglseth, 2020). The earlier study found that plans and recurring scenarios supported the management of accidents, natural hazards and ongoing violence, while organisational misconduct, rumours, disputed responsibility and communication problems were harder to integrate into crisis response.
 
-I use these episodes to develop *role displacement* as a provisional analytical concept. Role displacement occurs when exercise play moves participants away from the responsibilities, knowledge and constraints that the exercise purports to test. The stronger form, *exercise inversion*, appears when participants must adapt professional practice to preserve the designed scenario, rather than the scenario being adjusted to activate professional practice.
+The new material includes exercise directives, observation notes, logs and evaluations. In one exercise, uncertainty arose over which organisational level owned parallel inputs. In another, a role played by an exercise marker was drawn into the operational organisation and assigned tasks, while an exercise-produced list of participants and relatives supplied information that the organisation might not have possessed in an actual crisis. The simulation therefore tested organisational action with roles and resources partly created by the exercise itself.
 
-This argument approaches weirdness as a normative and disciplinary relation, not as a label for unusual participants. Exercise control defines a normal path through the simulated crisis. Actions that fit this path appear competent and realistic, while professionally credible interruptions may be marked as resistance, confusion or failure. The weird therefore lies in the reversal through which the simulation becomes more authoritative than the organisation it represents.
+I use these episodes to develop *role displacement* as a provisional concept for situations in which exercise play moves participants away from the responsibilities, knowledge and constraints that the exercise purports to test. *Exercise inversion* describes the stronger reversal in which professional practice must adapt to preserve the designed scenario. This distinction builds on research that treats fidelity as multidimensional and links authentic roles to learning transfer (Krarup et al., 2026; Waring et al., 2024).
 
-The paper does not claim that all scenario control displaces professional roles, nor that the two exercises establish a general model. It asks a narrower question: When does the necessary fiction of a crisis exercise begin to discipline the professional reality it was designed to examine? By treating the exercise as an institutional form of roleplay, the analysis shifts attention from whether participants remain inside the simulation to who defines competent participation and what happens when professional judgement transgresses the scenario’s normal path. This perspective identifies a possible gap between research on multidimensional fidelity and analysis of the normative power of exercise design.
+The paper approaches weirdness as a normative and disciplinary relation, not as a label for unusual participants. Treating the exercise as an institutional form of roleplay shifts attention from whether participants remain inside the simulation to who defines competent participation. Game and play research conceptualises transgression as boundary-crossing that acquires meaning within a particular play situation and its rules (Jørgensen & Karlsen, 2019; Mortensen & Jørgensen, 2020). In crisis exercises, professionally credible action may similarly transgress the scenario’s normal path. The weird lies in the reversal through which the simulation becomes more authoritative than the organisation it represents. The paper asks: When does the necessary fiction of a crisis exercise begin to discipline the professional reality it was designed to examine?
 
 ## Empirisk kontroll
 
@@ -125,15 +125,23 @@ Undersøkingane peiker førebels mot to former for rolleforskyving. I den først
 <!-- REFERANSAR-START -->
 ## References
 
-Brataas, K., Bakken, B. T., & Fuglseth, K. (2026). *Etterpåklok på forhånd: Beredskapsplanlegging i teori og praksis*. Fagbokforlaget.
+Brataas, K., Fuglseth, K., & Bakken, B. T. (2026). *Etterpåklok på forhånd: Beredskapsplanlegging i teori og praksis*. Fagbokforlaget.
 
-Direktoratet for samfunnssikkerhet og beredskap. (2022). *Rettleiar til heilskapleg risiko- og sårbarheitsanalyse i kommunen: Ein metoderettleiar for heilskapleg ROS i kommunal beredskapsplikt*. https://www.dsb.no/siteassets/rapporter-og-publikasjoner/veileder/rettleiar_til_heilskapeleg_risiko_og_sarbarheitsanalyse_i_kommunen.pdf
+Direktoratet for samfunnssikkerhet og beredskap. (2016). *Veileder i planlegging, gjennomføring og evaluering av øvelser: Metodehefte: Funksjonsøvelse*. https://www.dsb.no/siteassets/rapporter-og-publikasjoner/handboker/metodehefte_funksjonsovelse.pdf
 
-Forskrift om kommunal beredskapsplikt (FOR-2011-08-22-894). (2011). Lovdata. https://lovdata.no/forskrift/2011-08-22-894
+Direktoratet for samfunnssikkerhet og beredskap. (2018a). *Rettleiar i planlegging, gjennomføring og evaluering av øvingar: Metodehefte: Evaluering av øvingar*. https://www.dsb.no/siteassets/rapporter-og-publikasjoner/handboker/metodehefte_evaluering_av_ovingar2.pdf
 
-Fuglseth, K. (2020). Issues management in local government: A case study of risk assessment and issue management in national contingency plans for local governments. In B. Sabuncuoglu Peksevgen (Ed.), *Themes in issues, risk and crisis communication: A multi-dimensional perspective* ([sideintervall må kontrollerast]). Peter Lang.
+Direktoratet for samfunnssikkerhet og beredskap. (2018b). *Rettleiar til forskrift om kommunal beredskapsplikt*. https://www.dsb.no/siteassets/rapporter-og-publikasjoner/veileder/rettleiar-til-forskrift-om-kommunal-beredskapsplikt/
 
-Sommer, M., Pollestad, B., & Steinnes, T. (2020). *Beredskapsøving og -læring*. Fagbokforlaget.
+Forskrift om kommunal beredskapsplikt. (2011). FOR-2011-08-22-894. Lovdata. https://lovdata.no/forskrift/2011-08-22-894
+
+Fuglseth, K. (2020). Issues management in local government: A case study of risk assessment and issue management in national contingency plans for local governments. In B. Peksevgen (Ed.), *Themes in issues, risk and crisis communication: A multi-dimensional perspective* (pp. 115–140). Peter Lang. https://doi.org/10.3726/b17931
+
+Jørgensen, K., & Karlsen, F. (Eds.). (2019). *Transgression in games and play*. The MIT Press. https://doi.org/10.7551/mitpress/11550.001.0001
+
+Krarup, K. B., McKenzie, A. C., Al-Masri, A., & Abildgren, L. (2026). Authentic roles matter: How in situ simulation influences fidelity, psychological safety, and learning transfer. *Advances in Simulation, 11*, Article 62. https://doi.org/10.1186/s41077-026-00449-4
+
+Mortensen, T. E., & Jørgensen, K. (2020). *The paradox of transgression in games*. Routledge.
 
 Waring, S., Moisi, I., Barrett, C., & Gordts, S. (2024). Identifying what components of full-scale emergency exercises improve disaster response learning: A rapid evidence assessment. *International Journal of Disaster Risk Reduction, 104*, Article 104390. https://doi.org/10.1016/j.ijdrr.2024.104390
 <!-- REFERANSAR-SLUTT -->
